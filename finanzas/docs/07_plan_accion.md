@@ -11,9 +11,10 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] Tipo marginal de IRPF (para saber si el plan de pensiones compensa).
 - [x] Letras en cuenta directa del Banco de España (compra en web del Tesoro): confirmado.
 - [ ] En la próxima Renta, restar la comisión del 0,15 % del BdE al rendimiento de las Letras (no viene en el borrador).
-- [x] Capital total ≈ 30.000 €; sin comisión de mantenimiento en CaixaBank.
-- [x] Los ≈ 14.000 € de CaixaBank son el fondo de emergencia (y candidatos a inversión segura).
-- [x] Gasto mensual: ≈ 770–1.020 € (autónomo). Colchón prudente 9–12 meses; sobran ≈ 2.500–6.000 €.
+- [x] Capital total ≈ 37.900 €: 16.000 € Letras + 16.000 € cuentas + 5.890 € PIAS; sin comisión de mantenimiento.
+- [x] Los ≈ 16.000 € en cuentas son el fondo de emergencia (y candidatos a inversión segura).
+- [ ] **PIAS**: localizar póliza y carta anual; anotar aseguradora, fecha de inicio, aportado vs valor, costes y penalización (documento 10 §10.6).
+- [x] Gasto mensual: ≈ 770–1.020 € (autónomo). Colchón prudente 9–12 meses; sobran ≈ 4.500–8.000 €.
 - [ ] Confirmar si la cuota de autónomos está dentro de los 500 €/trimestre o va aparte.
 - [ ] Decidir dónde va el colchón que rinde (cuenta remunerada o Letras a 3–6 meses) y cuánto pasa a la Letra a 12 meses.
 - [x] Los "bonos" son las Letras: aclarado.

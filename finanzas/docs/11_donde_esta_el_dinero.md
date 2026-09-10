@@ -42,25 +42,26 @@ Detalle fiscal útil: la comisión del 0,15 % del Banco de España **es deducibl
 Letra (criterio de la Dirección General de Tributos), pero el borrador de la Renta no la incluye: hay que
 restarla a mano en la casilla del rendimiento. En tus dos Letras son 24 € de base menos, ≈ 4,6 € de impuesto.
 
-## 11.2 bis Mapa del capital (≈ 30.000 €, declarado 10-09-2026)
+## 11.2 bis Mapa del capital (≈ 37.900 €, corregido 10-09-2026)
 
 | Dónde | Importe | Estado |
 |---|---|---|
 | Letras A y B (Banco de España) | 16.000 € | Confirmado |
-| Cuenta corriente CaixaBank al 0 % = fondo de emergencia | ≈ 14.000 € | Confirmado. Doble función: colchón e "invertible si es seguro" |
+| Cuentas (CaixaBank) al 0 % = fondo de emergencia | ≈ 16.000 € | Confirmado. Doble función: colchón e "invertible si es seguro" |
+| PIAS (seguro de ahorro) | 5.890 € | Confirmado el importe. Aseguradora, costes, rentabilidad y penalizaciones: pendientes (documento 10 §10.6) |
 | Fondo de aprendizaje (previsto) | 300 € | Por contratar, con ahorro nuevo |
-| **Total** | **≈ 30.000 €** | |
+| **Total** | **≈ 37.900 €** | |
 
 Dos consecuencias inmediatas:
 
-- **Garantía de depósitos:** con 30.000 € en total estás muy por debajo de los 100.000 € cubiertos por entidad.
+- **Garantía de depósitos:** con ≈ 38.000 € en total estás muy por debajo de los 100.000 € cubiertos por entidad.
   Sin problema de concentración.
 - **Mantenimiento:** el usuario confirma que CaixaBank no le cobra. Nada que corregir.
 
-## 11.2 ter Qué hacer con un fondo de emergencia de 14.000 € (explicado desde cero)
+## 11.2 ter Qué hacer con un fondo de emergencia de 16.000 € (explicado desde cero)
 
 Un fondo de emergencia tiene una sola obligación: **estar disponible en días y no haber bajado de valor**
-cuando haga falta. No tiene obligación de rendir 0 %. Hoy los 14.000 € pierden ≈ 460 € al año de poder de
+cuando haga falta. No tiene obligación de rendir 0 %. Hoy los 16.000 € pierden ≈ 530 € al año de poder de
 compra (3,3 % de inflación) por estar en una cuenta al 0 %.
 
 Los productos que cumplen esa obligación y además rinden algo son solo estos:
@@ -84,9 +85,7 @@ Esquema razonable, pendiente de saber cuántos meses de gastos hay que cubrir:
 3. **Lo que sobre por encima de 6 meses de gastos** deja de ser fondo de emergencia y pasa al bloque
    conservador de la cartera (documento 02): Letras a 12 meses o, tras el aprendizaje, renta fija corta ética.
 
-Ejemplo ilustrativo, **no un dato**: con gastos de 1.500 €/mes, 6 meses son 9.000 €; los otros 5.000 €
-serían invertibles bajo las reglas conservadoras. Con gastos de 2.300 €/mes, los 14.000 € son el colchón
-entero y no sobra nada. El número que falta es el gasto mensual.
+(Ejemplo genérico sustituido por el cálculo con datos reales, más abajo.)
 
 ### Cálculo con los datos del usuario (10-09-2026)
 
@@ -110,20 +109,21 @@ trimestre de facturación no puede obligar a tocar las Letras. Además, como aut
 cuenta que **no es tuyo**: el IVA cobrado y el pago fraccionado de IRPF se liquidan cada trimestre. Ese
 importe debe estar apartado mentalmente (o en una subcuenta) y no cuenta ni como colchón ni como inversión.
 
-Reparto propuesto de los ≈ 14.000 € (interpretación, no norma; ajustar con el dato de la cuota):
+Reparto propuesto de los ≈ 16.000 € en cuentas (interpretación, no norma; ajustar con el dato de la cuota):
 
 | Tramo | Importe | Dónde | Función |
 |---|---|---|---|
 | Operativa + reserva fiscal del trimestre | ≈ 2.000–2.500 € | Cuenta corriente CaixaBank | Pagar el mes y el próximo modelo trimestral sin mirar |
 | Colchón hasta 9–12 meses | ≈ 6.000–9.000 € | Cuenta remunerada (si el tipo es bueno) o Letras a 3 y 6 meses escalonadas en el Banco de España | Emergencias; no baja de valor; disponible en ≤ 3 meses |
-| Sobrante | ≈ 2.500–6.000 € | Cartera conservadora: Letra a 12 meses (tercer peldaño de la escalera) o, tras el aprendizaje, renta fija corta ética | Deja de ser colchón; sigue siendo seguro |
+| Sobrante | ≈ 4.500–8.000 € | Cartera conservadora: Letra a 12 meses (tercer peldaño de la escalera) o, tras el aprendizaje, renta fija corta ética | Deja de ser colchón; sigue siendo seguro |
 
-Con esto, el capital quedaría así: 16.000 € en Letras a 12 meses + 2.500–6.000 € más en el bloque
-conservador + 6.000–9.000 € de colchón que rinde algo + 2.000–2.500 € operativos. Todo dentro del perfil
+Con esto, el capital quedaría así: 16.000 € en Letras a 12 meses + 4.500–8.000 € más en el bloque
+conservador + 6.000–9.000 € de colchón que rinde algo + 2.000–2.500 € operativos + el PIAS (5.890 €), cuyo
+encaje depende de lo que se averigüe sobre él. Todo dentro del perfil
 muy conservador y de la regla del listón (documento 02).
 
-Coste de no hacer nada: los 14.000 € al 0 % pierden ≈ 460 € al año de poder de compra. Colocando
-≈ 11.500 € (colchón + sobrante) al ≈ 2,2 % neto se recuperan ≈ 250 € al año sin cambiar el riesgo.
+Coste de no hacer nada: los 16.000 € al 0 % pierden ≈ 530 € al año de poder de compra. Colocando
+≈ 13.500 € (colchón + sobrante) al ≈ 2,2 % neto se recuperan ≈ 300 € al año sin cambiar el riesgo.
 
 Sobre la confianza que pide el usuario: los cuatro productos de la tabla comparten la característica de que
 **el capital no baja**. La forma de ganar confianza sin arriesgar el colchón es empezar por uno de ellos

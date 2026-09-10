@@ -89,6 +89,43 @@ Con eso se rellenan `data/bonos.csv` (plantilla en `data/plantilla_bonos.csv`) y
 y rendimiento neto con `python -m cartera bono`. Si con "bonos" te referías a las propias Letras, no hay
 nada que añadir.
 
+## 10.6 El PIAS que ya tienes (5.890 €), explicado desde cero
+
+Un **PIAS** (Plan Individual de Ahorro Sistemático) es un **seguro de vida-ahorro**: pagas cuotas a una
+aseguradora (en CaixaBank, normalmente VidaCaixa), la aseguradora invierte ese dinero y al cabo de los años
+te lo devuelve. No es un fondo ni un depósito; es un contrato de seguro con reglas propias.
+
+| Característica | Qué significa para ti |
+|---|---|
+| Límite de aportación | 8.000 € al año y 240.000 € en total |
+| Ventaja fiscal | Si han pasado **al menos 5 años** desde la primera aportación y cobras el dinero como **renta vitalicia** (una paga mensual de por vida), la ganancia acumulada queda **exenta** de IRPF y la renta tributa solo por un porcentaje pequeño según tu edad |
+| Si lo rescatas de golpe (capital) | La ganancia tributa en la base del ahorro (19–21 %) como cualquier otro producto: la ventaja fiscal desaparece |
+| Liquidez | Se puede rescatar, pero muchos contratos aplican **penalización** los primeros años (típicamente 1–5 %) y valoran al "valor de rescate", que puede ser menor que lo aportado |
+| Rentabilidad | Dos familias: (a) **garantizado**: interés técnico bajo (a menudo 0–1 %) más "participación en beneficios" no garantizada; (b) **unit linked**: invierte en fondos, sin garantía, con costes del seguro más los del fondo (1–2,5 % anual en total es habitual) |
+| Costes | Gastos de gestión, de administración y una pequeña prima por el seguro de fallecimiento. Rara vez se ven en el extracto: se descuentan del valor |
+| Garantía | No tiene Fondo de Garantía de Depósitos; responde la aseguradora, supervisada por la Dirección General de Seguros |
+
+Para saber si conviene mantenerlo hace falta el contrato o la última carta anual de la aseguradora, con:
+
+| Dato | Dónde |
+|---|---|
+| Aseguradora y nombre exacto del producto | Póliza |
+| Fecha de la primera aportación (para el plazo de 5 años) | Póliza o carta anual |
+| Total aportado hasta hoy frente a valor actual (5.890 €) | Carta anual o app |
+| Tipo de PIAS: garantizado o unit linked; en qué invierte | Póliza / condiciones |
+| Gastos totales anuales | Documento de datos fundamentales (KID), obligatorio desde 2018 |
+| Penalización por rescate y hasta qué fecha | Condiciones particulares |
+| Cuota periódica actual (¿sigues aportando?) | Extracto |
+
+Sin esos datos no se puede decir si es bueno o malo. Lo que sí se puede decir: un PIAS solo compensa si
+(1) sus costes son bajos, cosa poco habitual en los de bancos, y (2) piensas cobrarlo como renta vitalicia
+dentro de muchos años. Si la idea era "ahorrar poco a poco con seguridad", una Letra o un fondo indexado
+de renta fija hacen lo mismo con costes de 10 a 20 veces menores y sin penalización de salida.
+
+Lo que **no** hay que hacer: rescatarlo por impulso. Si hay penalización, o si los 5 años están cerca,
+el orden es: leer el contrato, calcular la rentabilidad real (con el comando `metricas.xirr` a partir de
+las cuotas pagadas y el valor actual), y decidir después.
+
 ## 10.5 Lo que este análisis no cubre
 
 - No conozco tus ingresos ni tu tipo marginal: sin eso no se puede decir si el plan de pensiones compensa.

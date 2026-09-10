@@ -25,8 +25,9 @@ mayor parte del capital. Traducción a reglas:
 - **Bloque de aprendizaje ≤ 15 %**: fondos de renta fija con filtro ético de riesgo 2, donde se aprende a
   leer un VL, una duración y un KID. Empieza con 300 €.
 
-Con ≈ 30.000 € de capital total (declarado), las reglas en euros: bloque conservador ≥ 25.500 €; bloque de
-aprendizaje ≤ 4.500 €; renta variable 0 €. El fondo de emergencia (≈ 14.000 € en CaixaBank) está dentro de esos 30.000 € y cuenta como bloque
+Con ≈ 37.900 € de capital total (corregido), las reglas en euros: bloque conservador ≥ 32.200 €; bloque de
+aprendizaje ≤ 5.700 €; renta variable 0 €. El PIAS (5.890 €) se clasifica cuando se conozcan sus condiciones.
+El fondo de emergencia (≈ 16.000 € en cuentas) está dentro de esos 30.000 € y cuenta como bloque
 conservador, pero solo puede estar en liquidez inmediata, cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter).
 
 | Bloque | Función | Instrumento | Fase 0 (hoy) | Fase 1 (tras el aprendizaje) |

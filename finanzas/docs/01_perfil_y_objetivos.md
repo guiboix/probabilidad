@@ -7,10 +7,10 @@
 
 | Dato | Por qué importa | Respuesta |
 |---|---|---|
-| Importe total invertible hoy (€) | Escala de todo; determina si merece la pena diversificar en varios fondos | **≈ 30.000 €**: 16.000 € en Letras + ≈ 14.000 € en la cuenta de CaixaBank que hacen de fondo de emergencia. Los "bonos" que menciona el usuario son las propias Letras (comprados en la web del Tesoro; las cifras cuadran: 16.000 + 14.000 = 30.000) |
+| Importe total invertible hoy (€) | Escala de todo; determina si merece la pena diversificar en varios fondos | **≈ 37.900 €** (corregido 10-09-2026): 16.000 € en Letras + 16.000 € en cuentas (fondo de emergencia) + 5.890 € en un PIAS. Los "bonos" que menciona el usuario son las propias Letras |
 | Importe actual en Letras del Tesoro y vencimientos | Es el dinero que se plantea mover; sus vencimientos marcan el calendario natural sin vender antes | **Aportado 10-09-2026:** dos Letras a 12 meses de 8.000 € cada una (16.000 €), amortizaciones el **06-11-2026** y el **04-06-2027**. Se mantienen renovándose de momento. Precios inferidos de las subastas del 04-11-2025 (1,99 %) y 02-06-2026 (2,54 %). Falta confirmar que 8.000 € es nominal |
 | Capacidad de ahorro mensual (€) | Permite rebalancear con aportaciones (sin tributar) y usar aportaciones periódicas | Sin dato. Autónomo: ingresos variables |
-| Fondo de emergencia ya cubierto (meses de gastos) | Es requisito previo a asumir volatilidad. Referencia habitual: 3–6 meses de gastos en liquidez o Letras | **Son los ≈ 14.000 € en la cuenta de CaixaBank** (aclarado 10-09-2026): cumplen la función de colchón y a la vez el usuario los considera invertibles "si ve que los productos son seguros". Salida mensual mínima ≈ 770–1.020 € (autónomo; 600 € personales + 500 €/trimestre de asesoría e impuestos; falta saber si la cuota de autónomos va aparte). Cubren 14–18 meses. Referencia prudente para un autónomo: 9–12 meses → sobran ≈ 2.500–6.000 € (documento 11 §11.2 ter) |
+| Fondo de emergencia ya cubierto (meses de gastos) | Es requisito previo a asumir volatilidad. Referencia habitual: 3–6 meses de gastos en liquidez o Letras | **Son los ≈ 16.000 € en cuentas** (corregido; antes se anotaron 14.000) (aclarado 10-09-2026): cumplen la función de colchón y a la vez el usuario los considera invertibles "si ve que los productos son seguros". Salida mensual mínima ≈ 770–1.020 € (autónomo; 600 € personales + 500 €/trimestre de asesoría e impuestos; falta saber si la cuota de autónomos va aparte). Cubren 16–21 meses. Referencia prudente para un autónomo: 9–12 meses → sobran ≈ 4.500–8.000 € (documento 11 §11.2 ter) |
 | Horizonte de la inversión (años) | Con menos de 5 años la renta variable tiene una probabilidad relevante de estar en pérdidas (véase `simular`) | |
 | Necesidades de liquidez previstas (vivienda, coche, estudios…) y fecha | Ese dinero no debe ir a renta variable | |
 | Tolerancia a caídas: ¿qué caída temporal del total (10 %, 20 %, 35 %) haría vender por miedo? | Define el porcentaje máximo de renta variable | Declarado: perfil muy conservador. Cifra concreta: sin dato; de momento RV 0 % |
@@ -26,7 +26,7 @@ Del enunciado del usuario (10-09-2026):
 - Gestionar la cartera para obtener rentabilidad **de forma ética y segura**.
 - Dispone de cuenta en MyInvestor y está abierto a fondos de inversión.
 - Tiene dinero en Letras del Tesoro y percibe que su rentabilidad es baja frente a otros productos.
-- Es autónomo. El fondo de emergencia son los ≈ 14.000 € de la cuenta corriente; los considera invertibles en productos seguros cuando tenga confianza. Mantiene las Letras renovándose de momento.
+- Es autónomo. El fondo de emergencia son los ≈ 16.000 € de las cuentas; tiene además un PIAS de 5.890 € (documento 10 §10.6); los considera invertibles en productos seguros cuando tenga confianza. Mantiene las Letras renovándose de momento.
 - Quiere empezar con un fondo de bajo riesgo y buena ética para familiarizarse (documento 09), con 300 €.
 - Lo que llama "bonos" son las Letras del Tesoro compradas en la web del Tesoro (aclarado 10-09-2026). No hay otros bonos.
 - Su capital está en **CaixaBank**, pero las Letras las compra en la web del Tesoro (cuenta directa del Banco de España): canal sin comisiones de compra ni custodia (documento 11). Pendiente: dónde están los bonos.

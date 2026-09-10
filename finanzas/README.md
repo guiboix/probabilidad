@@ -27,9 +27,9 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
 7. El capital está en CaixaBank, pero las Letras se compran en la web del Tesoro (cuenta directa del Banco de
    España): 12 € de comisión por Letra al vencer, frente a ≈ 52 € en el canal bancario (documento 11). La cuenta
    corriente de CaixaBank no remunera. Comprobaciones pendientes en §11.5.
-8. Capital total ≈ 30.000 €: 16.000 € en Letras y ≈ 14.000 € en CaixaBank al 0 % que son el fondo de
-   emergencia. Ese colchón pierde ≈ 460 €/año de poder de compra; puede rendir sin dejar de ser colchón en
-   cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 770–1.020 €: colchón prudente de 9–12 meses (6.000–9.000 €) y ≈ 2.500–6.000 €
+8. Capital total ≈ 37.900 €: 16.000 € en Letras, ≈ 16.000 € en cuentas al 0 % que son el fondo de emergencia
+   y un PIAS de 5.890 € pendiente de analizar (documento 10 §10.6). El colchón pierde ≈ 530 €/año de poder de compra; puede rendir sin dejar de ser colchón en
+   cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 770–1.020 €: colchón prudente de 9–12 meses (6.000–9.000 €) y ≈ 4.500–8.000 €
    que sobran para el bloque conservador. Reparto propuesto en §11.2 ter.
 9. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la

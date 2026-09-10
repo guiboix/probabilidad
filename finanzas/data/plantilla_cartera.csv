@@ -1,4 +1,6 @@
 activo,clase,isin,valor,peso_objetivo
-Letra A (amortiza 2026-11-06),renta_fija_estado,,8000,0.49
-Letra B (amortiza 2027-06-04),renta_fija_estado,,8000,0.49
-Fondo RF ESG (primer fondo de aprendizaje),renta_fija,,300,0.02
+Letra A (amortiza 2026-11-06),renta_fija_estado,,8000,0.42
+Letra B (amortiza 2027-06-04),renta_fija_estado,,8000,0.42
+Efectivo cuentas (fondo de emergencia),liquidez,,16000,0.00
+PIAS (pendiente de clasificar),seguro_ahorro,,5890,0.15
+Fondo RF ESG (primer fondo de aprendizaje),renta_fija,,300,0.01
