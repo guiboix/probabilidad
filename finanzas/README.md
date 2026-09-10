@@ -30,7 +30,7 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
 8. Capital total ≈ 37.900 €: 16.000 € en Letras, ≈ 16.000 € en cuentas al 0 % que son el fondo de emergencia
    y un PIAS de VidaCaixa (desde 2010) que vale 5.891 € tras aportar 5.267 €: ≈ 1 % anual, por debajo de la inflación
    (documento 10 §10.6). Rescatarlo hacia Letras cuesta 119 € de impuesto y se recupera en 1–3 años, si no hay penalización. El colchón pierde ≈ 530 €/año de poder de compra; puede rendir sin dejar de ser colchón en
-   cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 770–1.020 €: colchón prudente de 9–12 meses (6.000–9.000 €) y ≈ 4.500–8.000 €
+   cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 1.095 €: colchón prudente de 9–12 meses (9.900–13.100 €) y ≈ 2.900–6.100 €
    que sobran para el bloque conservador. Reparto propuesto en §11.2 ter.
 9. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la

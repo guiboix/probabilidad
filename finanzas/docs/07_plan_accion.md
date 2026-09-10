@@ -15,8 +15,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Los ≈ 16.000 € en cuentas son el fondo de emergencia (y candidatos a inversión segura).
 - [x] PIAS identificado: CABK PIAS CMV1 (VidaCaixa), 2010, 5.267 € aportados, 5.891 € de rescate, TIR ≈ 0,8–1,3 %.
 - [ ] PIAS: preguntar tipo de interés actual, si el valor de rescate es neto de penalización y gastos anuales (documento 10 §10.6). Decidir después si se rescata hacia Letras.
-- [x] Gasto mensual: ≈ 770–1.020 € (autónomo). Colchón prudente 9–12 meses; sobran ≈ 4.500–8.000 €.
-- [ ] Confirmar si la cuota de autónomos está dentro de los 500 €/trimestre o va aparte.
+- [x] Gasto mensual ≈ 1.095 € (cuota de autónomos 328 € aparte). Colchón prudente 9–12 meses = 9.900–13.100 €; sobran ≈ 2.900–6.100 €.
+- [ ] Decidir si el colchón es de 9 o de 12 meses (según variabilidad de la facturación).
 - [ ] Decidir dónde va el colchón que rinde (cuenta remunerada o Letras a 3–6 meses) y cuánto pasa a la Letra a 12 meses.
 - [x] Los "bonos" son las Letras: aclarado.
 - [ ] Comprobar el tipo de la cuenta remunerada de MyInvestor que te aplica (promoción o base).
