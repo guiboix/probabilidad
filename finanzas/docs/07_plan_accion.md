@@ -8,6 +8,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] Copiar plantillas de `data/` a `cartera.csv`, `letras.csv`, `movimientos.csv` con datos reales.
 - [x] Fechas de amortización de las Letras: 06-11-2026 y 04-06-2027. Falta confirmar precio de compra y nominal (`08_escalera_letras.md` §8.1).
 - [x] Fondo de emergencia aparte: confirmado.
+- [ ] Datos de los bonos que ya posee (documento 10 §10.4) → `data/bonos.csv`.
+- [ ] Tipo marginal de IRPF (para saber si el plan de pensiones compensa).
 - [ ] Verificar en tesoro.es el tipo de la última subasta y en la app de MyInvestor las comisiones vigentes
   (resolver la discrepancia de coste de la Cartera Sostenible: 0,81 % vs 1,09–1,33 %).
 

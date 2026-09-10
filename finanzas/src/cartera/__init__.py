@@ -3,6 +3,7 @@
 Módulos:
 - fiscalidad: tramos de la base del ahorro (IRPF) y cálculo de cuota.
 - letras: rentabilidad de Letras del Tesoro (bruta, neta y real).
+- bonos: TIR, duración y rendimiento neto de bonos con cupón.
 - metricas: rentabilidad simple, TWR, TIR (XIRR), volatilidad, drawdown.
 - rebalanceo: desviaciones respecto a la asignación objetivo y órdenes.
 - simulacion: proyección Monte Carlo con aportaciones periódicas.

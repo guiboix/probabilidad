@@ -27,6 +27,7 @@ Del enunciado del usuario (10-09-2026):
 - Tiene dinero en Letras del Tesoro y percibe que su rentabilidad es baja frente a otros productos.
 - Tiene fondo de emergencia aparte. Mantiene las Letras renovándose de momento.
 - Quiere empezar con un fondo de bajo riesgo y buena ética para familiarizarse (documento 09), con 300 €.
+- Tiene **bonos** (sin más datos: emisor, vencimiento, cupón y precio pendientes; documento 10 §10.4).
 - No tiene experiencia previa. Pide explicaciones de principiante (documento 00) y una cartera **muy
   conservadora** para la mayor parte del capital (documento 02 §2.2).
 

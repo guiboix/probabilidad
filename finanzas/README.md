@@ -21,7 +21,10 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    04-06-2027 y se mantienen renovándose; rinden ≈ 290 € netos y pierden ≈ 238 € de poder adquisitivo al año.
 5. Perfil acordado: **muy conservador**. Renta variable 0 % de momento; al menos el 85 % del capital en
    Letras y renta fija a corto plazo; hasta un 15 % en fondos de renta fija ética de riesgo 2 para aprender.
-6. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
+6. Otros productos analizados (documento 10): Bonos del Estado a 3 años (2,87 % el 03-09-2026) y cuenta
+   remunerada de MyInvestor (2,5 % TAE promocional) merecen estudio; plan de pensiones depende de los
+   ingresos (dato pendiente); crowdlending, cripto, estructurados y subordinadas quedan descartados.
+7. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
    rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics` importable y comando `escalera`; los
    recordatorios automáticos en la sesión no se pudieron crear por permisos (documento 08 §8.5). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
@@ -47,8 +50,8 @@ finanzas/
 │   ├── calendario_vencimientos.ics  # eventos de decisión/amortización de las Letras, importable en cualquier calendario
 │   └── README.md
 ├── src/cartera/                     # paquete Python (stdlib únicamente)
-│   ├── fiscalidad.py  letras.py  escalera.py  metricas.py  rebalanceo.py  simulacion.py  carga.py  cli.py
-└── tests/                           # 38 tests unittest
+│   ├── fiscalidad.py  letras.py  bonos.py  escalera.py  metricas.py  rebalanceo.py  simulacion.py  carga.py  cli.py
+└── tests/                           # 43 tests unittest
 ```
 
 ## Uso
@@ -68,6 +71,9 @@ python -m cartera simular --inicial 10000 --mensual 200 --anyos 10
 
 # Calendario de vencimientos de las Letras y plan de transición (requiere data/letras.csv)
 python -m cartera escalera --data data --peso-letras 0.5 --reserva 5000 --inflacion 0.033
+
+# TIR, duración y rendimiento neto de un Bono del Estado (o cualquier bono con cupón)
+python -m cartera bono --precio 995 --cupon 0.028 --anyos 3 --nominal 8000
 
 # Seguimiento de un fondo a partir de sus valores liquidativos (data/vl.csv)
 python -m cartera seguimiento --data data --periodos-anyo 52

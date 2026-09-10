@@ -33,6 +33,9 @@ del 18 % de lo que habrías tenido. Por eso este proyecto prefiere productos con
 | **Amortizar / vencer** | El día en que el Estado te devuelve el nominal. | 06-11-2026 y 04-06-2027. |
 | **Subasta** | El Tesoro vende las Letras cada mes en una puja. Pides un importe y, si aceptas el precio medio, te las adjudican. | Para renovar, hay que pedir en la subasta de días antes del vencimiento. |
 | **Escalera** | Tener varias Letras que vencen en fechas distintas. Cada vencimiento es una ocasión para decidir. | Dos peldaños separados unos 7 meses. |
+| **Bono del Estado** | Como la Letra, pero a 3 o 5 años y pagando un interés (cupón) cada año. Si lo vendes antes de vencer, su precio puede haber bajado. | Documento 10 §10.3. |
+| **Cupón** | El interés anual que paga un bono, en euros por cada 1.000 € de nominal. | Un cupón del 2,8 % son 28 € al año por cada 1.000 €. |
+| **TIR (rentabilidad a vencimiento)** | Lo que ganas al año si mantienes un bono hasta el final, contando cupones y precio de compra. | La calcula `python -m cartera bono`. |
 | **Fondo de inversión** | Una cesta de muchos bonos o acciones gestionada por una entidad. Compras una parte de la cesta. | Vas a empezar con 300 €. |
 | **Participación** | Cada trozo del fondo que posees. | Con 300 € y un valor de 10 € por participación, tendrías 30. |
 | **Valor liquidativo (VL)** | El precio de una participación. Se calcula una vez al día. | Es el dato que anotarás cada semana. |

@@ -8,6 +8,7 @@ cp plantilla_cartera.csv cartera.csv
 cp plantilla_movimientos.csv movimientos.csv
 cp plantilla_letras.csv letras.csv
 cp plantilla_vl.csv vl.csv
+cp plantilla_bonos.csv bonos.csv
 ```
 
 | Fichero | Columnas | Notas |
@@ -15,6 +16,7 @@ cp plantilla_vl.csv vl.csv
 | `cartera.csv` | `activo,clase,isin,valor,peso_objetivo` | `valor` en euros a fecha de hoy; `peso_objetivo` en tanto por uno y deben sumar 1. |
 | `movimientos.csv` | `fecha,activo,tipo,importe` | `tipo` ∈ `aportacion`, `retirada`, `valoracion`. La última `valoracion` con activo `TOTAL` se usa para la TIR. |
 | `letras.csv` | `fecha_compra,fecha_vencimiento,nominal,precio_compra` | `precio_compra` por cada 1.000 € de nominal, como lo publica el Tesoro. |
+| `bonos.csv` | `emisor,isin,fecha_compra,fecha_vencimiento,nominal,cupon_anual,precio_compra` | Bonos con cupón que ya se posean. `cupon_anual` en tanto por uno. |
 | `vl.csv` | `fecha,activo,valor_liquidativo` | Una fila por fecha y fondo; base de `python -m cartera seguimiento`. |
 | `calendario_vencimientos.ics` | eventos iCalendar | Importar en el calendario personal. Actualizar cuando el Tesoro publique el calendario 2027. |
 | `supuestos.json` | ver fichero | Parámetros de simulación, bandas de rebalanceo y referencias de mercado con su fuente. |

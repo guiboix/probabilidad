@@ -6,6 +6,7 @@
     python -m cartera simular --inicial 10000 --mensual 200 --anyos 15 [--data data]
     python -m cartera escalera --peso-letras 0.5 [--reserva 5000] [--data data]
     python -m cartera seguimiento [--data data] [--periodos-anyo 52]
+    python -m cartera bono --precio 995 --cupon 0.028 --anyos 3 [--nominal 8000]
 """
 
 from __future__ import annotations
@@ -14,7 +15,7 @@ import argparse
 from datetime import date
 from pathlib import Path
 
-from . import carga, escalera, letras, metricas, rebalanceo, simulacion
+from . import bonos, carga, escalera, letras, metricas, rebalanceo, simulacion
 from .fiscalidad import cuota_ahorro
 
 
@@ -121,6 +122,19 @@ def cmd_escalera(a: argparse.Namespace) -> None:
         print(f"| {f} | {n:,.0f} € | {r:,.0f} € | {m:,.0f} € |")
 
 
+def cmd_bono(a: argparse.Namespace) -> None:
+    r = bonos.analizar(a.precio, a.cupon, a.anyos, a.nominal)
+    print(f"# Bono: precio {a.precio:.2f} por 1.000 €, cupón {_pct(a.cupon)}, {a.anyos:g} años, nominal {a.nominal:,.0f} €\n")
+    print("| Concepto | Valor |\n|---|---|")
+    print(f"| TIR bruta a vencimiento | {_pct(r.tir_bruta)} |")
+    print(f"| Duración modificada (caída aprox. por +1 punto de tipos) | {r.duracion_modificada:.2f} % |")
+    print(f"| Cupón anual bruto / neto | {r.cupon_anual_euros:,.2f} € / {r.cupon_neto_anual_euros:,.2f} € |")
+    print(f"| Ganancia total bruta hasta vencimiento | {r.ganancia_total_bruta:,.2f} € |")
+    print(f"| Impuestos totales (19 % simplificado) | {r.impuestos_totales:,.2f} € |")
+    print(f"| Ganancia total neta | {r.ganancia_total_neta:,.2f} € |")
+    print("\nSi se vende antes de vencimiento, el precio depende de los tipos del momento: la duración indica cuánto.")
+
+
 def cmd_seguimiento(a: argparse.Namespace) -> None:
     """Rentabilidad, volatilidad y caída máxima de cada fondo a partir de data/vl.csv."""
     series = carga.leer_vl(Path(a.data) / "vl.csv")
@@ -194,6 +208,13 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--hoy", default=None, help="fecha de referencia AAAA-MM-DD (por defecto hoy)")
     s.add_argument("--aviso-dias", type=int, default=30, help="marcar las Letras que vencen en menos de N días")
     s.set_defaults(func=cmd_escalera)
+
+    s = sub.add_parser("bono", help="TIR, duración y rendimiento neto de un bono con cupón")
+    s.add_argument("--precio", type=float, required=True, help="precio por 1.000 € nominal (sin cupón corrido)")
+    s.add_argument("--cupon", type=float, required=True, help="cupón anual en tanto por uno, p. ej. 0.028")
+    s.add_argument("--anyos", type=float, required=True, help="años hasta vencimiento (se redondea a cupones enteros)")
+    s.add_argument("--nominal", type=float, default=1000.0)
+    s.set_defaults(func=cmd_bono)
 
     s = sub.add_parser("seguimiento", help="rentabilidad, volatilidad y caída máxima desde data/vl.csv")
     s.add_argument("--data", default="data")

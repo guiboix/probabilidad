@@ -3,6 +3,7 @@ data/cartera.csv
 data/movimientos.csv
 data/letras.csv
 data/vl.csv
+data/bonos.csv
 data/*.xlsx
 informes/
 __pycache__/
