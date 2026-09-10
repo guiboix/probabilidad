@@ -123,7 +123,7 @@ Reparto propuesto de los ≈ 16.000 € en cuentas (interpretación, no norma):
 | Tramo | Importe | Dónde | Cuándo |
 |---|---|---|---|
 | Operativa + reserva fiscal | ≈ 2.700 € | Cuenta corriente CaixaBank | Ya está |
-| Colchón que rinde | ≈ 10.400 € | Cuenta remunerada de MyInvestor si el tipo que le aplica es ≥ 2 %; si no, Letras a 3 y 6 meses en el Banco de España (p. ej. 5.000 € a 3 meses + 5.000 € a 6 meses, renovando) | Tras comprobar el tipo de la cuenta |
+| Colchón que rinde | ≈ 10.400 € | Cuenta remunerada de MyInvestor **solo si está en la promoción del 2,5 % (cuentas abiertas desde el 01-07-2026), y solo hasta el 31-12-2026**; en cualquier otro caso, Letras a 3 y 6 meses en el Banco de España (p. ej. 5.000 € a 3 meses + 5.000 € a 6 meses, renovando) | Tras comprobar el tipo de la cuenta (§11.2 quater) |
 | Sobrante | ≈ 2.900 € | Letra a 12 meses de 2.000 € (las Letras van de 1.000 en 1.000); los ≈ 900 € restantes se quedan en el colchón | Próxima subasta a 12 meses (octubre o noviembre de 2026, junto con la renovación de la Letra A) |
 
 Con esto, el capital queda así: 18.000 € en Letras a 12 meses (tres peldaños: noviembre, junio y el nuevo)
@@ -138,6 +138,48 @@ Sobre la confianza que pide el usuario: los cuatro productos de la tabla compart
 (cuenta remunerada o una Letra a 3 meses) y comprobar durante un trimestre que el dinero está ahí, rinde
 lo prometido y se puede recuperar. Solo después tiene sentido probar productos de riesgo 2 con dinero que
 no sea el colchón.
+
+## 11.2 quater La cuenta remunerada de MyInvestor: condiciones y cómo comprobarlas
+
+Condiciones publicadas (web de MyInvestor y Finect, consultadas el 10-09-2026; verificar en la app):
+
+| Situación | TAE | Vigencia |
+|---|---|---|
+| Cuenta abierta a partir del 01-07-2026 (promoción) | 2,50 % sobre el saldo, hasta 70.000 € | Hasta el 31-12-2026 |
+| Sin inversión periódica, primeros 12 meses desde la apertura | 1,00 % | 12 meses |
+| Sin inversión periódica, a partir del mes 13 | 0,30 % | Indefinido |
+| Con inversión periódica de 300 / 600 / 900 € al mes en productos de MyInvestor | 1,00 % / 1,50 % / 2,00 % | Mientras se mantenga la aportación |
+
+Lectura con la regla del listón (documento 02 §2.2 bis): la Letra a 12 meses da 2,66 % bruto. Solo la
+promoción del 2,50 % hasta fin de 2026 se acerca; el resto de tramos queda por debajo. Consecuencia:
+
+- Si tu cuenta se abrió a partir del 01-07-2026, el colchón puede estar ahí **hasta el 31-12-2026** con
+  liquidez total y casi el mismo rendimiento que la Letra. En enero de 2027, cuando baje al 1 % o menos,
+  pasar el colchón a Letras a 3 y 6 meses en el Banco de España.
+- Si se abrió antes o no aplica la promoción, el colchón va directamente a Letras a 3 y 6 meses. El 1 % de
+  la cuenta no supera el listón.
+- Los tramos por inversión periódica no interesan: exigen meter 900 €/mes en productos de MyInvestor para
+  llegar al 2 %, que sigue por debajo de la Letra.
+
+**Cómo verlo en la app o la web de MyInvestor** (los menús cambian; esto es lo que hay que buscar, no un
+recorrido exacto):
+
+1. Entrar y abrir la **cuenta corriente**. En su ficha o en "Detalles" / "Condiciones" aparece la
+   remuneración que se aplica **a ti** (TAE) y el saldo máximo remunerado. Ese número es el que importa;
+   los de la web comercial son los máximos posibles.
+2. Comprobar la **fecha de apertura** de la cuenta (en los datos de la cuenta o en el contrato que llegó
+   por correo electrónico al abrirla). Decide si estás dentro de la promoción del 2,5 %.
+3. Mirar el **último abono de intereses**: si la cuenta lleva más de un mes con saldo, hay un apunte
+   mensual "Intereses" o "Remuneración". Dividir ese importe entre el saldo medio y multiplicar por 12
+   da la TAE real que estás cobrando, sin depender de lo que diga ninguna página.
+4. Si no aparece, la sección **Ayuda → Preguntas frecuentes → Cuentas** de la web explica los tramos, y
+   el chat de atención al cliente responde con la TAE aplicada a tu cuenta.
+
+**Cómo ver los fondos** (para el documento 09): en la sección de inversión, buscador de fondos. Filtrar por
+categoría **renta fija** y, si existe el filtro, por **gestión indexada** o **sostenible/ESG**. En la caja
+de búsqueda probar "ESG", "SRI", "Screened", "Sustainable", "Green", "corto plazo", "short term". En la ficha
+de cada fondo, buscar: ISIN, "gastos corrientes" o TER, "indicador de riesgo" (1–7), "artículo SFDR" y el
+enlace al **documento de datos fundamentales** (KID). Anotar nombre exacto e ISIN de los que aparezcan.
 
 ## 11.3 El dinero que está parado
 

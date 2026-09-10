@@ -19,8 +19,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Colchón de 12 meses (≈ 13.100 €): decidido.
 
 ## Fase 0c — Poner a rendir el colchón y el sobrante (documento 11 §11.2 ter)
-- [ ] Comprobar el tipo de la cuenta remunerada de MyInvestor que te aplica.
-- [ ] Si ≥ 2 %: transferir ≈ 10.400 € del colchón a esa cuenta. Si no: Letras a 3 y 6 meses en el Banco de España (5.000 € + 5.000 €).
+- [ ] Comprobar en la app la TAE aplicada a tu cuenta y la fecha de apertura (documento 11 §11.2 quater).
+- [ ] Si estás en la promoción del 2,5 %: colchón a la cuenta hasta el 31-12-2026 y después a Letras cortas. Si no: Letras a 3 y 6 meses en el Banco de España (5.000 € + 5.000 €).
 - [ ] Pedir 2.000 € de Letra a 12 meses en la próxima subasta (octubre o noviembre de 2026).
 - [ ] Dejar ≈ 2.700 € (dos meses de salidas + reserva fiscal del trimestre) en la cuenta corriente.
 - [ ] Decidir dónde va el colchón que rinde (cuenta remunerada o Letras a 3–6 meses) y cuánto pasa a la Letra a 12 meses.
