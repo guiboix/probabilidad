@@ -4,6 +4,8 @@ Proyecto para gestionar una cartera de inversión particular en España con tres
 el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de decisión y un paquete Python
 (sin dependencias externas) para calcular rentabilidades, comparar productos, rebalancear y simular.
 
+> **Si empiezas desde cero, lee primero [`docs/00_guia_principiante.md`](docs/00_guia_principiante.md).** Explica cada palabra y cada comando con tus propios números.
+
 ## Conclusión principal (10-09-2026)
 
 1. La percepción de que las Letras rinden poco es correcta y cuantificable: la Letra a 12 meses de la
@@ -17,7 +19,9 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    la Cartera Sostenible filtra (art. 9) pero cuesta 0,81 % o más según la fuente.
 4. Situación declarada: fondo de emergencia aparte; dos Letras de 8.000 € que amortizan el 06-11-2026 y el
    04-06-2027 y se mantienen renovándose; rinden ≈ 290 € netos y pierden ≈ 238 € de poder adquisitivo al año.
-5. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
+5. Perfil acordado: **muy conservador**. Renta variable 0 % de momento; al menos el 85 % del capital en
+   Letras y renta fija a corto plazo; hasta un 15 % en fondos de renta fija ética de riesgo 2 para aprender.
+6. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
    rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics` importable y comando `escalera`; los
    recordatorios automáticos en la sesión no se pudieron crear por permisos (documento 08 §8.5). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
@@ -29,6 +33,7 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
 finanzas/
 ├── README.md
 ├── docs/
+│   ├── 00_guia_principiante.md      # vocabulario y conceptos explicados desde cero
 │   ├── 01_perfil_y_objetivos.md     # datos que faltan + hechos verificados sept. 2026
 │   ├── 02_politica_inversion.md     # principios, asignación objetivo, reglas de rebalanceo
 │   ├── 03_letras_vs_fondos.md       # comparación cuantitativa y cualitativa

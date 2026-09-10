@@ -13,7 +13,7 @@
 | Fondo de emergencia ya cubierto (meses de gastos) | Es requisito previo a asumir volatilidad. Referencia habitual: 3–6 meses de gastos en liquidez o Letras | **Sí, aparte de las Letras** (declarado 10-09-2026). Meses de gastos: sin dato |
 | Horizonte de la inversión (años) | Con menos de 5 años la renta variable tiene una probabilidad relevante de estar en pérdidas (véase `simular`) | |
 | Necesidades de liquidez previstas (vivienda, coche, estudios…) y fecha | Ese dinero no debe ir a renta variable | |
-| Tolerancia a caídas: ¿qué caída temporal del total (10 %, 20 %, 35 %) haría vender por miedo? | Define el porcentaje máximo de renta variable | |
+| Tolerancia a caídas: ¿qué caída temporal del total (10 %, 20 %, 35 %) haría vender por miedo? | Define el porcentaje máximo de renta variable | Declarado: perfil muy conservador. Cifra concreta: sin dato; de momento RV 0 % |
 | Otras rentas del ahorro del año (intereses, dividendos) | Cambian el tipo marginal que se aplica a nuevos rendimientos | |
 | Situación fiscal: residencia fiscal, comunidad autónoma | La base del ahorro es estatal, pero conviene confirmar residencia en España | |
 | Definición personal de "ético" | Véase `05_criterios_eticos.md`; sin definirlo no se puede filtrar productos | |
@@ -26,7 +26,9 @@ Del enunciado del usuario (10-09-2026):
 - Dispone de cuenta en MyInvestor y está abierto a fondos de inversión.
 - Tiene dinero en Letras del Tesoro y percibe que su rentabilidad es baja frente a otros productos.
 - Tiene fondo de emergencia aparte. Mantiene las Letras renovándose de momento.
-- Quiere empezar con un fondo de bajo riesgo y buena ética para familiarizarse (documento 09).
+- Quiere empezar con un fondo de bajo riesgo y buena ética para familiarizarse (documento 09), con 300 €.
+- No tiene experiencia previa. Pide explicaciones de principiante (documento 00) y una cartera **muy
+  conservadora** para la mayor parte del capital (documento 02 §2.2).
 
 Detalle de la escalera de Letras y su plan de transición: `08_escalera_letras.md`.
 

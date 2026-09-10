@@ -8,10 +8,36 @@
   "banda_abs": 0.05,
   "banda_rel": 0.25,
   "escenarios": [
-    {"nombre": "Conservador (100 % renta fija corto plazo)", "rentabilidad_anual": 0.025, "volatilidad_anual": 0.02},
-    {"nombre": "Moderado (40 % RV / 60 % RF)", "rentabilidad_anual": 0.045, "volatilidad_anual": 0.07},
-    {"nombre": "Equilibrado (60 % RV / 40 % RF)", "rentabilidad_anual": 0.055, "volatilidad_anual": 0.10},
-    {"nombre": "Agresivo (90 % RV / 10 % RF)", "rentabilidad_anual": 0.065, "volatilidad_anual": 0.15}
+    {
+      "nombre": "Muy conservador (98 % Letras / 2 % RF corto) — fase 0",
+      "rentabilidad_anual": 0.022,
+      "volatilidad_anual": 0.005
+    },
+    {
+      "nombre": "Muy conservador (85 % Letras / 15 % RF corto-medio) — fase 1",
+      "rentabilidad_anual": 0.024,
+      "volatilidad_anual": 0.012
+    },
+    {
+      "nombre": "Conservador (100 % renta fija corto plazo)",
+      "rentabilidad_anual": 0.025,
+      "volatilidad_anual": 0.02
+    },
+    {
+      "nombre": "Moderado (40 % RV / 60 % RF)",
+      "rentabilidad_anual": 0.045,
+      "volatilidad_anual": 0.07
+    },
+    {
+      "nombre": "Equilibrado (60 % RV / 40 % RF)",
+      "rentabilidad_anual": 0.055,
+      "volatilidad_anual": 0.1
+    },
+    {
+      "nombre": "Agresivo (90 % RV / 10 % RF)",
+      "rentabilidad_anual": 0.065,
+      "volatilidad_anual": 0.15
+    }
   ],
-  "_nota_escenarios": "Rentabilidades y volatilidades ilustrativas, netas de costes aproximados, no basadas en una serie histórica concreta. Ajustar con datos propios antes de tomar decisiones."
+  "_nota_escenarios": "Rentabilidades netas de costes aproximados e ilustrativas. Las dos primeras corresponden al perfil muy conservador acordado; se basan en tipos de Letras de 2026 (≈ 2,2 % neto) y volatilidad típica de renta fija corta. Ajustar con datos propios."
 }
