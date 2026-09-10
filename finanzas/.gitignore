@@ -1,0 +1,9 @@
+# Datos personales: nunca subir al repositorio
+data/cartera.csv
+data/movimientos.csv
+data/letras.csv
+data/*.xlsx
+informes/
+__pycache__/
+*.pyc
+.pytest_cache/

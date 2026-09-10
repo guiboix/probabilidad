@@ -18,3 +18,7 @@ Asienta las bases para convertirte en el Data Scientist del futuro con todo el c
 7. Convergencia y Teorema Central del límite
 
 Y todo con más de **40 horas de vídeo bajo demanda**, cientos de ejercicios, tareas, talleres y trucos de los profesores para que te conviertas en un experto de la materia.
+
+## Proyecto adicional: gestión de cartera personal
+
+La carpeta [`finanzas/`](finanzas/README.md) contiene un proyecto independiente de gestión de cartera (Letras del Tesoro y fondos indexados éticos) que aplica los contenidos de probabilidad del curso a simulaciones de inversión.
