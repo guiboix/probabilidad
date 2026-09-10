@@ -1,7 +1,9 @@
 # 11. Dónde está el dinero: CaixaBank, Banco de España y MyInvestor
 
-> Dato del usuario (10-09-2026): su capital está en CaixaBank. Este documento explica por qué eso importa,
-> cuantifica el coste y propone qué comprobar. Cifras de comisiones obtenidas de prensa financiera
+> Datos del usuario (10-09-2026): su capital está en CaixaBank, pero **las Letras las compra directamente en
+> la web del Tesoro Público**, es decir, en la cuenta directa del Banco de España. Este documento explica por
+> qué importa el custodio, cuantifica lo que se ahorra con esa elección y propone qué comprobar sobre el
+> resto del capital. Cifras de comisiones obtenidas de prensa financiera
 > (El Independiente, Kelisto, Finect) y de la web del Tesoro vía búsqueda; **confirmar en el extracto y en
 > el documento de comisiones de CaixaBank**, porque pueden haber cambiado.
 
@@ -19,7 +21,7 @@ caminos:
 | Cómo se opera | Web del Tesoro con certificado digital o Cl@ve, o en una sucursal del Banco de España | Oficina o app del banco |
 | Fiscalidad | La comisión del 0,15 % es deducible del rendimiento (criterio de la Dirección General de Tributos); hay que meterla a mano en la declaración | Las comisiones bancarias no son deducibles |
 
-## 11.2 Cuánto cuesta en tus Letras
+## 11.2 Cuánto cuesta en tus Letras (ya estás en el camino barato)
 
 `python -m cartera letras --precio 980.28 --dias 364 --nominal 8000 --custodio caixabank` frente a `--custodio bde`:
 
@@ -31,13 +33,14 @@ caminos:
 | **Rendimiento neto** | 127,79 € | **75,80 €** | 115,79 € |
 | TAE neta | 1,63 % | **0,97 %** | 1,48 % |
 
-Si tus Letras están en CaixaBank con esas tarifas, las comisiones se llevan **un tercio** de lo que
-ganas con la Letra A y algo más de una cuarta parte de la B. En las dos Letras, pasar de CaixaBank al Banco
-de España supone ≈ 80 € más al año, sin cambiar de producto ni de riesgo.
+**Confirmado por el usuario: compra en la web del Tesoro (cuenta directa).** Es la columna de la derecha:
+pagas 12 € por Letra al vencer y nada más. Si las tuvieras en CaixaBank pagarías ≈ 52 € por Letra; la
+elección ya hecha te ahorra ≈ 80 € al año en las dos Letras. Este análisis se conserva como referencia
+para no cambiar nunca al canal bancario.
 
-Es un hecho condicionado a dos cosas que debes comprobar: que las Letras estén efectivamente en CaixaBank
-y que la tarifa aplicada sea esa. Se ve en el extracto: busca un cargo de ≈ 48 € al comprar y cargos
-semestrales de ≈ 2 € por custodia.
+Detalle fiscal útil: la comisión del 0,15 % del Banco de España **es deducible** del rendimiento de la
+Letra (criterio de la Dirección General de Tributos), pero el borrador de la Renta no la incluye: hay que
+restarla a mano en la casilla del rendimiento. En tus dos Letras son 24 € de base menos, ≈ 4,6 € de impuesto.
 
 ## 11.3 El dinero que está parado
 
@@ -63,9 +66,7 @@ en productos, etc.). Comprobar si las cumples.
 
 ## 11.5 Qué comprobar y qué decidir
 
-1. **Dónde están las Letras.** Si en CaixaBank: al vencer la A (06-11-2026), abrir cuenta directa en el
-   Banco de España (gratis, con certificado digital o Cl@ve) y hacer la renovación allí. No hay que vender:
-   cobras en CaixaBank y compras en la subasta desde la cuenta directa.
+1. ~~Dónde están las Letras~~ Confirmado: cuenta directa del Banco de España. Mantener así.
 2. **Cuánto dinero está parado** en la cuenta corriente y cuánto necesitas de verdad como colchón. Lo que
    sobre, a cuenta remunerada o a Letras.
 3. **Si pagas mantenimiento** (60 €/trimestre) y por qué condición estás exento.
@@ -78,5 +79,5 @@ en productos, etc.). Comprobar si las cumples.
 | Custodio | Qué guarda | Por qué |
 |---|---|---|
 | CaixaBank | Cuenta operativa (nómina, recibos) y fondo de emergencia | Ya está montado; condiciones de exención de comisiones |
-| Banco de España (cuenta directa) | Letras y, si se decide, Bonos del Estado | Coste mínimo, cero intermediarios |
+| Banco de España (cuenta directa) | Letras (ya) y, si se decide, Bonos del Estado | Coste mínimo, cero intermediarios |
 | MyInvestor | Fondos indexados éticos y, si cumple condiciones, liquidez remunerada | Sin custodia ni mínimos; traspasos gratuitos |

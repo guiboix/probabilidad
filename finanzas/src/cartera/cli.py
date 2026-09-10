@@ -184,7 +184,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--nominal", type=float, default=1000.0)
     s.add_argument("--otras-rentas", type=float, default=0.0, help="otras rentas del ahorro del año")
     s.add_argument("--inflacion", type=float, default=None, help="inflación anual esperada, p. ej. 0.033")
-    s.add_argument("--custodio", choices=sorted(PERFILES_COMISION), default="ninguna", help="quién custodia la Letra: bde (Banco de España), caixabank o ninguna")
+    s.add_argument("--custodio", choices=sorted(PERFILES_COMISION), default="bde", help="quién custodia la Letra: bde (Banco de España, cuenta directa: caso del usuario), caixabank o ninguna")
     s.set_defaults(func=cmd_letras)
 
     s = sub.add_parser("comparar", help="letras renovadas vs fondo de acumulación")
@@ -216,7 +216,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--inflacion", type=float, default=None)
     s.add_argument("--hoy", default=None, help="fecha de referencia AAAA-MM-DD (por defecto hoy)")
     s.add_argument("--aviso-dias", type=int, default=30, help="marcar las Letras que vencen en menos de N días")
-    s.add_argument("--custodio", choices=sorted(PERFILES_COMISION), default="ninguna")
+    s.add_argument("--custodio", choices=sorted(PERFILES_COMISION), default="bde")
     s.set_defaults(func=cmd_escalera)
 
     s = sub.add_parser("bono", help="TIR, duración y rendimiento neto de un bono con cupón")

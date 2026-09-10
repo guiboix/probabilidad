@@ -11,6 +11,7 @@
 | Precio de compra de A | 980,28 por 1.000 € (tipo medio 1,990 %) | **Inferido**: coincide con la subasta a 12 meses del 04-11-2025, vencimiento 06-11-2026 (fuente: extracto de Finect/Tesoro vía búsqueda) |
 | Precio de compra de B | ≈ 974,93 por 1.000 € (tipo medio 2,543 %) | **Inferido**: coincide con la subasta del 02-06-2026; el precio se deriva del tipo medio porque la fuente daba un precio incoherente (97,535 corresponde al 2,50 % de julio) |
 | Nominal | 8.000 € cada una | **Supuesto** (las Letras se compran en múltiplos de 1.000 € de nominal) |
+| Custodio | Cuenta directa del Banco de España (compra en la web del Tesoro) | Hecho (declarado). Comisión: 0,15 % al vencer (12 € por Letra), deducible en la Renta |
 
 Si el usuario pujó a precio distinto del medio (petición competitiva) o el nominal no es 8.000 €, corregir
 `data/letras.csv` y volver a ejecutar `python -m cartera escalera`.
@@ -30,18 +31,18 @@ Escalera de dos peldaños separados unos 7 meses (noviembre / junio). Ventajas o
 
 ## 8.3 Qué rinde hoy
 
-`python -m cartera escalera --data data --hoy 2026-09-10 --inflacion 0.033 --peso-letras 1`
+`python -m cartera escalera --data data --hoy 2026-09-10 --inflacion 0.033 --peso-letras 1 --custodio bde`
 
-| Vence | Días | Nominal | Pagado | Tipo bruto | TAE neta | Rendimiento neto |
+| Vence | Días | Nominal | Pagado | Tipo bruto | TAE neta | Rendimiento neto (tras IRPF y 12 € de comisión BdE) |
 |---|---|---|---|---|---|---|
-| 06-11-2026 | 57 | 8.000 € | 7.842,24 € | 1,99 % | 1,63 % | 127,79 € |
-| 04-06-2027 | 267 | 8.000 € | 7.799,44 € | 2,54 % | 2,09 % | 162,45 € |
+| 06-11-2026 | 57 | 8.000 € | 7.842,24 € | 1,99 % | 1,48 % | 115,79 € |
+| 04-06-2027 | 267 | 8.000 € | 7.799,44 € | 2,54 % | 1,94 % | 150,45 € |
 
 | Concepto | Valor |
 |---|---|
-| Rendimiento neto total de las dos Letras al vencer | **290,24 €** |
-| Pérdida de poder adquisitivo con inflación del 3,3 % | **≈ 238 €** (16.000 × 3,3 % − 290) |
-| TAE real neta de A / de B | ≈ −1,6 % / ≈ −1,2 % |
+| Rendimiento neto total de las dos Letras al vencer | **266,24 €** |
+| Pérdida de poder adquisitivo con inflación del 3,3 % | **≈ 262 €** (16.000 × 3,3 % − 266) |
+| TAE real neta de A / de B | ≈ −1,8 % / ≈ −1,3 % |
 
 La Letra A se compró en el momento de tipos más bajos del ciclo (1,99 %). Al renovarla en noviembre de 2026
 al tipo de referencia de agosto (2,66 %), su rendimiento neto subiría de 128 € a ≈ 170 €, con TAE real
