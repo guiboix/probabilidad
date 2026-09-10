@@ -1,74 +1,74 @@
 # 8. Situación actual: escalera de dos Letras a 12 meses
 
-## 8.1 Datos aportados por el usuario (10-09-2026)
+## 8.1 Datos confirmados por el usuario (10-09-2026)
 
 | Dato | Valor | Estado |
 |---|---|---|
-| Número de Letras | 2, ambas a 12 meses | Hecho (declarado) |
-| Importe de cada una | 8.000 € | Hecho; **falta saber si es nominal o importe pagado**. Las Letras se compran en múltiplos de 1.000 € de nominal, así que lo más probable es 8.000 € nominal (≈ 7.790–7.800 € pagados) |
-| Vencimientos | Separados 6 meses entre sí | Hecho (declarado); **faltan las fechas exactas** |
-| Precio de compra de cada una | Desconocido | Estimado con subastas de 2026: 12 meses entre 2,50 % (julio) y 2,66 % (agosto); abril ≈ 2,64 % |
+| Fondo de emergencia | Existe, **aparte** de estas Letras | Hecho (declarado) |
+| Decisión actual sobre las Letras | Se mantienen renovándose de momento | Hecho (declarado) |
+| Letra A | 8.000 €, amortiza el **06-11-2026** | Hecho (declarado) |
+| Letra B | 8.000 €, amortiza el **04-06-2027** | Hecho (declarado) |
+| Precio de compra de A | 980,28 por 1.000 € (tipo medio 1,990 %) | **Inferido**: coincide con la subasta a 12 meses del 04-11-2025, vencimiento 06-11-2026 (fuente: extracto de Finect/Tesoro vía búsqueda) |
+| Precio de compra de B | ≈ 974,93 por 1.000 € (tipo medio 2,543 %) | **Inferido**: coincide con la subasta del 02-06-2026; el precio se deriva del tipo medio porque la fuente daba un precio incoherente (97,535 corresponde al 2,50 % de julio) |
+| Nominal | 8.000 € cada una | **Supuesto** (las Letras se compran en múltiplos de 1.000 € de nominal) |
 
-Hasta tener el resguardo de cada compra, los cálculos siguientes usan fechas y precios **supuestos**:
-vencimientos el 12-02-2027 (precio 974,50) y el 06-08-2027 (precio 973,78, subasta real del 04-08-2026).
-Sustituir en `data/letras.csv` y volver a ejecutar `python -m cartera escalera`.
+Si el usuario pujó a precio distinto del medio (petición competitiva) o el nominal no es 8.000 €, corregir
+`data/letras.csv` y volver a ejecutar `python -m cartera escalera`.
+
+Consecuencia de que el fondo de emergencia esté aparte: estos 16.000 € **no tienen función de liquidez de
+urgencia**. Son capital invertible cuyo horizonte lo decide el usuario. Eso cambia el análisis: mantenerlos
+en Letras es una elección de riesgo, no una necesidad.
 
 ## 8.2 Qué es esta estructura y qué hace bien
 
-Es una **escalera de dos peldaños**: cada 6 meses vence una Letra, así que la mitad del capital vuelve a
-estar disponible dos veces al año. Ventajas objetivas:
+Escalera de dos peldaños separados unos 7 meses (noviembre / junio). Ventajas objetivas:
 
-- Liquidez semestral sin vender en el mercado secundario.
-- Cada vencimiento es un punto de decisión natural: renovar, mover a fondos o mezclar, **sin ningún
-  coste ni penalización fiscal** por no renovar.
-- Si los tipos suben, la mitad de la cartera se reinvierte al nuevo tipo en menos de 6 meses.
-- Diversificación temporal del riesgo de tipos (pequeña, con dos peldaños).
+- Liquidez dos veces al año sin acudir al mercado secundario.
+- Cada vencimiento es un punto de decisión sin coste ni efecto fiscal adicional por no renovar.
+- Si los tipos suben (el BCE subía en septiembre de 2026), la mitad se reinvierte al nuevo tipo en menos de 7 meses.
+- Diversificación temporal del riesgo de tipos, pequeña con dos peldaños.
 
-Es una estructura razonable para un fondo de emergencia o para dinero con destino a < 3 años.
+## 8.3 Qué rinde hoy
 
-## 8.3 Qué rinde hoy (supuestos de 8.1)
+`python -m cartera escalera --data data --hoy 2026-09-10 --inflacion 0.033 --peso-letras 1`
 
-`python -m cartera escalera --data data --hoy 2026-09-10 --inflacion 0.033`
+| Vence | Días | Nominal | Pagado | Tipo bruto | TAE neta | Rendimiento neto |
+|---|---|---|---|---|---|---|
+| 06-11-2026 | 57 | 8.000 € | 7.842,24 € | 1,99 % | 1,63 % | 127,79 € |
+| 04-06-2027 | 267 | 8.000 € | 7.799,44 € | 2,54 % | 2,09 % | 162,45 € |
 
-| Vence | Nominal | Pagado | Tipo bruto | TAE neta | Rendimiento neto |
-|---|---|---|---|---|---|
-| 2027-02-12 | 8.000 € | 7.796,00 € | 2,59 % | 2,13 % | 165,24 € |
-| 2027-08-06 | 8.000 € | 7.790,24 € | 2,66 % | 2,19 % | 169,91 € |
-
-| Concepto | Valor anual aproximado |
+| Concepto | Valor |
 |---|---|
-| Rendimiento neto total de la escalera (16.000 € nominal) | **≈ 335 €** |
-| Pérdida de poder adquisitivo con inflación del 3,3 % | **≈ 193 €** (16.000 × 3,3 % − 335) |
-| TAE real neta | ≈ −1,1 % a −1,2 % |
+| Rendimiento neto total de las dos Letras al vencer | **290,24 €** |
+| Pérdida de poder adquisitivo con inflación del 3,3 % | **≈ 238 €** (16.000 × 3,3 % − 290) |
+| TAE real neta de A / de B | ≈ −1,6 % / ≈ −1,2 % |
 
-Sensibilidad: si la primera Letra se compró al 2,50 % en lugar de al 2,59 %, su rendimiento neto baja
-a ≈ 160 €. El orden de magnitud no cambia: la escalera gana ≈ 320–340 € netos al año y pierde ≈ 190–210 €
-de poder adquisitivo. Estos números son hechos condicionados a los supuestos de fecha y precio.
+La Letra A se compró en el momento de tipos más bajos del ciclo (1,99 %). Al renovarla en noviembre de 2026
+al tipo de referencia de agosto (2,66 %), su rendimiento neto subiría de 128 € a ≈ 170 €, con TAE real
+neta ≈ −1,1 %: mejora, pero sigue por debajo de la inflación.
 
-## 8.4 Opciones a cada vencimiento
+## 8.4 Calendario de decisión
 
-El comando `escalera --peso-letras X --reserva Y` calcula cuánto renovar y cuánto mover en cada
-vencimiento para acabar con la fracción X del nominal actual (o al menos Y euros) en Letras.
+| Fecha | Evento | Decisión |
+|---|---|---|
+| Finales de octubre de 2026 | Plazo para cursar la petición en la subasta a 12 meses de noviembre (fecha estimada: 03-11-2026, liquidación 06-11-2026; confirmar en el calendario de tesoro.es) | Renovar A total, parcial o no renovar |
+| 06-11-2026 | Amortiza A: 8.000 € en cuenta | Si no se renueva todo, el resto va a fondos ese mismo día |
+| Finales de mayo de 2027 | Plazo para la subasta a 12 meses de junio (fecha estimada: 01-06-2027) | Renovar B total, parcial o no renovar |
+| 04-06-2027 | Amortiza B: 8.000 € en cuenta | Idem |
 
-| Escenario | Vence 02-2027 | Vence 08-2027 | Resultado |
+Plan de transición según fracción que se quiera mantener en Letras:
+
+| Escenario | 06-11-2026 | 04-06-2027 | Queda en Letras |
 |---|---|---|---|
-| Mantener todo (`--peso-letras 1`) | Renovar 8.000 | Renovar 8.000 | 16.000 € en Letras; sigue la pérdida real |
-| Mitad (`--peso-letras 0.5`) | Mover 8.000 a fondos | Renovar 8.000 | 8.000 € en Letras como reserva; 8.000 € en fondos |
-| Reserva fija (`--peso-letras 0 --reserva 5000`) | Mover 8.000 | Renovar 5.000, mover 3.000 | 5.000 € en Letras; 11.000 € en fondos |
-| Todo a fondos (`--peso-letras 0`) | Mover 8.000 | Mover 8.000 | 0 € en Letras |
+| Mantener todo (decisión actual, `--peso-letras 1`) | Renovar 8.000 | Renovar 8.000 | 16.000 € |
+| Mitad (`--peso-letras 0.5`) | Mover 8.000 a fondos | Renovar 8.000 | 8.000 € |
+| Todo a fondos (`--peso-letras 0`) | Mover 8.000 | Mover 8.000 | 0 € |
 
-Cuál elegir depende de los datos del documento 01, sobre todo de si estos 16.000 € **son** el fondo de
-emergencia o hay otro aparte. Sin ese dato no procede recomendar un escenario.
+La decisión declarada es mantener. Es compatible con empezar a aprender con fondos usando ahorro nuevo
+(documento 09) y revisar en octubre de 2026, con dos meses de experiencia, si se renueva A entera.
 
 ## 8.5 Ventaja de mover por vencimientos y no de golpe
 
-Mover 8.000 € en febrero y 8.000 € en agosto de 2027 reparte la entrada en renta variable en dos momentos
-separados 6 meses. Reduce (no elimina) el riesgo de entrar todo el capital justo antes de una caída.
-No vender las Letras antes de vencimiento evita además el diferencial de precio del mercado secundario.
-
-## 8.6 Qué hacer ahora con esta información
-
-1. Localizar en la cuenta directa del Banco de España (o en el banco intermediario) la fecha de compra,
-   fecha de vencimiento y precio de cada Letra, y pasarlos a `data/letras.csv`.
-2. Confirmar si existe fondo de emergencia aparte de estas dos Letras.
-3. Con eso, fijar `--peso-letras` y `--reserva` y dejar el plan escrito en el documento 02.
+Mover en noviembre de 2026 y en junio de 2027 reparte la entrada en dos momentos separados 7 meses.
+Reduce (no elimina) el riesgo de entrar todo justo antes de una caída. No vender antes de vencimiento
+evita el diferencial de precio del secundario.

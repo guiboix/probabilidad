@@ -15,8 +15,11 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
 3. En MyInvestor la vía más barata y con control ético total son los **fondos indexados sueltos**
    (coste ≈ TER 0,10–0,30 %, sin custodia); la cartera automatizada cuesta ≈ 0,40 % y no filtra ética;
    la Cartera Sostenible filtra (art. 9) pero cuesta 0,81 % o más según la fuente.
-4. **No se puede pasar a una recomendación concreta** sin los datos de `docs/01_perfil_y_objetivos.md`
-   (importe, horizonte, tolerancia a caídas, fondo de emergencia, definición de "ético").
+4. Situación declarada: fondo de emergencia aparte; dos Letras de 8.000 € que amortizan el 06-11-2026 y el
+   04-06-2027 y se mantienen renovándose; rinden ≈ 290 € netos y pierden ≈ 238 € de poder adquisitivo al año.
+5. Primer paso acordado: un fondo de renta fija de bajo riesgo con filtro ético, financiado con ahorro nuevo,
+   para aprender (documento 09). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
+   nivel ético (documento 01).
 
 ## Estructura
 
@@ -37,7 +40,7 @@ finanzas/
 │   └── README.md
 ├── src/cartera/                     # paquete Python (stdlib únicamente)
 │   ├── fiscalidad.py  letras.py  escalera.py  metricas.py  rebalanceo.py  simulacion.py  carga.py  cli.py
-└── tests/                           # 37 tests unittest
+└── tests/                           # 38 tests unittest
 ```
 
 ## Uso
@@ -57,6 +60,9 @@ python -m cartera simular --inicial 10000 --mensual 200 --anyos 10
 
 # Calendario de vencimientos de las Letras y plan de transición (requiere data/letras.csv)
 python -m cartera escalera --data data --peso-letras 0.5 --reserva 5000 --inflacion 0.033
+
+# Seguimiento de un fondo a partir de sus valores liquidativos (data/vl.csv)
+python -m cartera seguimiento --data data --periodos-anyo 52
 
 # Informe de la cartera real (requiere data/cartera.csv etc.; ver data/README.md)
 python -m cartera informe --data data --aportacion 500

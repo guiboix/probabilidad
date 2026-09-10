@@ -6,9 +6,16 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] Rellenar la tabla 1.1 de `01_perfil_y_objetivos.md`.
 - [ ] Elegir nivel ético en `05_criterios_eticos.md` §5.3.
 - [ ] Copiar plantillas de `data/` a `cartera.csv`, `letras.csv`, `movimientos.csv` con datos reales.
-- [ ] Confirmar fechas y precios de las dos Letras de 8.000 € (véase `08_escalera_letras.md` §8.1).
+- [x] Fechas de amortización de las Letras: 06-11-2026 y 04-06-2027. Falta confirmar precio de compra y nominal (`08_escalera_letras.md` §8.1).
+- [x] Fondo de emergencia aparte: confirmado.
 - [ ] Verificar en tesoro.es el tipo de la última subasta y en la app de MyInvestor las comisiones vigentes
   (resolver la discrepancia de coste de la Cartera Sostenible: 0,81 % vs 1,09–1,33 %).
+
+## Fase 0b — Primer fondo de aprendizaje (en curso, documento 09)
+- [ ] Buscar en la app los candidatos de §9.2 y rellenar la lista §9.4 con el KID.
+- [ ] Elegir uno, suscribir con ahorro nuevo y anotarlo en `movimientos.csv` y `cartera.csv`.
+- [ ] Registrar el VL semanal en `vl.csv` y ejecutar `python -m cartera seguimiento`.
+- [ ] Antes de finales de octubre de 2026: decidir si la Letra del 06-11-2026 se renueva entera.
 
 ## Fase 1 — Diseño (usuario + herramientas)
 - [ ] Fijar pesos objetivo en `02_politica_inversion.md` §2.2 y en `cartera.csv`.

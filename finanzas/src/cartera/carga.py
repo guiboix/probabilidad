@@ -4,6 +4,7 @@ Formatos (cabeceras obligatorias):
 - cartera.csv:     activo,clase,isin,valor,peso_objetivo
 - movimientos.csv: fecha,activo,tipo,importe      (tipo: aportacion|retirada|valoracion)
 - letras.csv:      fecha_compra,fecha_vencimiento,nominal,precio_compra
+- vl.csv:          fecha,activo,valor_liquidativo   (una fila por fecha y fondo)
 - supuestos.json:  ver data/supuestos.json
 """
 
@@ -63,3 +64,14 @@ def leer_supuestos(ruta: Path) -> dict:
         for e in datos.get("escenarios", [])
     ]
     return datos
+
+
+def leer_vl(ruta: Path) -> dict[str, list[tuple[date, float]]]:
+    """Series de valor liquidativo por activo, ordenadas por fecha."""
+    series: dict[str, list[tuple[date, float]]] = {}
+    with open(ruta, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            series.setdefault(r["activo"].strip(), []).append((_fecha(r["fecha"]), float(r["valor_liquidativo"])))
+    for v in series.values():
+        v.sort()
+    return series

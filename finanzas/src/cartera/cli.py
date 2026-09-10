@@ -5,6 +5,7 @@
     python -m cartera informe [--data data]
     python -m cartera simular --inicial 10000 --mensual 200 --anyos 15 [--data data]
     python -m cartera escalera --peso-letras 0.5 [--reserva 5000] [--data data]
+    python -m cartera seguimiento [--data data] [--periodos-anyo 52]
 """
 
 from __future__ import annotations
@@ -119,6 +120,26 @@ def cmd_escalera(a: argparse.Namespace) -> None:
         print(f"| {f} | {n:,.0f} € | {r:,.0f} € | {m:,.0f} € |")
 
 
+def cmd_seguimiento(a: argparse.Namespace) -> None:
+    """Rentabilidad, volatilidad y caída máxima de cada fondo a partir de data/vl.csv."""
+    series = carga.leer_vl(Path(a.data) / "vl.csv")
+    print(f"# Seguimiento de valores liquidativos — {date.today().isoformat()}\n")
+    print("| Fondo | Desde | Hasta | Observaciones | Rentabilidad acumulada | Anualizada | Volatilidad anualizada | Caída máxima |\n|---|---|---|---|---|---|---|---|")
+    for activo, serie in series.items():
+        vls = [v for _, v in serie]
+        if len(vls) < 2:
+            print(f"| {activo} | {serie[0][0]} | — | {len(vls)} | — | — | — | — |")
+            continue
+        acumulada = vls[-1] / vls[0] - 1.0
+        dias = (serie[-1][0] - serie[0][0]).days
+        anualizada = (1.0 + acumulada) ** (365.0 / dias) - 1.0 if dias > 0 else 0.0
+        rents = metricas.rentabilidades_periodicas(vls)
+        vol = metricas.volatilidad_anualizada(rents, a.periodos_anyo) if len(rents) >= 2 else 0.0
+        dd = metricas.drawdown_maximo(vls)
+        print(f"| {activo} | {serie[0][0]} | {serie[-1][0]} | {len(vls)} | {_pct(acumulada)} | {_pct(anualizada)} | {_pct(vol)} | {_pct(dd)} |")
+    print("\nLa anualizada extrapola periodos cortos: con pocas semanas de datos es muy ruidosa. La volatilidad usa la regla raíz del tiempo (Tema 7 del curso).")
+
+
 def cmd_simular(a: argparse.Namespace) -> None:
     sup = carga.leer_supuestos(Path(a.data) / "supuestos.json")
     print(f"# Simulación Monte Carlo: {a.inicial:,.0f} € iniciales + {a.mensual:,.0f} €/mes durante {a.anyos} años\n")
@@ -171,6 +192,11 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--inflacion", type=float, default=None)
     s.add_argument("--hoy", default=None, help="fecha de referencia AAAA-MM-DD (por defecto hoy)")
     s.set_defaults(func=cmd_escalera)
+
+    s = sub.add_parser("seguimiento", help="rentabilidad, volatilidad y caída máxima desde data/vl.csv")
+    s.add_argument("--data", default="data")
+    s.add_argument("--periodos-anyo", type=int, default=52, help="52 si los VL son semanales, 12 si mensuales, 252 si diarios")
+    s.set_defaults(func=cmd_seguimiento)
 
     a = p.parse_args(argv)
     a.func(a)
