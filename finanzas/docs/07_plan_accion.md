@@ -30,8 +30,8 @@ Orden propuesto. Cada paso depende del anterior.
 
 ## Fase 0b — Primer fondo de aprendizaje (en curso, documento 09)
 - [x] Buscador de MyInvestor revisado: único indexado de renta fija con filtro ético visto es iShares ESG Screened Global Corporate Bond EUR Hedged (IE00BJN4RG66, TER 0,14 %).
-- [ ] Repetir la búsqueda con el interruptor ESG activado y enviar la lista.
-- [ ] Abrir la ficha del IE00BJN4RG66: indicador de riesgo, artículo SFDR, duración, patrimonio; descargar el KID y rellenar §9.4.
+- [x] Lista completa de indexados de renta fija revisada: 6 con filtro ético; finalista iShares Euro Corporate Bond ESG SRI (IE000KDUZ5O6), alternativa IE00BJN4RG66.
+- [ ] Abrir la ficha del IE000KDUZ5O6: riesgo (1–7), SFDR, acumulación o reparto, mínimo de entrada, patrimonio; descargar el KID y rellenar §9.4.
 - [ ] Elegir uno, suscribir **300 €** con ahorro nuevo y anotarlo en `movimientos.csv` y `cartera.csv`.
 - [ ] Importar `data/calendario_vencimientos.ics` en el calendario personal.
 - [ ] Registrar el VL semanal en `vl.csv` y ejecutar `python -m cartera seguimiento`.

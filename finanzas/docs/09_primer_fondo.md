@@ -64,10 +64,45 @@ años +0,07 %). Los ligados a inflación suben porque la inflación ha repuntado
 del §9.1: "duración 6 ≈ −6 % por cada punto de subida". Con 300 € en el iShares ESG Screened, un año como
 2026 habría sido ≈ −4 €.
 
-**Lo que falta**: la lista está incompleta (ordenada por TER, varias páginas) y no se ve el indicador de
-riesgo ni la clasificación SFDR. Pendiente: repetir con el interruptor ESG activado para ver si aparecen
-otros (p. ej. Amundi Index Euro Agg SRI, iShares Euro Aggregate ESG, Vanguard ESG Global Corporate Bond)
-y abrir la ficha del iShares ESG Screened para anotar riesgo (1–7), artículo SFDR y duración.
+### Lista completa (segunda tanda de capturas, hasta "¡Fin!")
+
+Fondos indexados de renta fija **con filtro ético** encontrados en todo el catálogo de MyInvestor:
+
+| Fondo | ISIN | Divisa | Qué contiene | Filtro ético | TER | 2026 | 1 año | 3 años | 5 años |
+|---|---|---|---|---|---|---|---|---|---|
+| **iShares Euro Corporate Bond ESG SRI Index Ins EUR A** | IE000KDUZ5O6 | EUR | Bonos de empresas europeas grado de inversión | **SRI** (exclusiones + mejores de cada sector) | 0,15 % | −0,13 % | +0,09 % | +4,05 % | — (fondo joven) |
+| **iShares ESG Screened Global Corporate Bond Index Fund EUR Hedged** | IE00BJN4RG66 | EUR | Bonos de empresas de todo el mundo, cubierto a euros | Screened (solo exclusiones) | 0,14 % | −1,29 % | −0,91 % | +3,57 % | −1,48 % |
+| **Vanguard SRI Euro Investment Grade Bond Index Fund EUR Acc** | IE00BYSX5D68 | EUR | Bonos euro de Estados y empresas, grado de inversión | SRI | 0,16 % | −0,78 % | −0,52 % | +3,31 % | −1,15 % |
+| iShares Green Bond Index Fund (IE) Institutional Acc EUR | IE00BD0DT792 | EUR | Bonos verdes globales | Uso de fondos verde (posible art. 9) | 0,21 % | −0,89 % | −0,73 % | +2,79 % | −2,58 % |
+| State Street Euro Corporate Bond Screened Index Fund P EUR | LU0438092883 | EUR | Bonos de empresas euro | Screened | 0,35 % | −0,19 % | +0,04 % | +4,12 % | −0,27 % |
+| Amundi Index Euro AGG Corporate SRI AE-C (acumulación) | LU1050469367 | EUR | Bonos de empresas euro | SRI | 0,35 % | −0,22 % | −0,24 % | +3,86 % | −0,48 % |
+
+Sin filtro ético pero útiles como referencia de bajo riesgo: Vanguard Global Short-Term Corporate Bond
+EUR Hedged (IE00BDFB7290, 0,18 %, corto plazo, 5 años +0,6 %) y Amundi Index Barclays Euro Corporate
+BBB 1-5 (LU1525412281, 0,35 %, 1–5 años). Descartados: todas las clases en USD/GBP, los de deuda
+emergente (riesgo 3–4, sin filtro) y los de deuda pública larga.
+
+### Finalistas y comparación
+
+| Criterio | iShares Euro Corp ESG SRI (IE000KDUZ5O6) | iShares ESG Screened Global Corp EUR Hedged (IE00BJN4RG66) | Vanguard SRI Euro IG (IE00BYSX5D68) |
+|---|---|---|---|
+| Exigencia ética | **Alta** (SRI: excluye y además selecciona) | Media (solo excluye) | Alta (SRI) |
+| Duración estimada | ≈ 4,5 (la más corta de las tres) | ≈ 6 | ≈ 6,5 (incluye deuda pública larga) |
+| Comportamiento 2026 (BCE subiendo) | −0,13 % | −1,29 % | −0,78 % |
+| Divisa | Euro directo, sin coste de cobertura | Cubierto a euros (coste pequeño incluido) | Euro directo |
+| Diversificación | Empresas europeas (cientos de emisores) | Empresas de todo el mundo (miles) | Estados y empresas euro |
+| Coste | 0,15 % | 0,14 % | 0,16 % |
+| Antigüedad | Menos de 5 años (sin dato a 5 años): **comprobar patrimonio** | Más de 5 años | Más de 5 años |
+| Clase | "Ins" (institucional) "A": **comprobar mínimo de entrada y si es acumulación** | Verificar clase Acc | Acc |
+
+**Interpretación:** para un primer fondo ético, de bajo riesgo y en euros, el **iShares Euro Corporate
+Bond ESG SRI (IE000KDUZ5O6)** encaja mejor: filtro más exigente, menor duración y coste igual de bajo.
+El global cubierto (IE00BJN4RG66) es la alternativa si el primero tiene mínimo de entrada alto, poco
+patrimonio o resulta ser de reparto. El Vanguard SRI queda tercero por su mayor duración.
+
+**Pendiente antes de comprar (ficha y KID del IE000KDUZ5O6):** indicador de riesgo (esperado 2),
+artículo SFDR, política de distribución (acumulación), importe mínimo de la clase, patrimonio y fecha de
+lanzamiento, metodología SRI del índice (Bloomberg MSCI Euro Corporate SRI, a confirmar).
 
 ## 9.3 Criterio de elección para este caso
 
