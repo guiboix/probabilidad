@@ -26,8 +26,8 @@ mayor parte del capital. Traducción a reglas:
   leer un VL, una duración y un KID. Empieza con 300 €.
 
 Con ≈ 30.000 € de capital total (declarado), las reglas en euros: bloque conservador ≥ 25.500 €; bloque de
-aprendizaje ≤ 4.500 €; renta variable 0 €. El fondo de emergencia, si está dentro de esos 30.000 €, cuenta
-como bloque conservador pero no se invierte en nada que no sea liquidez inmediata o Letras.
+aprendizaje ≤ 4.500 €; renta variable 0 €. El fondo de emergencia (≈ 14.000 € en CaixaBank) está dentro de esos 30.000 € y cuenta como bloque
+conservador, pero solo puede estar en liquidez inmediata, cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter).
 
 | Bloque | Función | Instrumento | Fase 0 (hoy) | Fase 1 (tras el aprendizaje) |
 |---|---|---|---|---|

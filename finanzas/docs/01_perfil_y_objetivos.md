@@ -7,10 +7,10 @@
 
 | Dato | Por qué importa | Respuesta |
 |---|---|---|
-| Importe total invertible hoy (€) | Escala de todo; determina si merece la pena diversificar en varios fondos | **≈ 30.000 €** en total contando las Letras (declarado 10-09-2026). Falta el desglose de los ≈ 14.000 € que no son Letras: bonos, fondo de emergencia y efectivo |
+| Importe total invertible hoy (€) | Escala de todo; determina si merece la pena diversificar en varios fondos | **≈ 30.000 €**: 16.000 € en Letras + ≈ 14.000 € en la cuenta de CaixaBank que hacen de fondo de emergencia. Pendiente: si los "bonos" mencionados son las propias Letras o un producto distinto dentro de esos 30.000 € |
 | Importe actual en Letras del Tesoro y vencimientos | Es el dinero que se plantea mover; sus vencimientos marcan el calendario natural sin vender antes | **Aportado 10-09-2026:** dos Letras a 12 meses de 8.000 € cada una (16.000 €), amortizaciones el **06-11-2026** y el **04-06-2027**. Se mantienen renovándose de momento. Precios inferidos de las subastas del 04-11-2025 (1,99 %) y 02-06-2026 (2,54 %). Falta confirmar que 8.000 € es nominal |
 | Capacidad de ahorro mensual (€) | Permite rebalancear con aportaciones (sin tributar) y usar aportaciones periódicas | |
-| Fondo de emergencia ya cubierto (meses de gastos) | Es requisito previo a asumir volatilidad. Referencia habitual: 3–6 meses de gastos en liquidez o Letras | **Sí, aparte de las Letras** (declarado 10-09-2026). Meses de gastos: sin dato |
+| Fondo de emergencia ya cubierto (meses de gastos) | Es requisito previo a asumir volatilidad. Referencia habitual: 3–6 meses de gastos en liquidez o Letras | **Son los ≈ 14.000 € en la cuenta de CaixaBank** (aclarado 10-09-2026): cumplen la función de colchón y a la vez el usuario los considera invertibles "si ve que los productos son seguros". Meses de gastos que cubren: **sin dato** (es el número que decide cuánto se puede mover) |
 | Horizonte de la inversión (años) | Con menos de 5 años la renta variable tiene una probabilidad relevante de estar en pérdidas (véase `simular`) | |
 | Necesidades de liquidez previstas (vivienda, coche, estudios…) y fecha | Ese dinero no debe ir a renta variable | |
 | Tolerancia a caídas: ¿qué caída temporal del total (10 %, 20 %, 35 %) haría vender por miedo? | Define el porcentaje máximo de renta variable | Declarado: perfil muy conservador. Cifra concreta: sin dato; de momento RV 0 % |
@@ -26,7 +26,7 @@ Del enunciado del usuario (10-09-2026):
 - Gestionar la cartera para obtener rentabilidad **de forma ética y segura**.
 - Dispone de cuenta en MyInvestor y está abierto a fondos de inversión.
 - Tiene dinero en Letras del Tesoro y percibe que su rentabilidad es baja frente a otros productos.
-- Tiene fondo de emergencia aparte. Mantiene las Letras renovándose de momento.
+- El fondo de emergencia son los ≈ 14.000 € de la cuenta corriente; los considera invertibles en productos seguros cuando tenga confianza. Mantiene las Letras renovándose de momento.
 - Quiere empezar con un fondo de bajo riesgo y buena ética para familiarizarse (documento 09), con 300 €.
 - Tiene **bonos** (sin más datos: emisor, vencimiento, cupón y precio pendientes; documento 10 §10.4).
 - Su capital está en **CaixaBank**, pero las Letras las compra en la web del Tesoro (cuenta directa del Banco de España): canal sin comisiones de compra ni custodia (documento 11). Pendiente: dónde están los bonos.

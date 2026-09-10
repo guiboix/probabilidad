@@ -47,11 +47,10 @@ restarla a mano en la casilla del rendimiento. En tus dos Letras son 24 € de b
 | Dónde | Importe | Estado |
 |---|---|---|
 | Letras A y B (Banco de España) | 16.000 € | Confirmado |
-| Bonos | ? | Importe, emisor y custodio pendientes |
-| Fondo de emergencia | ? | Existe; importe pendiente |
-| Efectivo en cuenta corriente CaixaBank (0 %) | ? | Pendiente |
-| Fondo de aprendizaje (previsto) | 300 € | Por contratar |
-| **Total** | **≈ 30.000 €** | Los ≈ 14.000 € no-Letras están sin desglosar |
+| Cuenta corriente CaixaBank al 0 % = fondo de emergencia | ≈ 14.000 € | Confirmado. Doble función: colchón e "invertible si es seguro" |
+| Bonos | ? | Pendiente aclarar si son las Letras u otro producto |
+| Fondo de aprendizaje (previsto) | 300 € | Por contratar, con ahorro nuevo |
+| **Total** | **≈ 30.000 €** | |
 
 Dos consecuencias inmediatas:
 
@@ -59,9 +58,42 @@ Dos consecuencias inmediatas:
   Sin problema de concentración.
 - **Mantenimiento:** el usuario confirma que CaixaBank no le cobra. Nada que corregir.
 
-Lo que importa ahora es el desglose de los 14.000 €: cada euro que no sea fondo de emergencia ni bono y
-esté en la cuenta corriente al 0 % pierde ≈ 3,3 % anual. Si fueran, por ejemplo, 5.000 € parados, el coste
-sería ≈ 165 € al año de poder adquisitivo, más de la mitad de lo que rinden las dos Letras juntas.
+## 11.2 ter Qué hacer con un fondo de emergencia de 14.000 € (explicado desde cero)
+
+Un fondo de emergencia tiene una sola obligación: **estar disponible en días y no haber bajado de valor**
+cuando haga falta. No tiene obligación de rendir 0 %. Hoy los 14.000 € pierden ≈ 460 € al año de poder de
+compra (3,3 % de inflación) por estar en una cuenta al 0 %.
+
+Los productos que cumplen esa obligación y además rinden algo son solo estos:
+
+| Producto | Disponible en | ¿Puede bajar de valor? | Rendimiento 09-2026 | Garantía |
+|---|---|---|---|---|
+| Cuenta remunerada (MyInvestor u otra) | Inmediato | No | 2,5 % TAE en promoción; el tipo base sin promoción hay que consultarlo | FGD hasta 100.000 € |
+| Letras a 3 meses (Banco de España) | Cada 3 meses (o venta en secundario) | No, a vencimiento | ≈ 2,1–2,4 % | Estado |
+| Letras a 6 meses (Banco de España) | Cada 6 meses | No, a vencimiento | ≈ 2,3–2,6 % | Estado |
+| Fondo monetario | 1–3 días hábiles | Muy poco (riesgo 1/7) | ≈ tipos BCE − coste | Sin FGD; diversificado |
+
+Lo que **no** cumple la obligación y por tanto no es sitio para el colchón, por seguro que parezca: fondos
+de renta fija con duración (riesgo 2 o más), Bonos a 3–5 años, depósitos a plazo sin cancelación anticipada,
+y por supuesto cualquier cosa con acciones.
+
+Esquema razonable, pendiente de saber cuántos meses de gastos hay que cubrir:
+
+1. **Gastos de 2–3 meses** en la cuenta corriente de CaixaBank (operativa) o en cuenta remunerada: acceso inmediato.
+2. **El resto del colchón hasta 6 meses de gastos** en cuenta remunerada o en Letras a 3 meses escalonadas
+   (una cada mes, así siempre vence una en menos de 30 días).
+3. **Lo que sobre por encima de 6 meses de gastos** deja de ser fondo de emergencia y pasa al bloque
+   conservador de la cartera (documento 02): Letras a 12 meses o, tras el aprendizaje, renta fija corta ética.
+
+Ejemplo ilustrativo, **no un dato**: con gastos de 1.500 €/mes, 6 meses son 9.000 €; los otros 5.000 €
+serían invertibles bajo las reglas conservadoras. Con gastos de 2.300 €/mes, los 14.000 € son el colchón
+entero y no sobra nada. El número que falta es el gasto mensual.
+
+Sobre la confianza que pide el usuario: los cuatro productos de la tabla comparten la característica de que
+**el capital no baja**. La forma de ganar confianza sin arriesgar el colchón es empezar por uno de ellos
+(cuenta remunerada o una Letra a 3 meses) y comprobar durante un trimestre que el dinero está ahí, rinde
+lo prometido y se puede recuperar. Solo después tiene sentido probar productos de riesgo 2 con dinero que
+no sea el colchón.
 
 ## 11.3 El dinero que está parado
 
