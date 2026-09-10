@@ -4,6 +4,7 @@
     python -m cartera comparar --tipo-letra 0.02663 --fondo 0.05 --anyos 10 --importe 10000
     python -m cartera informe [--data data]
     python -m cartera simular --inicial 10000 --mensual 200 --anyos 15 [--data data]
+    python -m cartera escalera --peso-letras 0.5 [--reserva 5000] [--data data]
 """
 
 from __future__ import annotations
@@ -12,7 +13,7 @@ import argparse
 from datetime import date
 from pathlib import Path
 
-from . import carga, letras, metricas, rebalanceo, simulacion
+from . import carga, escalera, letras, metricas, rebalanceo, simulacion
 from .fiscalidad import cuota_ahorro
 
 
@@ -98,6 +99,26 @@ def cmd_informe(a: argparse.Namespace) -> None:
                 print(f"\n_No se pudo calcular la TIR: {e}_\n")
 
 
+def cmd_escalera(a: argparse.Namespace) -> None:
+    ls = carga.leer_letras(Path(a.data) / "letras.csv")
+    hoy = date.fromisoformat(a.hoy) if a.hoy else date.today()
+    cal = escalera.calendario(ls, hoy, a.otras_rentas)
+    total = sum(v.nominal for v in cal)
+    print(f"# Escalera de Letras a {hoy.isoformat()} — nominal vivo {total:,.0f} €\n")
+    print("| Vence | Días | Nominal | Pagado | Tipo bruto | TAE neta | Rend. neto |\n|---|---|---|---|---|---|---|")
+    for v in cal:
+        print(f"| {v.fecha} | {v.dias_restantes} | {v.nominal:,.0f} € | {v.importe_pagado:,.2f} € | {_pct(v.tipo_anual_bruto)} | {_pct(v.tae_neta)} | {v.rendimiento_neto:,.2f} € |")
+    neto_total = sum(v.rendimiento_neto for v in cal)
+    print(f"\nRendimiento neto total de las letras vivas al vencer: {neto_total:,.2f} €")
+    if a.inflacion is not None:
+        perdida_real = total * a.inflacion - neto_total
+        print(f"Pérdida de poder adquisitivo estimada con inflación {_pct(a.inflacion)}: {perdida_real:,.2f} € (inflación sobre nominal − rendimiento neto)")
+    print(f"\n## Plan de transición (objetivo {_pct(a.peso_letras)} en Letras, reserva mínima {a.reserva:,.0f} €)\n")
+    print("| Vence | Nominal | Renovar | Mover a fondos |\n|---|---|---|---|")
+    for f, n, r, m in escalera.plan_transicion(ls, hoy, a.peso_letras, a.reserva):
+        print(f"| {f} | {n:,.0f} € | {r:,.0f} € | {m:,.0f} € |")
+
+
 def cmd_simular(a: argparse.Namespace) -> None:
     sup = carga.leer_supuestos(Path(a.data) / "supuestos.json")
     print(f"# Simulación Monte Carlo: {a.inicial:,.0f} € iniciales + {a.mensual:,.0f} €/mes durante {a.anyos} años\n")
@@ -141,6 +162,15 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--n", type=int, default=5_000)
     s.add_argument("--data", default="data")
     s.set_defaults(func=cmd_simular)
+
+    s = sub.add_parser("escalera", help="calendario de vencimientos y plan de transición de las Letras")
+    s.add_argument("--data", default="data")
+    s.add_argument("--peso-letras", type=float, default=0.0, help="fracción del nominal actual que se quiere mantener en Letras")
+    s.add_argument("--reserva", type=float, default=0.0, help="importe mínimo a mantener en Letras (fondo de emergencia)")
+    s.add_argument("--otras-rentas", type=float, default=0.0)
+    s.add_argument("--inflacion", type=float, default=None)
+    s.add_argument("--hoy", default=None, help="fecha de referencia AAAA-MM-DD (por defecto hoy)")
+    s.set_defaults(func=cmd_escalera)
 
     a = p.parse_args(argv)
     a.func(a)

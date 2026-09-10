@@ -8,7 +8,7 @@
 | Dato | Por qué importa | Respuesta |
 |---|---|---|
 | Importe total invertible hoy (€) | Escala de todo; determina si merece la pena diversificar en varios fondos | |
-| Importe actual en Letras del Tesoro y vencimientos | Es el dinero que se plantea mover; sus vencimientos marcan el calendario natural sin vender antes | |
+| Importe actual en Letras del Tesoro y vencimientos | Es el dinero que se plantea mover; sus vencimientos marcan el calendario natural sin vender antes | **Aportado 10-09-2026:** dos Letras a 12 meses de 8.000 € cada una (16.000 € nominal), con vencimientos separados 6 meses. **Faltan:** fechas exactas de compra/vencimiento y precio de cada una; si 8.000 € es nominal o importe pagado |
 | Capacidad de ahorro mensual (€) | Permite rebalancear con aportaciones (sin tributar) y usar aportaciones periódicas | |
 | Fondo de emergencia ya cubierto (meses de gastos) | Es requisito previo a asumir volatilidad. Referencia habitual: 3–6 meses de gastos en liquidez o Letras | |
 | Horizonte de la inversión (años) | Con menos de 5 años la renta variable tiene una probabilidad relevante de estar en pérdidas (véase `simular`) | |
@@ -25,6 +25,8 @@ Del enunciado del usuario (10-09-2026):
 - Gestionar la cartera para obtener rentabilidad **de forma ética y segura**.
 - Dispone de cuenta en MyInvestor y está abierto a fondos de inversión.
 - Tiene dinero en Letras del Tesoro y percibe que su rentabilidad es baja frente a otros productos.
+
+Detalle de la escalera de Letras y su plan de transición: `08_escalera_letras.md`.
 
 ## 1.3 Contradicción que hay que resolver explícitamente
 

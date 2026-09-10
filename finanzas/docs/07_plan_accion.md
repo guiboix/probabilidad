@@ -6,6 +6,7 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] Rellenar la tabla 1.1 de `01_perfil_y_objetivos.md`.
 - [ ] Elegir nivel ético en `05_criterios_eticos.md` §5.3.
 - [ ] Copiar plantillas de `data/` a `cartera.csv`, `letras.csv`, `movimientos.csv` con datos reales.
+- [ ] Confirmar fechas y precios de las dos Letras de 8.000 € (véase `08_escalera_letras.md` §8.1).
 - [ ] Verificar en tesoro.es el tipo de la última subasta y en la app de MyInvestor las comisiones vigentes
   (resolver la discrepancia de coste de la Cartera Sostenible: 0,81 % vs 1,09–1,33 %).
 

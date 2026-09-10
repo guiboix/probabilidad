@@ -36,8 +36,8 @@ finanzas/
 │   ├── plantilla_*.csv              # plantillas; los CSV reales están en .gitignore
 │   └── README.md
 ├── src/cartera/                     # paquete Python (stdlib únicamente)
-│   ├── fiscalidad.py  letras.py  metricas.py  rebalanceo.py  simulacion.py  carga.py  cli.py
-└── tests/                           # 32 tests unittest
+│   ├── fiscalidad.py  letras.py  escalera.py  metricas.py  rebalanceo.py  simulacion.py  carga.py  cli.py
+└── tests/                           # 37 tests unittest
 ```
 
 ## Uso
@@ -54,6 +54,9 @@ python -m cartera comparar --tipo-letra 0.02663 --fondo 0.05 --anyos 10 --import
 
 # Proyección Monte Carlo con los escenarios de data/supuestos.json
 python -m cartera simular --inicial 10000 --mensual 200 --anyos 10
+
+# Calendario de vencimientos de las Letras y plan de transición (requiere data/letras.csv)
+python -m cartera escalera --data data --peso-letras 0.5 --reserva 5000 --inflacion 0.033
 
 # Informe de la cartera real (requiere data/cartera.csv etc.; ver data/README.md)
 python -m cartera informe --data data --aportacion 500

@@ -16,5 +16,9 @@ cp plantilla_letras.csv letras.csv
 | `letras.csv` | `fecha_compra,fecha_vencimiento,nominal,precio_compra` | `precio_compra` por cada 1.000 € de nominal, como lo publica el Tesoro. |
 | `supuestos.json` | ver fichero | Parámetros de simulación, bandas de rebalanceo y referencias de mercado con su fuente. |
 
-Los datos de ejemplo de las plantillas son ilustrativos, salvo el precio 973,78 (subasta de
+`plantilla_letras.csv` refleja la estructura declarada por el usuario (dos Letras a 12 meses de 8.000 € nominal con
+vencimientos separados 6 meses). Las fechas y el precio de la primera (974,50) son **supuestos** hasta que el usuario
+los confirme con el resguardo del Banco de España; el de la segunda es el precio medio de la subasta del 04-08-2026.
+
+Los demás datos de ejemplo de las plantillas son ilustrativos, salvo el precio 973,78 (subasta de
 Letras a 12 meses del 4 de agosto de 2026), que se cita como referencia y debe verificarse en tesoro.es.

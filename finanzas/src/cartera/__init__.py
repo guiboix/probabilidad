@@ -6,6 +6,7 @@ Módulos:
 - metricas: rentabilidad simple, TWR, TIR (XIRR), volatilidad, drawdown.
 - rebalanceo: desviaciones respecto a la asignación objetivo y órdenes.
 - simulacion: proyección Monte Carlo con aportaciones periódicas.
+- escalera: calendario de vencimientos de Letras y plan de transición.
 - carga: lectura de los CSV de data/.
 
 Todo el paquete usa solo la biblioteca estándar de Python (>= 3.10).
