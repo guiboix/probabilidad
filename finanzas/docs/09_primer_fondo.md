@@ -30,13 +30,44 @@ amplitud de caída de la renta variable.
 
 | Candidato | Tipo | Ética | Riesgo esperado | A favor | En contra | Estado de verificación |
 |---|---|---|---|---|---|---|
-| **iShares ESG Screened Global Corporate Bond Index Fund (EUR Hedged)** | Indexado, bonos corporativos grado de inversión globales, cubierto a euros | Exclusiones (armas, tabaco, carbón térmico, arenas bituminosas, controversias graves); SFDR art. 8 | Indicador 2/7 esperado; duración media (≈ 6) | Coste indexado bajo; muy diversificado (miles de bonos); cubierto a euros | Duración media: sensible a subidas de tipos como la de 09-2026; solo exclusiones, no best-in-class | Citado como disponible en MyInvestor (fuente: análisis de terceros). TER e ISIN sin verificar |
+| **iShares ESG Screened Global Corporate Bond Index Fund (EUR Hedged)** | Indexado, bonos corporativos grado de inversión globales, cubierto a euros | Exclusiones (armas, tabaco, carbón térmico, arenas bituminosas, controversias graves); SFDR art. 8 | Indicador 2/7 esperado; duración media (≈ 6) | Coste indexado bajo; muy diversificado (miles de bonos); cubierto a euros | Duración media: sensible a subidas de tipos como la de 09-2026; solo exclusiones, no best-in-class | **Confirmado en MyInvestor** (captura 10-09-2026): ISIN IE00BJN4RG66, TER 0,14 %, clase EUR. Riesgo y SFDR pendientes de la ficha |
 | **Vanguard ESG Global Corporate Bond Index Fund EUR Hedged Acc** | Indexado, equivalente al anterior | Exclusiones; art. 8 | 2/7; duración ≈ 6 | Vanguard, coste bajo (la versión ETF tiene TER 0,15 %) | Igual que el anterior | Disponibilidad como fondo (no ETF) en MyInvestor **no confirmada** |
 | **ERSTE Responsible Reserve EUR** | Gestión activa, renta fija corporativa grado de inversión a corto plazo | Responsable (verificar artículo SFDR y metodología) | 1/7 esperado; duración < 1 | Mínima sensibilidad a tipos: el más parecido a una Letra | Activo (coste mayor que un indexado); rentabilidad ≈ tipos monetarios | Citado como disponible en MyInvestor. TER, ISIN y clase sin verificar |
 | **Fondo de bonos verdes (art. 9)**, p. ej. gestoras como Goldman Sachs/NN, Mirova, Amundi | Activo o indexado sobre índice de bonos verdes | Uso de fondos ambiental; art. 9 | 2–3/7; duración larga (≈ 7) | Máxima exigencia ética verificable | Coste 0,4–0,8 %; duración larga = más riesgo de tipos; menos diversificado | Buscar en el catálogo con "green bond"; disponibilidad concreta sin verificar |
 
 Búsqueda recomendada dentro de la app: filtrar por *renta fija*, *indexado*, y palabras "ESG", "SRI",
 "Screened", "Sostenible", "Green". MyInvestor cataloga más de 100 fondos ESG.
+
+## 9.2 bis Fondos vistos en el buscador de MyInvestor (capturas del usuario, 10-09-2026)
+
+Lista de fondos indexados de renta fija ordenada por TER, sin que conste que el interruptor "Fondos
+socialmente responsables (ESG)" estuviera activado (aparecen fondos sin filtro ético). Rentabilidades
+anualizadas tal como las muestra MyInvestor; sirven para la lección, no para elegir.
+
+| Fondo | ISIN | Divisa | Categoría | TER | 2026 | 1 año | 3 años | ¿Ético? | Comentario |
+|---|---|---|---|---|---|---|---|---|---|
+| **iShares ESG Screened Global Corporate Bond Index Fund EUR Hedged** | IE00BJN4RG66 | EUR | Global corporativo, cubierto | 0,14 % | −1,29 % | −0,91 % | +3,57 % | **Sí** (exclusiones, art. 8 a verificar) | **Único con filtro ético en la lista.** Coincide con el primer candidato de §9.2. Duración media (≈ 6) |
+| iShares Global Aggregate 1-5 Year Bond Index Fund EUR Hedged | IE0004ZP1ND3 | EUR | Global, 1–5 años, cubierto | 0,08 % | +0,07 % | +0,44 % | — | No | El más barato y de menor duración (≈ 2,7). Fondo nuevo (sin 3 años). Referencia de "bajo riesgo" sin ética |
+| Vanguard Global Short-Term Bond Index Fund EUR Hedged Acc | IE00BH65QP47 | EUR | Global corto plazo, cubierto | 0,15 % | −0,35 % | +0,02 % | +2,78 % | No | Corto plazo, muy diversificado |
+| Vanguard Eurozone Inflation-Linked Bond Index Fund EUR Acc | IE00B04GQR24 | EUR | Bonos ligados a inflación | 0,12 % | +1,76 % | +1,95 % | +1,79 % | No | Protege de la inflación, pero duración larga (≈ 7–8) y muy volátil en 2022 |
+| iShares Euro Government Inflation-Linked Bond Index Fund (IE) D Acc EUR | IE00BD0NC144 | EUR | Bonos ligados a inflación | 0,10 % | +2,26 % | +2,26 % | +1,77 % | No | Idem |
+| Vanguard Euro Government Bond Index Fund EUR Acc | IE0007472990 | EUR | Deuda pública euro | 0,12 % | −1,71 % | −1,58 % | +1,96 % | No | Duración ≈ 7: cae cuando el BCE sube |
+| Vanguard Euro Investment Grade Bond Index Fund EUR Acc | IE00B04FFJ44 | EUR | Corporativo euro | 0,12 % | −0,71 % | −0,40 % | +3,41 % | No | Duración ≈ 5 |
+| Vanguard Global Bond Index Fund EUR Hedged Acc | IE00B18GC888 | EUR | Global agregado, cubierto | 0,15 % | −1,72 % | −1,62 % | +2,06 % | No | Duración ≈ 6–7 |
+| Vanguard U.K. Government Bond Index Fund EUR Hedged Acc | IE00BLPJRG31 | EUR | Deuda pública británica, cubierta | 0,12 % | −3,48 % | −1,25 % | +0,28 % | No | Duración ≈ 9–10: el peor de 2026 |
+| Clases en GBP o USD (varios) | — | GBP/USD | — | — | — | — | — | — | **Descartadas**: riesgo de divisa para un inversor en euros |
+
+**La lección que da esta tabla** (hecho observable): en 2026 el BCE ha subido tipos dos veces y todos
+los fondos de bonos con duración larga están en negativo en el año, más cuanto mayor es la duración
+(deuda pública británica cubierta −3,48 %; euro gobierno −1,71 %; corporativo euro −0,71 %; global 1–5
+años +0,07 %). Los ligados a inflación suben porque la inflación ha repuntado. Es exactamente la regla
+del §9.1: "duración 6 ≈ −6 % por cada punto de subida". Con 300 € en el iShares ESG Screened, un año como
+2026 habría sido ≈ −4 €.
+
+**Lo que falta**: la lista está incompleta (ordenada por TER, varias páginas) y no se ve el indicador de
+riesgo ni la clasificación SFDR. Pendiente: repetir con el interruptor ESG activado para ver si aparecen
+otros (p. ej. Amundi Index Euro Agg SRI, iShares Euro Aggregate ESG, Vanguard ESG Global Corporate Bond)
+y abrir la ficha del iShares ESG Screened para anotar riesgo (1–7), artículo SFDR y duración.
 
 ## 9.3 Criterio de elección para este caso
 
