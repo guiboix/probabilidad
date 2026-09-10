@@ -41,6 +41,19 @@ class TestLetras(unittest.TestCase):
         self.assertAlmostEqual(l.importe_pagado, 9737.8)
         self.assertAlmostEqual(l.rendimiento_bruto, 262.2)
 
+    def test_comisiones_caixabank_vs_bde(self):
+        base = letras.analizar(980.28, 364, nominal_total=8_000)
+        cb = letras.analizar(980.28, 364, nominal_total=8_000, comision_compra=0.006, comision_compra_minimo=30.05, comision_custodia_anual=0.0005)
+        bde = letras.analizar(980.28, 364, nominal_total=8_000, comision_amortizacion=0.0015, comision_amortizacion_minimo=0.90, comision_amortizacion_maximo=200.0)
+        self.assertAlmostEqual(cb.comisiones, 48.0 + 8_000 * 0.0005 * 364 / 365, places=2)
+        self.assertAlmostEqual(bde.comisiones, 12.0, places=2)
+        self.assertAlmostEqual(base.rendimiento_neto - cb.rendimiento_neto, cb.comisiones, places=2)
+        self.assertLess(cb.tae_neta, bde.tae_neta)
+
+    def test_minimo_comision_compra(self):
+        r = letras.analizar(980.28, 364, nominal_total=1_000, comision_compra=0.006, comision_compra_minimo=30.05)
+        self.assertAlmostEqual(r.comisiones, 30.05)
+
     def test_dias_invalidos(self):
         with self.assertRaises(ValueError):
             letras.tipo_desde_precio(990, 0)

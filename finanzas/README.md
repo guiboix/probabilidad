@@ -24,7 +24,10 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
 6. Otros productos analizados (documento 10): Bonos del Estado a 3 años (2,87 % el 03-09-2026) y cuenta
    remunerada de MyInvestor (2,5 % TAE promocional) merecen estudio; plan de pensiones depende de los
    ingresos (dato pendiente); crowdlending, cripto, estructurados y subordinadas quedan descartados.
-7. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
+7. El capital está en CaixaBank (documento 11). Si las Letras están allí, sus comisiones (≈ 0,6 % de compra +
+   0,05 % de custodia) se llevan un tercio del rendimiento neto de la Letra A; la cuenta directa del Banco de
+   España cuesta 0,15 % al vencer. La cuenta corriente no remunera. Comprobaciones pendientes en §11.5.
+8. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
    rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics` importable y comando `escalera`; los
    recordatorios automáticos en la sesión no se pudieron crear por permisos (documento 08 §8.5). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
@@ -51,7 +54,7 @@ finanzas/
 │   └── README.md
 ├── src/cartera/                     # paquete Python (stdlib únicamente)
 │   ├── fiscalidad.py  letras.py  bonos.py  escalera.py  metricas.py  rebalanceo.py  simulacion.py  carga.py  cli.py
-└── tests/                           # 43 tests unittest
+└── tests/                           # 45 tests unittest
 ```
 
 ## Uso
@@ -61,7 +64,7 @@ cd finanzas
 export PYTHONPATH=src            # o: pip install -e .
 
 # Rentabilidad bruta, neta y real de una Letra (precio por 1.000 € nominal, días a vencimiento)
-python -m cartera letras --precio 973.78 --dias 364 --nominal 10000 --inflacion 0.033
+python -m cartera letras --precio 973.78 --dias 364 --nominal 10000 --inflacion 0.033 --custodio bde   # o caixabank
 
 # Letras renovadas vs fondo de acumulación (efecto del diferimiento fiscal y de la prima de riesgo)
 python -m cartera comparar --tipo-letra 0.02663 --fondo 0.05 --anyos 10 --importe 10000

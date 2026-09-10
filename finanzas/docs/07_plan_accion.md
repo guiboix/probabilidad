@@ -10,6 +10,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Fondo de emergencia aparte: confirmado.
 - [ ] Datos de los bonos que ya posee (documento 10 §10.4) → `data/bonos.csv`.
 - [ ] Tipo marginal de IRPF (para saber si el plan de pensiones compensa).
+- [ ] Comprobar en el extracto de CaixaBank dónde están las Letras y qué comisiones cobran (documento 11 §11.5).
+- [ ] Cuánto dinero hay parado en la cuenta corriente y si se paga mantenimiento.
 - [ ] Verificar en tesoro.es el tipo de la última subasta y en la app de MyInvestor las comisiones vigentes
   (resolver la discrepancia de coste de la Cartera Sostenible: 0,81 % vs 1,09–1,33 %).
 
@@ -18,7 +20,7 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] Elegir uno, suscribir **300 €** con ahorro nuevo y anotarlo en `movimientos.csv` y `cartera.csv`.
 - [ ] Importar `data/calendario_vencimientos.ics` en el calendario personal.
 - [ ] Registrar el VL semanal en `vl.csv` y ejecutar `python -m cartera seguimiento`.
-- [ ] Antes de finales de octubre de 2026: decidir si la Letra del 06-11-2026 se renueva entera.
+- [ ] Antes de finales de octubre de 2026: decidir si la Letra del 06-11-2026 se renueva entera y, si está en CaixaBank, abrir cuenta directa en el Banco de España para renovarla allí.
 
 ## Fase 1 — Diseño (usuario + herramientas)
 - [ ] Fijar pesos objetivo en `02_politica_inversion.md` §2.2 y en `cartera.csv`.

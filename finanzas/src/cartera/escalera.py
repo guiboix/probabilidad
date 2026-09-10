@@ -24,13 +24,18 @@ class Vencimiento:
     rendimiento_neto: float
 
 
-def calendario(letras: list[Letra], hoy: date, otras_rentas_ahorro: float = 0.0) -> list[Vencimiento]:
-    """Vencimientos futuros ordenados por fecha. Las letras ya vencidas se omiten."""
+def calendario(
+    letras: list[Letra], hoy: date, otras_rentas_ahorro: float = 0.0, comisiones: dict | None = None
+) -> list[Vencimiento]:
+    """Vencimientos futuros ordenados por fecha. Las letras ya vencidas se omiten.
+
+    `comisiones` son los parámetros de comisión de `letras.analizar` (custodio).
+    """
     out = []
     for l in sorted(letras, key=lambda x: x.fecha_vencimiento):
         if l.fecha_vencimiento < hoy:
             continue
-        r = analizar(l.precio_compra, l.dias, l.nominal, otras_rentas_ahorro)
+        r = analizar(l.precio_compra, l.dias, l.nominal, otras_rentas_ahorro, **(comisiones or {}))
         out.append(
             Vencimiento(
                 fecha=l.fecha_vencimiento,

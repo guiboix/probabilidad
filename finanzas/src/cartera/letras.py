@@ -75,6 +75,7 @@ class AnalisisLetra:
     rendimiento_neto: float
     tae_neta: float
     tae_real_neta: float | None  # None si no se aporta inflación
+    comisiones: float = 0.0  # comisiones del intermediario descontadas del neto
 
 
 def analizar(
@@ -84,11 +85,26 @@ def analizar(
     otras_rentas_ahorro: float = 0.0,
     inflacion: float | None = None,
     tramos=TRAMOS_AHORRO_2026,
+    comision_compra: float = 0.0,
+    comision_compra_minimo: float = 0.0,
+    comision_custodia_anual: float = 0.0,
+    comision_amortizacion: float = 0.0,
+    comision_amortizacion_minimo: float = 0.0,
+    comision_amortizacion_maximo: float | None = None,
 ) -> AnalisisLetra:
     """Rentabilidad bruta, neta de IRPF y real de una posición en Letras.
 
     `otras_rentas_ahorro` permite calcular el impuesto marginal correcto si el
     inversor ya tiene otros rendimientos en la base del ahorro ese año.
+
+    Comisiones (en tanto por uno sobre el nominal, salvo mínimos/máximos en euros):
+    - compra: la cobra un banco intermediario (CaixaBank ≈ 0,6 %, mín. 30,05 €;
+      Banco de España 0 %).
+    - custodia anual: banco intermediario ≈ 0,05 %; Banco de España 0 %.
+    - amortización: Banco de España 0,15 % sobre el importe transferido
+      (mín. 0,90 €, máx. 200 €); bancos, normalmente 0.
+    Las comisiones NO reducen la base del IRPF salvo la de amortización del BdE
+    (criterio DGT); aquí, por prudencia, ninguna se deduce fiscalmente.
     """
     importe = nominal_total * precio / NOMINAL
     bruto = nominal_total - importe
@@ -96,7 +112,15 @@ def analizar(
         cuota_ahorro(otras_rentas_ahorro + bruto, tramos).cuota
         - cuota_ahorro(otras_rentas_ahorro, tramos).cuota
     )
-    neto = bruto - impuesto
+    c_compra = max(nominal_total * comision_compra, comision_compra_minimo) if comision_compra or comision_compra_minimo else 0.0
+    c_custodia = nominal_total * comision_custodia_anual * dias / 365.0
+    c_amort = nominal_total * comision_amortizacion
+    if comision_amortizacion:
+        c_amort = max(c_amort, comision_amortizacion_minimo)
+        if comision_amortizacion_maximo is not None:
+            c_amort = min(c_amort, comision_amortizacion_maximo)
+    comisiones = c_compra + c_custodia + c_amort
+    neto = bruto - impuesto - comisiones
     tae_bruta = rentabilidad_efectiva(precio, dias)
     tae_neta = (1.0 + neto / importe) ** (365.0 / dias) - 1.0
     real = None if inflacion is None else (1.0 + tae_neta) / (1.0 + inflacion) - 1.0
@@ -108,4 +132,5 @@ def analizar(
         rendimiento_neto=round(neto, 2),
         tae_neta=tae_neta,
         tae_real_neta=real,
+        comisiones=round(comisiones, 2),
     )

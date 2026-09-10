@@ -32,6 +32,8 @@ del 18 % de lo que habrías tenido. Por eso este proyecto prefiere productos con
 | **Precio de compra** | Lo que pagaste por cada 1.000 € de nominal. Cuanto más bajo, más ganas. | Aprox. 980,28 y 974,93. |
 | **Amortizar / vencer** | El día en que el Estado te devuelve el nominal. | 06-11-2026 y 04-06-2027. |
 | **Subasta** | El Tesoro vende las Letras cada mes en una puja. Pides un importe y, si aceptas el precio medio, te las adjudican. | Para renovar, hay que pedir en la subasta de días antes del vencimiento. |
+| **Custodio** | Quien guarda tus valores y te cobra por ello. Una Letra en el Banco de España cuesta 0,15 % al vencer; en un banco, ≈ 0,6 % al comprar más custodia anual. | Documento 11. |
+| **Cuenta directa del Banco de España** | Cuenta gratuita en el Banco de España para comprar deuda pública sin intermediarios. Se abre con certificado digital o Cl@ve. | Es donde conviene renovar las Letras. |
 | **Escalera** | Tener varias Letras que vencen en fechas distintas. Cada vencimiento es una ocasión para decidir. | Dos peldaños separados unos 7 meses. |
 | **Bono del Estado** | Como la Letra, pero a 3 o 5 años y pagando un interés (cupón) cada año. Si lo vendes antes de vencer, su precio puede haber bajado. | Documento 10 §10.3. |
 | **Cupón** | El interés anual que paga un bono, en euros por cada 1.000 € de nominal. | Un cupón del 2,8 % son 28 € al año por cada 1.000 €. |

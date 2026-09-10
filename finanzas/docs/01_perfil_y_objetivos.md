@@ -28,6 +28,7 @@ Del enunciado del usuario (10-09-2026):
 - Tiene fondo de emergencia aparte. Mantiene las Letras renovándose de momento.
 - Quiere empezar con un fondo de bajo riesgo y buena ética para familiarizarse (documento 09), con 300 €.
 - Tiene **bonos** (sin más datos: emisor, vencimiento, cupón y precio pendientes; documento 10 §10.4).
+- Su capital está en **CaixaBank** (documento 11). Pendiente: si las Letras y los bonos están custodiados allí y qué comisiones se le aplican.
 - No tiene experiencia previa. Pide explicaciones de principiante (documento 00) y una cartera **muy
   conservadora** para la mayor parte del capital (documento 02 §2.2).
 

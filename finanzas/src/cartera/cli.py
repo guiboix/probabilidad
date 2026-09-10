@@ -23,14 +23,22 @@ def _pct(x: float) -> str:
     return f"{x * 100:.2f} %"
 
 
+PERFILES_COMISION = {
+    "bde": dict(comision_amortizacion=0.0015, comision_amortizacion_minimo=0.90, comision_amortizacion_maximo=200.0),
+    "caixabank": dict(comision_compra=0.006, comision_compra_minimo=30.05, comision_custodia_anual=0.0005),
+    "ninguna": {},
+}
+
+
 def cmd_letras(a: argparse.Namespace) -> None:
-    r = letras.analizar(a.precio, a.dias, a.nominal, a.otras_rentas, a.inflacion)
+    r = letras.analizar(a.precio, a.dias, a.nominal, a.otras_rentas, a.inflacion, **PERFILES_COMISION[a.custodio])
     print(f"# Letra: precio {a.precio:.2f} por 1.000 €, {a.dias} días, nominal {a.nominal:,.0f} €\n")
     print(f"| Concepto | Valor |\n|---|---|")
     print(f"| Tipo anual simple bruto (ACT/360, criterio Tesoro) | {_pct(r.tipo_anual_bruto)} |")
     print(f"| TAE bruta | {_pct(r.tae_bruta)} |")
     print(f"| Rendimiento bruto | {r.rendimiento_bruto:,.2f} € |")
     print(f"| IRPF (base del ahorro) | {r.impuesto:,.2f} € |")
+    print(f"| Comisiones del intermediario ({a.custodio}) | {r.comisiones:,.2f} € |")
     print(f"| Rendimiento neto | {r.rendimiento_neto:,.2f} € |")
     print(f"| TAE neta | {_pct(r.tae_neta)} |")
     if r.tae_real_neta is not None:
@@ -104,9 +112,9 @@ def cmd_informe(a: argparse.Namespace) -> None:
 def cmd_escalera(a: argparse.Namespace) -> None:
     ls = carga.leer_letras(Path(a.data) / "letras.csv")
     hoy = date.fromisoformat(a.hoy) if a.hoy else date.today()
-    cal = escalera.calendario(ls, hoy, a.otras_rentas)
+    cal = escalera.calendario(ls, hoy, a.otras_rentas, PERFILES_COMISION[a.custodio])
     total = sum(v.nominal for v in cal)
-    print(f"# Escalera de Letras a {hoy.isoformat()} — nominal vivo {total:,.0f} €\n")
+    print(f"# Escalera de Letras a {hoy.isoformat()} — nominal vivo {total:,.0f} € — custodio: {a.custodio}\n")
     print("| Vence | Días | Nominal | Pagado | Tipo bruto | TAE neta | Rend. neto | Aviso |\n|---|---|---|---|---|---|---|---|")
     for v in cal:
         aviso = "DECIDIR YA: petición de subasta" if v.dias_restantes <= a.aviso_dias else ""
@@ -176,6 +184,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--nominal", type=float, default=1000.0)
     s.add_argument("--otras-rentas", type=float, default=0.0, help="otras rentas del ahorro del año")
     s.add_argument("--inflacion", type=float, default=None, help="inflación anual esperada, p. ej. 0.033")
+    s.add_argument("--custodio", choices=sorted(PERFILES_COMISION), default="ninguna", help="quién custodia la Letra: bde (Banco de España), caixabank o ninguna")
     s.set_defaults(func=cmd_letras)
 
     s = sub.add_parser("comparar", help="letras renovadas vs fondo de acumulación")
@@ -207,6 +216,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--inflacion", type=float, default=None)
     s.add_argument("--hoy", default=None, help="fecha de referencia AAAA-MM-DD (por defecto hoy)")
     s.add_argument("--aviso-dias", type=int, default=30, help="marcar las Letras que vencen en menos de N días")
+    s.add_argument("--custodio", choices=sorted(PERFILES_COMISION), default="ninguna")
     s.set_defaults(func=cmd_escalera)
 
     s = sub.add_parser("bono", help="TIR, duración y rendimiento neto de un bono con cupón")

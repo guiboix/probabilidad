@@ -43,6 +43,30 @@ Si una caída del 20 % del total es lo máximo que se soportaría sin vender, RV
 Se justifica porque la renta variable global ha caído en torno al 50 % en las peores crisis del último
 siglo (hecho histórico; no garantiza el futuro en ninguna dirección).
 
+## 2.2 bis Regla del usuario: la deuda pública como listón mínimo
+
+Planteamiento del usuario (10-09-2026): "no merece la pena invertir en productos con rentabilidad inferior
+a la de los bonos, porque estos aportan seguridad máxima".
+
+**Es correcto como regla general** y se adopta como principio: para dinero que se puede inmovilizar hasta
+el vencimiento, ningún producto con más riesgo debe aceptarse si su rentabilidad esperada neta no supera
+a la de la deuda pública del mismo plazo. Se incorpora con cuatro matices, sin los cuales la regla lleva a error:
+
+| Matiz | Por qué |
+|---|---|
+| **1. Comparar en neto, no en bruto** | La misma Letra rinde 1,63 % neto sin comisiones, 1,48 % en el Banco de España y 0,97 % en CaixaBank (documento 11). El listón es la deuda pública **comprada bien**, no la que se tiene. |
+| **2. "Seguridad máxima" solo a vencimiento y solo en euros nominales** | Un Bono a 5 años vendido antes de tiempo puede valer un 4–5 % menos si los tipos suben un punto. Y con inflación del 3,3 %, el bono "seguro" pierde ≈ 1 % de poder de compra al año. Es el activo más seguro **frente al impago**, no frente a la inflación ni frente a vender antes de hora. El riesgo de impago del Reino de España es muy bajo, no cero (calificación en la zona A). |
+| **3. La liquidez tiene valor** | Una cuenta remunerada al 2,5 % rinde menos que el Bono a 3 años (2,87 %), pero el dinero está disponible mañana. Para el colchón y para lo que se pueda necesitar en meses, aceptar menos rentabilidad a cambio de liquidez es correcto, no un error. |
+| **4. Un fondo no tiene "una rentabilidad" que comparar** | Su resultado es incierto; lo comparable es su rentabilidad **esperada** menos costes, y además difiere impuestos (traspasos). Un fondo de renta fija corta con esperanza igual a la Letra puede ser preferible por comodidad y fiscalidad. |
+
+Consecuencias prácticas:
+
+- El listón para cualquier producto con riesgo es la Letra o el Bono del mismo plazo, en el Banco de
+  España, neto de impuestos: hoy ≈ 2,2 % (12 meses) y ≈ 2,3 % (3 años).
+- La banca ética (Triodos, 1,00–1,90 %) **no supera el listón**. Si se elige, es por valores y a sabiendas.
+- El fondo de aprendizaje de 300 € se exceptúa de la regla: su función es aprender, no rendir.
+- Crowdlending, subordinadas, estructurados: quedan excluidos porque su rentabilidad "prometida" no compensa el riesgo respecto al listón.
+
 ## 2.3 Reglas operativas
 
 - **Aportación periódica:** [ ] € el día [ ] de cada mes, repartida con `python -m cartera informe --aportacion X`.
@@ -73,3 +97,4 @@ siglo (hecho histórico; no garantiza el futuro en ninguna dirección).
 |---|---|---|
 | 2026-09-10 | Borrador inicial | Creación del proyecto |
 | 2026-09-10 | Perfil muy conservador: RV 0 %, bloque conservador ≥ 85 %, aprendizaje ≤ 15 % | Decisión del usuario (sin experiencia previa) |
+| 2026-09-10 | Deuda pública neta como listón mínimo para cualquier producto con riesgo, con cuatro matices | Regla propuesta por el usuario |
