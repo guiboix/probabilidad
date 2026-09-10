@@ -13,7 +13,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] En la próxima Renta, restar la comisión del 0,15 % del BdE al rendimiento de las Letras (no viene en el borrador).
 - [x] Capital total ≈ 37.900 €: 16.000 € Letras + 16.000 € cuentas + 5.890 € PIAS; sin comisión de mantenimiento.
 - [x] Los ≈ 16.000 € en cuentas son el fondo de emergencia (y candidatos a inversión segura).
-- [ ] **PIAS**: localizar póliza y carta anual; anotar aseguradora, fecha de inicio, aportado vs valor, costes y penalización (documento 10 §10.6).
+- [x] PIAS identificado: CABK PIAS CMV1 (VidaCaixa), 2010, 5.267 € aportados, 5.891 € de rescate, TIR ≈ 0,8–1,3 %.
+- [ ] PIAS: preguntar tipo de interés actual, si el valor de rescate es neto de penalización y gastos anuales (documento 10 §10.6). Decidir después si se rescata hacia Letras.
 - [x] Gasto mensual: ≈ 770–1.020 € (autónomo). Colchón prudente 9–12 meses; sobran ≈ 4.500–8.000 €.
 - [ ] Confirmar si la cuota de autónomos está dentro de los 500 €/trimestre o va aparte.
 - [ ] Decidir dónde va el colchón que rinde (cuenta remunerada o Letras a 3–6 meses) y cuánto pasa a la Letra a 12 meses.

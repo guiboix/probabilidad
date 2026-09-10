@@ -28,7 +28,8 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    España): 12 € de comisión por Letra al vencer, frente a ≈ 52 € en el canal bancario (documento 11). La cuenta
    corriente de CaixaBank no remunera. Comprobaciones pendientes en §11.5.
 8. Capital total ≈ 37.900 €: 16.000 € en Letras, ≈ 16.000 € en cuentas al 0 % que son el fondo de emergencia
-   y un PIAS de 5.890 € pendiente de analizar (documento 10 §10.6). El colchón pierde ≈ 530 €/año de poder de compra; puede rendir sin dejar de ser colchón en
+   y un PIAS de VidaCaixa (desde 2010) que vale 5.891 € tras aportar 5.267 €: ≈ 1 % anual, por debajo de la inflación
+   (documento 10 §10.6). Rescatarlo hacia Letras cuesta 119 € de impuesto y se recupera en 1–3 años, si no hay penalización. El colchón pierde ≈ 530 €/año de poder de compra; puede rendir sin dejar de ser colchón en
    cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 770–1.020 €: colchón prudente de 9–12 meses (6.000–9.000 €) y ≈ 4.500–8.000 €
    que sobran para el bloque conservador. Reparto propuesto en §11.2 ter.
 9. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,

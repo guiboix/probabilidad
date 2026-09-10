@@ -105,7 +105,65 @@ te lo devuelve. No es un fondo ni un depósito; es un contrato de seguro con reg
 | Costes | Gastos de gestión, de administración y una pequeña prima por el seguro de fallecimiento. Rara vez se ven en el extracto: se descuentan del valor |
 | Garantía | No tiene Fondo de Garantía de Depósitos; responde la aseguradora, supervisada por la Dirección General de Seguros |
 
-Para saber si conviene mantenerlo hace falta el contrato o la última carta anual de la aseguradora, con:
+### Datos reales del PIAS del usuario (capturas de la app, 10-09-2026)
+
+| Dato | Valor |
+|---|---|
+| Producto | **CABK PIAS CMV1**, VidaCaixa, contratado a través de CaixaBank |
+| Fecha de contratación | 01-06-2010 (16 años y 3 meses) |
+| Aportaciones acumuladas | 5.267,29 € |
+| Valor de rescate | 5.891,31 € |
+| Aportación periódica | Suspendida |
+| Ganancia bruta acumulada | 624,02 € (+11,8 % en total) |
+| Requisito de 5 años para la exención | Cumplido de sobra |
+| Penalización de rescate | No aparece en la app; la nota (*) remite a las condiciones. Pendiente |
+
+**Rentabilidad que ha dado.** No sé en qué fechas se pagaron las cuotas, así que la TIR se calcula por
+escenarios (cuotas mensuales iguales desde 06/2010 hasta el año en que se suspendieron):
+
+| Cuotas suspendidas en | TIR anual |
+|---|---|
+| 2013 | 0,76 % |
+| 2016 | 0,84 % |
+| 2019 | 0,95 % |
+| 2022 | 1,08 % |
+| 2025 | 1,26 % |
+
+En cualquier escenario, **entre el 0,8 % y el 1,3 % anual**. La inflación acumulada en España desde 2010
+ronda el 40 %: los 5.267 € aportados equivalen a ≈ 7.400 € de hoy, y el PIAS vale 5.891 €. Ha perdido
+alrededor de una quinta parte de su poder de compra. Es un hecho (con la incertidumbre de las fechas de las cuotas).
+
+**Qué pasa si se rescata como capital.** Tributa el 19 % de la ganancia: 118,56 €. Quedan 5.772,75 € netos.
+
+**Qué pasa si se mantiene.** Depende del interés que VidaCaixa le aplique ahora, que la app no muestra.
+Los PIAS garantizados de banco han dado históricamente entre el 0,5 % y el 1,5 %. Comparado con una Letra
+al 2,2 % neto:
+
+| Si el PIAS rinde | Pasar a Letras gana al año | El impuesto de 118,56 € se recupera en |
+|---|---|---|
+| 0,5 % | ≈ 98 € | 1,2 años |
+| 1,0 % | ≈ 69 € | 1,7 años |
+| 1,5 % | ≈ 40 € | 2,9 años |
+
+**La exención por renta vitalicia** existe porque los 5 años están cumplidos, pero con 5.891 € la renta
+mensual sería de unas decenas de euros y la exención ahorraría como mucho los 118,56 € de impuesto. No es
+un motivo para mantenerlo, salvo que se quiera usar el PIAS como vehículo de ahorro a largo plazo
+aportando más (hasta 8.000 €/año), y para eso hay vehículos más baratos.
+
+**Valoración (interpretación, con el dato del tipo actual pendiente):** el producto ha rendido por debajo
+de la inflación durante 16 años, no tiene filtro ético y no ofrece nada que una Letra en el Banco de España
+no dé con más rentabilidad y sin costes ocultos. Si no hay penalización de rescate y el tipo actual está
+por debajo del 2 %, rescatarlo y pasarlo al bloque conservador es coherente con la regla del listón
+(documento 02 §2.2 bis). La decisión no es urgente: unos meses más al 1 % son ≈ 5 € al mes.
+
+Qué preguntar en la oficina (la app remite allí) o buscar en las condiciones:
+
+1. Tipo de interés técnico que se aplica ahora y hasta cuándo.
+2. Si el valor de rescate de 5.891,31 € es neto de penalizaciones o hay descuento por rescatar.
+3. Gastos anuales del contrato (documento de datos fundamentales).
+4. Si hay ventana de rescate o se puede rescatar cualquier día.
+
+Datos que hacían falta para un PIAS genérico:
 
 | Dato | Dónde |
 |---|---|
