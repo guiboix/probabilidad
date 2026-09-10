@@ -16,6 +16,7 @@ cp plantilla_vl.csv vl.csv
 | `movimientos.csv` | `fecha,activo,tipo,importe` | `tipo` ∈ `aportacion`, `retirada`, `valoracion`. La última `valoracion` con activo `TOTAL` se usa para la TIR. |
 | `letras.csv` | `fecha_compra,fecha_vencimiento,nominal,precio_compra` | `precio_compra` por cada 1.000 € de nominal, como lo publica el Tesoro. |
 | `vl.csv` | `fecha,activo,valor_liquidativo` | Una fila por fecha y fondo; base de `python -m cartera seguimiento`. |
+| `calendario_vencimientos.ics` | eventos iCalendar | Importar en el calendario personal. Actualizar cuando el Tesoro publique el calendario 2027. |
 | `supuestos.json` | ver fichero | Parámetros de simulación, bandas de rebalanceo y referencias de mercado con su fuente. |
 
 `plantilla_letras.csv` refleja las dos Letras declaradas por el usuario (amortizan el 06-11-2026 y el 04-06-2027).

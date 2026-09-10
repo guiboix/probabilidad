@@ -67,7 +67,24 @@ Plan de transición según fracción que se quiera mantener en Letras:
 La decisión declarada es mantener. Es compatible con empezar a aprender con fondos usando ahorro nuevo
 (documento 09) y revisar en octubre de 2026, con dos meses de experiencia, si se renueva A entera.
 
-## 8.5 Ventaja de mover por vencimientos y no de golpe
+## 8.5 Sistema de avisos (petición del usuario: tener en cuenta la caducidad para reinvertir o renovar)
+
+Tres capas, para no depender de una sola:
+
+1. **Calendario importable:** `data/calendario_vencimientos.ics` contiene cinco eventos (decisión de
+   renovación de A y B con alarma un día antes, amortización de A y B, revisión a 3 meses del primer
+   fondo). Importar en Google Calendar, Outlook o el calendario del móvil.
+2. **Comando `escalera`:** marca con "DECIDIR YA" cualquier Letra a menos de 30 días del vencimiento
+   (`--aviso-dias` para cambiar el umbral). Ejecutarlo en la revisión mensual (`make informe` + `escalera`).
+3. **Recordatorios en la sesión de Claude Code:** programados para el 19-10-2026, 10-12-2026 y 17-05-2027.
+   Al dispararse, la sesión recalcula la escalera con los datos de `data/` y presenta las opciones. Dependen
+   de que la sesión siga existiendo; por eso no son la única capa.
+
+Fechas de las subastas: las de noviembre de 2026 y junio de 2027 son estimadas por el patrón habitual
+(primer martes de mes, liquidación el viernes). El calendario oficial 2027 lo publica el Tesoro en enero de
+2027; actualizar el `.ics` entonces.
+
+## 8.6 Ventaja de mover por vencimientos y no de golpe
 
 Mover en noviembre de 2026 y en junio de 2027 reparte la entrada en dos momentos separados 7 meses.
 Reduce (no elimina) el riesgo de entrar todo justo antes de una caída. No vender antes de vencimiento

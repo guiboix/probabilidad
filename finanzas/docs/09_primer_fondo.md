@@ -73,8 +73,9 @@ Es una interpretación, no un hecho: para "familiarizarse" la segunda opción en
 
 - Origen del dinero: **ahorro nuevo**, no las Letras, que se mantienen renovándose por decisión declarada.
   Revisar en octubre de 2026 si se cambia esa decisión para la Letra que vence el 06-11-2026.
-- Importe: uno que permita ver movimientos reales sin que una caída del 5 % moleste. La cifra la fija el
-  usuario; a efectos de aprendizaje, importa más registrar los datos que el tamaño.
+- Importe: **300 €** (decidido por el usuario el 10-09-2026). Con ese tamaño, una caída del 5 % son 15 €:
+  suficiente para ver movimientos reales sin que duela. MyInvestor no aplica mínimo en sus fondos
+  indexados; comprobar que la clase concreta tampoco lo tenga.
 - Forma: aportación inicial y, si se quiere, aportación periódica mensual para ver el efecto de comprar a
   distintos precios.
 
@@ -92,3 +93,32 @@ Registrar el valor liquidativo semanalmente en `data/vl.csv` y ejecutar `python 
 | Al cierre del año | Posición fiscal: nada que declarar hasta reembolsar | Diferimiento fiscal en la práctica |
 
 Cuando este ciclo esté hecho, pasar al documento 02 para diseñar la cartera completa con lo aprendido.
+
+## 9.7 Criterio para ampliar la inversión
+
+El usuario ha planteado ampliar "cuando encuentre más confianza, si es rentable". Conviene separar las dos
+condiciones, porque la segunda tiene un problema estadístico:
+
+- **La rentabilidad de 300 € en 3–6 meses no informa de nada.** Un fondo de renta fija con volatilidad
+  anual del 4 % se mueve ± 2 % en un trimestre por puro azar (raíz del tiempo, Tema 7 del curso). Un +1 %
+  o un −1 % en ese plazo es ruido, no evidencia de que el producto "funcione" o "no funcione". Decidir la
+  ampliación por ese dato es el sesgo de resultado: juzgar una decisión por lo que pasó y no por lo que
+  se sabía.
+- **La confianza sí es un criterio válido**, si se define como comprensión del producto y del propio
+  comportamiento ante las oscilaciones.
+
+Lista para decidir la ampliación (revisión prevista el 10-12-2026, tres meses después de la compra):
+
+| Criterio | Cómo se comprueba | Cumplido |
+|---|---|---|
+| Sé explicar por qué subió o bajó el VL en las semanas de más movimiento | Diario en `vl.csv` + noticias de tipos | |
+| He leído el KID y el último informe del fondo y entiendo duración, calificación y exclusiones | Lista §9.4 completa | |
+| He visto al menos una semana en negativo y no he sentido la necesidad de vender | Registro propio | |
+| Entiendo qué pasará fiscalmente si reembolso o traspaso | Documento 06 | |
+| Tengo definido el nivel ético (documento 05) y el fondo lo cumple | Metodología del índice | |
+| He fijado la asignación objetivo de la cartera completa (documento 02) | Pesos en `cartera.csv` | |
+
+Si se cumplen los seis, la ampliación se hace según el documento 02 y con el calendario de vencimientos de
+las Letras (documento 08 §8.4): el dinero nuevo entra en cada amortización, no de golpe. Si no se cumplen,
+se mantiene el importe de aprendizaje y se sigue registrando. La rentabilidad obtenida hasta entonces no
+está en la lista a propósito.

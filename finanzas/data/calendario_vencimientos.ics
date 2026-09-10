@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//probabilidad/finanzas//cartera//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:letra-a-decision-2026@finanzas
+DTSTAMP:20260910T120000Z
+DTSTART;VALUE=DATE:20261019
+SUMMARY:Decidir renovación Letra A (amortiza 06-11-2026)
+DESCRIPTION:Plazo para cursar la petición en la subasta a 12 meses de noviembre (fecha estimada 03-11-2026\, confirmar en tesoro.es). Ejecutar: python -m cartera escalera --data data --inflacion X. Opciones: renovar 8.000\, renovar parte\, mover a fondos.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Decidir renovación Letra A
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:letra-a-amortiza-2026@finanzas
+DTSTAMP:20260910T120000Z
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Amortiza Letra A: 8.000 € en cuenta
+DESCRIPTION:Si no se renovó entera\, suscribir el fondo elegido con el resto ese mismo día y anotar en movimientos.csv.
+END:VEVENT
+BEGIN:VEVENT
+UID:primer-fondo-revision-2026@finanzas
+DTSTAMP:20260910T120000Z
+DTSTART;VALUE=DATE:20261210
+SUMMARY:Revisión 3 meses del primer fondo (300 €)
+DESCRIPTION:Ejecutar python -m cartera seguimiento --data data y pasar la lista de criterios para ampliar (docs/09_primer_fondo.md §9.7).
+END:VEVENT
+BEGIN:VEVENT
+UID:letra-b-decision-2027@finanzas
+DTSTAMP:20260910T120000Z
+DTSTART;VALUE=DATE:20270517
+SUMMARY:Decidir renovación Letra B (amortiza 04-06-2027)
+DESCRIPTION:Plazo para cursar la petición en la subasta a 12 meses de junio (fecha estimada 01-06-2027\, confirmar en tesoro.es). Ejecutar: python -m cartera escalera --data data --inflacion X.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Decidir renovación Letra B
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:letra-b-amortiza-2027@finanzas
+DTSTAMP:20260910T120000Z
+DTSTART;VALUE=DATE:20270604
+SUMMARY:Amortiza Letra B: 8.000 € en cuenta
+DESCRIPTION:Si no se renovó entera\, suscribir fondos con el resto ese mismo día y anotar en movimientos.csv.
+END:VEVENT
+END:VCALENDAR

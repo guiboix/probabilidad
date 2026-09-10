@@ -1,3 +1,5 @@
 fecha,activo,tipo,importe
-2026-01-15,Letras del Tesoro 12m,aportacion,9737.80
-2026-09-10,TOTAL,valoracion,9900.00
+2025-11-07,Letra A (amortiza 2026-11-06),aportacion,7842.24
+2026-06-05,Letra B (amortiza 2027-06-04),aportacion,7799.44
+2026-09-15,Fondo RF ESG (primer fondo de aprendizaje),aportacion,300.00
+2026-09-15,TOTAL,valoracion,16087.00

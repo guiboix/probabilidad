@@ -13,7 +13,8 @@ Orden propuesto. Cada paso depende del anterior.
 
 ## Fase 0b — Primer fondo de aprendizaje (en curso, documento 09)
 - [ ] Buscar en la app los candidatos de §9.2 y rellenar la lista §9.4 con el KID.
-- [ ] Elegir uno, suscribir con ahorro nuevo y anotarlo en `movimientos.csv` y `cartera.csv`.
+- [ ] Elegir uno, suscribir **300 €** con ahorro nuevo y anotarlo en `movimientos.csv` y `cartera.csv`.
+- [ ] Importar `data/calendario_vencimientos.ics` en el calendario personal.
 - [ ] Registrar el VL semanal en `vl.csv` y ejecutar `python -m cartera seguimiento`.
 - [ ] Antes de finales de octubre de 2026: decidir si la Letra del 06-11-2026 se renueva entera.
 

@@ -106,9 +106,10 @@ def cmd_escalera(a: argparse.Namespace) -> None:
     cal = escalera.calendario(ls, hoy, a.otras_rentas)
     total = sum(v.nominal for v in cal)
     print(f"# Escalera de Letras a {hoy.isoformat()} — nominal vivo {total:,.0f} €\n")
-    print("| Vence | Días | Nominal | Pagado | Tipo bruto | TAE neta | Rend. neto |\n|---|---|---|---|---|---|---|")
+    print("| Vence | Días | Nominal | Pagado | Tipo bruto | TAE neta | Rend. neto | Aviso |\n|---|---|---|---|---|---|---|---|")
     for v in cal:
-        print(f"| {v.fecha} | {v.dias_restantes} | {v.nominal:,.0f} € | {v.importe_pagado:,.2f} € | {_pct(v.tipo_anual_bruto)} | {_pct(v.tae_neta)} | {v.rendimiento_neto:,.2f} € |")
+        aviso = "DECIDIR YA: petición de subasta" if v.dias_restantes <= a.aviso_dias else ""
+        print(f"| {v.fecha} | {v.dias_restantes} | {v.nominal:,.0f} € | {v.importe_pagado:,.2f} € | {_pct(v.tipo_anual_bruto)} | {_pct(v.tae_neta)} | {v.rendimiento_neto:,.2f} € | {aviso} |")
     neto_total = sum(v.rendimiento_neto for v in cal)
     print(f"\nRendimiento neto total de las letras vivas al vencer: {neto_total:,.2f} €")
     if a.inflacion is not None:
@@ -191,6 +192,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--otras-rentas", type=float, default=0.0)
     s.add_argument("--inflacion", type=float, default=None)
     s.add_argument("--hoy", default=None, help="fecha de referencia AAAA-MM-DD (por defecto hoy)")
+    s.add_argument("--aviso-dias", type=int, default=30, help="marcar las Letras que vencen en menos de N días")
     s.set_defaults(func=cmd_escalera)
 
     s = sub.add_parser("seguimiento", help="rentabilidad, volatilidad y caída máxima desde data/vl.csv")

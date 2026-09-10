@@ -17,8 +17,10 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    la Cartera Sostenible filtra (art. 9) pero cuesta 0,81 % o más según la fuente.
 4. Situación declarada: fondo de emergencia aparte; dos Letras de 8.000 € que amortizan el 06-11-2026 y el
    04-06-2027 y se mantienen renovándose; rinden ≈ 290 € netos y pierden ≈ 238 € de poder adquisitivo al año.
-5. Primer paso acordado: un fondo de renta fija de bajo riesgo con filtro ético, financiado con ahorro nuevo,
-   para aprender (documento 09). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
+5. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
+   para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
+   rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics`, comando `escalera` y
+   recordatorios programados (documento 08 §8.5). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
    nivel ético (documento 01).
 
 ## Estructura
@@ -37,6 +39,7 @@ finanzas/
 ├── data/
 │   ├── supuestos.json               # parámetros (inflación, tipo letra, bandas, escenarios) con fuente
 │   ├── plantilla_*.csv              # plantillas; los CSV reales están en .gitignore
+│   ├── calendario_vencimientos.ics  # eventos de decisión/amortización de las Letras, importable en cualquier calendario
 │   └── README.md
 ├── src/cartera/                     # paquete Python (stdlib únicamente)
 │   ├── fiscalidad.py  letras.py  escalera.py  metricas.py  rebalanceo.py  simulacion.py  carga.py  cli.py
