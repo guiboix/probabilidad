@@ -119,21 +119,51 @@ Con los datos declarados (fondo de emergencia aparte, Letras que se renuevan, ob
 
 Es una interpretación, no un hecho: para "familiarizarse" la segunda opción enseña más por euro invertido.
 
-## 9.4 Lista de verificación antes de contratar (rellenar con el KID)
+## 9.4 Lista de verificación antes de contratar (rellenada con el KID del 07-04-2025 y la ficha Morningstar del 10-09-2026)
 
-| Comprobación | Valor encontrado |
-|---|---|
-| Nombre exacto y clase (Acc, EUR, Hedged) | |
-| ISIN | |
-| TER / gastos corrientes según el KID | |
-| Indicador de riesgo (1–7) | |
-| Duración modificada | |
-| Calificación media / % high yield | |
-| Artículo SFDR (6/8/9) y metodología de exclusión | |
-| Patrimonio y fecha de lanzamiento | |
-| Traspasable (más de 500 partícipes) | |
-| Custodia y suscripción en MyInvestor = 0 € | |
-| Importe mínimo | |
+| Comprobación | Valor encontrado | Estado |
+|---|---|---|
+| Nombre exacto y clase | iShares Euro Corporate Bond ESG SRI Index Fund (IE), clase **Inst Acc EUR** | ✓ Acumulación, euros |
+| ISIN | IE000KDUZ5O6 | ✓ |
+| Gastos corrientes (KID) | **0,15 %** anual; sin comisión de entrada, salida ni de éxito; costes de operación 0,00 % | ✓ |
+| Indicador de riesgo (1–7) | **2** (periodo de mantenimiento recomendado: 3 años) | ✓ |
+| Duración efectiva | **4,53** años (vencimiento efectivo 6,33) | ✓ Media-corta |
+| Calidad crediticia | Media **A**; AAA 0,6 %, AA 9,5 %, A 47,6 %, BBB 42,1 %, BB 0,1 %; sin high yield | ✓ Grado de inversión |
+| Índice y filtro ético | iBoxx MSCI ESG SRI EUR Corporates. Aplica las **exclusiones del Reglamento UE de índices alineados con París** y excluye a quienes incumplen el Pacto Mundial de la ONU o las Directrices de la OCDE | ✓ Nivel 2 (documento 05) |
+| Artículo SFDR | No consta en el KID | **Pendiente** (ficha de sostenibilidad en MyInvestor o folleto; previsiblemente art. 8) |
+| Patrimonio y lanzamiento | Fondo 2.300 M€ (30-06-2026); clase 549 M€; lanzado el **16-09-2021** | ✓ Grande y con casi 5 años |
+| Número de bonos | 3.340 emisiones; las 10 mayores suman 1,08 % | ✓ Muy diversificado |
+| Gestora / depositario | BlackRock Asset Management Ireland; J.P. Morgan SE Dublín; UCITS domiciliado en Irlanda | ✓ Traspasable en España (UCITS) |
+| Importe mínimo | **500.000 € inicial y 5.000 € adicional según el KID** (clase institucional) | **Pendiente**: MyInvestor suele eliminar los mínimos de las clases institucionales, pero hay que confirmarlo en la pantalla de suscripción con 300 € |
+| Custodia y suscripción en MyInvestor | 0 € según sus tarifas de fondos indexados | ✓ (verificar al suscribir) |
+
+### Lo que dicen los escenarios del KID (con 10.000 €; entre paréntesis, con 300 €)
+
+| Escenario | A 1 año | A 3 años (anualizado) |
+|---|---|---|
+| Tensión | −15,8 % (−47 €) | −9,1 % anual |
+| Desfavorable | −15,8 % (−47 €) | −5,0 % anual |
+| Moderado | +1,5 % (+4,5 €) | +1,7 % anual |
+| Favorable | +9,3 % (+28 €) | +3,0 % anual |
+
+### El dato que hay que mirar de frente: 2022
+
+| Año | 2022 | 2023 | 2024 | 2025 | 2026 (a agosto) |
+|---|---|---|---|---|---|
+| Fondo | **−13,43 %** | +8,08 % | +4,19 % | +2,80 % | +0,22 % |
+
+En 2022 los tipos subieron más de 3 puntos en un año y este fondo, con riesgo 2 y duración ≈ 4,5, cayó un
+13 %. Coincide con la regla de la duración (4,5 × 3 puntos ≈ −13 %). Un año así con 300 € son −40 €, que
+se recuperaron en 2023–2024. La volatilidad a 3 años es del 3,46 %: en un año normal se mueve ± 3–4 %.
+"Riesgo bajo" no significa "no baja"; significa que las caídas son de un dígito la mayoría de años y de dos
+dígitos solo en años excepcionales.
+
+### Veredicto
+
+Cumple todas las comprobaciones salvo dos pendientes que se resuelven en la app: el artículo SFDR y que
+MyInvestor acepte 300 € pese al mínimo de 500.000 € de la clase. Si acepta, es el fondo de aprendizaje.
+Si no acepta, alternativa: iShares ESG Screened Global Corporate Bond EUR Hedged (IE00BJN4RG66),
+repitiendo esta lista con su KID.
 
 ## 9.5 Cuánto y cómo (decisión del usuario)
 
