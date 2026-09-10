@@ -147,7 +147,7 @@ importan (los personales no se copian aquí):
 
 | Situación | TAE | Detalle |
 |---|---|---|
-| Primeros 12 meses desde la apertura, sin condiciones | **Tipo de la facilidad de depósito del BCE − 1,25 puntos**, como mínimo | Con el BCE al 2,25 % → 1,00 %; si el BCE sube al 2,50 % → 1,25 %. Saldo máximo 70.000 €. La TAE exacta se publica en la web de MyInvestor |
+| Primeros 12 meses desde la apertura, sin condiciones | **Tipo de la facilidad de depósito del BCE − 1,25 puntos**, como mínimo | El BCE subió la facilidad de depósito al **2,50 %** el 10-09-2026 (efectos desde el 16-09-2026) → **1,25 %** para tu cuenta. Saldo máximo 70.000 €. La TAE exacta se publica en la web de MyInvestor |
 | A partir del mes 13, sin condiciones | **0,30 %** | Máximo 210 € brutos al año |
 | Invirtiendo 300 € netos/mes en productos MyInvestor | Igual que el primer año | Desde el 01-09-2026 |
 | Invirtiendo 600 € netos/mes | 1,75 % | Idem |

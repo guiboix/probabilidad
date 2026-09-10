@@ -57,7 +57,7 @@ Qué porcentaje va a cada tramo se decide con la tabla 1.1, no antes.
 |---|---|---|
 | Tipo medio Letras 12 meses, subasta 04-08-2026 | 2,663 % (precio 973,78) | tesoro.es (resultado citado vía búsqueda; verificar) |
 | Tipo medio Letras 3 meses, subasta 12-05-2026 | 2,154 % | CaixaBank (artículo divulgativo) |
-| Facilidad de depósito BCE (julio 2026) | 2,25 %; el mercado esperaba subida a 2,50 % el 10-09-2026 | Finect / Rankia (prensa financiera) |
+| Facilidad de depósito BCE | **2,50 %** desde el 16-09-2026 (subida de 25 pb decidida el 10-09-2026; segunda del año) | BCE, nota de prensa 10-09-2026; Rankia |
 | Inflación interanual eurozona, agosto 2026 | 3,3 % | Finect (prensa financiera) |
 
 Cálculo con `python -m cartera letras --precio 973.78 --dias 364 --nominal 10000 --inflacion 0.033`:
@@ -77,5 +77,4 @@ del 1 % es una ganancia real *esperada* pero incierta.
 
 - No se ha podido acceder directamente a tesoro.es ni a MyInvestor desde este entorno; las cifras
   provienen de resúmenes de prensa y deben comprobarse en la fuente primaria antes de operar.
-- La decisión del BCE del 10-09-2026 no estaba confirmada al redactar esto.
 - Este proyecto no constituye asesoramiento financiero regulado.

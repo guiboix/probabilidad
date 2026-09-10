@@ -39,5 +39,7 @@
       "volatilidad_anual": 0.15
     }
   ],
-  "_nota_escenarios": "Rentabilidades netas de costes aproximados e ilustrativas. Las dos primeras corresponden al perfil muy conservador acordado; se basan en tipos de Letras de 2026 (≈ 2,2 % neto) y volatilidad típica de renta fija corta. Ajustar con datos propios."
+  "_nota_escenarios": "Rentabilidades netas de costes aproximados e ilustrativas. Las dos primeras corresponden al perfil muy conservador acordado; se basan en tipos de Letras de 2026 (≈ 2,2 % neto) y volatilidad típica de renta fija corta. Ajustar con datos propios.",
+  "tipo_bce_facilidad_deposito": 0.025,
+  "_fuente_bce": "Decisión del BCE del 10-09-2026: facilidad de depósito 2,50 % desde el 16-09-2026."
 }
