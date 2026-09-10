@@ -13,7 +13,7 @@ y todos son deuda pública o cuenta bancaria, no productos exóticos:
 | Producto | Por qué interesa | Por qué no lo haría todavía |
 |---|---|---|
 | **Bonos del Estado a 3 años** | El 03-09-2026 se adjudicaron al 2,87 % (5 años: 3,01 %), frente al 2,66 % de la Letra a 12 meses. Fija ese tipo tres años. Mismo emisor y misma seguridad si se mantiene a vencimiento | Si los tipos siguen subiendo (el BCE subía en septiembre), la Letra se renueva a mejor tipo cada año y el bono se queda atrás. Y si necesitas vender antes, el precio puede estar por debajo de lo pagado |
-| **Cuenta remunerada de MyInvestor** | 2,5 % TAE con condiciones (promoción hasta 31-12-2026, saldo máximo 70.000 €, para nuevos clientes o con aportación mensual ≥ 900 €). Liquidez total, garantía del Fondo de Garantía de Depósitos hasta 100.000 € | Es una promoción: el tipo cambia. Comprobar qué condición cumples. Ética: el dinero lo usa un banco convencional (Andbank) |
+| **Cuenta remunerada de MyInvestor** | Liquidez total con garantía del Fondo de Garantía de Depósitos. Según las bases legales aportadas (05-2026): BCE − 1,25 puntos el primer año (≈ 1,00–1,25 %), 0,30 % después; 2,50 % solo invirtiendo 900 €/mes nuevos en productos de la casa | **Descartada como destino del colchón**: no supera el listón de las Letras (documento 11 §11.2 quater). Se mantiene como cuenta operativa para los fondos |
 | **Plan de pensiones indexado** | Deducción fiscal de hasta 1.500 €/año; MyInvestor cobra ≤ 0,49 % total; rescatable a los 10 años desde 2025 | Solo compensa si tu tipo marginal de IRPF es alto (≥ 30 %) y no vas a necesitar ese dinero en 10 años. **Falta el dato de tus ingresos.** Los indexados de MyInvestor no llevan filtro ético |
 
 Y hay **una familia que encaja con tu criterio ético pero rinde menos**: banca ética (Triodos: cuenta al
@@ -29,7 +29,7 @@ invierte tu dinero.
 | Bonos del Estado 3 años | 1–2 | 2,87 % | Al vencimiento (secundario con riesgo de precio) | Cupón anual tributa cada año | Igual que Letras | **Analizar** para parte del bloque conservador |
 | Bonos del Estado 5 años | 2 | 3,01 % | Idem, más sensible a tipos (duración ≈ 4,6) | Idem | Igual | Solo si seguro de no vender en 5 años |
 | Bono verde del Reino de España | 3 | Similar a obligaciones largas | Vence en 2042: muy largo | Idem | Uso de fondos verde | **No**: demasiada duración para un conservador |
-| Cuenta remunerada MyInvestor | 1 | 2,5 % TAE (promoción, condiciones) | Inmediata | Interés tributa al cobrar, retención 19 % | Banco convencional | **Analizar** como liquidez entre vencimientos |
+| Cuenta remunerada MyInvestor | 1 | 1,00–1,25 % primer año; 0,30 % después (bases 05-2026) | Inmediata | Interés tributa al cobrar, retención 19 % | Banco convencional | Solo cuenta operativa; no para el colchón |
 | Cuenta / depósito Triodos | 1 | 1,00 % / 1,90 % | Inmediata / a vencimiento | Idem | Banca ética | Opción por valores, con coste de ≈ 0,7 pp |
 | Fondo monetario (art. 8 si lo hay) | 1 | ≈ tipos BCE (2,25–2,5 %) menos coste | Diaria | Solo al reembolsar; traspasable | Depende del fondo | Alternativa cómoda a la Letra; ver documento 09 |
 | Fondo RF corto plazo ético | 1–2 | ≈ 2–3 % | Diaria | Idem | Sí | **Primer fondo** (documento 09) |

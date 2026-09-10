@@ -31,7 +31,8 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    y un PIAS de VidaCaixa (desde 2010) que vale 5.891 € tras aportar 5.267 €: ≈ 1 % anual, por debajo de la inflación
    (documento 10 §10.6). Rescatarlo hacia Letras cuesta 119 € de impuesto y se recupera en 1–3 años, si no hay penalización. El colchón pierde ≈ 530 €/año de poder de compra; puede rendir sin dejar de ser colchón en
    cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 1.095 € y facturación variable: colchón decidido de 12 meses (≈ 13.100 €), del
-   que ≈ 10.400 € pasan a cuenta remunerada o Letras cortas; ≈ 2.900 € sobrantes → tercera Letra de 2.000 €. Reparto en §11.2 ter.
+   que ≈ 10.400 € pasan a Letras a 3 y 6 meses en el Banco de España (la cuenta de MyInvestor remunera 1,00–1,25 %
+   el primer año según sus bases legales y no supera el listón); ≈ 2.900 € sobrantes → tercera Letra de 2.000 €. Reparto en §11.2 ter.
 9. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
    rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics` importable y comando `escalera`; los

@@ -68,7 +68,7 @@ Los productos que cumplen esa obligación y además rinden algo son solo estos:
 
 | Producto | Disponible en | ¿Puede bajar de valor? | Rendimiento 09-2026 | Garantía |
 |---|---|---|---|---|
-| Cuenta remunerada (MyInvestor u otra) | Inmediato | No | 2,5 % TAE en promoción; el tipo base sin promoción hay que consultarlo | FGD hasta 100.000 € |
+| Cuenta remunerada (MyInvestor) | Inmediato | No | 1,00–1,25 % TAE el primer año; 0,30 % después (bases legales aportadas) | FGD hasta 100.000 € |
 | Letras a 3 meses (Banco de España) | Cada 3 meses (o venta en secundario) | No, a vencimiento | ≈ 2,1–2,4 % | Estado |
 | Letras a 6 meses (Banco de España) | Cada 6 meses | No, a vencimiento | ≈ 2,3–2,6 % | Estado |
 | Fondo monetario | 1–3 días hábiles | Muy poco (riesgo 1/7) | ≈ tipos BCE − coste | Sin FGD; diversificado |
@@ -123,7 +123,7 @@ Reparto propuesto de los ≈ 16.000 € en cuentas (interpretación, no norma):
 | Tramo | Importe | Dónde | Cuándo |
 |---|---|---|---|
 | Operativa + reserva fiscal | ≈ 2.700 € | Cuenta corriente CaixaBank | Ya está |
-| Colchón que rinde | ≈ 10.400 € | Cuenta remunerada de MyInvestor **solo si está en la promoción del 2,5 % (cuentas abiertas desde el 01-07-2026), y solo hasta el 31-12-2026**; en cualquier otro caso, Letras a 3 y 6 meses en el Banco de España (p. ej. 5.000 € a 3 meses + 5.000 € a 6 meses, renovando) | Tras comprobar el tipo de la cuenta (§11.2 quater) |
+| Colchón que rinde | ≈ 10.400 € | **Letras a 3 y 6 meses en el Banco de España** (p. ej. 5.000 € a 3 meses + 5.000 € a 6 meses, renovando cada vencimiento). La cuenta de MyInvestor da 1,00–1,25 % el primer año y 0,30 % después: no supera el listón (§11.2 quater) | Próximas subastas a 3 y 6 meses (dos al mes; calendario en tesoro.es) |
 | Sobrante | ≈ 2.900 € | Letra a 12 meses de 2.000 € (las Letras van de 1.000 en 1.000); los ≈ 900 € restantes se quedan en el colchón | Próxima subasta a 12 meses (octubre o noviembre de 2026, junto con la renovación de la Letra A) |
 
 Con esto, el capital queda así: 18.000 € en Letras a 12 meses (tres peldaños: noviembre, junio y el nuevo)
@@ -139,27 +139,48 @@ Sobre la confianza que pide el usuario: los cuatro productos de la tabla compart
 lo prometido y se puede recuperar. Solo después tiene sentido probar productos de riesgo 2 con dinero que
 no sea el colchón.
 
-## 11.2 quater La cuenta remunerada de MyInvestor: condiciones y cómo comprobarlas
+## 11.2 quater La cuenta remunerada de MyInvestor: condiciones reales (bases legales aportadas por el usuario)
 
-Condiciones publicadas (web de MyInvestor y Finect, consultadas el 10-09-2026; verificar en la app):
+El usuario ha aportado el 10-09-2026 las **bases legales de la promoción vigente desde el 01-05-2026**, el
+contrato marco (versión 19-01-2026), el certificado de titularidad y el extracto de la cuenta. Datos que
+importan (los personales no se copian aquí):
 
-| Situación | TAE | Vigencia |
+| Situación | TAE | Detalle |
 |---|---|---|
-| Cuenta abierta a partir del 01-07-2026 (promoción) | 2,50 % sobre el saldo, hasta 70.000 € | Hasta el 31-12-2026 |
-| Sin inversión periódica, primeros 12 meses desde la apertura | 1,00 % | 12 meses |
-| Sin inversión periódica, a partir del mes 13 | 0,30 % | Indefinido |
-| Con inversión periódica de 300 / 600 / 900 € al mes en productos de MyInvestor | 1,00 % / 1,50 % / 2,00 % | Mientras se mantenga la aportación |
+| Primeros 12 meses desde la apertura, sin condiciones | **Tipo de la facilidad de depósito del BCE − 1,25 puntos**, como mínimo | Con el BCE al 2,25 % → 1,00 %; si el BCE sube al 2,50 % → 1,25 %. Saldo máximo 70.000 €. La TAE exacta se publica en la web de MyInvestor |
+| A partir del mes 13, sin condiciones | **0,30 %** | Máximo 210 € brutos al año |
+| Invirtiendo 300 € netos/mes en productos MyInvestor | Igual que el primer año | Desde el 01-09-2026 |
+| Invirtiendo 600 € netos/mes | 1,75 % | Idem |
+| Invirtiendo 900 € netos/mes | 2,50 % | Idem |
+| Con una póliza AXA contratada a través de MyInvestor | Igual que el primer año | Solo cuentas de más de 12 meses |
 
-Lectura con la regla del listón (documento 02 §2.2 bis): la Letra a 12 meses da 2,66 % bruto. Solo la
-promoción del 2,50 % hasta fin de 2026 se acerca; el resto de tramos queda por debajo. Consecuencia:
+Otros puntos de las bases: los intereses se abonan cada mes en el aniversario de apertura; hay retención
+del 19 %; los traspasos no cuentan como inversión, solo las suscripciones nuevas; MyInvestor puede
+modificar o cancelar la promoción avisando; cancelar y reabrir la cuenta no reinicia el primer año.
 
-- Si tu cuenta se abrió a partir del 01-07-2026, el colchón puede estar ahí **hasta el 31-12-2026** con
-  liquidez total y casi el mismo rendimiento que la Letra. En enero de 2027, cuando baje al 1 % o menos,
-  pasar el colchón a Letras a 3 y 6 meses en el Banco de España.
-- Si se abrió antes o no aplica la promoción, el colchón va directamente a Letras a 3 y 6 meses. El 1 % de
-  la cuenta no supera el listón.
-- Los tramos por inversión periódica no interesan: exigen meter 900 €/mes en productos de MyInvestor para
-  llegar al 2 %, que sigue por debajo de la Letra.
+**Estado de la cuenta según el extracto del 10-09-2026:** cuenta de efectivo y cuenta de valores activadas,
+saldo 0 €, sin movimientos. Es una cuenta recién abierta: el primer año de remuneración corre desde ahora.
+
+**Lectura con la regla del listón** (documento 02 §2.2 bis): la Letra a 12 meses da 2,66 % bruto y la de
+3 meses ≈ 2,2–2,4 %. La cuenta da 1,00–1,25 % el primer año y 0,30 % después. Los tramos del 1,75 % y
+2,50 % exigen suscribir 600 o 900 € nuevos **cada mes** en productos de la lista (carteras automatizadas,
+fondos de la casa, planes de pensiones), sin traspasos; para un fondo de aprendizaje de 300 € no tiene
+sentido y el 2,50 % ni siquiera supera claramente a la Letra. **Conclusión: el colchón no va a la cuenta
+de MyInvestor; va a Letras a 3 y 6 meses en el Banco de España.** La cuenta de MyInvestor se usa solo
+como cuenta operativa para comprar el fondo de aprendizaje.
+
+Nota: en una búsqueda previa apareció una promoción del 2,5 % para cuentas abiertas entre julio y agosto de
+2026. No figura en las bases aportadas (versión de mayo de 2026), así que **no se cuenta con ella**. Si la
+app mostrara una TAE distinta de la calculada aquí, manda la app.
+
+**Contrato marco:** MyInvestor Banco es entidad de crédito supervisada por el Banco de España y la CNMV,
+adherida al Fondo de Garantía de Depósitos español (hasta 100.000 € por titular). Sin comisión de custodia
+ni de mantenimiento en cuentas y fondos según sus tarifas; comprobar el apartado "Tarifas especiales"
+(página 48 del contrato) antes de operar con cualquier producto que no sea un fondo indexado.
+
+**Aviso sobre los documentos aportados:** el certificado de titularidad y el extracto contienen nombre,
+NIF, IBAN y domicilio. No se han copiado a este repositorio ni hacen falta para el análisis. Conviene no
+compartirlos salvo con quien los necesite.
 
 **Cómo verlo en la app o la web de MyInvestor** (los menús cambian; esto es lo que hay que buscar, no un
 recorrido exacto):
@@ -218,4 +239,4 @@ que está exento.
 |---|---|---|
 | CaixaBank | Cuenta operativa (nómina, recibos) y fondo de emergencia | Ya está montado; condiciones de exención de comisiones |
 | Banco de España (cuenta directa) | Letras (ya) y, si se decide, Bonos del Estado | Coste mínimo, cero intermediarios |
-| MyInvestor | Fondos indexados éticos y, si cumple condiciones, liquidez remunerada | Sin custodia ni mínimos; traspasos gratuitos |
+| MyInvestor | Fondos indexados éticos (cuenta operativa para el fondo de aprendizaje) | Sin custodia ni mínimos; traspasos gratuitos. Su cuenta remunerada no supera el listón |

@@ -16,7 +16,7 @@
 | Tolerancia a caídas: ¿qué caída temporal del total (10 %, 20 %, 35 %) haría vender por miedo? | Define el porcentaje máximo de renta variable | Declarado: perfil muy conservador. Cifra concreta: sin dato; de momento RV 0 % |
 | Otras rentas del ahorro del año (intereses, dividendos) | Cambian el tipo marginal que se aplica a nuevos rendimientos | |
 | Situación fiscal: residencia fiscal, comunidad autónoma | La base del ahorro es estatal, pero conviene confirmar residencia en España | |
-| Comisiones bancarias | Restan rentabilidad sin riesgo | CaixaBank: sin comisión de mantenimiento (declarado). Letras en Banco de España: 0,15 % al vencer |
+| Comisiones bancarias | Restan rentabilidad sin riesgo | CaixaBank: sin comisión de mantenimiento (declarado). Letras en Banco de España: 0,15 % al vencer. MyInvestor: cuenta abierta en 09-2026, saldo 0 €, remunera 1,00–1,25 % el primer año (bases legales aportadas) |
 | Definición personal de "ético" | Véase `05_criterios_eticos.md`; sin definirlo no se puede filtrar productos | |
 
 ## 1.2 Objetivo declarado
