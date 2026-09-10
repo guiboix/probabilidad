@@ -13,7 +13,9 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] En la próxima Renta, restar la comisión del 0,15 % del BdE al rendimiento de las Letras (no viene en el borrador).
 - [x] Capital total ≈ 30.000 €; sin comisión de mantenimiento en CaixaBank.
 - [x] Los ≈ 14.000 € de CaixaBank son el fondo de emergencia (y candidatos a inversión segura).
-- [ ] **Gasto mensual aproximado**: decide cuántos de los 14.000 € son colchón intocable y cuántos sobran.
+- [x] Gasto mensual: ≈ 770–1.020 € (autónomo). Colchón prudente 9–12 meses; sobran ≈ 2.500–6.000 €.
+- [ ] Confirmar si la cuota de autónomos está dentro de los 500 €/trimestre o va aparte.
+- [ ] Decidir dónde va el colchón que rinde (cuenta remunerada o Letras a 3–6 meses) y cuánto pasa a la Letra a 12 meses.
 - [x] Los "bonos" son las Letras: aclarado.
 - [ ] Comprobar el tipo de la cuenta remunerada de MyInvestor que te aplica (promoción o base).
 - [ ] Verificar en tesoro.es el tipo de la última subasta y en la app de MyInvestor las comisiones vigentes

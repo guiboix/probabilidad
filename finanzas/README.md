@@ -29,7 +29,8 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    corriente de CaixaBank no remunera. Comprobaciones pendientes en §11.5.
 8. Capital total ≈ 30.000 €: 16.000 € en Letras y ≈ 14.000 € en CaixaBank al 0 % que son el fondo de
    emergencia. Ese colchón pierde ≈ 460 €/año de poder de compra; puede rendir sin dejar de ser colchón en
-   cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Falta el gasto mensual para saber qué sobra.
+   cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 770–1.020 €: colchón prudente de 9–12 meses (6.000–9.000 €) y ≈ 2.500–6.000 €
+   que sobran para el bloque conservador. Reparto propuesto en §11.2 ter.
 9. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
    rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics` importable y comando `escalera`; los

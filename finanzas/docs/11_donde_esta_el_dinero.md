@@ -88,6 +88,43 @@ Ejemplo ilustrativo, **no un dato**: con gastos de 1.500 €/mes, 6 meses son 9.
 serían invertibles bajo las reglas conservadoras. Con gastos de 2.300 €/mes, los 14.000 € son el colchón
 entero y no sobra nada. El número que falta es el gasto mensual.
 
+### Cálculo con los datos del usuario (10-09-2026)
+
+Datos declarados: autónomo; gastos profesionales (asesoría e impuestos) ≈ 500 € por trimestre como mínimo;
+gastos personales ≈ 600 € al mes. **Duda a resolver:** si la cuota de autónomos está dentro de esos 500 €
+trimestrales o va aparte (la cuota mínima ronda 200–300 € al mes con el sistema de cotización por
+ingresos reales; verificar en el recibo de la Seguridad Social).
+
+| Concepto | Si la cuota está incluida | Si la cuota va aparte (≈ 250 €/mes) |
+|---|---|---|
+| Gastos personales | 600 €/mes | 600 €/mes |
+| Asesoría e impuestos (500 €/trim.) | 167 €/mes | 167 €/mes |
+| Cuota de autónomos | incluida | 250 €/mes |
+| **Salida mensual mínima** | **≈ 770 €** | **≈ 1.020 €** |
+| Colchón de 6 meses | 4.600 € | 6.100 € |
+| Colchón de 9 meses | 6.900 € | 9.200 € |
+| Colchón de 12 meses | 9.200 € | 12.200 € |
+
+Para un autónomo con ingresos variables la referencia prudente son **9–12 meses**, no 3–6: un mal
+trimestre de facturación no puede obligar a tocar las Letras. Además, como autónomo hay dinero en la
+cuenta que **no es tuyo**: el IVA cobrado y el pago fraccionado de IRPF se liquidan cada trimestre. Ese
+importe debe estar apartado mentalmente (o en una subcuenta) y no cuenta ni como colchón ni como inversión.
+
+Reparto propuesto de los ≈ 14.000 € (interpretación, no norma; ajustar con el dato de la cuota):
+
+| Tramo | Importe | Dónde | Función |
+|---|---|---|---|
+| Operativa + reserva fiscal del trimestre | ≈ 2.000–2.500 € | Cuenta corriente CaixaBank | Pagar el mes y el próximo modelo trimestral sin mirar |
+| Colchón hasta 9–12 meses | ≈ 6.000–9.000 € | Cuenta remunerada (si el tipo es bueno) o Letras a 3 y 6 meses escalonadas en el Banco de España | Emergencias; no baja de valor; disponible en ≤ 3 meses |
+| Sobrante | ≈ 2.500–6.000 € | Cartera conservadora: Letra a 12 meses (tercer peldaño de la escalera) o, tras el aprendizaje, renta fija corta ética | Deja de ser colchón; sigue siendo seguro |
+
+Con esto, el capital quedaría así: 16.000 € en Letras a 12 meses + 2.500–6.000 € más en el bloque
+conservador + 6.000–9.000 € de colchón que rinde algo + 2.000–2.500 € operativos. Todo dentro del perfil
+muy conservador y de la regla del listón (documento 02).
+
+Coste de no hacer nada: los 14.000 € al 0 % pierden ≈ 460 € al año de poder de compra. Colocando
+≈ 11.500 € (colchón + sobrante) al ≈ 2,2 % neto se recuperan ≈ 250 € al año sin cambiar el riesgo.
+
 Sobre la confianza que pide el usuario: los cuatro productos de la tabla comparten la característica de que
 **el capital no baja**. La forma de ganar confianza sin arriesgar el colchón es empezar por uno de ellos
 (cuenta remunerada o una Letra a 3 meses) y comprobar durante un trimestre que el dinero está ahí, rinde
