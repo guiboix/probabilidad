@@ -7,7 +7,7 @@
 
 | Dato | Por qué importa | Respuesta |
 |---|---|---|
-| Importe total invertible hoy (€) | Escala de todo; determina si merece la pena diversificar en varios fondos | |
+| Importe total invertible hoy (€) | Escala de todo; determina si merece la pena diversificar en varios fondos | **≈ 30.000 €** en total contando las Letras (declarado 10-09-2026). Falta el desglose de los ≈ 14.000 € que no son Letras: bonos, fondo de emergencia y efectivo |
 | Importe actual en Letras del Tesoro y vencimientos | Es el dinero que se plantea mover; sus vencimientos marcan el calendario natural sin vender antes | **Aportado 10-09-2026:** dos Letras a 12 meses de 8.000 € cada una (16.000 €), amortizaciones el **06-11-2026** y el **04-06-2027**. Se mantienen renovándose de momento. Precios inferidos de las subastas del 04-11-2025 (1,99 %) y 02-06-2026 (2,54 %). Falta confirmar que 8.000 € es nominal |
 | Capacidad de ahorro mensual (€) | Permite rebalancear con aportaciones (sin tributar) y usar aportaciones periódicas | |
 | Fondo de emergencia ya cubierto (meses de gastos) | Es requisito previo a asumir volatilidad. Referencia habitual: 3–6 meses de gastos en liquidez o Letras | **Sí, aparte de las Letras** (declarado 10-09-2026). Meses de gastos: sin dato |
@@ -16,6 +16,7 @@
 | Tolerancia a caídas: ¿qué caída temporal del total (10 %, 20 %, 35 %) haría vender por miedo? | Define el porcentaje máximo de renta variable | Declarado: perfil muy conservador. Cifra concreta: sin dato; de momento RV 0 % |
 | Otras rentas del ahorro del año (intereses, dividendos) | Cambian el tipo marginal que se aplica a nuevos rendimientos | |
 | Situación fiscal: residencia fiscal, comunidad autónoma | La base del ahorro es estatal, pero conviene confirmar residencia en España | |
+| Comisiones bancarias | Restan rentabilidad sin riesgo | CaixaBank: sin comisión de mantenimiento (declarado). Letras en Banco de España: 0,15 % al vencer |
 | Definición personal de "ético" | Véase `05_criterios_eticos.md`; sin definirlo no se puede filtrar productos | |
 
 ## 1.2 Objetivo declarado

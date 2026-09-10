@@ -42,6 +42,27 @@ Detalle fiscal útil: la comisión del 0,15 % del Banco de España **es deducibl
 Letra (criterio de la Dirección General de Tributos), pero el borrador de la Renta no la incluye: hay que
 restarla a mano en la casilla del rendimiento. En tus dos Letras son 24 € de base menos, ≈ 4,6 € de impuesto.
 
+## 11.2 bis Mapa del capital (≈ 30.000 €, declarado 10-09-2026)
+
+| Dónde | Importe | Estado |
+|---|---|---|
+| Letras A y B (Banco de España) | 16.000 € | Confirmado |
+| Bonos | ? | Importe, emisor y custodio pendientes |
+| Fondo de emergencia | ? | Existe; importe pendiente |
+| Efectivo en cuenta corriente CaixaBank (0 %) | ? | Pendiente |
+| Fondo de aprendizaje (previsto) | 300 € | Por contratar |
+| **Total** | **≈ 30.000 €** | Los ≈ 14.000 € no-Letras están sin desglosar |
+
+Dos consecuencias inmediatas:
+
+- **Garantía de depósitos:** con 30.000 € en total estás muy por debajo de los 100.000 € cubiertos por entidad.
+  Sin problema de concentración.
+- **Mantenimiento:** el usuario confirma que CaixaBank no le cobra. Nada que corregir.
+
+Lo que importa ahora es el desglose de los 14.000 €: cada euro que no sea fondo de emergencia ni bono y
+esté en la cuenta corriente al 0 % pierde ≈ 3,3 % anual. Si fueran, por ejemplo, 5.000 € parados, el coste
+sería ≈ 165 € al año de poder adquisitivo, más de la mitad de lo que rinden las dos Letras juntas.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
@@ -54,8 +75,8 @@ anual de inflación entero. Como referencia:
 | Cuenta remunerada MyInvestor | 2,5 % TAE (promoción, condiciones) | FGD España 100.000 € | ≈ 101 € netos ganados |
 | Letra 12 meses en BdE | 2,66 % | Estado | ≈ 106 € netos ganados |
 
-Además, CaixaBank cobra 60 € al trimestre de mantenimiento si no se cumplen condiciones (nómina, 20.000 €
-en productos, etc.). Comprobar si las cumples.
+CaixaBank cobra 60 € al trimestre de mantenimiento si no se cumplen condiciones; el usuario confirma
+que está exento.
 
 ## 11.4 Lo que NO conviene hacer en CaixaBank
 
@@ -69,10 +90,9 @@ en productos, etc.). Comprobar si las cumples.
 1. ~~Dónde están las Letras~~ Confirmado: cuenta directa del Banco de España. Mantener así.
 2. **Cuánto dinero está parado** en la cuenta corriente y cuánto necesitas de verdad como colchón. Lo que
    sobre, a cuenta remunerada o a Letras.
-3. **Si pagas mantenimiento** (60 €/trimestre) y por qué condición estás exento.
+3. ~~Si pagas mantenimiento~~ Confirmado: exento.
 4. **Dónde están los bonos** y qué te cobran por ellos (documento 10 §10.4).
-5. **Concentración**: si el capital total en CaixaBank supera 100.000 €, el exceso queda fuera de la garantía
-   de depósitos. Dato pendiente.
+5. ~~Concentración~~ Confirmado: ≈ 30.000 € en total, dentro de la garantía de 100.000 €.
 
 ## 11.6 Cómo queda el mapa de custodios propuesto
 

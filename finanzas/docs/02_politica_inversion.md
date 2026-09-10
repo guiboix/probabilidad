@@ -25,6 +25,10 @@ mayor parte del capital. Traducción a reglas:
 - **Bloque de aprendizaje ≤ 15 %**: fondos de renta fija con filtro ético de riesgo 2, donde se aprende a
   leer un VL, una duración y un KID. Empieza con 300 €.
 
+Con ≈ 30.000 € de capital total (declarado), las reglas en euros: bloque conservador ≥ 25.500 €; bloque de
+aprendizaje ≤ 4.500 €; renta variable 0 €. El fondo de emergencia, si está dentro de esos 30.000 €, cuenta
+como bloque conservador pero no se invierte en nada que no sea liquidez inmediata o Letras.
+
 | Bloque | Función | Instrumento | Fase 0 (hoy) | Fase 1 (tras el aprendizaje) |
 |---|---|---|---|---|
 | Conservador: Letras | Capital principal, sin riesgo de precio a vencimiento | Escalera de Letras 12 m (A y B) | 98 % | 70–85 % |

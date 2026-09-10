@@ -12,7 +12,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] Tipo marginal de IRPF (para saber si el plan de pensiones compensa).
 - [x] Letras en cuenta directa del Banco de España (compra en web del Tesoro): confirmado.
 - [ ] En la próxima Renta, restar la comisión del 0,15 % del BdE al rendimiento de las Letras (no viene en el borrador).
-- [ ] Cuánto dinero hay parado en la cuenta corriente y si se paga mantenimiento.
+- [x] Capital total ≈ 30.000 €; sin comisión de mantenimiento en CaixaBank.
+- [ ] Desglose de los ≈ 14.000 € que no son Letras: bonos, fondo de emergencia y efectivo parado.
 - [ ] Verificar en tesoro.es el tipo de la última subasta y en la app de MyInvestor las comisiones vigentes
   (resolver la discrepancia de coste de la Cartera Sostenible: 0,81 % vs 1,09–1,33 %).
 
