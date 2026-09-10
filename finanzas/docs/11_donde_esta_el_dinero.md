@@ -118,10 +118,17 @@ Reparto propuesto de los ≈ 16.000 € en cuentas (interpretación, no norma):
 | Resto del colchón | ≈ 7.200 € | ≈ 10.400 € | Cuenta remunerada (si el tipo es bueno) o Letras a 3 y 6 meses escalonadas en el Banco de España | Emergencias; no baja de valor; disponible en ≤ 3 meses |
 | Sobrante | ≈ 6.100 € | ≈ 2.900 € | Cartera conservadora: Letra a 12 meses (tercer peldaño de la escalera) o, tras el aprendizaje, renta fija corta ética | Deja de ser colchón; sigue siendo seguro |
 
-Elegir 9 o 12 meses es decisión del usuario y depende de lo variable que sea su facturación. Con esto, el
-capital quedaría así: 16.000 € en Letras a 12 meses + 2.900–6.100 € más en el bloque conservador +
-7.200–10.400 € de colchón que rinde algo + ≈ 2.700 € operativos + el PIAS (5.891 €), cuyo destino se decide
-con el tipo actual en la mano (documento 10 §10.6).
+**Decisión del usuario (10-09-2026): colchón de 12 meses**, porque su facturación es variable. Reparto cerrado:
+
+| Tramo | Importe | Dónde | Cuándo |
+|---|---|---|---|
+| Operativa + reserva fiscal | ≈ 2.700 € | Cuenta corriente CaixaBank | Ya está |
+| Colchón que rinde | ≈ 10.400 € | Cuenta remunerada de MyInvestor si el tipo que le aplica es ≥ 2 %; si no, Letras a 3 y 6 meses en el Banco de España (p. ej. 5.000 € a 3 meses + 5.000 € a 6 meses, renovando) | Tras comprobar el tipo de la cuenta |
+| Sobrante | ≈ 2.900 € | Letra a 12 meses de 2.000 € (las Letras van de 1.000 en 1.000); los ≈ 900 € restantes se quedan en el colchón | Próxima subasta a 12 meses (octubre o noviembre de 2026, junto con la renovación de la Letra A) |
+
+Con esto, el capital queda así: 18.000 € en Letras a 12 meses (tres peldaños: noviembre, junio y el nuevo)
++ ≈ 10.400 € de colchón que rinde + ≈ 3.600 € operativos y remanente + el PIAS (5.891 €), cuyo destino se
+decide con el tipo actual en la mano (documento 10 §10.6).
 
 Coste de no hacer nada: los 16.000 € al 0 % pierden ≈ 530 € al año de poder de compra. Colocando
 ≈ 13.300 € (colchón que rinde + sobrante) al ≈ 2,2 % neto se recuperan ≈ 290 € al año sin cambiar el riesgo.

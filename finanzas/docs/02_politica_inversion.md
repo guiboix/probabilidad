@@ -32,10 +32,12 @@ conservador, pero solo puede estar en liquidez inmediata, cuenta remunerada o Le
 
 | Bloque | Función | Instrumento | Fase 0 (hoy) | Fase 1 (tras el aprendizaje) |
 |---|---|---|---|---|
-| Conservador: Letras | Capital principal, sin riesgo de precio a vencimiento | Escalera de Letras 12 m (A y B) | 98 % | 70–85 % |
-| Conservador: RF corto plazo ético | Igual función, más cómodo (sin subastas), con filtro ético y traspasable | Fondo indexado RF euro corto plazo ESG o monetario responsable | 0 % | 0–15 % |
-| Aprendizaje: RF ético riesgo 2 | Aprender con dinero real y riesgo contenido | Fondo indexado bonos corporativos globales ESG cubierto a euros | 2 % (300 €) | 10–15 % |
-| Renta variable ética | Crecimiento real a > 10 años | Fondo indexado RV mundial ESG/SRI | 0 % | 0 % hasta nueva decisión escrita |
+| Conservador: Letras | Capital principal, sin riesgo de precio a vencimiento | Escalera de Letras 12 m (A, B y una tercera de 2.000 €) | 18.000 € | 70–85 % |
+| Conservador: colchón de 12 meses | Emergencias de un autónomo con facturación variable | ≈ 2.700 € en cuenta corriente + ≈ 10.400 € en cuenta remunerada o Letras a 3–6 meses | ≈ 13.100 € | igual |
+| Pendiente de clasificar: PIAS | Seguro de ahorro heredado de 2010 | Se decide con el tipo actual (documento 10 §10.6) | 5.891 € | 0 € si se rescata hacia Letras |
+| Conservador: RF corto plazo ético | Igual función, más cómodo (sin subastas), con filtro ético y traspasable | Fondo indexado RF euro corto plazo ESG o monetario responsable | 0 € | 0–15 % |
+| Aprendizaje: RF ético riesgo 2 | Aprender con dinero real y riesgo contenido | Fondo indexado bonos corporativos globales ESG cubierto a euros | 300 € | 10–15 % |
+| Renta variable ética | Crecimiento real a > 10 años | Fondo indexado RV mundial ESG/SRI | 0 € | 0 % hasta nueva decisión escrita |
 
 Lo que cabe esperar de una cartera así (hecho, no promesa): rentabilidad parecida a la de las Letras
 (≈ 2–2,7 % bruto con los tipos de 2026), oscilaciones pequeñas (volatilidad total ≈ 0,5–1 %) y, mientras la
@@ -102,4 +104,5 @@ Consecuencias prácticas:
 |---|---|---|
 | 2026-09-10 | Borrador inicial | Creación del proyecto |
 | 2026-09-10 | Perfil muy conservador: RV 0 %, bloque conservador ≥ 85 %, aprendizaje ≤ 15 % | Decisión del usuario (sin experiencia previa) |
+| 2026-09-10 | Colchón de 12 meses (≈ 13.100 €); tercera Letra de 2.000 €; fase 0 cerrada en euros | Facturación variable (autónomo) |
 | 2026-09-10 | Deuda pública neta como listón mínimo para cualquier producto con riesgo, con cuatro matices | Regla propuesta por el usuario |

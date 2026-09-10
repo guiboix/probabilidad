@@ -1,6 +1,8 @@
 activo,clase,isin,valor,peso_objetivo
-Letra A (amortiza 2026-11-06),renta_fija_estado,,8000,0.42
-Letra B (amortiza 2027-06-04),renta_fija_estado,,8000,0.42
-Efectivo cuentas (fondo de emergencia),liquidez,,16000,0.00
+Letra A (amortiza 2026-11-06),renta_fija_estado,,8000,0.21
+Letra B (amortiza 2027-06-04),renta_fija_estado,,8000,0.21
+Letra C (2.000 € a 12 m; pendiente de comprar),renta_fija_estado,,0,0.05
+Cuenta corriente CaixaBank (operativa + reserva fiscal),liquidez,,2700,0.07
+Colchón que rinde (cuenta remunerada o Letras 3-6 m; hoy en cuenta al 0 %),liquidez,,13300,0.30
 CABK PIAS CMV1 (VidaCaixa; valor de rescate),seguro_ahorro,,5891.31,0.15
-Fondo RF ESG (primer fondo de aprendizaje),renta_fija,,300,0.01
+Fondo RF ESG (primer fondo de aprendizaje; pendiente de comprar),renta_fija,,0,0.01
