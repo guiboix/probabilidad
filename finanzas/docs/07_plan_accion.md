@@ -8,14 +8,13 @@ Orden propuesto. Cada paso depende del anterior.
 - [ ] Copiar plantillas de `data/` a `cartera.csv`, `letras.csv`, `movimientos.csv` con datos reales.
 - [x] Fechas de amortización de las Letras: 06-11-2026 y 04-06-2027. Falta confirmar precio de compra y nominal (`08_escalera_letras.md` §8.1).
 - [x] Fondo de emergencia aparte: confirmado.
-- [ ] Datos de los bonos que ya posee (documento 10 §10.4) → `data/bonos.csv`.
 - [ ] Tipo marginal de IRPF (para saber si el plan de pensiones compensa).
 - [x] Letras en cuenta directa del Banco de España (compra en web del Tesoro): confirmado.
 - [ ] En la próxima Renta, restar la comisión del 0,15 % del BdE al rendimiento de las Letras (no viene en el borrador).
 - [x] Capital total ≈ 30.000 €; sin comisión de mantenimiento en CaixaBank.
 - [x] Los ≈ 14.000 € de CaixaBank son el fondo de emergencia (y candidatos a inversión segura).
 - [ ] **Gasto mensual aproximado**: decide cuántos de los 14.000 € son colchón intocable y cuántos sobran.
-- [ ] Aclarar si los "bonos" son las Letras u otro producto.
+- [x] Los "bonos" son las Letras: aclarado.
 - [ ] Comprobar el tipo de la cuenta remunerada de MyInvestor que te aplica (promoción o base).
 - [ ] Verificar en tesoro.es el tipo de la última subasta y en la app de MyInvestor las comisiones vigentes
   (resolver la discrepancia de coste de la Cartera Sostenible: 0,81 % vs 1,09–1,33 %).

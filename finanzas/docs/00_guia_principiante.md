@@ -35,7 +35,7 @@ del 18 % de lo que habrías tenido. Por eso este proyecto prefiere productos con
 | **Custodio** | Quien guarda tus valores y te cobra por ello. Una Letra en el Banco de España cuesta 0,15 % al vencer; en un banco, ≈ 0,6 % al comprar más custodia anual. | Documento 11. |
 | **Cuenta directa del Banco de España** | Cuenta gratuita en el Banco de España para comprar deuda pública sin intermediarios. Se abre con certificado digital o Cl@ve. | Es donde conviene renovar las Letras. |
 | **Escalera** | Tener varias Letras que vencen en fechas distintas. Cada vencimiento es una ocasión para decidir. | Dos peldaños separados unos 7 meses. |
-| **Bono del Estado** | Como la Letra, pero a 3 o 5 años y pagando un interés (cupón) cada año. Si lo vendes antes de vencer, su precio puede haber bajado. | Documento 10 §10.3. |
+| **Bono del Estado** | Como la Letra, pero a 3 o 5 años y pagando un interés (cupón) cada año. Si lo vendes antes de vencer, su precio puede haber bajado. En la web del Tesoro, lo que vence en 12 meses o menos se llama Letra; lo de 2 a 5 años, Bono; lo de 10 años o más, Obligación. | Lo que tú tienes son Letras. Documento 10 §10.3. |
 | **Cupón** | El interés anual que paga un bono, en euros por cada 1.000 € de nominal. | Un cupón del 2,8 % son 28 € al año por cada 1.000 €. |
 | **TIR (rentabilidad a vencimiento)** | Lo que ganas al año si mantienes un bono hasta el final, contando cupones y precio de compra. | La calcula `python -m cartera bono`. |
 | **Fondo de inversión** | Una cesta de muchos bonos o acciones gestionada por una entidad. Compras una parte de la cesta. | Vas a empezar con 300 €. |

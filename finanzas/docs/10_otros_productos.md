@@ -69,7 +69,12 @@ no para hoy.
 
 ## 10.4 Sobre los bonos que ya tienes
 
-Has indicado que **tienes bonos**. Para analizarlos hace falta saber:
+**Aclarado el 10-09-2026: los "bonos" del usuario son sus dos Letras del Tesoro** (compradas en la web del
+Tesoro; 16.000 € + 14.000 € en cuenta = 30.000 € de capital total). No hay otros bonos que analizar. En
+lenguaje del Tesoro, "Letra" es deuda a 12 meses o menos sin cupón, y "Bono" es deuda a 2–5 años con
+cupón anual; ambos son deuda pública española con la misma seguridad a vencimiento.
+
+Si en el futuro se compran Bonos del Estado, para analizarlos hace falta saber:
 
 | Dato | Dónde está |
 |---|---|

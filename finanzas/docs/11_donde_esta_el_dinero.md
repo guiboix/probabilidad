@@ -48,7 +48,6 @@ restarla a mano en la casilla del rendimiento. En tus dos Letras son 24 € de b
 |---|---|---|
 | Letras A y B (Banco de España) | 16.000 € | Confirmado |
 | Cuenta corriente CaixaBank al 0 % = fondo de emergencia | ≈ 14.000 € | Confirmado. Doble función: colchón e "invertible si es seguro" |
-| Bonos | ? | Pendiente aclarar si son las Letras u otro producto |
 | Fondo de aprendizaje (previsto) | 300 € | Por contratar, con ahorro nuevo |
 | **Total** | **≈ 30.000 €** | |
 
@@ -123,7 +122,7 @@ que está exento.
 2. **Cuánto dinero está parado** en la cuenta corriente y cuánto necesitas de verdad como colchón. Lo que
    sobre, a cuenta remunerada o a Letras.
 3. ~~Si pagas mantenimiento~~ Confirmado: exento.
-4. **Dónde están los bonos** y qué te cobran por ellos (documento 10 §10.4).
+4. ~~Dónde están los bonos~~ Aclarado: los "bonos" son las Letras.
 5. ~~Concentración~~ Confirmado: ≈ 30.000 € en total, dentro de la garantía de 100.000 €.
 
 ## 11.6 Cómo queda el mapa de custodios propuesto
