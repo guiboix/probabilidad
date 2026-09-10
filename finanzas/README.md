@@ -19,8 +19,8 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    04-06-2027 y se mantienen renovándose; rinden ≈ 290 € netos y pierden ≈ 238 € de poder adquisitivo al año.
 5. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
    para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
-   rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics`, comando `escalera` y
-   recordatorios programados (documento 08 §8.5). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
+   rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics` importable y comando `escalera`; los
+   recordatorios automáticos en la sesión no se pudieron crear por permisos (documento 08 §8.5). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
    nivel ético (documento 01).
 
 ## Estructura
