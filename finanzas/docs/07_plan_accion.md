@@ -25,7 +25,7 @@ Orden propuesto. Cada paso depende del anterior.
 ## Fase 0c — Poner a rendir el colchón y el sobrante (documento 11 §11.2 ter)
 - [x] Condiciones de la cuenta de MyInvestor verificadas con las bases legales: 1,00–1,25 % el primer año, 0,30 % después. No supera el listón.
 - [x] Esquema del usuario (11-09-2026): dos bloques de 10.000 € a 12 meses renovados en noviembre y junio; ≈ 12.000 € en cuenta.
-- [ ] **Antes del 27-10-2026** (estimado; confirmar en el calendario del Tesoro): petición de **10.000 €** a 12 meses con reinversión de la Letra A + 2.000 € nuevos (subasta 03-11).
+- [ ] **Antes del 27-10-2026** (confirmado): petición de **10.000 €** a 12 meses con reinversión de la Letra A + 2.000 € nuevos (subasta 03-11).
 - [ ] ≈ 25-05-2027: petición de **10.000 €** a 12 meses con reinversión de la Letra B + 2.000 € nuevos (subasta ≈ 01-06-2027).
 - [ ] Dejar ≈ 2.700 € (dos meses de salidas + reserva fiscal del trimestre) en la cuenta corriente.
 - [ ] Decidir dónde va el colchón que rinde (cuenta remunerada o Letras a 3–6 meses) y cuánto pasa a la Letra a 12 meses.

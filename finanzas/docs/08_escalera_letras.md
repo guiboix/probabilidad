@@ -93,7 +93,7 @@ de fechas (regla del calendario; confirmar cada una en la misma tabla del Tesoro
 |---|---|---|
 | 06-10-2026 | 6 y 12 meses | 29-09-2026 (confirmado) |
 | 13-10-2026 | 3 y 9 meses | 06-10-2026 |
-| **03-11-2026** | 6 y 12 meses | **27-10-2026** |
+| **03-11-2026** | 6 y 12 meses | **27-10-2026** (confirmado) |
 
 Fuente del dinero nuevo: los ≈ 2.900 € sobrantes del colchón (documento 11). Para el segundo bloque, en
 junio de 2027, harían falta otros 2.000 €: si el ahorro acumulado hasta entonces no los cubre, se renueva
@@ -128,7 +128,7 @@ de la asesora.
 
 | Subasta | Plazos | Pedir en línea antes del | Liquidación | Qué hacer | Importe |
 |---|---|---|---|---|---|
-| **03-11-2026** | 6 y 12 meses | **27-10-2026** (estimado por la regla del calendario; confirmar) | **06-11-2026** (= amortización de A) | Renovar A con reinversión + 2.000 € nuevos | **10.000 €** |
+| **03-11-2026** | 6 y 12 meses | **27-10-2026** (confirmado por el usuario en el calendario del Tesoro) | **06-11-2026** (= amortización de A) | Renovar A con reinversión + 2.000 € nuevos | **10.000 €** |
 | ≈ 01-06-2027 | 6 y 12 meses | ≈ 25-05-2027 | ≈ 04-06-2027 (= amortización de B) | Renovar B con reinversión + 2.000 € nuevos | **10.000 €** |
 
 Tras junio de 2027: 20.000 € en Letras (dos bloques de 10.000 que vencen con 7 meses de diferencia) y

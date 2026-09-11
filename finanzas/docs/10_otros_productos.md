@@ -204,8 +204,23 @@ seguro de vida **sí cubre una necesidad real** mientras los hijos dependan econ
 4. **Beneficiarios:** comprobar que están designados los hijos (o quien deba administrar el capital si son
    menores), no "herederos legales" por defecto si eso no es lo que se quiere.
 
-Datos pendientes para dimensionar: edades de los hijos, si dependen económicamente del usuario, situación del
-otro progenitor, y capital y prima de la póliza actual.
+**Dimensionado con los datos del usuario (11-09-2026): hijos de 8 y 10 años, a su cargo.**
+
+| Supuesto | Cálculo | Capital orientativo |
+|---|---|---|
+| Cubrir hasta los 18 años del menor (10 años) con 500 €/mes por hijo | 2 × 500 × 12 × 10 | 120.000 € |
+| Cubrir hasta los 23 años del menor (15 años) con 500 €/mes por hijo | 2 × 500 × 12 × 15 | 180.000 € |
+| Regla alternativa: 5–8 veces los ingresos netos anuales | Pendiente del dato de ingresos | — |
+
+Los 500 €/mes por hijo son un supuesto redondo; se ajusta con el gasto real y con lo que aporte el otro
+progenitor. Referencia de precio (orden de magnitud, a confirmar con presupuestos): un seguro de vida
+temporal de 150.000 € para una persona de 40–45 años no fumadora cuesta entre 150 y 350 € al año en
+aseguradoras directas. La póliza vinculada al PIAS, si existe, se compara contra eso. Al ser dos hijos menores,
+designar como beneficiarios a los hijos con un administrador, o al otro progenitor, según la situación
+familiar; es una decisión que conviene consultar con un notario o abogado de familia si hay dudas.
+
+Datos pendientes: situación del otro progenitor (si aporta ingresos a los hijos), ingresos netos anuales del
+usuario, y capital y prima de la póliza actual.
 
 Criterio general para el caso (b): un seguro de vida solo tiene sentido si alguien depende económicamente del
 usuario o hay una deuda que quedaría a terceros (hipoteca). Si es así, la cobertura se mantiene, pero no
