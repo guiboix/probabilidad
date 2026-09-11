@@ -178,10 +178,34 @@ mayores posiciones de este fondo y de todos los indexados de bonos corporativos 
 | Disponible en MyInvestor | **Por confirmar** (buscar por ISIN) | Sí (visto en la lista) |
 | Con 300 € | Coste ≈ 3,15 €/año | Coste ≈ 0,36 €/año |
 
-Interpretación: para un primer fondo **coherente con la ética declarada**, Triodos es la única opción
-verificable; el precio es un coste siete veces mayor. El Vanguard de deuda pública es limpio de empresas
-pero no aporta filtro ético y se mueve más. Si Triodos no está en MyInvestor, la alternativa es abrir cuenta
-en Triodos Bank o quedarse solo con Letras y Bonos del Estado, sin fondo de aprendizaje de momento.
+### Rentabilidad real del Triodos Euro Bond Impact Fund R (fuente: El Economista / Finect, consultado el 11-09-2026)
+
+| Periodo | Rentabilidad | Volatilidad | Caída máxima |
+|---|---|---|---|
+| 2026 (hasta la fecha) | +0,94 % | — | — |
+| 1 año | +2,57 % | 4,55 % | — |
+| 3 años (anualizada) | **−5,80 %** | 6,57 % | −20,64 % |
+| 5 años (anualizada) | **−2,41 %** | 5,67 % | −21,47 % |
+
+Las fechas exactas de esos periodos no constan en la fuente; el dato a 3 y 5 años incluye la subida de tipos
+de 2022, en la que el fondo llegó a caer más del 20 %. Gastos corrientes: 1,05 %.
+
+**Qué cabe esperar hacia delante (estimación, no predicción):** los bonos en euros de buena calidad rinden
+hoy en torno al 3–3,5 % bruto; restando el 1,05 % de gastos quedan ≈ 2–2,5 % antes de impuestos, es decir,
+lo mismo que una Letra, pero con oscilaciones de ± 5 % en un año normal y caídas de −20 % en un año como 2022.
+
+**Decisión del usuario (11-09-2026): camino 3, sin fondo de momento.** Motivo declarado: los fondos en
+general no le dan confianza. Es coherente con la regla del listón (documento 02 §2.2 bis): el único fondo que
+cumple su ética no rinde más que la deuda pública y cuesta siete veces más que un indexado. Los 300 €
+previstos se quedan en el colchón o van a la Letra a 12 meses.
+
+### Cómo aprender sin comprar: cartera de papel
+
+El objetivo de aprender se mantiene sin arriesgar dinero: anotar cada semana en `data/vl.csv` el valor
+liquidativo del Triodos Euro Bond Impact (LU0278272504) y del Vanguard Euro Government Bond
+(IE0007472990), como si se tuvieran 300 € en cada uno, y ejecutar `python -m cartera seguimiento`. En tres
+meses se ve en cifras propias cómo se mueven, qué hace la subida de tipos y cuánto se lleva el coste. Si
+después de eso la confianza cambia, la decisión se revisa con datos; si no, no se ha perdido nada.
 
 ## 9.5 Cuánto y cómo (decisión del usuario)
 

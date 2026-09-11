@@ -33,9 +33,10 @@ el usuario: **rentabilidad, ética y seguridad**. Incluye documentación de deci
    cuenta remunerada o Letras a 3–6 meses (documento 11 §11.2 ter). Autónomo con salida mensual ≈ 1.095 € y facturación variable: colchón decidido de 12 meses (≈ 13.100 €), del
    que ≈ 10.400 € pasan a Letras a 3 y 6 meses en el Banco de España (la cuenta de MyInvestor remunera 1,00–1,25 %
    el primer año según sus bases legales y no supera el listón); ≈ 2.900 € sobrantes → tercera Letra de 2.000 €. Reparto en §11.2 ter.
-9. Primer paso acordado: 300 € en un fondo de renta fija de bajo riesgo con filtro ético, con ahorro nuevo,
-   para aprender (documento 09). La ampliación se decide por comprensión y tolerancia, no por la
-   rentabilidad de los primeros meses (§9.7). Avisos de vencimiento: `.ics` importable y comando `escalera`; los
+9. Fondo de aprendizaje: **descartado de momento** (11-09-2026). El usuario excluye Amazon y la gran banca
+   estadounidense, presentes en todos los indexados de bonos corporativos, y no confía en los fondos; el único
+   fondo coherente (Triodos Euro Bond Impact, 1,05 % de gastos) no supera el listón de la deuda pública.
+   Se aprende con una cartera de papel: seguimiento semanal de valores liquidativos sin comprar (documento 09). Avisos de vencimiento: `.ics` importable y comando `escalera`; los
    recordatorios automáticos en la sesión no se pudieron crear por permisos (documento 08 §8.5). Para la cartera completa siguen faltando horizonte, tolerancia a caídas y
    nivel ético (documento 01).
 

@@ -33,9 +33,9 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Lista completa de indexados de renta fija revisada: 6 con filtro ético; finalista iShares Euro Corporate Bond ESG SRI (IE000KDUZ5O6), alternativa IE00BJN4RG66.
 - [x] KID y ficha del IE000KDUZ5O6 revisados: riesgo 2, acumulación, 0,15 %, duración 4,5, 2.300 M€, filtro SRI con exclusiones alineadas con París (§9.4).
 - [x] Exclusión decidida: Amazon y gran banca estadounidense → fuera todos los indexados de bonos corporativos.
-- [ ] Buscar en MyInvestor el ISIN LU0278272504 (Triodos Euro Bond Impact Fund R). Si aparece: descargar su KID y pasar la lista §9.4.
-- [ ] Si no aparece: decidir entre abrir cuenta en Triodos Bank, usar Vanguard Euro Government Bond (IE0007472990) como fondo de aprendizaje sin filtro ético, o no comprar fondo y seguir solo con deuda pública.
-- [ ] Elegir uno, suscribir **300 €** con ahorro nuevo y anotarlo en `movimientos.csv` y `cartera.csv`.
+- [x] Decisión: **sin fondo de momento** (camino 3). Los 300 € van al colchón o a la Letra a 12 meses.
+- [ ] Cartera de papel: anotar semanalmente en `vl.csv` el VL de LU0278272504 y IE0007472990 (sin comprar) y ejecutar `seguimiento`; revisar en 3 meses (10-12-2026).
+- [x] ~~Elegir uno y suscribir 300 €~~ Sustituido por la cartera de papel (decisión del 11-09-2026).
 - [ ] Importar `data/calendario_vencimientos.ics` en el calendario personal.
 - [ ] Registrar el VL semanal en `vl.csv` y ejecutar `python -m cartera seguimiento`.
 - [ ] Antes de finales de octubre de 2026: decidir si la Letra del 06-11-2026 se renueva entera.
