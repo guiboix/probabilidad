@@ -91,7 +91,7 @@ B por 9.000 € y se mantiene el colchón en 12 meses exactos. Se decide en mayo
 |---|---|---|---|---|
 | 06-10-2026 (martes) | 6 y 12 meses | 09-10-2026 | Colchón: Letra a **6 meses** | 5.000 € |
 | 13-10-2026 (martes, estimada) | 3 y 9 meses | 16-10-2026 | Colchón: Letra a **3 meses** | 5.000 € |
-| **03-11-2026** | 6 y 12 meses | **06-11-2026** (= amortización de A) | Renovar A a 12 meses con reinversión + 2.000 € nuevos | **10.000 €** |
+| **03-11-2026** | 6 y 12 meses | **06-11-2026** (= amortización de A) | Renovar A a 12 meses con reinversión + 2.000 € nuevos (+ 5.000 € del PIAS si el rescate está cobrado) | **10.000 € (o 15.000 €)** |
 | Enero 2027 | 3 meses | | Renovar la Letra a 3 meses del colchón | 5.000 € |
 | Abril 2027 | 3 y 6 meses | | Renovar las del colchón | 5.000 + 5.000 € |
 | 01-06-2027 (estimada) | 6 y 12 meses | 04-06-2027 (= amortización de B) | Renovar B a 12 meses con reinversión (+ 2.000 € si hay ahorro) | 8.000–10.000 € |

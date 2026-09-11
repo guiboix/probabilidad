@@ -156,7 +156,16 @@ no dé con más rentabilidad y sin costes ocultos. Si no hay penalización de re
 por debajo del 2 %, rescatarlo y pasarlo al bloque conservador es coherente con la regla del listón
 (documento 02 §2.2 bis). La decisión no es urgente: unos meses más al 1 % son ≈ 5 € al mes.
 
-Qué preguntar en la oficina (la app remite allí) o buscar en las condiciones:
+**Actualización 11-09-2026:** el usuario cree que el PIAS no aplica ningún interés en la actualidad. Si la
+asesora lo confirma y no hay penalización de rescate, la decisión es rescatar: 5.891,31 € menos 118,56 € de
+IRPF (que retiene la aseguradora) = ≈ 5.772 € netos. A 0 % de rendimiento actual, cada mes en el PIAS
+cuesta ≈ 10 € de rendimiento perdido frente a una Letra (5.772 € × 2,2 % / 12). Destino propuesto: sumar
+5.000 € al bloque de la subasta del 03-11-2026 (Letra A renovada por 15.000 € en vez de 10.000 €) si el
+rescate está cobrado antes de finales de octubre; si llega después, Letra propia en la siguiente subasta a
+12 meses (diciembre de 2026). Los ≈ 772 € restantes, al colchón. Requisito previo: respuesta escrita de la
+asesora a las cuatro preguntas siguientes, en especial la 2.
+
+Qué preguntar a la asesora (la app remite a la oficina) o buscar en las condiciones:
 
 1. Tipo de interés técnico que se aplica ahora y hasta cuándo.
 2. Si el valor de rescate de 5.891,31 € es neto de penalizaciones o hay descuento por rescatar.

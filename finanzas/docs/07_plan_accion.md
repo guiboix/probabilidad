@@ -14,7 +14,7 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Capital total ≈ 37.900 €: 16.000 € Letras + 16.000 € cuentas + 5.890 € PIAS; sin comisión de mantenimiento.
 - [x] Los ≈ 16.000 € en cuentas son el fondo de emergencia (y candidatos a inversión segura).
 - [x] PIAS identificado: CABK PIAS CMV1 (VidaCaixa), 2010, 5.267 € aportados, 5.891 € de rescate, TIR ≈ 0,8–1,3 %.
-- [ ] PIAS: preguntar tipo de interés actual, si el valor de rescate es neto de penalización y gastos anuales (documento 10 §10.6). Decidir después si se rescata hacia Letras.
+- [ ] PIAS: el usuario cree que no rinde nada. Confirmar por escrito con la asesora (tipo actual y penalización). Si se confirma: rescatar y sumar 5.000 € al bloque de Letras del 03-11-2026 (documento 10 §10.6).
 - [x] Gasto mensual ≈ 1.095 € (cuota de autónomos 328 € aparte). Colchón prudente 9–12 meses = 9.900–13.100 €; sobran ≈ 2.900–6.100 €.
 - [x] Colchón de 12 meses (≈ 13.100 €): decidido.
 
