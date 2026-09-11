@@ -218,6 +218,15 @@ Referencia de precio (orden de magnitud, a confirmar con 2–3 presupuestos): se
 aseguradoras tarifan por edad en el momento de contratar; cumplir 45 el 06-10-2026 puede subir un escalón
 la prima, así que si se contrata una póliza nueva conviene hacerlo antes de esa fecha.
 
+**Posible cobertura ya existente (11-09-2026):** el usuario cree que su mujer tiene un seguro de vida que
+cubre a toda la unidad familiar. Qué significa y qué comprobar: un seguro de vida paga cuando fallece
+**la persona asegurada**. Que la póliza sea "familiar" puede significar (a) que ambos cónyuges figuran como
+asegurados, cada uno con su capital, o (b) que solo la mujer está asegurada y los beneficiarios son la
+familia. Solo el caso (a) cubre la necesidad del usuario. Hay que leer en la póliza: quiénes son los
+**asegurados**, el **capital por cada asegurado**, los **beneficiarios** y si está vinculada a un préstamo
+(en ese caso el capital va al banco, no a la familia). Si el usuario figura como asegurado con ≥ 60.000 €,
+no hace falta contratar nada más y el rescate del PIAS no depende del seguro.
+
 Comparación pendiente: capital y prima de la póliza asociada al PIAS (respuesta de la asesora). Si cubre
 menos de ≈ 60.000 €, no cumple su función aunque se mantenga.
 
