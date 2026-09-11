@@ -180,8 +180,12 @@ comisión de gestión ≈ 0,5–1,5 % anual más los costes de los fondos subyac
 excluye; (3) el usuario ha declarado que no confía en los fondos. Si se quiere confirmar, basta pedir el
 documento de datos fundamentales y comprobar la casilla de costes totales.
 
-**Punto abierto (11-09-2026): seguro de vida asociado al PIAS.** El usuario indica que tiene un seguro de
-vida asociado. Hay dos posibilidades y hay que saber cuál es antes de que se ejecute el rescate:
+**Resuelto (11-09-2026, respuesta de la asesora): el seguro asociado al PIAS es la cobertura propia del
+producto, 600 € en caso de fallecimiento** (caso a). La prima se descuenta de la rentabilidad del PIAS y el
+beneficiario, si no se ha designado otro, son los herederos legales (los hijos). No cubre ninguna necesidad
+real y desaparece con el rescate sin pérdida relevante. **El rescate total sigue adelante sin condiciones.**
+
+Análisis previo (se conserva como referencia):
 
 | Caso | Qué es | Efecto del rescate | Qué hacer |
 |---|---|---|---|
