@@ -227,6 +227,19 @@ familia. Solo el caso (a) cubre la necesidad del usuario. Hay que leer en la pó
 (en ese caso el capital va al banco, no a la familia). Si el usuario figura como asegurado con ≥ 60.000 €,
 no hace falta contratar nada más y el rescate del PIAS no depende del seguro.
 
+**Pareja no casada (11-09-2026).** Consecuencias, separadas por tema:
+
+| Tema | Qué pasa sin matrimonio | Qué hacer |
+|---|---|---|
+| Seguro de vida | No es traba: asegurados y beneficiarios se designan **por nombre y DNI**, casados o no. Lo que hay que mirar es si la póliza "familiar" de la pareja define "unidad familiar" como cónyuge/pareja de hecho: si el usuario no consta por nombre como asegurado, no está cubierto | Leer la póliza; si no consta, contratar seguro propio con los hijos como beneficiarios |
+| Beneficiarios y menores | El capital del seguro va fuera de la herencia, directo a quien conste como beneficiario. Con hijos menores, lo administra su representante legal (la madre) hasta la mayoría de edad, salvo que se indique otra cosa | Designar a los hijos por nombre; si se quiere que la madre administre o cobre parte, indicarlo expresamente |
+| Herencia | Una pareja no casada **no hereda nada por ley** en territorio de derecho común (Comunidad Valenciana incluida). Heredan los hijos. Sin testamento, la pareja queda fuera de las Letras, cuentas y demás | **Hacer testamento** (≈ 50–80 € en notaría). Es lo más importante de esta lista. Los hijos conservan siempre su legítima; el resto se puede dejar a la pareja |
+| Impuesto de sucesiones y donaciones | Los hijos (grupo II) tienen bonificación del 99 % en la Comunidad Valenciana. Una pareja no inscrita tributa como extraño (grupo IV), con tipos muy altos. Las parejas de hecho **inscritas** en el registro autonómico se equiparan a cónyuges | Valorar inscribirse como pareja de hecho en el Registro de Uniones de Hecho de la Comunitat Valenciana |
+| Cuentas y Letras | La cuenta directa del Banco de España y las cuentas bancarias son solo del titular | Con testamento, los herederos acceden sin problema; sin él, la pareja no |
+
+Esto excede lo financiero y conviene confirmarlo con un notario (la primera consulta suele ser gratuita).
+Se anota aquí porque afecta directamente a para quién sirve todo el patrimonio del proyecto.
+
 Comparación pendiente: capital y prima de la póliza asociada al PIAS (respuesta de la asesora). Si cubre
 menos de ≈ 60.000 €, no cumple su función aunque se mantenga.
 
