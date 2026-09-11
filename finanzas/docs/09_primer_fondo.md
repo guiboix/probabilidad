@@ -201,52 +201,28 @@ previstos se quedan en el colchón o van a la Letra a 12 meses.
 
 ### Cómo aprender sin comprar: cartera de papel (aceptada por el usuario el 11-09-2026)
 
-**Instrucciones en dos pasos:**
+**Versión sencilla, sin instalar nada.** El usuario no necesita el proyecto en su ordenador ni tocar
+ficheros. El flujo es:
 
-1. **Cada viernes**, busca el valor liquidativo (VL) de los dos fondos y añade una línea por fondo al
-   fichero `data/vl.csv` con el formato `fecha,activo,valor_liquidativo`. Dónde se ve el VL: en el buscador de
-   fondos de MyInvestor (columna "Valor liquidativo"), o en Finect/Morningstar buscando el ISIN. El primer
-   día, copia `data/plantilla_vl.csv` a `data/vl.csv`; ya lleva el VL del Vanguard del 10-09-2026 (212,522).
-   Para el Triodos (LU0278272504) hay que anotar el VL del primer viernes, que no consta en el proyecto.
-2. Ejecuta `python -m cartera seguimiento --data data --importe 300`. La tabla muestra, para cada fondo,
-   la rentabilidad acumulada, **cuánto valdrían hoy 300 € imaginarios**, la volatilidad y la caída máxima.
+1. Cada viernes, el usuario mira el valor liquidativo de los dos fondos en el buscador de MyInvestor
+   (columna "Valor liquidativo") y lo envía por chat: dos números con la fecha.
+2. Claude los anota en `data/cartera_papel.csv` (fichero público en el repositorio, solo contiene precios de
+   fondos), ejecuta `python -m cartera seguimiento --importe 300` y devuelve la tabla: rentabilidad,
+   cuánto valdrían 300 € imaginarios, volatilidad y caída máxima.
 
-Ejemplo de línea: `2026-09-18,Triodos Euro Bond Impact R (LU0278272504),35.12`
+Fondos seguidos:
+
+| Fondo | ISIN | Primer dato |
+|---|---|---|
+| Vanguard Euro Government Bond Index EUR Acc | IE0007472990 | 212,522 (10-09-2026) |
+| Triodos Euro Bond Impact Fund R | LU0278272504 | Pendiente del primer viernes |
 
 Qué mirar cada semana, en orden: si el VL subió o bajó; si esa semana hubo noticia de tipos o inflación;
 cuánto se separan los dos fondos entre sí (el de deuda pública tiene más duración y se moverá más). Revisión
 con conclusiones el 10-12-2026.
 
-El objetivo de aprender se mantiene sin arriesgar dinero: anotar cada semana en `data/vl.csv` el valor
-liquidativo del Triodos Euro Bond Impact (LU0278272504) y del Vanguard Euro Government Bond
-(IE0007472990), como si se tuvieran 300 € en cada uno, y ejecutar `python -m cartera seguimiento`. En tres
-meses se ve en cifras propias cómo se mueven, qué hace la subida de tipos y cuánto se lleva el coste. Si
-después de eso la confianza cambia, la decisión se revisa con datos; si no, no se ha perdido nada.
-
-## 9.5 Cuánto y cómo (decisión del usuario)
-
-- Origen del dinero: **ahorro nuevo**, no las Letras, que se mantienen renovándose por decisión declarada.
-  Revisar en octubre de 2026 si se cambia esa decisión para la Letra que vence el 06-11-2026.
-- Importe: **300 €** (decidido por el usuario el 10-09-2026). Con ese tamaño, una caída del 5 % son 15 €:
-  suficiente para ver movimientos reales sin que duela. MyInvestor no aplica mínimo en sus fondos
-  indexados; comprobar que la clase concreta tampoco lo tenga.
-- Forma: aportación inicial y, si se quiere, aportación periódica mensual para ver el efecto de comprar a
-  distintos precios.
-
-## 9.6 Qué observar durante los primeros 3–6 meses (plan de aprendizaje)
-
-Registrar el valor liquidativo semanalmente en `data/vl.csv` y ejecutar `python -m cartera seguimiento`.
-
-| Semana | Qué mirar | Qué se aprende |
-|---|---|---|
-| 1 | Fecha de suscripción, valor liquidativo aplicado, participaciones | Los fondos se compran a VL desconocido (del día o del siguiente): no hay "precio de mercado" en tiempo real |
-| 2–4 | Variación diaria del VL frente a noticias de tipos (BCE, inflación) | Relación inversa tipos–precio de los bonos; magnitud según la duración |
-| 4–8 | Rentabilidad acumulada frente a la Letra (≈ 0,22 %/mes bruto al 2,66 %) | Comparar riesgo asumido con rendimiento obtenido |
-| 8–12 | Volatilidad anualizada y caída máxima calculadas por `seguimiento` | Traducir el indicador 2/7 del KID a euros reales |
-| 12–24 | Leer el informe semestral del fondo: composición, duración, cambios en exclusiones | Comprobar que el filtro ético se aplica de verdad |
-| Al cierre del año | Posición fiscal: nada que declarar hasta reembolsar | Diferimiento fiscal en la práctica |
-
-Cuando este ciclo esté hecho, pasar al documento 02 para diseñar la cartera completa con lo aprendido.
+(Versión avanzada, si algún día se instala el proyecto: `data/vl.csv` para datos propios, mismo comando con
+`--fichero vl.csv`.)
 
 ## 9.7 Criterio para ampliar la inversión
 

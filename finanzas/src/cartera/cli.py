@@ -145,7 +145,7 @@ def cmd_bono(a: argparse.Namespace) -> None:
 
 def cmd_seguimiento(a: argparse.Namespace) -> None:
     """Rentabilidad, volatilidad y caída máxima de cada fondo a partir de data/vl.csv."""
-    series = carga.leer_vl(Path(a.data) / "vl.csv")
+    series = carga.leer_vl(Path(a.data) / a.fichero)
     print(f"# Seguimiento de valores liquidativos — {date.today().isoformat()}\n")
     print(f"| Fondo | Desde | Hasta | Observaciones | Rentabilidad acumulada | Con {a.importe:,.0f} € serían | Anualizada | Volatilidad anualizada | Caída máxima |\n|---|---|---|---|---|---|---|---|---|")
     for activo, serie in series.items():
@@ -230,6 +230,7 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("--data", default="data")
     s.add_argument("--periodos-anyo", type=int, default=52, help="52 si los VL son semanales, 12 si mensuales, 252 si diarios")
     s.add_argument("--importe", type=float, default=300.0, help="importe imaginario invertido el primer día (cartera de papel)")
+    s.add_argument("--fichero", default="cartera_papel.csv", help="fichero de valores liquidativos dentro de --data (cartera_papel.csv o vl.csv)")
     s.set_defaults(func=cmd_seguimiento)
 
     a = p.parse_args(argv)

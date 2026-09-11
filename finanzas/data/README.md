@@ -17,6 +17,7 @@ cp plantilla_bonos.csv bonos.csv
 | `movimientos.csv` | `fecha,activo,tipo,importe` | `tipo` ∈ `aportacion`, `retirada`, `valoracion`. La última `valoracion` con activo `TOTAL` se usa para la TIR. |
 | `letras.csv` | `fecha_compra,fecha_vencimiento,nominal,precio_compra` | `precio_compra` por cada 1.000 € de nominal, como lo publica el Tesoro. |
 | `bonos.csv` | `emisor,isin,fecha_compra,fecha_vencimiento,nominal,cupon_anual,precio_compra` | Bonos con cupón que ya se posean. `cupon_anual` en tanto por uno. |
+| `cartera_papel.csv` | `fecha,activo,valor_liquidativo` | **Sí está en el repositorio**: solo precios públicos de fondos que se siguen sin comprar. |
 | `vl.csv` | `fecha,activo,valor_liquidativo` | Una fila por fecha y fondo; base de `python -m cartera seguimiento`. |
 | `calendario_vencimientos.ics` | eventos iCalendar | Importar en el calendario personal. Actualizar cuando el Tesoro publique el calendario 2027. |
 | `supuestos.json` | ver fichero | Parámetros de simulación, bandas de rebalanceo y referencias de mercado con su fuente. |

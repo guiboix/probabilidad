@@ -36,7 +36,7 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Exclusión decidida: Amazon y gran banca estadounidense → fuera todos los indexados de bonos corporativos.
 - [x] Decisión: **sin fondo de momento** (camino 3). Los 300 € van al colchón o a la Letra a 12 meses.
 - [x] Cartera de papel aceptada (11-09-2026).
-- [ ] Cada viernes: anotar en `data/vl.csv` el VL de LU0278272504 y IE0007472990 y ejecutar `python -m cartera seguimiento --importe 300`. Revisión el 10-12-2026.
+- [ ] Cada viernes: el usuario envía por chat los VL de LU0278272504 e IE0007472990; Claude los anota en `data/cartera_papel.csv` y devuelve la tabla. Revisión el 10-12-2026.
 - [x] ~~Elegir uno y suscribir 300 €~~ Sustituido por la cartera de papel (decisión del 11-09-2026).
 - [ ] Importar `data/calendario_vencimientos.ics` en el calendario personal.
 - [ ] Registrar el VL semanal en `vl.csv` y ejecutar `python -m cartera seguimiento`.
