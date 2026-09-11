@@ -36,6 +36,53 @@ Marcar una opción (o combinar):
 - [ ] **Exclusiones personales adicionales:** ______________________ (p. ej. deuda de determinados Estados,
   sector financiero, minería, nuclear, agroquímicos).
 
+## 5.3 bis Segunda dimensión: quién gestiona el fondo
+
+Planteado por el usuario el 11-09-2026 al ver que el fondo candidato es de iShares (BlackRock). Es una
+dimensión distinta de la del contenido del fondo, y hay que decidirla por separado.
+
+**Hechos:**
+
+- En un fondo indexado, el filtro ético lo define el **proveedor del índice**, no la gestora. En el
+  candidato (IE000KDUZ5O6) el índice es iBoxx MSCI ESG SRI EUR Corporates: las exclusiones las decide
+  MSCI ESG Research según el reglamento europeo de índices alineados con París. BlackRock solo copia el
+  índice y cobra el 0,15 % anual. Con 300 €, BlackRock ingresa ≈ 0,45 € al año.
+- El dinero invertido no financia a BlackRock: compra bonos de las empresas del índice. Las diez mayores
+  posiciones del fondo son Amazon, JPMorgan, Verizon, Wells Fargo, Morgan Stanley, HSBC y UBS. **El
+  filtro SRI excluye armas, tabaco, carbón y combustibles fósiles, pero no excluye a la gran banca ni a
+  Amazon.** Si el criterio ético del usuario los excluye, ningún indexado de bonos corporativos pasará el
+  filtro, sea cual sea la gestora.
+- BlackRock es la mayor gestora del mundo (más de 11 billones de dólares gestionados en 2025). A través
+  de sus fondos indexados es accionista relevante de casi todas las grandes cotizadas, incluidas
+  petroleras y armamentísticas. Salió de la alianza Net Zero Asset Managers en enero de 2025 y sus
+  directrices de voto de 2026 relegan los criterios climáticos frente al "rendimiento financiero". Recibe
+  críticas tanto de organizaciones climáticas como de políticos estadounidenses contrarios a la inversión ESG.
+- Confusión frecuente: la gran compradora de viviendas para alquiler en EE. UU. es **Blackstone**, otra
+  empresa. BlackRock gestiona dinero ajeno (pensiones, fondos) y no es propietaria de esas viviendas.
+- Vanguard y State Street son, con BlackRock, las "tres grandes": juntas son accionistas principales de la
+  mayoría de las cotizadas del mundo. Vanguard tiene una estructura distinta (es propiedad de sus propios
+  fondos, sin accionistas externos), pero comparte la crítica de concentración de poder accionarial.
+  Amundi pertenece al grupo Crédit Agricole.
+
+**Interpretación:** calificar a BlackRock como "destructor social sin precedentes" es una opinión; los
+hechos verificables sustentan "el accionista más influyente del mundo, con un historial climático que ha
+retrocedido desde 2025". Que eso sea motivo de exclusión es una decisión personal legítima, y tiene un
+coste medible.
+
+**Decisión que debe tomar el usuario (marcar una):**
+
+| Opción | Consecuencia práctica | Coste anual | Nota |
+|---|---|---|---|
+| [ ] La gestora no importa; lo que cuenta es el índice | iShares Euro Corporate Bond ESG SRI (IE000KDUZ5O6) | 0,15 % | Filtro más exigente y menor duración de la lista |
+| [ ] Excluir BlackRock, aceptar Vanguard | Vanguard SRI Euro Investment Grade Bond (IE00BYSX5D68) | 0,16 % | Incluye deuda pública; duración ≈ 6,5 (más oscilación) |
+| [ ] Excluir a las tres grandes | Amundi Index Euro AGG Corporate SRI AE-C (LU1050469367) | 0,35 % | Grupo Crédit Agricole; mismo tipo de filtro SRI; cuesta más del doble |
+| [ ] Excluir a todas las grandes gestoras y exigir impacto | Fondo de gestión activa de una gestora ética, p. ej. Triodos Euro Bond Impact Fund (art. 9, bonos de impacto) | ≈ 0,7–0,9 % (por verificar) | **No confirmado en MyInvestor**; en España se contrata vía Triodos Bank. Renunciar al indexado y pagar 5–6 veces más |
+| [ ] Ninguna gestora: solo deuda pública | Letras y Bonos del Estado en el Banco de España | 0,15 % al vencer | La única opción sin gestora. La "ética" es la del presupuesto del Estado |
+
+Regla del documento 02 §2.2 bis aplicada: cada escalón hacia abajo se paga en rentabilidad. Pasar del
+0,15 % al 0,35 % son 0,60 € al año con 300 €, pero serían 20 € al año con 10.000 €. Conviene decidir la
+regla ahora, con cifras pequeñas, para no tener que repensarla cuando el importe sea mayor.
+
 ## 5.4 Consideraciones sobre las Letras del Tesoro
 
 Comprar deuda pública financia al Estado en su conjunto (sanidad, educación y también defensa). Es una

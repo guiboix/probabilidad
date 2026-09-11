@@ -161,9 +161,12 @@ dígitos solo en años excepcionales.
 ### Veredicto
 
 Cumple todas las comprobaciones salvo dos pendientes que se resuelven en la app: el artículo SFDR y que
-MyInvestor acepte 300 € pese al mínimo de 500.000 € de la clase. Si acepta, es el fondo de aprendizaje.
-Si no acepta, alternativa: iShares ESG Screened Global Corporate Bond EUR Hedged (IE00BJN4RG66),
-repitiendo esta lista con su KID.
+MyInvestor acepte 300 € pese al mínimo de 500.000 € de la clase.
+
+**En suspenso (11-09-2026):** el usuario objeta que la gestora sea BlackRock. La decisión sobre si la
+gestora es criterio de exclusión, y sus alternativas con coste, está en el documento 05 §5.3 bis. Hasta que
+se decida, no se compra. Además, las mayores posiciones del fondo (Amazon y grandes bancos) pasan el
+filtro SRI; si el criterio del usuario los excluye, hay que salir de los indexados de bonos corporativos.
 
 ## 9.5 Cuánto y cómo (decisión del usuario)
 

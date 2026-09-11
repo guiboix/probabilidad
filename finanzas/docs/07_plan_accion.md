@@ -32,6 +32,7 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Buscador de MyInvestor revisado: único indexado de renta fija con filtro ético visto es iShares ESG Screened Global Corporate Bond EUR Hedged (IE00BJN4RG66, TER 0,14 %).
 - [x] Lista completa de indexados de renta fija revisada: 6 con filtro ético; finalista iShares Euro Corporate Bond ESG SRI (IE000KDUZ5O6), alternativa IE00BJN4RG66.
 - [x] KID y ficha del IE000KDUZ5O6 revisados: riesgo 2, acumulación, 0,15 %, duración 4,5, 2.300 M€, filtro SRI con exclusiones alineadas con París (§9.4).
+- [ ] **Decidir si la gestora es criterio de exclusión** (documento 05 §5.3 bis): BlackRock / tres grandes / todas / ninguna gestora.
 - [ ] En la pantalla de suscripción de MyInvestor: confirmar que acepta 300 € (el KID indica mínimo de 500.000 € para la clase) y anotar el artículo SFDR que muestre la ficha.
 - [ ] Si acepta: suscribir 300 €; anotar fecha, VL aplicado y participaciones en `movimientos.csv` y `vl.csv`.
 - [ ] Elegir uno, suscribir **300 €** con ahorro nuevo y anotarlo en `movimientos.csv` y `cartera.csv`.
