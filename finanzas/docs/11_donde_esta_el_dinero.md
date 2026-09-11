@@ -126,7 +126,7 @@ Reparto propuesto de los ≈ 16.000 € en cuentas (interpretación, no norma):
 | Colchón que rinde | ≈ 10.400 € | **Letras a 3 y 6 meses en el Banco de España** (p. ej. 5.000 € a 3 meses + 5.000 € a 6 meses, renovando cada vencimiento). La cuenta de MyInvestor da 1,00–1,25 % el primer año y 0,30 % después: no supera el listón (§11.2 quater) | Próximas subastas a 3 y 6 meses (dos al mes; calendario en tesoro.es) |
 | Sobrante | ≈ 2.900 € | Letra a 12 meses de 2.000 € (las Letras van de 1.000 en 1.000); los ≈ 900 € restantes se quedan en el colchón | Próxima subasta a 12 meses (octubre o noviembre de 2026, junto con la renovación de la Letra A) |
 
-Con esto, el capital queda así: 18.000 € en Letras a 12 meses (tres peldaños: noviembre, junio y el nuevo)
+Con esto, el capital queda así: 18.000 € en Letras a 12 meses (dos bloques: 10.000 € en noviembre y 8.000 € en junio, ampliable)
 + ≈ 10.400 € de colchón que rinde + ≈ 3.600 € operativos y remanente + el PIAS (5.891 €), cuyo destino se
 decide con el tipo actual en la mano (documento 10 §10.6).
 

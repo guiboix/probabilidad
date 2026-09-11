@@ -68,6 +68,37 @@ Plan de transición según fracción que se quiera mantener en Letras:
 La decisión declarada es mantener. Es compatible con empezar a aprender con fondos usando ahorro nuevo
 (documento 09) y revisar en octubre de 2026, con dos meses de experiencia, si se renueva A entera.
 
+## 8.4 bis Decisión operativa (11-09-2026): dos bloques de 10.000 € en vez de una tercera Letra
+
+Pregunta del usuario: al renovar la Letra A, ¿comprar aparte una tercera Letra o hacer dos bloques de
+10.000 €? **Respuesta: dos bloques de 10.000 €.** Mismo resultado económico (todo son Letras a 12 meses
+al tipo de la subasta), menos posiciones que vigilar y menos comisiones del Banco de España (una
+transferencia de amortización por bloque). La escalera se mantiene en dos peldaños separados 7 meses.
+
+Cómo se hace en la cuenta directa: en la petición de la subasta del 03-11-2026 se pide un nominal de
+10.000 € y se marca que el pago se haga con **reinversión** del importe que amortiza ese mismo día
+(8.000 €); los 2.000 € restantes se cargan en la cuenta bancaria. Petición no competitiva (se acepta el
+precio medio). Confirmar en la web del Tesoro el plazo límite de la petición: suele cerrarse uno o dos días
+hábiles antes de la subasta.
+
+Fuente del dinero nuevo: los ≈ 2.900 € sobrantes del colchón (documento 11). Para el segundo bloque, en
+junio de 2027, harían falta otros 2.000 €: si el ahorro acumulado hasta entonces no los cubre, se renueva
+B por 9.000 € y se mantiene el colchón en 12 meses exactos. Se decide en mayo de 2027 con los datos de entonces.
+
+### Calendario de compras (fechas de subasta según el calendario 2026 del Tesoro; las de 2027 son estimadas)
+
+| Subasta | Plazos | Liquidación | Qué hacer | Importe |
+|---|---|---|---|---|
+| 06-10-2026 (martes) | 6 y 12 meses | 09-10-2026 | Colchón: Letra a **6 meses** | 5.000 € |
+| 13-10-2026 (martes, estimada) | 3 y 9 meses | 16-10-2026 | Colchón: Letra a **3 meses** | 5.000 € |
+| **03-11-2026** | 6 y 12 meses | **06-11-2026** (= amortización de A) | Renovar A a 12 meses con reinversión + 2.000 € nuevos | **10.000 €** |
+| Enero 2027 | 3 meses | | Renovar la Letra a 3 meses del colchón | 5.000 € |
+| Abril 2027 | 3 y 6 meses | | Renovar las del colchón | 5.000 + 5.000 € |
+| 01-06-2027 (estimada) | 6 y 12 meses | 04-06-2027 (= amortización de B) | Renovar B a 12 meses con reinversión (+ 2.000 € si hay ahorro) | 8.000–10.000 € |
+
+Tras noviembre de 2026: 18.000 € en Letras a 12 meses + 10.000 € en Letras a 3 y 6 meses + ≈ 3.100 € en
+cuenta operativa. Todo deuda pública en el Banco de España; ninguna gestora.
+
 ## 8.5 Sistema de avisos (petición del usuario: tener en cuenta la caducidad para reinvertir o renovar)
 
 Dos capas operativas y una no disponible:
