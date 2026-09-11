@@ -163,10 +163,25 @@ dígitos solo en años excepcionales.
 Cumple todas las comprobaciones salvo dos pendientes que se resuelven en la app: el artículo SFDR y que
 MyInvestor acepte 300 € pese al mínimo de 500.000 € de la clase.
 
-**En suspenso (11-09-2026):** el usuario objeta que la gestora sea BlackRock. La decisión sobre si la
-gestora es criterio de exclusión, y sus alternativas con coste, está en el documento 05 §5.3 bis. Hasta que
-se decida, no se compra. Además, las mayores posiciones del fondo (Amazon y grandes bancos) pasan el
-filtro SRI; si el criterio del usuario los excluye, hay que salir de los indexados de bonos corporativos.
+**Descartado (11-09-2026):** el usuario excluye Amazon y la gran banca estadounidense, que están entre las
+mayores posiciones de este fondo y de todos los indexados de bonos corporativos (documento 05 §5.3 ter).
+
+### Nuevos finalistas tras la exclusión
+
+| Criterio | Triodos Euro Bond Impact Fund R (LU0278272504) | Vanguard Euro Government Bond Index (IE0007472990) |
+|---|---|---|
+| Qué contiene | Bonos de impacto (verdes, sociales) de Estados, organismos públicos y empresas que pasan los criterios de Triodos | Solo deuda pública de la eurozona |
+| Ética | Art. 9; exclusiones propias de Triodos (fósiles, armas, y empresas que no cumplen sus estándares) | Ninguna adicional: financia Estados (España, Italia, Francia, Alemania…) |
+| Gestora | Triodos Investment Management (banca ética) | Vanguard |
+| Coste | **1,05 %** | 0,12 % |
+| Duración / riesgo | Media (≈ 5–7, verificar); riesgo 2 esperado | ≈ 7; 2022: −18 %; 2026: −1,7 % |
+| Disponible en MyInvestor | **Por confirmar** (buscar por ISIN) | Sí (visto en la lista) |
+| Con 300 € | Coste ≈ 3,15 €/año | Coste ≈ 0,36 €/año |
+
+Interpretación: para un primer fondo **coherente con la ética declarada**, Triodos es la única opción
+verificable; el precio es un coste siete veces mayor. El Vanguard de deuda pública es limpio de empresas
+pero no aporta filtro ético y se mueve más. Si Triodos no está en MyInvestor, la alternativa es abrir cuenta
+en Triodos Bank o quedarse solo con Letras y Bonos del Estado, sin fondo de aprendizaje de momento.
 
 ## 9.5 Cuánto y cómo (decisión del usuario)
 

@@ -33,8 +33,9 @@ Marcar una opción (o combinar):
   cualquier dirección.
 - [ ] **Nivel 3 — Artículo 9 / impacto.** Solo fondos con objetivo sostenible. Coste más alto (véase
   Cartera Sostenible en documento 04), menos diversificación, mayor riesgo de concentración temática.
-- [ ] **Exclusiones personales adicionales:** ______________________ (p. ej. deuda de determinados Estados,
-  sector financiero, minería, nuclear, agroquímicos).
+- [x] **Exclusiones personales adicionales (decididas el 11-09-2026): Amazon y los grandes bancos
+  estadounidenses.** Consecuencia: quedan descartados todos los fondos indexados de bonos corporativos,
+  con o sin etiqueta SRI/ESG, porque todos los contienen (§5.3 ter).
 
 ## 5.3 bis Segunda dimensión: quién gestiona el fondo
 
@@ -82,6 +83,22 @@ coste medible.
 Regla del documento 02 §2.2 bis aplicada: cada escalón hacia abajo se paga en rentabilidad. Pasar del
 0,15 % al 0,35 % son 0,60 € al año con 300 €, pero serían 20 € al año con 10.000 €. Conviene decidir la
 regla ahora, con cifras pequeñas, para no tener que repensarla cuando el importe sea mayor.
+
+## 5.3 ter Consecuencia de excluir Amazon y la gran banca estadounidense
+
+Los índices de bonos de empresas en euros incluyen a cualquier empresa que emita deuda en euros con
+buena calificación, sea europea o no. Amazon, JPMorgan, Wells Fargo y Morgan Stanley emiten en euros y
+están entre los mayores emisores, así que aparecen en todas las cestas indexadas de bonos corporativos,
+también en las SRI. Ninguna gestora puede quitarlos sin dejar de seguir el índice. Por tanto:
+
+| Producto | ¿Cumple la exclusión? | Comentario |
+|---|---|---|
+| Cualquier indexado de bonos corporativos (iShares, Vanguard, Amundi, State Street) | **No** | Descartados |
+| Indexado de deuda pública euro (p. ej. Vanguard Euro Government Bond Index, IE0007472990, 0,12 %) | **Sí** | Solo Estados de la eurozona. Sin filtro ético adicional. Duración ≈ 7: cayó −18 % en 2022; riesgo 2–3 |
+| iShares Green Bond Index (IE00BD0DT792, 0,21 %) | **Dudoso** | Mayoría de Estados y organismos públicos (BEI, Banco Mundial), pero admite bonos verdes de bancos y empresas; no se puede garantizar que excluya a la gran banca estadounidense |
+| Triodos Euro Bond Impact Fund, clase R (LU0278272504) | **Probablemente sí** | Gestión activa de Triodos con sus propios criterios de exclusión; bonos de impacto de Estados, organismos públicos y empresas seleccionadas. Art. 9. Registrado en la CNMV. **Gastos corrientes 1,05 %**. Disponibilidad en MyInvestor sin confirmar; Triodos Bank lo vende directamente |
+| Fondos de Etica SGR (Banca Etica) | Probablemente sí | No confirmada su distribución minorista en España |
+| Letras y Bonos del Estado | **Sí** | Sin empresas ni gestora |
 
 ## 5.4 Consideraciones sobre las Letras del Tesoro
 
