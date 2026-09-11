@@ -180,6 +180,20 @@ comisión de gestión ≈ 0,5–1,5 % anual más los costes de los fondos subyac
 excluye; (3) el usuario ha declarado que no confía en los fondos. Si se quiere confirmar, basta pedir el
 documento de datos fundamentales y comprobar la casilla de costes totales.
 
+**Punto abierto (11-09-2026): seguro de vida asociado al PIAS.** El usuario indica que tiene un seguro de
+vida asociado. Hay dos posibilidades y hay que saber cuál es antes de que se ejecute el rescate:
+
+| Caso | Qué es | Efecto del rescate | Qué hacer |
+|---|---|---|---|
+| (a) La cobertura de fallecimiento propia del PIAS | Todo PIAS incluye un pequeño capital adicional en caso de muerte (normalmente el valor acumulado más un porcentaje o una cantidad fija pequeña) | Desaparece con el rescate; su valor económico es mínimo | Nada; se rescata igual |
+| (b) Una póliza de vida aparte, contratada junto al PIAS | Seguro de vida con capital asegurado propio (p. ej. 30.000–100.000 €) y prima anual propia, a veces vinculado a una hipoteca o a otro producto | Depende de la póliza: puede seguir vigente o puede cancelarse si estaba ligada al PIAS | Averiguar capital, prima, beneficiarios y vinculación antes de rescatar |
+
+Criterio para el caso (b): un seguro de vida solo tiene sentido si alguien depende económicamente del
+usuario o hay una deuda que quedaría a terceros (hipoteca). Si es así, la cobertura se mantiene, pero no
+necesariamente con CaixaBank: un seguro de vida temporal contratado aparte suele costar menos que el
+vinculado a un producto bancario. Si no hay dependientes ni deudas, la póliza puede cancelarse y su prima es
+un ahorro más.
+
 **Destino de los ≈ 5.772 €** (manteniendo dos renovaciones al año): sumar 5.000 € al bloque de noviembre
 (Letra A pasaría a 15.000 €) si el dinero está en cuenta antes del 27-10-2026; si no, al bloque de junio
 (Letra B a 15.000 €). Los ≈ 772 € restantes, a la cuenta. Alternativa: tercer bloque de 5.000 € en otra
