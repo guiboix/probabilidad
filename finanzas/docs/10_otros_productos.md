@@ -188,7 +188,11 @@ vida asociado. Hay dos posibilidades y hay que saber cuál es antes de que se ej
 | (a) La cobertura de fallecimiento propia del PIAS | Todo PIAS incluye un pequeño capital adicional en caso de muerte (normalmente el valor acumulado más un porcentaje o una cantidad fija pequeña) | Desaparece con el rescate; su valor económico es mínimo | Nada; se rescata igual |
 | (b) Una póliza de vida aparte, contratada junto al PIAS | Seguro de vida con capital asegurado propio (p. ej. 30.000–100.000 €) y prima anual propia, a veces vinculado a una hipoteca o a otro producto | Depende de la póliza: puede seguir vigente o puede cancelarse si estaba ligada al PIAS | Averiguar capital, prima, beneficiarios y vinculación antes de rescatar |
 
-Criterio para el caso (b): un seguro de vida solo tiene sentido si alguien depende económicamente del
+Dato del usuario (11-09-2026): **sin hipoteca y sin personas a su cargo** (tampoco empleados). Conclusión:
+un seguro de vida no cubre hoy ninguna necesidad; si es una póliza aparte, puede cancelarse y su prima es
+un ahorro más. El rescate del PIAS se mantiene en cualquiera de los dos casos.
+
+Criterio general para el caso (b): un seguro de vida solo tiene sentido si alguien depende económicamente del
 usuario o hay una deuda que quedaría a terceros (hipoteca). Si es así, la cobertura se mantiene, pero no
 necesariamente con CaixaBank: un seguro de vida temporal contratado aparte suele costar menos que el
 vinculado a un producto bancario. Si no hay dependientes ni deudas, la póliza puede cancelarse y su prima es
