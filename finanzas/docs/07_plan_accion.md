@@ -16,7 +16,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] PIAS identificado: CABK PIAS CMV1 (VidaCaixa), 2010, 5.267 € aportados, 5.891 € de rescate, TIR ≈ 0,8–1,3 %.
 - [x] PIAS: respuesta de la asesora el 11-09-2026: 1 % de interés, sin penalización, valor bruto (documento 10 §10.6).
 - [x] PIAS: Cartera Master declinada. La asesora confirma que el seguro asociado es la cobertura propia del producto (600 € por fallecimiento): sin efecto en la decisión.
-- [x] PIAS: **confirmación de rescate total enviada a la asesora el 11-09-2026.**
+- [x] PIAS: **confirmación de rescate total enviada a la asesora el 11-09-2026.** VidaCaixa ha generado la solicitud de rescate total (fecha 11-09-2026).
+- [ ] PIAS: **FIRMAR la solicitud** en la app o web de CaixaBank (firmas pendientes) o en oficina **antes del 18-09-2026**; si no, se cancela. Firmar en día hábil antes de las 15:00 para que la fecha de efecto sea ese mismo día.
 - [ ] PIAS: anotar la fecha de abono (≈ 5.772 €) y decidir destino de 5.000 €: bloque de noviembre (si llega antes del 27-10), bloque de junio, o tercer bloque (documento 10 §10.6).
 - [x] Gasto mensual ≈ 1.095 € (cuota de autónomos 328 € aparte). Colchón prudente 9–12 meses = 9.900–13.100 €; sobran ≈ 2.900–6.100 €.
 - [x] Colchón de 12 meses (≈ 13.100 €): decidido.

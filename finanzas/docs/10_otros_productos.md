@@ -249,6 +249,14 @@ menos de ≈ 60.000 €, no cumple su función aunque se mantenga.
 
 Datos pendientes: ingresos netos anuales (solo para contrastar con la regla de 5–8 veces los ingresos).
 
+**Trámite (11-09-2026):** VidaCaixa ha emitido la solicitud de rescate total (modelo 042-720.7515-83, fecha
+de solicitud 11-09-2026). Condiciones del propio documento: el rescate se valora en la fecha de efecto; la
+fecha de efecto es la de la **firma** del tomador (si se firma después de las 15:00 o en día no hábil, el
+siguiente día hábil); se puede firmar en oficina o a distancia por banca digital; **si no se firma en 7 días
+desde la solicitud, el proceso se cancela**. Al rescatar, la póliza se extingue sin prestación posterior.
+Plazo límite práctico: **18-09-2026**. El abono se produce tras la fecha de efecto (plazo no indicado en el
+documento; preguntar a la asesora si no llega en una semana).
+
 **Destino de los ≈ 5.772 €** (manteniendo dos renovaciones al año): sumar 5.000 € al bloque de noviembre
 (Letra A pasaría a 15.000 €) si el dinero está en cuenta antes del 27-10-2026; si no, al bloque de junio
 (Letra B a 15.000 €). Los ≈ 772 € restantes, a la cuenta. Alternativa: tercer bloque de 5.000 € en otra
