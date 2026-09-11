@@ -15,10 +15,9 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Los ≈ 16.000 € en cuentas son el fondo de emergencia (y candidatos a inversión segura).
 - [x] PIAS identificado: CABK PIAS CMV1 (VidaCaixa), 2010, 5.267 € aportados, 5.891 € de rescate, TIR ≈ 0,8–1,3 %.
 - [x] PIAS: respuesta de la asesora el 11-09-2026: 1 % de interés, sin penalización, valor bruto (documento 10 §10.6).
-- [x] PIAS: solicitud de rescate total enviada a la asesora el 11-09-2026; Cartera Master declinada. **Pendiente: trámite y fecha de abono.**
-- [x] PIAS: consulta sobre el seguro de vida asociado enviada a la asesora el 11-09-2026 (¿cobertura propia del PIAS o póliza aparte? capital, prima, beneficiarios, vinculación). **Pendiente de respuesta.**
-- [ ] PIAS: cuando el dinero (≈ 5.772 €) esté en cuenta, sumar 5.000 € al bloque de Letras más próximo (noviembre si llega antes del 27-10; si no, junio).
-- [x] PIAS: con la respuesta, Si se confirma: rescatar y sumar 5.000 € al bloque de Letras del 03-11-2026 (documento 10 §10.6).
+- [x] PIAS: Cartera Master declinada. La asesora confirma que el seguro asociado es la cobertura propia del producto (600 € por fallecimiento): sin efecto en la decisión.
+- [x] PIAS: **confirmación de rescate total enviada a la asesora el 11-09-2026.**
+- [ ] PIAS: anotar la fecha de abono (≈ 5.772 €) y decidir destino de 5.000 €: bloque de noviembre (si llega antes del 27-10), bloque de junio, o tercer bloque (documento 10 §10.6).
 - [x] Gasto mensual ≈ 1.095 € (cuota de autónomos 328 € aparte). Colchón prudente 9–12 meses = 9.900–13.100 €; sobran ≈ 2.900–6.100 €.
 - [x] Colchón de 12 meses (≈ 13.100 €): decidido.
 
