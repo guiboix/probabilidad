@@ -147,11 +147,11 @@ def cmd_seguimiento(a: argparse.Namespace) -> None:
     """Rentabilidad, volatilidad y caída máxima de cada fondo a partir de data/vl.csv."""
     series = carga.leer_vl(Path(a.data) / "vl.csv")
     print(f"# Seguimiento de valores liquidativos — {date.today().isoformat()}\n")
-    print("| Fondo | Desde | Hasta | Observaciones | Rentabilidad acumulada | Anualizada | Volatilidad anualizada | Caída máxima |\n|---|---|---|---|---|---|---|---|")
+    print(f"| Fondo | Desde | Hasta | Observaciones | Rentabilidad acumulada | Con {a.importe:,.0f} € serían | Anualizada | Volatilidad anualizada | Caída máxima |\n|---|---|---|---|---|---|---|---|---|")
     for activo, serie in series.items():
         vls = [v for _, v in serie]
         if len(vls) < 2:
-            print(f"| {activo} | {serie[0][0]} | — | {len(vls)} | — | — | — | — |")
+            print(f"| {activo} | {serie[0][0]} | — | {len(vls)} | — | — | — | — | — |")
             continue
         acumulada = vls[-1] / vls[0] - 1.0
         dias = (serie[-1][0] - serie[0][0]).days
@@ -159,7 +159,7 @@ def cmd_seguimiento(a: argparse.Namespace) -> None:
         rents = metricas.rentabilidades_periodicas(vls)
         vol = metricas.volatilidad_anualizada(rents, a.periodos_anyo) if len(rents) >= 2 else 0.0
         dd = metricas.drawdown_maximo(vls)
-        print(f"| {activo} | {serie[0][0]} | {serie[-1][0]} | {len(vls)} | {_pct(acumulada)} | {_pct(anualizada)} | {_pct(vol)} | {_pct(dd)} |")
+        print(f"| {activo} | {serie[0][0]} | {serie[-1][0]} | {len(vls)} | {_pct(acumulada)} | {a.importe * (1 + acumulada):,.2f} € | {_pct(anualizada)} | {_pct(vol)} | {_pct(dd)} |")
     print("\nLa anualizada extrapola periodos cortos: con pocas semanas de datos es muy ruidosa. La volatilidad usa la regla raíz del tiempo (Tema 7 del curso).")
 
 
@@ -229,6 +229,7 @@ def main(argv: list[str] | None = None) -> None:
     s = sub.add_parser("seguimiento", help="rentabilidad, volatilidad y caída máxima desde data/vl.csv")
     s.add_argument("--data", default="data")
     s.add_argument("--periodos-anyo", type=int, default=52, help="52 si los VL son semanales, 12 si mensuales, 252 si diarios")
+    s.add_argument("--importe", type=float, default=300.0, help="importe imaginario invertido el primer día (cartera de papel)")
     s.set_defaults(func=cmd_seguimiento)
 
     a = p.parse_args(argv)

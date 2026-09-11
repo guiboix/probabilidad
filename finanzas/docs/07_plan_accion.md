@@ -35,7 +35,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] KID y ficha del IE000KDUZ5O6 revisados: riesgo 2, acumulación, 0,15 %, duración 4,5, 2.300 M€, filtro SRI con exclusiones alineadas con París (§9.4).
 - [x] Exclusión decidida: Amazon y gran banca estadounidense → fuera todos los indexados de bonos corporativos.
 - [x] Decisión: **sin fondo de momento** (camino 3). Los 300 € van al colchón o a la Letra a 12 meses.
-- [ ] Cartera de papel: anotar semanalmente en `vl.csv` el VL de LU0278272504 y IE0007472990 (sin comprar) y ejecutar `seguimiento`; revisar en 3 meses (10-12-2026).
+- [x] Cartera de papel aceptada (11-09-2026).
+- [ ] Cada viernes: anotar en `data/vl.csv` el VL de LU0278272504 y IE0007472990 y ejecutar `python -m cartera seguimiento --importe 300`. Revisión el 10-12-2026.
 - [x] ~~Elegir uno y suscribir 300 €~~ Sustituido por la cartera de papel (decisión del 11-09-2026).
 - [ ] Importar `data/calendario_vencimientos.ics` en el calendario personal.
 - [ ] Registrar el VL semanal en `vl.csv` y ejecutar `python -m cartera seguimiento`.

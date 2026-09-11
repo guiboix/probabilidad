@@ -199,7 +199,23 @@ general no le dan confianza. Es coherente con la regla del listón (documento 02
 cumple su ética no rinde más que la deuda pública y cuesta siete veces más que un indexado. Los 300 €
 previstos se quedan en el colchón o van a la Letra a 12 meses.
 
-### Cómo aprender sin comprar: cartera de papel
+### Cómo aprender sin comprar: cartera de papel (aceptada por el usuario el 11-09-2026)
+
+**Instrucciones en dos pasos:**
+
+1. **Cada viernes**, busca el valor liquidativo (VL) de los dos fondos y añade una línea por fondo al
+   fichero `data/vl.csv` con el formato `fecha,activo,valor_liquidativo`. Dónde se ve el VL: en el buscador de
+   fondos de MyInvestor (columna "Valor liquidativo"), o en Finect/Morningstar buscando el ISIN. El primer
+   día, copia `data/plantilla_vl.csv` a `data/vl.csv`; ya lleva el VL del Vanguard del 10-09-2026 (212,522).
+   Para el Triodos (LU0278272504) hay que anotar el VL del primer viernes, que no consta en el proyecto.
+2. Ejecuta `python -m cartera seguimiento --data data --importe 300`. La tabla muestra, para cada fondo,
+   la rentabilidad acumulada, **cuánto valdrían hoy 300 € imaginarios**, la volatilidad y la caída máxima.
+
+Ejemplo de línea: `2026-09-18,Triodos Euro Bond Impact R (LU0278272504),35.12`
+
+Qué mirar cada semana, en orden: si el VL subió o bajó; si esa semana hubo noticia de tipos o inflación;
+cuánto se separan los dos fondos entre sí (el de deuda pública tiene más duración y se moverá más). Revisión
+con conclusiones el 10-12-2026.
 
 El objetivo de aprender se mantiene sin arriesgar dinero: anotar cada semana en `data/vl.csv` el valor
 liquidativo del Triodos Euro Bond Impact (LU0278272504) y del Vanguard Euro Government Bond
