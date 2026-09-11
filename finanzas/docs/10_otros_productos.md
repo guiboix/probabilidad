@@ -254,8 +254,9 @@ de solicitud 11-09-2026). Condiciones del propio documento: el rescate se valora
 fecha de efecto es la de la **firma** del tomador (si se firma después de las 15:00 o en día no hábil, el
 siguiente día hábil); se puede firmar en oficina o a distancia por banca digital; **si no se firma en 7 días
 desde la solicitud, el proceso se cancela**. Al rescatar, la póliza se extingue sin prestación posterior.
-Plazo límite práctico: **18-09-2026**. El abono se produce tras la fecha de efecto (plazo no indicado en el
-documento; preguntar a la asesora si no llega en una semana).
+**Firmada el 11-09-2026 antes de las 15:00 → fecha de efecto 11-09-2026.** Según la asesora, el abono se
+produce en 4–5 días hábiles: previsto para el 17/18-09-2026. Valor de rescate a fecha de efecto: 5.891,31 €
+brutos según la app; neto esperado ≈ 5.772,75 €.
 
 **Destino de los ≈ 5.772 €** (manteniendo dos renovaciones al año): sumar 5.000 € al bloque de noviembre
 (Letra A pasaría a 15.000 €) si el dinero está en cuenta antes del 27-10-2026; si no, al bloque de junio

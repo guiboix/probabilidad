@@ -48,4 +48,11 @@ DTSTART;VALUE=DATE:20270604
 SUMMARY:Amortiza Letra B: 8.000 € en cuenta
 DESCRIPTION:Si no se renovó entera\, suscribir fondos con el resto ese mismo día y anotar en movimientos.csv.
 END:VEVENT
+BEGIN:VEVENT
+UID:pias-abono-2026-09@finanzas
+DTSTAMP:20260911T150000Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:Comprobar abono del rescate del PIAS (≈ 5.772 €)
+DESCRIPTION:Rescate firmado el 11-09-2026\, abono previsto en 4-5 días hábiles. Si no ha llegado el 21-09\, preguntar a la asesora. Después: decidir destino de 5.000 € (bloque de Letras de noviembre).
+END:VEVENT
 END:VCALENDAR
