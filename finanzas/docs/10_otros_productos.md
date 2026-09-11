@@ -204,29 +204,24 @@ seguro de vida **sí cubre una necesidad real** mientras los hijos dependan econ
 4. **Beneficiarios:** comprobar que están designados los hijos (o quien deba administrar el capital si son
    menores), no "herederos legales" por defecto si eso no es lo que se quiere.
 
-**Dimensionado con los datos del usuario (11-09-2026): hijos de 8 y 10 años, a su cargo.**
+**Dimensionado con los datos del usuario (11-09-2026):** hijos de 8 y 10 años a su cargo; la madre aporta;
+gasto del usuario ≈ 250 €/mes por hijo (500 €/mes en total); 44 años (45 el 06-10-2026); no fumador.
 
-| Supuesto | Cálculo | Capital orientativo |
+| Horizonte | Cálculo (solo la parte que aporta el usuario) | Capital |
 |---|---|---|
-| Cubrir hasta los 18 años del menor (10 años) con 500 €/mes por hijo | 2 × 500 × 12 × 10 | 120.000 € |
-| Cubrir hasta los 23 años del menor (15 años) con 500 €/mes por hijo | 2 × 500 × 12 × 15 | 180.000 € |
-| Regla alternativa: 5–8 veces los ingresos netos anuales | Pendiente del dato de ingresos | — |
+| Hasta los 18 del menor (10 años) | 500 € × 12 × 10 | 60.000 € |
+| Hasta los 23 del menor (15 años) | 500 € × 12 × 15 | 90.000 € |
+| Con margen para estudios e imprevistos | | **≈ 75.000–100.000 €** |
 
-Los 500 €/mes por hijo son un supuesto redondo; se ajusta con el gasto real y con lo que aporte el otro
-progenitor. Referencia de precio (orden de magnitud, a confirmar con presupuestos): un seguro de vida
-temporal de 150.000 € para una persona de 40–45 años no fumadora cuesta entre 150 y 350 € al año en
-aseguradoras directas. La póliza vinculada al PIAS, si existe, se compara contra eso. Al ser dos hijos menores,
-designar como beneficiarios a los hijos con un administrador, o al otro progenitor, según la situación
-familiar; es una decisión que conviene consultar con un notario o abogado de familia si hay dudas.
+Referencia de precio (orden de magnitud, a confirmar con 2–3 presupuestos): seguro de vida temporal de
+75.000–100.000 € para una persona de 44–45 años no fumadora, ≈ 100–250 €/año. Detalle práctico: las
+aseguradoras tarifan por edad en el momento de contratar; cumplir 45 el 06-10-2026 puede subir un escalón
+la prima, así que si se contrata una póliza nueva conviene hacerlo antes de esa fecha.
 
-Datos pendientes: situación del otro progenitor (si aporta ingresos a los hijos), ingresos netos anuales del
-usuario, y capital y prima de la póliza actual.
+Comparación pendiente: capital y prima de la póliza asociada al PIAS (respuesta de la asesora). Si cubre
+menos de ≈ 60.000 €, no cumple su función aunque se mantenga.
 
-Criterio general para el caso (b): un seguro de vida solo tiene sentido si alguien depende económicamente del
-usuario o hay una deuda que quedaría a terceros (hipoteca). Si es así, la cobertura se mantiene, pero no
-necesariamente con CaixaBank: un seguro de vida temporal contratado aparte suele costar menos que el
-vinculado a un producto bancario. Si no hay dependientes ni deudas, la póliza puede cancelarse y su prima es
-un ahorro más.
+Datos pendientes: ingresos netos anuales (solo para contrastar con la regla de 5–8 veces los ingresos).
 
 **Destino de los ≈ 5.772 €** (manteniendo dos renovaciones al año): sumar 5.000 € al bloque de noviembre
 (Letra A pasaría a 15.000 €) si el dinero está en cuenta antes del 27-10-2026; si no, al bloque de junio
