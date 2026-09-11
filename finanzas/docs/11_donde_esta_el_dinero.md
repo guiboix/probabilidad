@@ -119,22 +119,20 @@ Reparto propuesto de los ≈ 16.000 € en cuentas (interpretación, no norma):
 | Sobrante | ≈ 6.100 € | ≈ 2.900 € | Cartera conservadora: Letra a 12 meses (tercer peldaño de la escalera) o, tras el aprendizaje, renta fija corta ética | Deja de ser colchón; sigue siendo seguro |
 
 **Decisión del usuario (10-09-2026): colchón de 12 meses**, porque su facturación es variable.
-**Simplificación del 11-09-2026:** nada de Letras a 3 y 6 meses; el colchón se reparte entre efectivo
-inmediato y los dos bloques de Letras a 12 meses (documento 08 §8.4 bis):
+**Esquema del usuario (11-09-2026):** dos bloques de Letras a 12 meses de 10.000 € cada uno, renovados
+en noviembre y junio; el resto en cuenta (documento 08 §8.4 bis):
 
 | Tramo | Importe | Dónde | Cuándo |
 |---|---|---|---|
-| Liquidez inmediata (≈ 4,5 meses de salidas + reserva fiscal) | ≈ 5.000 € | Cuenta corriente CaixaBank | Ya está |
-| Se suma al bloque A | 5.000 € | Letra a 12 meses, subasta 03-11-2026 | Petición antes del 27-10-2026 |
-| Se suma al bloque B | 6.000 € | Letra a 12 meses, subasta ≈ 01-06-2027 | Petición ≈ 25-05-2027 |
+| Liquidez inmediata (colchón + reserva fiscal) | ≈ 12.000 € | Cuenta corriente CaixaBank | Ya está |
+| Se suma al bloque A | 2.000 € | Letra a 12 meses, subasta 03-11-2026 | Petición antes del 27-10-2026 |
+| Se suma al bloque B | 2.000 € | Letra a 12 meses, subasta ≈ 01-06-2027 | Petición ≈ 25-05-2027 |
 
-Con esto, el capital queda así: 27.000 € en Letras a 12 meses (dos bloques de 13.000 y 14.000 que vencen
-con 7 meses de diferencia) + 5.000 € en cuenta + el PIAS (5.891 €), cuyo destino se decide con la respuesta
-de la asesora (documento 10 §10.6).
+Con esto, el capital queda así: 20.000 € en Letras a 12 meses + ≈ 12.000 € en cuenta + el PIAS (5.891 €),
+pendiente de la respuesta de la asesora.
 
-Coste de no hacer nada: los 16.000 € al 0 % pierden ≈ 530 € al año de poder de compra. Colocando 11.000 €
-en Letras al ≈ 2,2 % neto se recuperan ≈ 240 € al año sin cambiar el riesgo; los 5.000 € que quedan en
-cuenta son el precio de la liquidez inmediata.
+Coste de mantener 12.000 € en cuenta al 0 %: ≈ 400 € al año de poder de compra (≈ 265 € netos que darían
+las Letras). Es el precio de la liquidez total; decisión del usuario, revisable en junio de 2027.
 
 Sobre la confianza que pide el usuario: los cuatro productos de la tabla comparten la característica de que
 **el capital no baja**. La forma de ganar confianza sin arriesgar el colchón es empezar por uno de ellos

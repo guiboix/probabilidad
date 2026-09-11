@@ -99,46 +99,40 @@ Fuente del dinero nuevo: los ≈ 2.900 € sobrantes del colchón (documento 11)
 junio de 2027, harían falta otros 2.000 €: si el ahorro acumulado hasta entonces no los cubre, se renueva
 B por 9.000 € y se mantiene el colchón en 12 meses exactos. Se decide en mayo de 2027 con los datos de entonces.
 
-### Simplificación decidida el 11-09-2026: solo dos bloques a 12 meses, renovados cada seis meses
+### Esquema decidido por el usuario (11-09-2026): dos bloques de 10.000 € a 12 meses, renovados cada seis meses
 
-Objeción del usuario: con Letras a 3 y 6 meses para el colchón habría ≈ 8 renovaciones al año. Es cierto y
-el beneficio no lo compensa (una Letra a 3 meses renta ≈ 0,4 puntos menos que una a 12 y exige cuatro
-peticiones al año). Nuevo esquema:
+Sin Letras a 3 y 6 meses (ocho renovaciones al año era demasiado trámite). Dos bloques iguales de 10.000 €:
 
 | Dónde | Importe | Función |
 |---|---|---|
-| Cuenta corriente CaixaBank | **≈ 5.000 €** (≈ 4,5 meses de salidas) | Liquidez inmediata: gastos, reserva fiscal y primer tramo del colchón |
-| Bloque A: Letra a 12 meses, subasta 03-11-2026 | **13.000 €** (8.000 por reinversión + 5.000 nuevos) | Vence 11-2027 |
-| Bloque B: Letra a 12 meses, subasta ≈ 01-06-2027 | **14.000 €** (8.000 por reinversión + 6.000 nuevos) | Vence 06-2027 y luego 06-2028 |
+| Bloque A: Letra a 12 meses, subasta 03-11-2026 | **10.000 €** (8.000 por reinversión + 2.000 nuevos) | Vence 11-2027 |
+| Bloque B: Letra a 12 meses, subasta ≈ 01-06-2027 | **10.000 €** (8.000 por reinversión + 2.000 nuevos) | Vence 06-2028 |
+| Cuenta corriente CaixaBank | **≈ 12.000 €** (≈ 11 meses de salidas) | Colchón de liquidez inmediata y reserva fiscal |
 
-Los 16.000 € en cuentas se reparten así: 5.000 € nuevos en noviembre, 6.000 € nuevos en junio, 5.000 € se
-quedan en la cuenta. Hasta junio de 2027 la cuenta tendrá 11.000 €; a partir de junio, 5.000 €. Se
-renueva **dos veces al año**, en noviembre y junio, con reinversión.
+Los 16.000 € en cuentas: 2.000 € nuevos en noviembre, 2.000 € nuevos en junio, 12.000 € se quedan en la
+cuenta. Se renueva dos veces al año, en noviembre y junio, con reinversión.
 
-Qué se gana y qué se pierde respecto al esquema anterior:
+Qué implica (hechos):
 
-- Se gana: dos peticiones al año en vez de ocho; algo más de tipo (12 meses paga más que 3 o 6).
-- Se pierde: liquidez. El colchón deja de estar disponible en menos de 3 meses. En cualquier momento hay
-  5.000 € inmediatos y el siguiente bloque vence como máximo en 7 meses. Para una emergencia mayor de
-  5.000 € antes del siguiente vencimiento habría que vender una Letra antes de tiempo (el Banco de España
-  permite solicitar la venta a precio de mercado con trámite; confirmar condiciones en tesoro.es) o tirar
-  del PIAS mientras exista.
-- Coste de tener 5.000 € en cuenta al 0 % en vez de en Letras cortas: ≈ 110 € al año. Es el precio de la
-  liquidez inmediata y de la sencillez.
+- Liquidez máxima: casi todo el colchón está disponible al instante. Ninguna emergencia razonable obliga a
+  vender una Letra antes de tiempo.
+- Coste: 12.000 € al 0 % pierden ≈ 400 € al año de poder de compra con inflación del 3,3 %; en Letras
+  rendirían ≈ 265 € netos. Es el precio de la liquidez total y de la sencillez, y es una elección legítima
+  dentro del perfil muy conservador. Se puede revisar en junio de 2027 con la experiencia de la primera renovación.
 
-Si el PIAS se rescata (≈ 5.772 €), se suma al bloque más cercano en el tiempo: al de noviembre si el dinero
-llega antes del 27-10-2026 (A pasaría a 18.000 €), o al de junio de 2027 en caso contrario.
+Si el PIAS se rescata (≈ 5.772 €), el destino se decide entonces: sumarlo a un bloque (romperían la simetría
+de 10.000 €), abrir un tercer bloque de 5.000 € en otra fecha, o dejarlo en cuenta. Pendiente de la respuesta
+de la asesora.
 
 ### Calendario de compras
 
 | Subasta | Plazos | Pedir en línea antes del | Liquidación | Qué hacer | Importe |
 |---|---|---|---|---|---|
-| **03-11-2026** | 6 y 12 meses | **27-10-2026** (estimado por la regla del calendario; confirmar) | **06-11-2026** (= amortización de A) | Renovar A a 12 meses con reinversión + 5.000 € nuevos | **13.000 €** |
-| ≈ 01-06-2027 | 6 y 12 meses | ≈ 25-05-2027 | ≈ 04-06-2027 (= amortización de B) | Renovar B a 12 meses con reinversión + 6.000 € nuevos | **14.000 €** |
+| **03-11-2026** | 6 y 12 meses | **27-10-2026** (estimado por la regla del calendario; confirmar) | **06-11-2026** (= amortización de A) | Renovar A con reinversión + 2.000 € nuevos | **10.000 €** |
+| ≈ 01-06-2027 | 6 y 12 meses | ≈ 25-05-2027 | ≈ 04-06-2027 (= amortización de B) | Renovar B con reinversión + 2.000 € nuevos | **10.000 €** |
 
-Las subastas del 6 y 13 de octubre ya no se usan. Tras noviembre: 21.000 € en Letras (13.000 + 8.000),
-11.000 € en cuenta; tras junio de 2027: 27.000 € en Letras (13.000 + 14.000), 5.000 € en cuenta. Todo deuda
-pública en el Banco de España; ninguna gestora.
+Tras junio de 2027: 20.000 € en Letras (dos bloques de 10.000 que vencen con 7 meses de diferencia) y
+≈ 12.000 € en cuenta. Todo deuda pública en el Banco de España; ninguna gestora.
 
 ## 8.5 Sistema de avisos (petición del usuario: tener en cuenta la caducidad para reinvertir o renovar)
 
