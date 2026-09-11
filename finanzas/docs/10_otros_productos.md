@@ -156,14 +156,34 @@ no dé con más rentabilidad y sin costes ocultos. Si no hay penalización de re
 por debajo del 2 %, rescatarlo y pasarlo al bloque conservador es coherente con la regla del listón
 (documento 02 §2.2 bis). La decisión no es urgente: unos meses más al 1 % son ≈ 5 € al mes.
 
-**Actualización 11-09-2026:** el usuario cree que el PIAS no aplica ningún interés en la actualidad. Si la
-asesora lo confirma y no hay penalización de rescate, la decisión es rescatar: 5.891,31 € menos 118,56 € de
-IRPF (que retiene la aseguradora) = ≈ 5.772 € netos. A 0 % de rendimiento actual, cada mes en el PIAS
-cuesta ≈ 10 € de rendimiento perdido frente a una Letra (5.772 € × 2,2 % / 12). Destino propuesto: sumar
-5.000 € al bloque de la subasta del 03-11-2026 (Letra A renovada por 15.000 € en vez de 10.000 €) si el
-rescate está cobrado antes de finales de octubre; si llega después, Letra propia en la siguiente subasta a
-12 meses (diciembre de 2026). Los ≈ 772 € restantes, al colchón. Requisito previo: respuesta escrita de la
-asesora a las cuatro preguntas siguientes, en especial la 2.
+**Respuesta de la asesora de CaixaBank (11-09-2026), datos confirmados:**
+
+| Dato | Valor |
+|---|---|
+| Rentabilidad actual | **1 %** anual |
+| Valor de rescate mostrado (5.891,31 €) | **Bruto**; al rescatar se aplica la retención del 19 % sobre los intereses generados |
+| Penalización por rescate | **Ninguna** |
+| Alternativa ofrecida | "Cartera Master" de CaixaBank, inversión mínima 500 € |
+
+**Cálculo del rescate:** ganancia 624,02 € → retención 118,56 € → **≈ 5.772,75 € netos** en cuenta. La
+ganancia se declara en la Renta de 2026 (presentación en 2027); la retención ya cubre el impuesto en el
+primer tramo del ahorro.
+
+**Decisión (regla del listón, documento 02 §2.2 bis): rescatar en su totalidad.** Al 1 % el PIAS rinde
+≈ 59 € al año; en Letras, ≈ 127 € netos. Diferencia ≈ 69 €/año; el impuesto pagado al rescatar se recupera
+en ≈ 1,7 años y a partir de ahí es ganancia. Además desaparece un producto sin filtro ético y con costes opacos.
+
+**Sobre la "Cartera Master":** es un servicio de gestión discrecional de CaixaBank que invierte en fondos
+de la propia entidad (Carteras Master). Se descarta por tres motivos, sin necesidad de más análisis: (1)
+comisión de gestión ≈ 0,5–1,5 % anual más los costes de los fondos subyacentes, todo por encima del listón;
+(2) los fondos subyacentes incluyen renta variable y deuda de grandes empresas y bancos, que el usuario
+excluye; (3) el usuario ha declarado que no confía en los fondos. Si se quiere confirmar, basta pedir el
+documento de datos fundamentales y comprobar la casilla de costes totales.
+
+**Destino de los ≈ 5.772 €** (manteniendo dos renovaciones al año): sumar 5.000 € al bloque de noviembre
+(Letra A pasaría a 15.000 €) si el dinero está en cuenta antes del 27-10-2026; si no, al bloque de junio
+(Letra B a 15.000 €). Los ≈ 772 € restantes, a la cuenta. Alternativa: tercer bloque de 5.000 € en otra
+fecha, que añadiría una renovación al año.
 
 Qué preguntar a la asesora (la app remite a la oficina) o buscar en las condiciones:
 
