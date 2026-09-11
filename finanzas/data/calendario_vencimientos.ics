@@ -7,8 +7,8 @@ BEGIN:VEVENT
 UID:letra-a-decision-2026@finanzas
 DTSTAMP:20260910T120000Z
 DTSTART;VALUE=DATE:20261026
-SUMMARY:ÚLTIMO DÍA MAÑANA: pedir renovación Letra A, 10.000 € a 12 meses con reinversión — límite en línea estimado 27-10-2026
-DESCRIPTION:Subasta 03-11-2026 (6 y 12 meses)\, liquidación 06-11-2026 = amortización de A. Petición de 10.000 € nominal: 8.000 por reinversión + 2.000 con cargo en cuenta. No competitiva. Confirmar plazo límite de petición en tesoro.es.
+SUMMARY:ÚLTIMO DÍA MAÑANA: pedir renovación Letra A, 13.000 € a 12 meses con reinversión (18.000 si el PIAS ya está cobrado) — límite en línea estimado 27-10-2026
+DESCRIPTION:Subasta 03-11-2026 (6 y 12 meses)\, liquidación 06-11-2026 = amortización de A. Petición de 13.000 € nominal: 8.000 por reinversión + 5.000 con cargo en cuenta. No competitiva. Confirmar plazo límite de petición en tesoro.es.
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 UID:letra-b-decision-2027@finanzas
 DTSTAMP:20260910T120000Z
 DTSTART;VALUE=DATE:20270517
-SUMMARY:Decidir renovación Letra B (amortiza 04-06-2027)
+SUMMARY:Pedir renovación Letra B: 14.000 € a 12 meses con reinversión — subasta ≈ 01-06-2027 (límite en línea ≈ 25-05-2027)
 DESCRIPTION:Plazo para cursar la petición en la subasta a 12 meses de junio (fecha estimada 01-06-2027\, confirmar en tesoro.es). Ejecutar: python -m cartera escalera --data data --inflacion X.
 BEGIN:VALARM
 TRIGGER:-P1D
@@ -47,29 +47,5 @@ DTSTAMP:20260910T120000Z
 DTSTART;VALUE=DATE:20270604
 SUMMARY:Amortiza Letra B: 8.000 € en cuenta
 DESCRIPTION:Si no se renovó entera\, suscribir fondos con el resto ese mismo día y anotar en movimientos.csv.
-END:VEVENT
-BEGIN:VEVENT
-UID:colchon-6m-2026-10@finanzas
-DTSTAMP:20260911T120000Z
-DTSTART;VALUE=DATE:20260928
-SUMMARY:ÚLTIMO DÍA MAÑANA: pedir Letra a 6 meses (5.000 €) para el colchón — límite en línea 29-09-2026
-DESCRIPTION:Subasta 06-10-2026. Límite de petición en línea 29-09-2026 (confirmado en el calendario del Tesoro). Cuenta directa del Banco de España. Petición no competitiva. Liquidación 09-10-2026.
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Petición Letra 6 meses
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:colchon-3m-2026-10@finanzas
-DTSTAMP:20260911T120000Z
-DTSTART;VALUE=DATE:20261005
-SUMMARY:ÚLTIMO DÍA MAÑANA: pedir Letra a 3 meses (5.000 €) para el colchón — límite en línea estimado 06-10-2026
-DESCRIPTION:Subasta 13-10-2026 (3 y 9 meses). Confirmar el límite en línea en el calendario del Tesoro. Petición no competitiva.
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:Petición Letra 3 meses
-END:VALARM
 END:VEVENT
 END:VCALENDAR

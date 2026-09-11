@@ -1,7 +1,5 @@
 activo,clase,isin,valor,peso_objetivo
-Letra A (amortiza 2026-11-06; renovar por 10.000 el 03-11-2026),renta_fija_estado,,8000,0.26
-Letra B (amortiza 2027-06-04),renta_fija_estado,,8000,0.21
-Colchón: Letra 6 meses (pendiente, subasta 06-10-2026),renta_fija_estado,,0,0.13
-Colchón: Letra 3 meses (pendiente, subasta 13-10-2026),renta_fija_estado,,0,0.13
-Cuenta corriente CaixaBank (operativa + reserva fiscal + remanente),liquidez,,16000,0.12
-CABK PIAS CMV1 (VidaCaixa; valor de rescate),seguro_ahorro,,5891.31,0.15
+Letra A (amortiza 2026-11-06; renovar por 13.000 el 03-11-2026),renta_fija_estado,,8000,0.34
+Letra B (amortiza 2027-06-04; renovar por 14.000 el 01-06-2027),renta_fija_estado,,8000,0.37
+Cuenta corriente CaixaBank (liquidez inmediata + reserva fiscal),liquidez,,16000,0.13
+CABK PIAS CMV1 (VidaCaixa; valor de rescate; pendiente de rescate),seguro_ahorro,,5891.31,0.16

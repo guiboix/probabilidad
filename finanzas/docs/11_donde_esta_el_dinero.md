@@ -118,20 +118,23 @@ Reparto propuesto de los ≈ 16.000 € en cuentas (interpretación, no norma):
 | Resto del colchón | ≈ 7.200 € | ≈ 10.400 € | Cuenta remunerada (si el tipo es bueno) o Letras a 3 y 6 meses escalonadas en el Banco de España | Emergencias; no baja de valor; disponible en ≤ 3 meses |
 | Sobrante | ≈ 6.100 € | ≈ 2.900 € | Cartera conservadora: Letra a 12 meses (tercer peldaño de la escalera) o, tras el aprendizaje, renta fija corta ética | Deja de ser colchón; sigue siendo seguro |
 
-**Decisión del usuario (10-09-2026): colchón de 12 meses**, porque su facturación es variable. Reparto cerrado:
+**Decisión del usuario (10-09-2026): colchón de 12 meses**, porque su facturación es variable.
+**Simplificación del 11-09-2026:** nada de Letras a 3 y 6 meses; el colchón se reparte entre efectivo
+inmediato y los dos bloques de Letras a 12 meses (documento 08 §8.4 bis):
 
 | Tramo | Importe | Dónde | Cuándo |
 |---|---|---|---|
-| Operativa + reserva fiscal | ≈ 2.700 € | Cuenta corriente CaixaBank | Ya está |
-| Colchón que rinde | ≈ 10.400 € | **Letras a 3 y 6 meses en el Banco de España** (p. ej. 5.000 € a 3 meses + 5.000 € a 6 meses, renovando cada vencimiento). La cuenta de MyInvestor da 1,00–1,25 % el primer año y 0,30 % después: no supera el listón (§11.2 quater) | Próximas subastas a 3 y 6 meses (dos al mes; calendario en tesoro.es) |
-| Sobrante | ≈ 2.900 € | Letra a 12 meses de 2.000 € (las Letras van de 1.000 en 1.000); los ≈ 900 € restantes se quedan en el colchón | Próxima subasta a 12 meses (octubre o noviembre de 2026, junto con la renovación de la Letra A) |
+| Liquidez inmediata (≈ 4,5 meses de salidas + reserva fiscal) | ≈ 5.000 € | Cuenta corriente CaixaBank | Ya está |
+| Se suma al bloque A | 5.000 € | Letra a 12 meses, subasta 03-11-2026 | Petición antes del 27-10-2026 |
+| Se suma al bloque B | 6.000 € | Letra a 12 meses, subasta ≈ 01-06-2027 | Petición ≈ 25-05-2027 |
 
-Con esto, el capital queda así: 18.000 € en Letras a 12 meses (dos bloques: 10.000 € en noviembre y 8.000 € en junio, ampliable)
-+ ≈ 10.400 € de colchón que rinde + ≈ 3.600 € operativos y remanente + el PIAS (5.891 €), cuyo destino se
-decide con el tipo actual en la mano (documento 10 §10.6).
+Con esto, el capital queda así: 27.000 € en Letras a 12 meses (dos bloques de 13.000 y 14.000 que vencen
+con 7 meses de diferencia) + 5.000 € en cuenta + el PIAS (5.891 €), cuyo destino se decide con la respuesta
+de la asesora (documento 10 §10.6).
 
-Coste de no hacer nada: los 16.000 € al 0 % pierden ≈ 530 € al año de poder de compra. Colocando
-≈ 13.300 € (colchón que rinde + sobrante) al ≈ 2,2 % neto se recuperan ≈ 290 € al año sin cambiar el riesgo.
+Coste de no hacer nada: los 16.000 € al 0 % pierden ≈ 530 € al año de poder de compra. Colocando 11.000 €
+en Letras al ≈ 2,2 % neto se recuperan ≈ 240 € al año sin cambiar el riesgo; los 5.000 € que quedan en
+cuenta son el precio de la liquidez inmediata.
 
 Sobre la confianza que pide el usuario: los cuatro productos de la tabla comparten la característica de que
 **el capital no baja**. La forma de ganar confianza sin arriesgar el colchón es empezar por uno de ellos
