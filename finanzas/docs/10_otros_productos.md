@@ -188,9 +188,24 @@ vida asociado. Hay dos posibilidades y hay que saber cuál es antes de que se ej
 | (a) La cobertura de fallecimiento propia del PIAS | Todo PIAS incluye un pequeño capital adicional en caso de muerte (normalmente el valor acumulado más un porcentaje o una cantidad fija pequeña) | Desaparece con el rescate; su valor económico es mínimo | Nada; se rescata igual |
 | (b) Una póliza de vida aparte, contratada junto al PIAS | Seguro de vida con capital asegurado propio (p. ej. 30.000–100.000 €) y prima anual propia, a veces vinculado a una hipoteca o a otro producto | Depende de la póliza: puede seguir vigente o puede cancelarse si estaba ligada al PIAS | Averiguar capital, prima, beneficiarios y vinculación antes de rescatar |
 
-Dato del usuario (11-09-2026): **sin hipoteca y sin personas a su cargo** (tampoco empleados). Conclusión:
-un seguro de vida no cubre hoy ninguna necesidad; si es una póliza aparte, puede cancelarse y su prima es
-un ahorro más. El rescate del PIAS se mantiene en cualquiera de los dos casos.
+Datos del usuario (11-09-2026): sin hipoteca, sin empleados, **con dos hijos**. Conclusión corregida: un
+seguro de vida **sí cubre una necesidad real** mientras los hijos dependan económicamente de él. Reglas:
+
+1. **No cancelar ninguna cobertura de vida antes de tener otra en vigor.** Si el rescate del PIAS cancela la
+   póliza asociada, primero se contrata la sustituta y después se rescata. Unas semanas más al 1 % cuestan
+   ≈ 5 € al mes; quedarse sin cobertura con dos hijos no tiene precio razonable.
+2. **Dimensionar la cobertura:** referencia habitual, un capital que cubra los gastos de los hijos hasta su
+   independencia (p. ej. 8–10 años de gastos familiares, o 5–8 veces los ingresos anuales). Se ajusta con
+   la edad de los hijos y la situación del otro progenitor. Comprobar que la póliza actual llega a esa cifra;
+   las coberturas vinculadas a productos de ahorro suelen ser pequeñas.
+3. **Comparar precio:** un seguro de vida temporal (solo fallecimiento e invalidez, sin ahorro) contratado
+   aparte suele costar bastante menos que el vinculado a un producto bancario. Se compara con la prima que
+   diga la asesora.
+4. **Beneficiarios:** comprobar que están designados los hijos (o quien deba administrar el capital si son
+   menores), no "herederos legales" por defecto si eso no es lo que se quiere.
+
+Datos pendientes para dimensionar: edades de los hijos, si dependen económicamente del usuario, situación del
+otro progenitor, y capital y prima de la póliza actual.
 
 Criterio general para el caso (b): un seguro de vida solo tiene sentido si alguien depende económicamente del
 usuario o hay una deuda que quedaría a terceros (hipoteca). Si es así, la cobertura se mantiene, pero no
