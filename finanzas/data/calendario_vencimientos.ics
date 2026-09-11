@@ -6,8 +6,8 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 UID:letra-a-decision-2026@finanzas
 DTSTAMP:20260910T120000Z
-DTSTART;VALUE=DATE:20261019
-SUMMARY:Pedir renovación Letra A: 10.000 € a 12 meses con reinversión — subasta 03-11-2026
+DTSTART;VALUE=DATE:20261026
+SUMMARY:ÚLTIMO DÍA MAÑANA: pedir renovación Letra A, 10.000 € a 12 meses con reinversión — límite en línea estimado 27-10-2026
 DESCRIPTION:Subasta 03-11-2026 (6 y 12 meses)\, liquidación 06-11-2026 = amortización de A. Petición de 10.000 € nominal: 8.000 por reinversión + 2.000 con cargo en cuenta. No competitiva. Confirmar plazo límite de petición en tesoro.es.
 BEGIN:VALARM
 TRIGGER:-P1D
@@ -51,9 +51,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchon-6m-2026-10@finanzas
 DTSTAMP:20260911T120000Z
-DTSTART;VALUE=DATE:20261002
-SUMMARY:Pedir Letra a 6 meses (5.000 €) para el colchón — subasta 06-10-2026
-DESCRIPTION:Cuenta directa del Banco de España. Petición no competitiva. Liquidación 09-10-2026.
+DTSTART;VALUE=DATE:20260928
+SUMMARY:ÚLTIMO DÍA MAÑANA: pedir Letra a 6 meses (5.000 €) para el colchón — límite en línea 29-09-2026
+DESCRIPTION:Subasta 06-10-2026. Límite de petición en línea 29-09-2026 (confirmado en el calendario del Tesoro). Cuenta directa del Banco de España. Petición no competitiva. Liquidación 09-10-2026.
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
@@ -63,9 +63,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:colchon-3m-2026-10@finanzas
 DTSTAMP:20260911T120000Z
-DTSTART;VALUE=DATE:20261009
-SUMMARY:Pedir Letra a 3 meses (5.000 €) para el colchón — subasta 13-10-2026 (confirmar fecha)
-DESCRIPTION:Cuenta directa del Banco de España. Petición no competitiva.
+DTSTART;VALUE=DATE:20261005
+SUMMARY:ÚLTIMO DÍA MAÑANA: pedir Letra a 3 meses (5.000 €) para el colchón — límite en línea estimado 06-10-2026
+DESCRIPTION:Subasta 13-10-2026 (3 y 9 meses). Confirmar el límite en línea en el calendario del Tesoro. Petición no competitiva.
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY

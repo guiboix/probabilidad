@@ -78,8 +78,22 @@ transferencia de amortización por bloque). La escalera se mantiene en dos pelda
 Cómo se hace en la cuenta directa: en la petición de la subasta del 03-11-2026 se pide un nominal de
 10.000 € y se marca que el pago se haga con **reinversión** del importe que amortiza ese mismo día
 (8.000 €); los 2.000 € restantes se cargan en la cuenta bancaria. Petición no competitiva (se acepta el
-precio medio). Confirmar en la web del Tesoro el plazo límite de la petición: suele cerrarse uno o dos días
-hábiles antes de la subasta.
+precio medio).
+
+**Plazos reales (calendario del Tesoro aportado por el usuario el 11-09-2026, fila de Letras a 12 meses):**
+
+| Subasta | Amortización | Límite petición **en línea** | Límite petición en oficina del Banco de España | Límite de pago | Emisión |
+|---|---|---|---|---|---|
+| 06-10-2026 | 08-10-2027 | **29-09-2026** | 02-10-2026 | 08-10-2026 | 09-10-2026 |
+
+Es decir, la petición por internet cierra **el martes de la semana anterior a la subasta**. Aplicado al resto
+de fechas (regla del calendario; confirmar cada una en la misma tabla del Tesoro):
+
+| Subasta | Plazos | Límite en línea (estimado por la misma regla) |
+|---|---|---|
+| 06-10-2026 | 6 y 12 meses | 29-09-2026 (confirmado) |
+| 13-10-2026 | 3 y 9 meses | 06-10-2026 |
+| **03-11-2026** | 6 y 12 meses | **27-10-2026** |
 
 Fuente del dinero nuevo: los ≈ 2.900 € sobrantes del colchón (documento 11). Para el segundo bloque, en
 junio de 2027, harían falta otros 2.000 €: si el ahorro acumulado hasta entonces no los cubre, se renueva
