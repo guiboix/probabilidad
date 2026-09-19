@@ -222,8 +222,35 @@ Referencia de precio (orden de magnitud, a confirmar con 2–3 presupuestos): se
 aseguradoras tarifan por edad en el momento de contratar; cumplir 45 el 06-10-2026 puede subir un escalón
 la prima, así que si se contrata una póliza nueva conviene hacerlo antes de esa fecha.
 
-**Posible cobertura ya existente (11-09-2026):** el usuario cree que su mujer tiene un seguro de vida que
-cubre a toda la unidad familiar. Qué significa y qué comprobar: un seguro de vida paga cuando fallece
+**RESUELTO (19-09-2026, póliza aportada por el usuario): el usuario NO está cubierto.**
+
+Póliza MyBox Vida de VidaCaixa (mediador CaixaBank), nº VRIMP0200908033, vigente del 28-10-2025 al
+30-09-2028. **Tomadora y única asegurada: la pareja del usuario** (nacida en 1987). La "Relación de
+asegurados" de la cláusula final contiene una sola línea, y el nombre del usuario no aparece en ningún
+punto de las 15 páginas.
+
+| Cobertura (solo para la pareja) | Capital | Prestación si es por accidente |
+|---|---|---|
+| Fallecimiento | 50.000 € | 100.000 € |
+| Invalidez absoluta permanente | 50.000 € | 100.000 € |
+| Determinados cánceres | 25.000 € | — |
+| Infarto de miocardio | 25.000 € | — |
+| Determinadas enfermedades graves | 25.000 € | — |
+
+Prima: 23,73 €/mes (284,76 €/año), de los cuales 16,01 € corresponden a fallecimiento e invalidez y
+6,92 € al resto de coberturas complementarias.
+
+Beneficiarios (cláusula 7): cada asegurado puede designar el suyo; si no lo hace, son sus herederos. Como
+la pareja no está casada con el usuario, **si ella no ha designado beneficiario expresamente, los 50.000 €
+irían a sus herederos legales (los hijos), no al usuario.** Conviene que ella lo compruebe.
+
+**Vía abierta:** la póliza es de grupo y admite añadir asegurados con "relación de afinidad o parentesco"
+con la tomadora, entre 18 y 67 años, previo control de salud (cláusula "Grupo asegurable"). El usuario
+podría incorporarse como segundo asegurado en vez de contratar una póliza aparte. Hay que pedir
+presupuesto: a 44–45 años la prima será mayor que la de ella. Comparar con un seguro temporal contratado
+fuera antes del 06-10-2026 (cumple 45).
+
+Análisis previo (se conserva como referencia): Qué significa y qué comprobar: un seguro de vida paga cuando fallece
 **la persona asegurada**. Que la póliza sea "familiar" puede significar (a) que ambos cónyuges figuran como
 asegurados, cada uno con su capital, o (b) que solo la mujer está asegurada y los beneficiarios son la
 familia. Solo el caso (a) cubre la necesidad del usuario. Hay que leer en la póliza: quiénes son los
