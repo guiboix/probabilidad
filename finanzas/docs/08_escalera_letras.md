@@ -105,12 +105,25 @@ Sin Letras a 3 y 6 meses (ocho renovaciones al año era demasiado trámite). Dos
 
 | Dónde | Importe | Función |
 |---|---|---|
-| Bloque A: Letra a 12 meses, subasta 03-11-2026 | **10.000 €** (8.000 por reinversión + 2.000 nuevos) | Vence 11-2027 |
-| Bloque B: Letra a 12 meses, subasta ≈ 01-06-2027 | **10.000 €** (8.000 por reinversión + 2.000 nuevos) | Vence 06-2028 |
-| Cuenta corriente CaixaBank | **≈ 12.000 €** (≈ 11 meses de salidas) | Colchón de liquidez inmediata y reserva fiscal |
+| Bloque A: Letra a 12 meses, subasta 03-11-2026 | **11.000 €** (8.000 por reinversión + 3.000 nuevos) | Vence 11-2027 |
+| Bloque B: Letra a 12 meses, subasta ≈ 01-06-2027 | **11.000 €** (8.000 por reinversión + 3.000 nuevos) | Vence 06-2028 |
+| Cuenta corriente CaixaBank | **≈ 15.800 €** (≈ 14 meses de salidas) | Colchón de liquidez inmediata y reserva fiscal |
 
-Los 16.000 € en cuentas: 2.000 € nuevos en noviembre, 2.000 € nuevos en junio, 12.000 € se quedan en la
-cuenta. Se renueva dos veces al año, en noviembre y junio, con reinversión.
+**Revisión del 19-09-2026, tras cobrar el rescate del PIAS (5.772,75 €).** Saldo en cuenta: 21.772,75 €.
+Decisión del usuario: subir cada bloque a 11.000 € aportando 3.000 € nuevos en cada renovación (6.000 € en
+total). Quedan ≈ 15.772 € en cuenta, equivalentes a ≈ 14 meses de salidas: por encima del colchón de 12
+meses acordado, así que la propuesta es holgada y compatible con el perfil.
+
+Comprobación: 22.000 € en Letras al ≈ 2,66 % bruto ≈ 585 € brutos y ≈ 440 € netos al año (tras IRPF y la
+comisión del 0,15 % del Banco de España). Con el esquema anterior de 10.000 € por bloque eran ≈ 400 €. La
+mejora es de ≈ 40 € al año.
+
+Margen adicional no usado: dejar exactamente 12 meses de colchón (13.140 €) permitiría bloques de ≈ 12.300 €.
+El usuario prefiere el margen extra; la diferencia es de ≈ 25 € al año.
+
+**Aviso para autónomo:** parte del saldo en cuenta es IVA repercutido y pago fraccionado de IRPF pendientes
+de liquidar. Ese importe no es colchón ni invertible. Restarlo antes de decidir el importe definitivo de
+cada bloque.
 
 Qué implica (hechos):
 
@@ -128,11 +141,11 @@ de la asesora.
 
 | Subasta | Plazos | Pedir en línea antes del | Liquidación | Qué hacer | Importe |
 |---|---|---|---|---|---|
-| **03-11-2026** | 6 y 12 meses | **27-10-2026** (confirmado por el usuario en el calendario del Tesoro) | **06-11-2026** (= amortización de A) | Renovar A con reinversión + 2.000 € nuevos | **10.000 €** |
-| ≈ 01-06-2027 | 6 y 12 meses | ≈ 25-05-2027 | ≈ 04-06-2027 (= amortización de B) | Renovar B con reinversión + 2.000 € nuevos | **10.000 €** |
+| **03-11-2026** | 6 y 12 meses | **27-10-2026** (confirmado por el usuario en el calendario del Tesoro) | **06-11-2026** (= amortización de A) | Renovar A con reinversión + 3.000 € nuevos | **11.000 €** |
+| ≈ 01-06-2027 | 6 y 12 meses | ≈ 25-05-2027 | ≈ 04-06-2027 (= amortización de B) | Renovar B con reinversión + 3.000 € nuevos | **11.000 €** |
 
-Tras junio de 2027: 20.000 € en Letras (dos bloques de 10.000 que vencen con 7 meses de diferencia) y
-≈ 12.000 € en cuenta. Todo deuda pública en el Banco de España; ninguna gestora.
+Tras junio de 2027: 22.000 € en Letras (dos bloques de 11.000 que vencen con 7 meses de diferencia) y
+≈ 15.800 € en cuenta. Todo deuda pública en el Banco de España; ninguna gestora.
 
 ## 8.5 Sistema de avisos (petición del usuario: tener en cuenta la caducidad para reinvertir o renovar)
 

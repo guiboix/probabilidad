@@ -20,15 +20,17 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] PIAS: solicitud de rescate total **firmada el 11-09-2026** (antes de las 15:00 → fecha de efecto 11-09-2026). Abono previsto en 4–5 días hábiles: **17/18-09-2026**.
 - [x] PIAS: **abono recibido: 5.772,75 €** (confirmado por el usuario el 19-09-2026). Coincide al céntimo con el cálculo previsto (5.891,31 − 118,56 de retención).
 - [x] PIAS: **cerrado.** Producto extinguido; capital de vuelta en cuenta.
-- [ ] PIAS: decidir destino de 5.000 €. Como el dinero llega antes del 27-10, la opción natural es sumarlos al bloque de noviembre (Letra A: 15.000 €); alternativas: bloque de junio o tercer bloque (documento 10 §10.6).
+- [x] PIAS: destino decidido (19-09-2026): 3.000 € al bloque de noviembre y 3.000 € al de junio; bloques de 11.000 € cada uno.
+- [ ] Restar del colchón el IVA y el pago fraccionado pendientes antes de fijar el importe definitivo.
+- [ ] ~~PIAS: decidir destino de 5.000 €~~ Como el dinero llega antes del 27-10, la opción natural es sumarlos al bloque de noviembre (Letra A: 15.000 €); alternativas: bloque de junio o tercer bloque (documento 10 §10.6).
 - [x] Gasto mensual ≈ 1.095 € (cuota de autónomos 328 € aparte). Colchón prudente 9–12 meses = 9.900–13.100 €; sobran ≈ 2.900–6.100 €.
 - [x] Colchón de 12 meses (≈ 13.100 €): decidido.
 
 ## Fase 0c — Poner a rendir el colchón y el sobrante (documento 11 §11.2 ter)
 - [x] Condiciones de la cuenta de MyInvestor verificadas con las bases legales: 1,00–1,25 % el primer año, 0,30 % después. No supera el listón.
 - [x] Esquema del usuario (11-09-2026): dos bloques de 10.000 € a 12 meses renovados en noviembre y junio; ≈ 12.000 € en cuenta.
-- [ ] **Antes del 27-10-2026** (confirmado): petición de **10.000 €** a 12 meses con reinversión de la Letra A + 2.000 € nuevos (subasta 03-11).
-- [ ] ≈ 25-05-2027: petición de **10.000 €** a 12 meses con reinversión de la Letra B + 2.000 € nuevos (subasta ≈ 01-06-2027).
+- [ ] **Antes del 27-10-2026** (confirmado): petición de **11.000 €** a 12 meses con reinversión de la Letra A + 3.000 € nuevos (subasta 03-11).
+- [ ] ≈ 25-05-2027: petición de **11.000 €** a 12 meses con reinversión de la Letra B + 3.000 € nuevos (subasta ≈ 01-06-2027).
 - [ ] Dejar ≈ 2.700 € (dos meses de salidas + reserva fiscal del trimestre) en la cuenta corriente.
 - [ ] Decidir dónde va el colchón que rinde (cuenta remunerada o Letras a 3–6 meses) y cuánto pasa a la Letra a 12 meses.
 - [x] Los "bonos" son las Letras: aclarado.
