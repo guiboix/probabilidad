@@ -255,8 +255,8 @@ fecha de efecto es la de la **firma** del tomador (si se firma después de las 1
 siguiente día hábil); se puede firmar en oficina o a distancia por banca digital; **si no se firma en 7 días
 desde la solicitud, el proceso se cancela**. Al rescatar, la póliza se extingue sin prestación posterior.
 **Firmada el 11-09-2026 antes de las 15:00 → fecha de efecto 11-09-2026. Abono recibido y operación cerrada
-(confirmado por el usuario el 19-09-2026).** Valor de rescate 5.891,31 € brutos; neto esperado ≈ 5.772,75 €
-tras la retención del 19 % sobre los 624,02 € de ganancia. La póliza queda extinguida.
+(confirmado por el usuario el 19-09-2026).** Valor de rescate 5.891,31 € brutos; **neto ingresado: 5.772,75 €**,
+exactamente lo calculado tras la retención del 19 % sobre los 624,02 € de ganancia. La póliza queda extinguida.
 
 **Recordatorio fiscal:** en la Renta de 2026 (a presentar en 2027) aparecerá un rendimiento del capital
 mobiliario de 624,02 € con 118,56 € ya retenidos. No hay nada que hacer salvo revisar que el borrador lo

@@ -18,7 +18,7 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] PIAS: Cartera Master declinada. La asesora confirma que el seguro asociado es la cobertura propia del producto (600 € por fallecimiento): sin efecto en la decisión.
 - [x] PIAS: **confirmación de rescate total enviada a la asesora el 11-09-2026.** VidaCaixa ha generado la solicitud de rescate total (fecha 11-09-2026).
 - [x] PIAS: solicitud de rescate total **firmada el 11-09-2026** (antes de las 15:00 → fecha de efecto 11-09-2026). Abono previsto en 4–5 días hábiles: **17/18-09-2026**.
-- [x] PIAS: **abono recibido** (confirmado por el usuario el 19-09-2026). Importe exacto: pendiente de anotar.
+- [x] PIAS: **abono recibido: 5.772,75 €** (confirmado por el usuario el 19-09-2026). Coincide al céntimo con el cálculo previsto (5.891,31 − 118,56 de retención).
 - [x] PIAS: **cerrado.** Producto extinguido; capital de vuelta en cuenta.
 - [ ] PIAS: decidir destino de 5.000 €. Como el dinero llega antes del 27-10, la opción natural es sumarlos al bloque de noviembre (Letra A: 15.000 €); alternativas: bloque de junio o tercer bloque (documento 10 §10.6).
 - [x] Gasto mensual ≈ 1.095 € (cuota de autónomos 328 € aparte). Colchón prudente 9–12 meses = 9.900–13.100 €; sobran ≈ 2.900–6.100 €.

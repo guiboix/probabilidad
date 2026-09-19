@@ -129,7 +129,7 @@ en noviembre y junio; el resto en cuenta (documento 08 §8.4 bis):
 | Se suma al bloque B | 2.000 € | Letra a 12 meses, subasta ≈ 01-06-2027 | Petición ≈ 25-05-2027 |
 
 Con esto, el capital queda así: 20.000 € en Letras a 12 meses + ≈ 12.000 € en cuenta + el dinero del PIAS ya rescatado
-(≈ 5.772 € en cuenta desde el 18-09-2026), pendiente de destino.
+(5.772,75 € en cuenta desde el 18-09-2026), pendiente de destino.
 
 Coste de mantener 12.000 € en cuenta al 0 %: ≈ 400 € al año de poder de compra (≈ 265 € netos que darían
 las Letras). Es el precio de la liquidez total; decisión del usuario, revisable en junio de 2027.
