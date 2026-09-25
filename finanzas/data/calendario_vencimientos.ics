@@ -55,4 +55,16 @@ DTSTART;VALUE=DATE:20260918
 SUMMARY:Comprobar abono del rescate del PIAS (≈ 5.772 €)
 DESCRIPTION:Rescate firmado el 11-09-2026\, abono previsto en 4-5 días hábiles. Si no ha llegado el 21-09\, preguntar a la asesora. Después: decidir destino de 5.000 € (bloque de Letras de noviembre).
 END:VEVENT
+BEGIN:VEVENT
+UID:letra-a-peticion-recordatorio-2026@finanzas
+DTSTAMP:20260925T120000Z
+DTSTART;VALUE=DATE:20261020
+SUMMARY:HOY: pedir renovación Letra del Tesoro 11.000 € (web del Tesoro)
+DESCRIPTION:Entrar en tesoro.es con certificado o Cl@ve. Subasta 03-11-2026\, Letras a 12 meses. Pedir 11.000 € nominal: 8.000 por REINVERSIÓN de la Letra que amortiza el 06-11 + 3.000 con cargo en cuenta. Petición NO COMPETITIVA. Límite oficial 27-10-2026; se hace el 20-10 para tener margen. Tener 3.000 € disponibles en la cuenta antes del 05-11.
+BEGIN:VALARM
+TRIGGER:-P2D
+ACTION:DISPLAY
+DESCRIPTION:En 2 días: petición Letra del Tesoro 11.000 €
+END:VALARM
+END:VEVENT
 END:VCALENDAR

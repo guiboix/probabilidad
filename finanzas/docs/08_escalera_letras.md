@@ -141,7 +141,7 @@ de la asesora.
 
 | Subasta | Plazos | Pedir en línea antes del | Liquidación | Qué hacer | Importe |
 |---|---|---|---|---|---|
-| **03-11-2026** | 6 y 12 meses | **27-10-2026** (confirmado por el usuario en el calendario del Tesoro) | **06-11-2026** (= amortización de A) | Renovar A con reinversión + 3.000 € nuevos | **11.000 €** |
+| **03-11-2026** | 6 y 12 meses | **27-10-2026** límite; **agenda: 20-10-2026** | **06-11-2026** (= amortización de A) | Renovar A con reinversión + 3.000 € nuevos | **11.000 €** |
 | ≈ 01-06-2027 | 6 y 12 meses | ≈ 25-05-2027 | ≈ 04-06-2027 (= amortización de B) | Renovar B con reinversión + 3.000 € nuevos | **11.000 €** |
 
 Tras junio de 2027: 22.000 € en Letras (dos bloques de 11.000 que vencen con 7 meses de diferencia) y
