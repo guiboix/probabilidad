@@ -166,9 +166,27 @@ saldo 0 €, sin movimientos. Es una cuenta recién abierta: el primer año de r
 3 meses ≈ 2,2–2,4 %. La cuenta da 1,00–1,25 % el primer año y 0,30 % después. Los tramos del 1,75 % y
 2,50 % exigen suscribir 600 o 900 € nuevos **cada mes** en productos de la lista (carteras automatizadas,
 fondos de la casa, planes de pensiones), sin traspasos; para un fondo de aprendizaje de 300 € no tiene
-sentido y el 2,50 % ni siquiera supera claramente a la Letra. **Conclusión: el colchón no va a la cuenta
-de MyInvestor; va a Letras a 3 y 6 meses en el Banco de España.** La cuenta de MyInvestor se usa solo
-como cuenta operativa para comprar el fondo de aprendizaje.
+sentido y el 2,50 % ni siquiera supera claramente a la Letra. ~~Conclusión: el colchón no va a la cuenta de MyInvestor.~~
+
+**CORRECCIÓN (28-09-2026): el marco de comparación estaba mal.** Se comparó la cuenta remunerada contra la
+Letra, cuando la regla del listón (documento 02 §2.2 bis) se aplica a productos **con riesgo**. Una cuenta
+remunerada y una cuenta corriente tienen el mismo riesgo: ninguno, ambas con garantía del FGD hasta
+100.000 €. El dinero que se queda líquido como colchón **no va a ir a Letras por definición**, así que su
+alternativa real no es el 2,66 % de la Letra sino el **0 % de CaixaBank**.
+
+| Destino del colchón líquido (≈ 13.073 €) | Rendimiento neto anual |
+|---|---|
+| Cuenta corriente CaixaBank (0 %) | 0 € |
+| Cuenta MyInvestor, primer año (BCE 2,50 % − 1,25 = **1,25 %**) | **132 €** |
+| Cuenta MyInvestor, desde el mes 13 (0,30 %) | 32 € |
+
+Con la misma liquidez, la misma garantía y ningún riesgo añadido. La cuenta se abrió en septiembre de 2026,
+así que el tramo del primer año corre hasta ≈ septiembre de 2027.
+
+**Decisión sobre darse de baja (28-09-2026): NO cerrar la cuenta.** Motivos: (1) no tiene coste de
+mantenimiento ni saldo mínimo; (2) las bases legales establecen que quien cancela y reabre pasa
+automáticamente al 0,30 %, de modo que cerrarla **quema el derecho al primer año**; (3) sirve como destino
+del colchón líquido con rendimiento; (4) deja abierta la opción de fondos sin volver a darse de alta.
 
 Nota: en una búsqueda previa apareció una promoción del 2,5 % para cuentas abiertas entre julio y agosto de
 2026. No figura en las bases aportadas (versión de mayo de 2026), así que **no se cuenta con ella**. Si la

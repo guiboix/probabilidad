@@ -26,6 +26,9 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Gasto mensual ≈ 1.095 € (cuota de autónomos 328 € aparte). Colchón prudente 9–12 meses = 9.900–13.100 €; sobran ≈ 2.900–6.100 €.
 - [x] Colchón de 12 meses (≈ 13.100 €): decidido.
 
+- [x] MyInvestor: **no dar de baja la cuenta** (28-09-2026). Sin coste, y cerrarla quemaría el tramo del primer año (documento 11 §11.2 quater).
+- [ ] Valorar mover ≈ 13.000 € del colchón a la cuenta remunerada de MyInvestor: ≈ 132 € netos al año frente a 0 € en CaixaBank, misma liquidez y misma garantía. Revisar en septiembre de 2027, cuando baje al 0,30 %.
+
 ## Fase 0c — Poner a rendir el colchón y el sobrante (documento 11 §11.2 ter)
 - [x] Condiciones de la cuenta de MyInvestor verificadas con las bases legales: 1,00–1,25 % el primer año, 0,30 % después. No supera el listón.
 - [x] Esquema del usuario (11-09-2026): dos bloques de 10.000 € a 12 meses renovados en noviembre y junio; ≈ 12.000 € en cuenta.
