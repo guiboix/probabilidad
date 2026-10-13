@@ -33,8 +33,8 @@ Orden propuesto. Cada paso depende del anterior.
 - [x] Condiciones de la cuenta de MyInvestor verificadas con las bases legales: 1,00–1,25 % el primer año, 0,30 % después. No supera el listón.
 - [x] Esquema del usuario (11-09-2026): dos bloques de 10.000 € a 12 meses renovados en noviembre y junio; ≈ 12.000 € en cuenta.
 - [x] **13-10-2026: petición de 11.000 € firmada** (boletín 0028933397). Reinversión anulada previamente por el límite de una petición no competitiva por producto.
-- [ ] **Antes del jueves 29-10-2026: transferir 11.000 €** al IBAN ES58 9000 0088 21 1669020500, concepto «Boletín 0028933397», en una única transferencia.
-- [ ] Comprobar en Posición Integral que el dinero ha llegado, unos días antes del 29-10.
+- [x] **13-10-2026: transferencia de 11.000 € realizada** (CaixaBank → Banco de España, envío exprés, sin comisión, concepto «Boletín 0028933397»). Traspaso previo de 3.000 € entre cuentas propias.
+- [ ] Comprobar en Posición Integral que el ingreso consta (a partir del 15-10).
 - [ ] 03-11-2026: anotar el precio adjudicado en la subasta.
 - [ ] 06-11-2026: comprobar el ingreso de los 8.000 € de la Letra amortizada.
 - [ ] ~~Petición de 11.000 €~~ hecha a 12 meses con reinversión de la Letra A + 3.000 € nuevos (subasta 03-11).

@@ -181,7 +181,7 @@ La web del Tesoro **solo admite una petición no competitiva por producto**, as�
 2. **Compra única de 11.000 €** firmada: producto SUBASTA 03/11/2026, Letras no competitivas a 12 meses.
    Depósito previo 100 %. **Nº de boletín: 0028933397.**
 
-Datos de la transferencia pendiente (límite: **jueves 29-10-2026**, dos días laborables antes de la subasta):
+Transferencia **realizada el 13-10-2026** (envío exprés, 0 € de comisión), dieciséis días antes del límite:
 
 | Campo | Valor |
 |---|---|
