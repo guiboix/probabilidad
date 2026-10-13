@@ -67,4 +67,23 @@ ACTION:DISPLAY
 DESCRIPTION:En 2 días: petición Letra del Tesoro 11.000 €
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:transferencia-letra-2026-10@finanzas
+DTSTAMP:20261013T180000Z
+DTSTART;VALUE=DATE:20261022
+SUMMARY:Transferir 11.000 € al Banco de España (boletín 0028933397)
+DESCRIPTION:IBAN ES58 9000 0088 21 1669020500. Importe EXACTO 11.000\,00 €. Concepto: Boletín 0028933397. Una única transferencia. Límite: jueves 29-10-2026. Comprobar antes el pago trimestral de IVA e IRPF.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Mañana: transferencia de 11.000 € al Banco de España
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:comprobar-posicion-integral-2026@finanzas
+DTSTAMP:20261013T180000Z
+DTSTART;VALUE=DATE:20261027
+SUMMARY:Comprobar en Posición Integral que han llegado los 11.000 €
+DESCRIPTION:tesoro.es → Posición Integral → Operaciones en tramitación por Internet → pulsar sobre el nº de boletín 0028933397. Si no consta el ingreso\, aún hay margen hasta el 29-10.
+END:VEVENT
 END:VCALENDAR

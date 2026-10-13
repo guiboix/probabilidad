@@ -172,6 +172,32 @@ misma emisión (mismo ISIN) y sumen un único bloque de 11.000 €:
 
 Plazo para ambas: **27-10-2026** (siete días antes de la subasta).
 
+### Operación de renovación ejecutada (13-10-2026)
+
+La web del Tesoro **solo admite una petición no competitiva por producto**, así que no se podía reinvertir
+8.000 € y además suscribir 3.000 € para la misma subasta. Secuencia real:
+
+1. Reinversión de 8.000 € solicitada (op. 0507523) y después **anulada** (REGAGE26e00088618067).
+2. **Compra única de 11.000 €** firmada: producto SUBASTA 03/11/2026, Letras no competitivas a 12 meses.
+   Depósito previo 100 %. **Nº de boletín: 0028933397.**
+
+Datos de la transferencia pendiente (límite: **jueves 29-10-2026**, dos días laborables antes de la subasta):
+
+| Campo | Valor |
+|---|---|
+| Beneficiario | Banco de España |
+| IBAN | ES58 9000 0088 21 1669020500 |
+| Importe | 11.000,00 € exactos, en una única transferencia |
+| Concepto | Boletín 0028933397 |
+
+Consecuencia de anular la reinversión: los 8.000 € de la Letra que amortiza **se ingresan en la cuenta de
+CaixaBank el 06-11-2026**, con la comisión del 0,15 % (≈ 12 €); no se compensan con la compra. Flujo:
+21.773 € → 10.773 € (tras la transferencia) → 18.761 € (tras la amortización) → ≈ 19.085 € (tras devolver el
+sobrante del depósito, ≈ 324 €).
+
+**Aviso:** el 20-10-2026 vence la presentación de los modelos trimestrales. Comprobar el importe de IVA e
+IRPF antes de ordenar la transferencia.
+
 ### Calendario de compras
 
 | Subasta | Plazos | Pedir en línea antes del | Liquidación | Qué hacer | Importe |
