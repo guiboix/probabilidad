@@ -137,6 +137,41 @@ Si el PIAS se rescata (≈ 5.772 €), el destino se decide entonces: sumarlo a 
 de 10.000 €), abrir un tercer bloque de 5.000 € en otra fecha, o dejarlo en cuenta. Pendiente de la respuesta
 de la asesora.
 
+### Contexto de tipos al hacer la renovación (13-10-2026)
+
+Subasta de Letras a 12 meses del **06-10-2026**: tipo medio **2,999 %**, tipo marginal 3,026 %, precio medio
+970,57 por cada 1.000 € de nominal. Es el primer nivel por encima del 3 % desde julio de 2024; las Letras a
+12 meses empezaron 2026 en torno al 2 %. La renovación llega, por tanto, en un momento favorable.
+
+Proyección si el 03-11-2026 sale un precio similar:
+
+| Concepto | Importe |
+|---|---|
+| Nominal solicitado | 11.000 € |
+| Coste real | ≈ 10.676 € |
+| Aportados por la Letra que amortiza | 8.000 € |
+| A poner de la cuenta | ≈ 2.676 € (el depósito previo exige 3.000 €; la diferencia se devuelve) |
+| Ganancia bruta a 11-2027 | ≈ 324 € |
+| IRPF (19 %) | ≈ 62 € |
+| **Ganancia neta** | **≈ 262 €** |
+
+Frente a los 127,79 € netos de la Letra que vence (comprada al 1,99 %), el rendimiento se dobla.
+
+### Mecánica de la operación: son DOS trámites, no uno
+
+En la cuenta directa, reinvertir y suscribir nuevo son operaciones distintas, aunque ambas acaben en la
+misma emisión (mismo ISIN) y sumen un único bloque de 11.000 €:
+
+1. **Reinversión de los 8.000 €.** El Tesoro avisa por correo o carta antes del vencimiento y ofrece
+   reinvertir en la siguiente subasta del mismo plazo. Se acepta desde la pestaña "Reinvertir" del menú de
+   operaciones. **Ventaja fiscal y de coste: al no haber transferencia de salida, no se aplica la comisión
+   del 0,15 % del Banco de España.**
+2. **Suscripción nueva de 3.000 €.** Petición ordinaria en el servicio de Compraventa de Valores, indicando
+   importe, plazo y fecha aproximada. Requiere **depósito previo del 100 % del nominal** (3.000 €) antes de
+   la fecha de emisión; la diferencia con el precio real se devuelve después.
+
+Plazo para ambas: **27-10-2026** (siete días antes de la subasta).
+
 ### Calendario de compras
 
 | Subasta | Plazos | Pedir en línea antes del | Liquidación | Qué hacer | Importe |
