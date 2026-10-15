@@ -221,6 +221,78 @@ de búsqueda probar "ESG", "SRI", "Screened", "Sustainable", "Green", "corto pla
 de cada fondo, buscar: ISIN, "gastos corrientes" o TER, "indicador de riesgo" (1–7), "artículo SFDR" y el
 enlace al **documento de datos fundamentales** (KID). Anotar nombre exacto e ISIN de los que aparezcan.
 
+## 11.2 quinquies ¿Hay un banco mejor que MyInvestor para el colchón? (15-10-2026)
+
+**Pregunta del usuario:** *"¿conoces algún banco que sea mejor que este para lo que yo busco?"*
+
+**Conclusión corta: sí, varios.** MyInvestor paga **1,25 %** a tu colchón. Hay cuentas remuneradas con la
+**misma garantía española** y **sin riesgo añadido** que pagan entre el 2,75 % y el 3,25 %. La mejor
+encaje con tu perfil es **Openbank (3,25 % TAE, grupo Santander)**, y el plazo para darse de alta
+**acaba el 29-10-2026**.
+
+### Comparativa (datos de prensa especializada, octubre 2026)
+
+Saldo de referencia: **12.000 €** (colchón actual, después de la transferencia de 11.000 € a Letras) y
+**20.000 €** (a partir del 6 de noviembre, cuando llega la amortización de 8.000 €). IRPF del ahorro 19 %.
+
+| Cuenta | TAE | Neto/año con 12.000 € | Neto/año con 20.000 € | Garantía de depósitos | Condiciones |
+|---|---|---|---|---|---|
+| **Openbank** | **3,25 %** | **316 €** | **526 €** | **España** (Santander) | Nuevo cliente, activar Bizum, código promocional, 12 meses, sin límite de saldo |
+| Trade Republic | 3,04 % | 295 € | 492 € | **Alemania** | Hasta 50.000 € |
+| Bankinter Cuenta Digital | 3,00 % | 292 € | 486 € | España | 12 meses, alta antes del 28-10-2026 |
+| Sabadell Cuenta Online | 2,75 % | 267 € | 446 € | España | Sin condiciones |
+| Revolut | 3,51 % | 341 €* | 569 €* | **Lituania** | *Solo 4 meses y hasta 25.000 €: el importe real es ≈ 1/3 del indicado |
+| MyInvestor (ya abierta) | 1,25 % | 122 € | 202 € | España | Ninguna, pero solo el primer año; luego 0,30 % |
+| CaixaBank cuenta corriente | 0 % | 0 € | 0 € | España | — |
+
+**Diferencia concreta:** con 20.000 € de colchón, Openbank deja **324 € netos más al año que MyInvestor** y
+**526 € más que dejarlo en CaixaBank**. Sin riesgo de pérdida y con el dinero disponible en el día.
+
+### Por qué Openbank y no los que pagan más
+
+1. **Garantía española.** Revolut (Lituania) y Trade Republic (Alemania) también tienen garantía de 100.000 €,
+   pero la cobertura la paga el fondo de su país y reclamarla sería un trámite transfronterizo. Openbank es
+   Banco Santander: FGD español y la entidad más grande del país. Para un perfil "muy conservador" esto pesa.
+2. **El 3,51 % de Revolut es publicidad.** Dura 4 meses y solo cubre 25.000 €. Al quinto mes cae.
+3. **Condiciones que de verdad puedes cumplir.** Openbank pide activar Bizum y meter al menos 1 €. No exige
+   nómina, ni recibos, ni invertir cada mes. No tiene comisiones de mantenimiento ni saldo mínimo.
+4. **Sin límite de saldo remunerado.** MyInvestor te remunera hasta 70.000 € (irrelevante para ti) pero al
+   1,25 %. Openbank no limita el saldo.
+
+### Lo que hay que saber antes de decidir
+
+- **Es un tipo promocional de 12 meses.** Pasado el año, la cuenta pasa al tipo vigente de la Cuenta de Ahorro
+  Openbank, que probablemente será mucho más bajo. Dentro de un año habrá que repetir este ejercicio. Esto
+  no es un problema: es la naturaleza de este producto. La alternativa (0 % en CaixaBank) no mejora con el tiempo.
+- **Plazo de alta: 29-10-2026.** Después, el tipo que se ofrezca será otro.
+- **No cierres la cuenta de MyInvestor** (ver §11.2 quater): no cuesta nada tenerla y cerrarla quema el
+  derecho al tramo del primer año.
+- **No pongas el colchón entero.** Deja en CaixaBank el dinero de los próximos 2–3 meses de gastos y los
+  impuestos del trimestre (≈ 3.000–4.000 €), porque es la cuenta por la que pasan los cargos de autónomo.
+  El resto puede ir a la remunerada.
+- **Los datos de esta tabla vienen de prensa financiera, no de las webs de los bancos.** Las fuentes no
+  coinciden del todo entre sí. **Antes de abrir nada, verifica la TAE, el plazo y las condiciones en la web
+  oficial de Openbank.** Si lo que dice la web no coincide con esta tabla, manda la web.
+
+### Lo que NO cambia
+
+Esto afecta **solo al colchón líquido**. No toca:
+
+- las Letras del Tesoro (siguen en la cuenta directa del Banco de España, que es el canal más barato);
+- la decisión sobre fondos (documento 09);
+- el seguro de vida ni el testamento, que siguen siendo los dos asuntos pendientes más importantes y que
+  valen más que estos 300 € al año.
+
+### Decisión pendiente
+
+| Opción | Ventaja | Inconveniente |
+|---|---|---|
+| **A. Abrir Openbank antes del 29-10-2026** | +324 €/año netos con 20.000 €; FGD español; sin condiciones reales | Un banco más que gestionar; hay que repetir la búsqueda en 12 meses |
+| B. Dejar el colchón en MyInvestor | Cuenta ya abierta, cero trámite | 122–202 €/año; cae al 0,30 % en septiembre de 2027 |
+| C. No mover nada (CaixaBank) | Cero trámite | 0 €/año; la inflación se come el 3,3 % |
+
+Recomendación: **opción A**, con la verificación previa en la web de Openbank.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
