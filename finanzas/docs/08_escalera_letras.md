@@ -198,6 +198,73 @@ sobrante del depósito, ≈ 324 €).
 **Aviso:** el 20-10-2026 vence la presentación de los modelos trimestrales. Comprobar el importe de IVA e
 IRPF antes de ordenar la transferencia.
 
+### Operación cerrada: resultado real de la subasta del 03-11-2026
+
+Datos aportados por el usuario: **devolución de 328,56 € el 05-11-2026** y **ingreso de 7.988,00 € el
+06-11-2026** por la amortización de 8.000 €.
+
+#### 1. La Letra nueva (11.000 € nominales)
+
+| Concepto | Importe |
+|---|---|
+| Nominal (lo que cobrará al vencimiento) | 11.000,00 € |
+| Depósito previo entregado el 02-11-2026 | 11.000,00 € |
+| Devolución del exceso (05-11-2026) | **328,56 €** |
+| **Desembolso real (precio efectivo)** | **10.671,44 €** |
+| Precio por cada 100 € de nominal | 97,0131 € |
+| **Rendimiento bruto del periodo** | **3,079 %** (= 328,56 €) |
+
+El precio cuadra con el resultado publicado de la subasta: **970,14 € por Letra de 1.000 € nominales**,
+tipo medio ≈ 3,05 % y marginal 3,068 % ([OCU](https://www.ocu.org/inversiones/invertir/obligaciones/articulos/rentabilidad-letras-tesoro-noviembre-2026),
+[R4](https://www.r4.com/articulos-y-analisis/ideas/actualidad-letras-del-tesoro-12-meses)). El tipo
+anualizado exacto depende de los días reales hasta el vencimiento (base 360, convención del Tesoro):
+364 días → 3,045 %; 365 días → 3,037 %. **Leer la fecha de vencimiento en el resguardo** y anotarla aquí.
+
+Fiscalidad: las Letras **no tienen retención en origen**. Los 328,56 € se declaran íntegros en la base del
+ahorro del IRPF de 2027 → 62,43 € de impuesto (19 %) → **266,13 € netos (2,494 % del desembolso)**.
+
+#### 2. Los 12 € de la amortización NO son una penalización
+
+El usuario los describe como "penalización". No lo son. Son la **comisión de transferencia de la cuenta
+directa del Banco de España**: 0,15 % del importe, mínimo 0,90 €, máximo 200 €.
+
+    0,15 % × 8.000 € = 12,00 €   ← coincide al céntimo
+
+No hay castigo por nada: es lo que cuesta **sacar dinero** de la cuenta directa hacia un banco comercial.
+Regla práctica para el futuro: **mientras el dinero se reinvierte dentro de la cuenta directa no paga nada;
+cada vez que sale, paga el 0,15 %.** Es la única comisión del canal y sigue siendo el más barato con
+diferencia (en CaixaBank la misma operación habría costado ≈ 52 €).
+
+#### 3. ¿Mereció la pena pagar esos 12 €?
+
+Se pagaron porque el sistema del Tesoro **solo admite una petición no competitiva por producto y subasta**,
+así que no se pudo hacer "reinversión de 8.000 € + compra de 3.000 €": hubo que anular la reinversión y
+comprar 11.000 € de nuevo, lo que obligó a que los 8.000 € salieran y volvieran a entrar.
+
+| Concepto | Importe |
+|---|---|
+| Capital extra puesto a trabajar | 3.000,00 € |
+| Lo que renta al 3,079 % del periodo | 92,37 € brutos / 74,82 € netos |
+| Coste de la operación | −12,00 € |
+| **Balance** | **+62,82 € netos** |
+
+Decisión correcta. El coste se recupera cinco veces.
+
+#### 4. Estado del capital tras la operación (06-11-2026)
+
+| Dónde | Importe |
+|---|---|
+| Letra A (nueva, nominal, vence ≈ noviembre 2027) | 11.000,00 € |
+| Letra B (nominal, vence 04-06-2027) | 8.000,00 € |
+| Cuentas de CaixaBank | ≈ 19.089,56 € |
+| **Total nominal** | **≈ 38.089,56 €** |
+
+Comprobado contra la proyección del 13-10-2026 (que estimaba ≈ 19.085 € en cuenta): **cuadra con 5 € de
+diferencia**, por el redondeo de la devolución del depósito.
+
+**Pendiente inmediato:** del saldo en cuenta hay que descontar los modelos trimestrales. Verificar el cargo
+antes de mover nada.
+
 ### Calendario de compras
 
 | Subasta | Plazos | Pedir en línea antes del | Liquidación | Qué hacer | Importe |

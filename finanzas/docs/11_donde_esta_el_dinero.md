@@ -293,6 +293,79 @@ Esto afecta **solo al colchón líquido**. No toca:
 
 Recomendación: **opción A**, con la verificación previa en la web de Openbank.
 
+## 11.2 sexies REVISIÓN IMPORTANTE (06-11-2026): la inflación está al 4,9 %, no al 3,3 %
+
+**Todo el análisis anterior de este repositorio usaba una inflación del 3,3 %. Ese dato está obsoleto.**
+El indicador adelantado del INE publicado el 30-10-2026 sitúa el **IPC interanual en el 4,9 %**, igual que
+en septiembre y en máximos desde febrero de 2023
+([INE vía FashionUnited](https://fashionunited.es/noticias/empresas/la-inflacion-se-mantiene-disparada-al-4-9-por-ciento-en-octubre/2026103051080)).
+Es una estimación; el dato definitivo sale a mediados de noviembre.
+
+Esto cambia la conclusión de fondo, así que se deja escrito sin maquillarlo:
+
+| Producto | Bruto | Neto (IRPF 19 %) | **Real (neto − 4,9 %)** |
+|---|---|---|---|
+| Letra 12m adjudicada el 03-11-2026 | 3,08 % | 2,49 % | **−2,29 %** |
+| Openbank (si sigue al 3,25 %) | 3,25 % | 2,63 % | **−2,16 %** |
+| Bankinter Cuenta Digital | 3,00 % | 2,43 % | **−2,35 %** |
+| B100 Cuenta Save | 2,75 % | 2,23 % | **−2,55 %** |
+| MyInvestor | 1,25 % | 1,01 % | **−3,71 %** |
+| CaixaBank cuenta corriente | 0 % | 0 % | **−4,67 %** |
+
+**Hecho, no opinión: con la inflación al 4,9 %, ningún producto sin riesgo conserva el poder adquisitivo.**
+Ni las Letras, ni la mejor cuenta remunerada del mercado. La pérdida en euros, a un año:
+
+| Saldo | En Letra (−2,3 % real) | Al 0 % (−4,7 % real) |
+|---|---|---|
+| 8.000 € | −183 € | −374 € |
+| 10.671 € (la Letra nueva) | −245 € | −498 € |
+| 19.090 € (el saldo en cuenta) | −438 € | −891 € |
+
+**Lo que esto NO significa:** no es un argumento para salir corriendo a buscar rentabilidad. La seguridad
+nominal de la Letra sigue siendo real y sigue valiendo. Significa dos cosas concretas y limitadas:
+
+1. **Lo que está al 0 % cuesta el doble que antes.** La diferencia entre dejar 19.090 € en CaixaBank y
+   ponerlos en una cuenta remunerada al 3 % ya no son 300 € de rentabilidad: son **≈ 450 € netos al año de
+   pérdida evitada**. Esto es dinero sin riesgo añadido y sin pérdida de liquidez.
+2. **La decisión sobre fondos (documento 09) sigue siendo del usuario y sigue sin urgencia.** No se cambia
+   la recomendación: el seguro de vida y el testamento siguen pesando más que cualquier punto de
+   rentabilidad.
+
+**Confianza en el dato:** media-alta para el 4,9 % (indicador adelantado oficial del INE, pero provisional).
+Alta para los cálculos derivados. **Pendiente:** confirmar el IPC definitivo a mediados de noviembre y, si
+cambia, recalcular esta tabla.
+
+## 11.2 septies El plazo de Openbank venció el 29-10-2026 (estado a 06-11-2026)
+
+La recomendación de §11.2 quinquies tenía fecha límite de alta el **29-10-2026** y **no se ejecutó**. A
+06-11-2026 los comparadores siguen citando el 3,25 % de Openbank, lo que sugiere que la promoción se
+prorrogó o se renovó, pero **no está confirmado en la web del banco**. Lo que dicen las fuentes de
+noviembre de 2026:
+
+| Cuenta | TAE citada | Nota |
+|---|---|---|
+| Openbank | 3,25 % (un blog dice 3,35 %) | 12 meses, sin límite de saldo, FGD español |
+| Revolut | 3,51 % | FGD **lituano**; las fuentes discrepan sobre si hay condiciones |
+| Raisin Cuenta Bienvenida | 3,30 % | **Solo 3 meses** |
+| Bankinter Cuenta Digital | 3,00 % | Hasta 100.000 €; una fuente da alta hasta **11-11-2026** |
+| bunq | 3,11 % / 2,01 % | Las fuentes se contradicen abiertamente |
+| B100 Cuenta Save | 2,75 % | Sin condiciones, garantizado hasta 31-12-2026 |
+
+Fuentes: [Finect](https://www.finect.com/usuario/AsunInfante/articulos/mejores-cuentas-remuneradas),
+[Rankia](https://www.rankia.com/blog/cuentas-corrientes/5424567-mejores-cuentas-remuneradas),
+[HelpMyCash](https://www.helpmycash.com/cuentas/cuentas-remuneradas/),
+[Bankkers](https://bankkers.com/cuentas/mejores-cuentas-remuneradas/),
+[ComparadorBancario](https://comparadorbancario.com/cuentas-remuneradas/).
+
+**Advertencia metodológica:** son comparadores y blogs, no bancos. Las cifras se contradicen entre sí
+(bunq al 3,11 % y al 2,01 % en la misma semana). **Ninguna de estas cifras sirve para decidir sin abrir la
+web oficial del banco.** La recomendación de fondo no cambia: Openbank por garantía española y condiciones
+cumplibles; Bankinter como alternativa; Revolut y Raisin descartados (garantía extranjera y plazo de 3 meses).
+
+**Dinero disponible ahora:** ≈ 19.090 € en cuentas de CaixaBank, menos el cargo de los modelos
+trimestrales. Dejando 4.000 € de operativa y impuestos, hay **≈ 15.000 € que podrían ir a una cuenta
+remunerada**, lo que al 3,25 % serían ≈ 395 € netos al año frente a los 0 € actuales.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
