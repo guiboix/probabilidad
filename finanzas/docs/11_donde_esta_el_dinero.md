@@ -621,6 +621,90 @@ el banco elegido. Si no se hace, el dinero se queda al 0,05 % y se pierde todo l
 **Confianza:** alta en la comparación relativa; media en el tipo exacto del año 2 (fuentes antiguas); baja
 en la TAE de Openbank sin Bizum (**dato no encontrado, hay que preguntarlo**).
 
+## 11.2 undecies ¿Cerrar CaixaBank y llevarlo todo a Openbank? (06-11-2026)
+
+**Respuesta corta: no.** Y la pregunta sobre las oficinas del Santander tiene una respuesta parcialmente
+buena que conviene entender bien, porque es donde más se equivoca la gente.
+
+### Lo que SÍ puedes hacer en el Santander siendo cliente de Openbank
+
+| Operación | ¿Se puede? | Detalle |
+|---|---|---|
+| **Sacar efectivo en cajero** | **Sí, gratis** | Más de 5.000 cajeros de Banco Santander y Euro Automatic Cash en España (confirmado en la web de Openbank) |
+| **Ingresar efectivo en cajero** | **Sí, con matices** | Solo en los **cajeros nuevos** del Santander, unos **1.800** (no los 5.000). Con la tarjeta Open Debit. Máximo **40 billetes** por operación ([ayuda de Openbank](https://www.openbank.es/ayuda/como-ingresar-dinero-cajero)) |
+| Ingresar/sacar en ventanilla de una oficina Santander | **Quizá** | Varias fuentes secundarias dicen que sí, dando el número completo de cuenta Openbank. **No confirmado en fuente oficial.** Verificar en la oficina concreta |
+
+**Fíjate en el salto: 5.000 cajeros para sacar, pero solo ~1.800 para ingresar.** Hay que comprobar
+físicamente si el cajero de L'Alcúdia (o el más cercano) admite ingresos.
+
+### Lo que NO puedes hacer
+
+- **Gestionar tu cuenta de Openbank en una oficina del Santander.** Son **entidades distintas** con
+  licencias bancarias distintas. Una oficina del Santander puede aceptarte un ingreso hacia un IBAN, pero
+  **no es tu oficina**: no resuelve incidencias, no te atiende un gestor, no tramita nada de Openbank.
+- **Ir a una oficina de Openbank.** Tiene **dos en toda España, las dos en Madrid**, y en la principal
+  (Openbank Corner) **no se puede operar con efectivo**; solo gestiones comerciales con cita previa.
+
+Es decir: **Openbank es un banco 100 % digital con acceso prestado a los cajeros del Santander.** Eso no es
+lo mismo que tener banco en el pueblo.
+
+### Los tres riesgos específicos para un autónomo
+
+**1. Hacienda.** Openbank tiene autorización histórica como entidad colaboradora
+([BOE de 1997, autorización 413](https://www.boe.es/diario_boe/txt.php?id=BOE-A-1997-10257)), pero una
+guía reciente describe su cobertura para pagos a la AEAT como **"limitada"**, con problemas para obtener
+el **NRC** en algunos casos. El usuario domicilia modelos trimestrales (130 y 303) y la cuota de
+autónomos. **Esto hay que confirmarlo con la asesoría y con el listado oficial de la AEAT antes de mover
+nada.** Es el riesgo más serio de todos, porque un impago de un modelo por un problema técnico tiene
+recargo.
+
+**2. Las Letras del Tesoro.** La cuenta directa del Banco de España tiene **un IBAN registrado** al que
+envía las amortizaciones y del que espera los depósitos previos. Hoy es el de CaixaBank. **Cerrar CaixaBank
+obliga a cambiar ese IBAN en la cuenta directa**, y hay una Letra de 8.000 € venciendo el 04-06-2027. Si el
+cambio no está hecho y confirmado antes, la amortización puede quedar en el limbo. Es un trámite
+resoluble, pero **no puede quedar pendiente**.
+
+**3. Un solo banco = un solo punto de fallo.** Si la app falla, si bloquean la cuenta por una operación
+sospechosa, o si hay una incidencia de identificación, un autónomo con un único banco digital **se queda
+sin acceso a su dinero y sin ventanilla donde reclamar**. Con dos bancos, eso es un contratiempo; con uno,
+es un problema grave. Para alguien que cobra de clientes y paga impuestos a fecha fija, esto pesa más que
+cualquier punto de rentabilidad.
+
+### El argumento de fondo
+
+**Se estaría reorganizando toda la vida bancaria por un tipo promocional de 12 meses.** El beneficio
+cuantificado (§11.2 decies) es de **255 € al año en el mejor caso** frente a una cuenta sin condiciones, y
+desaparece en el mes 13. Cerrar el banco principal es una decisión **permanente y costosa de revertir**
+para capturar una ventaja **temporal y pequeña**. La asimetría es evidente.
+
+### Lo que sí tiene sentido
+
+| Banco | Papel | Qué guarda |
+|---|---|---|
+| **CaixaBank** | Banco operativo. **No se toca** | Cobros de clientes, Bizum, domiciliaciones (Hacienda, Seguridad Social, asesoría), tarjetas, IBAN de la cuenta directa del Tesoro. Saldo: operativa + impuestos del trimestre (≈ 4.000 €) |
+| **Banco de España** | Letras | 19.000 € nominales en dos bloques |
+| **Cuenta remunerada** (Openbank sin Bizum, B100 o Sabadell) | **Solo aparcar el colchón** | ≈ 15.000 €. Ni domiciliaciones, ni Bizum, ni cobros. Una transferencia al abrirla y otra al cerrarla |
+| MyInvestor | Abierta sin uso | No cerrar (§11.2 quater) |
+
+**Regla:** la cuenta remunerada es **un almacén, no un banco**. Entra dinero, sale dinero, nada más. Así se
+captura el 2,75–3,25 % sin exponer nada de la operativa, y en el mes 11 se revisa y se mueve si hace falta,
+sin que eso afecte a cobros, impuestos ni Letras.
+
+### Si aun así quisiera cerrar CaixaBank en el futuro
+
+Orden obligatorio, y **nunca con un vencimiento de Letra cerca**:
+
+1. Confirmar con la asesoría que el nuevo banco admite domiciliación de AEAT y Seguridad Social sin
+   incidencias de NRC.
+2. Cambiar el IBAN en la cuenta directa del Banco de España y **esperar confirmación escrita**.
+3. Trasladar domiciliaciones una a una y verificar durante **un trimestre completo** que todas pasan.
+4. Comprobar que el cajero habitual admite **ingresos**, no solo reintegros.
+5. Solo entonces, cerrar.
+
+**Confianza:** alta en el diagnóstico (Openbank no tiene oficinas y es entidad distinta del Santander);
+media en los detalles de cajeros (cifras de fuentes secundarias); **baja en la cobertura actual de AEAT,
+que es justo el punto crítico y hay que verificar.**
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
