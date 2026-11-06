@@ -552,6 +552,75 @@ limpia: todo el beneficio, ningún cambio operativo. Si el tipo sin Bizum es mal
 +389/589 € al año y la simplicidad de cobrar todo en un sitio — y esa elección es del usuario, no del
 análisis. **El plazo (16-11-2026) obliga a preguntar esta semana.**
 
+## 11.2 decies CAMBIO DE RECOMENDACIÓN (06-11-2026): la objeción del usuario es correcta
+
+El usuario señala: *"a partir del segundo año debes ingresar dinero para mantener el interés."* **Tiene
+razón, y al cruzarlo con lo de Bizum la recomendación anterior deja de sostenerse.**
+
+### Qué pasa en el año 2
+
+La propia web de Openbank dice: *"Tras el primer año, tu Cuenta Remunerada pasará a ser una Cuenta de
+Ahorro Openbank, con el tipo de interés nominal que tenga en ese momento."* Y el tipo de esa cuenta de
+ahorro depende de la vinculación. Fuentes secundarias **antiguas** citan **0,20 % TAE con nómina
+domiciliada y 0,05 % sin ella**
+([Kelisto](https://www.kelisto.es/cuentas-remuneradas/bancos/openbank/cuenta-de-ahorro-bienvenida-sin-condiciones)).
+Son datos viejos y no verificados, pero la dirección es inequívoca: **el año 2 no renta nada.**
+
+Sobre 15.000 €: al 0,20 % serían **24 € netos al año**; al 0,05 %, **6 €**.
+
+### Por qué esto cambia la conclusión
+
+El producto es **de 12 meses y se acabó**. Eso no lo invalida —se cobra la promoción y se sale—, pero sí
+cambia el cálculo: **el trastorno operativo de mover Bizum también duraría solo ese año, y para ganar muy
+poco frente a la alternativa sencilla.**
+
+Comparación sobre 15.000 €, neto al año:
+
+| Opción | TAE | Neto/año | Qué te exige |
+|---|---|---|---|
+| Openbank + Bizum + 2 recibos | 3,25 % | **589 €** | Bizum (tus cobros) + 2 recibos |
+| Openbank + Bizum, sin recibos | 3,25 % | 389 € | Bizum (tus cobros) |
+| Openbank + Bizum + recibos, perdiendo exención | 3,25 % | 349 € | Bizum + recibos + 240 € a CaixaBank |
+| **B100 Cuenta Save / Sabadell Online** | **2,75 %** | **334 €** | **Nada** |
+| Openbank **sin** Bizum | ? | ? | Nada (TAE desconocida) |
+| MyInvestor (ya abierta) | 1,25 % | 152 € | Nada |
+| CaixaBank (hoy) | 0 % | 0 € | Nada |
+
+**Lo que realmente se paga por mover Bizum y dos recibos:**
+
+| | Diferencia frente a una cuenta sin condiciones |
+|---|---|
+| Mejor caso (exención intacta + bono) | **+255 €** |
+| Peor caso (pierde exención) | **+15 €** |
+
+**Conclusión: la ventaja de Openbank sobre una cuenta sin condiciones es de 255 € en el mejor escenario y
+prácticamente nula en el peor.** Para un autónomo que cobra de clientes por Bizum, repartir los cobros
+entre dos bancos durante un año —con el trabajo de asesoría que eso añada— **no se justifica por 255 €.**
+
+### Recomendación revisada
+
+| Prioridad | Opción | Por qué |
+|---|---|---|
+| **1ª** | Preguntar a Openbank **qué TAE queda sin traer Bizum**. Si es ≥ 2,75 %, contratar sin Bizum | Todo el beneficio, cero trastorno |
+| **2ª** | Cuenta **sin condiciones** (B100 Cuenta Save o Sabadell Online, ≈ 2,75 %, FGD español) | 334 €/año y no se toca nada de la operativa |
+| **3ª** | Openbank con Bizum | Solo si el usuario confirma que apenas cobra por Bizum |
+| — | No hacer nada | Cuesta 334–589 € al año de coste de oportunidad |
+
+**Lo que NO cambia:** sacar el dinero del 0 % sigue siendo correcto y sigue siendo lo importante. La
+discusión es solo sobre **a qué banco**, y la respuesta es **al que no te obligue a cambiar cómo cobras**.
+
+### Aviso permanente: estos productos caducan
+
+Regla general que vale para cualquier cuenta remunerada, no solo esta: **son promociones de captación.** El
+banco paga un tipo alto 12 meses para traerte y confía en que te quedes al 0,05 %. El uso correcto es
+cobrar la promoción y revisar antes de que termine.
+
+**Acción obligatoria:** apuntar en la agenda una **revisión en el mes 11** desde la apertura, sea cual sea
+el banco elegido. Si no se hace, el dinero se queda al 0,05 % y se pierde todo lo ganado.
+
+**Confianza:** alta en la comparación relativa; media en el tipo exacto del año 2 (fuentes antiguas); baja
+en la TAE de Openbank sin Bizum (**dato no encontrado, hay que preguntarlo**).
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
