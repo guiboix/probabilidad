@@ -447,6 +447,111 @@ El PDF aportado es la página comercial. Las llamadas a pie de página (1, 2, 3,
 (límite 16-11-2026). El importe sugerido es **≈ 15.000 €**, dejando en CaixaBank ≈ 4.000 € para la
 operativa y los modelos trimestrales. Mantener abierta la cuenta de MyInvestor (§11.2 quater).
 
+## 11.2 nonies Análisis coste-beneficio del cambio (06-11-2026)
+
+El usuario plantea dos objeciones correctas: **(a) usa Bizum para cobros de la actividad** y **(b) hay que
+valorar qué le cobraría CaixaBank por perder la vinculación.** Se analiza.
+
+### Corrección previa: no hay que mover ningún ingreso
+
+El usuario habla de "eliminar mi nómina mensual de ese banco para pasarla a Openbank". Dos precisiones:
+
+1. **Es autónomo: no tiene nómina.** Lo que tiene son cobros de clientes y la cuota de autónomos.
+2. **La promoción de Openbank NO exige domiciliar ingresos.** Sus condiciones son: código OPEN325, al menos
+   1 €, y **traer Bizum**. El bono de 200 € añade 2 recibos domiciliados. Nada más.
+
+Es decir: **el coste que al usuario le preocupa no hace falta asumirlo.** Sus cobros pueden seguir entrando
+en CaixaBank exactamente igual que hoy. Lo único que se mueve es Bizum, y opcionalmente dos recibos.
+
+### El problema real de Bizum
+
+Bizum va atado al número de teléfono y **solo puede estar activo en una entidad a la vez**. Si el usuario
+cobra de clientes por Bizum, traerlo a Openbank significa que esos cobros **entran en Openbank en lugar de
+CaixaBank**. El dinero no se pierde ni se retrasa, pero:
+
+- Los cobros de la actividad quedarían repartidos en dos bancos.
+- La asesoría tendría que trabajar con extractos de dos entidades. **Puede suponer un coste adicional:
+  preguntárselo a Loli, es el dato que falta.**
+- Fuentes secundarias discrepan sobre si basta con **activar** Bizum o hay que **mantenerlo como entidad
+  principal**. No está confirmado.
+
+### Qué puede cobrar CaixaBank
+
+Sin cumplir el Programa Día a Día: **60 € por trimestre = 240 € al año**
+([CaixaBank](https://www.caixabank.es/particular/cuentas-programa-dia-a-dia.html)). El usuario está exento
+hoy, pero **no consta por qué motivo**. Las condiciones combinan ingresos recurrentes con domiciliaciones o
+uso de tarjeta; los umbrales exactos no se han podido verificar en fuente oficial.
+
+Dos matices importantes:
+
+- **Mover Bizum, por sí solo, no suele ser una condición del Día a Día.** Las condiciones se refieren a
+  ingresos y recibos. El riesgo real aparece si **los cobros por Bizum son los "ingresos recurrentes"** que
+  sostienen la exención, o si se mueven los 2 recibos para el bono.
+- **Existe una salida:** la **Cuenta Online de CaixaBank no tiene comisión de mantenimiento ni
+  administración y no exige la vinculación del Día a Día**
+  ([Finantres](https://finantres.com/dia-dia-caixabank/)). Si se perdiera la exención, cambiar a esa cuenta
+  podría dejar el coste en 0 €. **No verificado para cuentas de autónomo**, que tienen tarifas propias.
+
+### Los números: seis escenarios sobre 15.000 €
+
+Interés neto 389 € · bono 200 € · comisión máxima de CaixaBank −240 €.
+
+| Escenario | Ingreso | Bono | Coste | **Neto/año** |
+|---|---|---|---|---|
+| 1. No hacer nada | 0 € | 0 € | 0 € | **0 €** |
+| 2. Openbank sin Bizum ni recibos | ? | 0 € | 0 € | **desconocido** |
+| 3. Bizum sí / recibos no / exención intacta | 389 € | — | — | **+389 €** |
+| 4. Bizum sí / recibos no / pierde exención | 389 € | — | −240 € | **+149 €** |
+| 5. Bizum sí / recibos sí / exención intacta | 389 € | 200 € | — | **+589 €** |
+| 6. Bizum sí / recibos sí / pierde exención | 389 € | 200 € | −240 € | **+349 €** |
+
+**Conclusión cuantitativa: la operación sale positiva en todos los escenarios evaluables.** Incluso
+perdiendo la exención por completo y sin cobrar el bono (escenario 4, el peor), quedan **+149 € al año**.
+La comisión máxima de CaixaBank (240 €) no llega a anular el beneficio (389–589 €) en ningún caso.
+
+**Punto de equilibrio** (saldo por debajo del cual no compensa, asumiendo que se pierde la exención):
+
+| | Saldo mínimo |
+|---|---|
+| Sin el bono de recibos | **9.259 €** |
+| Con el bono de recibos | **1.543 €** |
+
+El usuario tiene ≈ 19.090 €, muy por encima de ambos umbrales.
+
+### Dónde está la verdadera incógnita
+
+**No es financiera, es operativa.** El coste que no se puede cuantificar aquí es **la complicación de tener
+los cobros de la actividad repartidos en dos bancos**, y lo que eso pueda suponer con la asesoría. Si eso
+cuesta más de 389 € al año (o más tranquilidad de la que vale el dinero), la respuesta cambia.
+
+**Nivel de confianza:** alto en los cálculos; medio-bajo en dos supuestos de partida (el motivo exacto de la
+exención en CaixaBank y la exigencia precisa sobre Bizum), que son **datos que solo pueden confirmar las
+entidades**.
+
+### Qué hay que preguntar, y a quién
+
+**A CaixaBank** (app, chat o oficina):
+1. ¿Por qué motivo exacto estoy exento de la comisión de mantenimiento ahora mismo?
+2. ¿Qué tendría que dejar de cumplir para que me la empezaran a cobrar?
+3. Si recibo menos Bizum o muevo 2 recibos, ¿pierdo la exención?
+4. ¿Mi cuenta es de particular o de autónomo/negocio, y qué tarifa se le aplica?
+5. ¿Puedo pasarme a la Cuenta Online sin comisiones si perdiera la exención?
+
+**A Openbank** (chat 24/7, antes del 16-11-2026):
+6. ¿Basta con activar Bizum o hay que mantenerlo como entidad principal durante los 12 meses?
+7. Si **no** traigo Bizum, ¿qué TAE me queda? (es el escenario 2, el gran desconocido)
+8. ¿Los 200 € del bono son netos o brutos?
+
+**A la asesoría (Loli):**
+9. ¿Supone algún coste o complicación que parte de los cobros entren en un segundo banco?
+
+### Recomendación provisional
+
+**Dependiente de la respuesta 7.** Si Openbank mantiene un tipo razonable sin Bizum, esa es la opción
+limpia: todo el beneficio, ningún cambio operativo. Si el tipo sin Bizum es malo, hay que elegir entre
++389/589 € al año y la simplicidad de cobrar todo en un sitio — y esa elección es del usuario, no del
+análisis. **El plazo (16-11-2026) obliga a preguntar esta semana.**
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
