@@ -366,6 +366,87 @@ cumplibles; Bankinter como alternativa; Revolut y Raisin descartados (garantía 
 trimestrales. Dejando 4.000 € de operativa y impuestos, hay **≈ 15.000 € que podrían ir a una cuenta
 remunerada**, lo que al 3,25 % serían ≈ 395 € netos al año frente a los 0 € actuales.
 
+## 11.2 octies CONFIRMADO en la web oficial de Openbank (06-11-2026)
+
+El usuario aporta la **página de ofertas de Openbank en PDF**. Esto ya no es un comparador: es la fuente
+primaria. Lo que dice literalmente:
+
+| Dato | Lo que pone la web |
+|---|---|
+| Tipo | **3,25 % TAE** "durante un año y para todo tu dinero **por traer Bizum**" |
+| TIN implícito | **3,20 %** (deducido de su propia calculadora, ver verificación abajo) |
+| Límite de saldo | **Ninguno** ("Calcula cuánto ganarías en un año, **sin límite**") |
+| Bono adicional | **+200 €** por traer 2 recibos (20 €/mes durante 10 meses) |
+| **Fecha límite** | **"¡Ampliamos promoción! Hasta el 16/11/2026"** ← se prorrogó desde el 29-10 |
+| Código | **OPEN325** |
+| Garantía | "Entidad adherida al **Fondo de Garantía de Depósitos de Entidades de Crédito Español**", 100.000 € por depositante |
+| Indicador de riesgo | **1/6** (el más bajo de la escala) |
+| Comisiones | 0 € cuenta, 0 € tarjeta (primer titular), 0 € en más de 5.000 cajeros Santander |
+| Al año 13 | Pasa a Cuenta de Ahorro Openbank "con el tipo de interés nominal que tenga en ese momento" |
+| Respaldo | Grupo Santander |
+
+### Verificación del TIN contra su propia calculadora
+
+La web muestra para 10.000 € con el bono activado: **46,67 €/mes** y **520 € en total**. Reconstrucción:
+
+    10.000 € × 3,20 % TIN = 320,00 €/año → 26,67 €/mes
+    26,67 € + 20 € (bono recibos)        = 46,67 €/mes   ✓ coincide
+    320 € + 200 €                        = 520 €         ✓ coincide
+
+Confirmado: **TIN 3,20 %, TAE 3,25 %** (la diferencia es la capitalización mensual), y las cifras de la web
+son **brutas**, antes de la retención del 19 %.
+
+### Lo que ganaría el usuario
+
+Retención/IRPF 19 %. El bono de 200 € se trata aquí como importe bruto, en el escenario conservador.
+
+| Saldo | Interés bruto | Interés neto | + bono | **Total neto/año** | Real (−4,9 % IPC) |
+|---|---|---|---|---|---|
+| 10.000 € | 320 € | 259 € | 200 € | **459 €** | −0,29 % |
+| 12.000 € | 384 € | 311 € | 200 € | **511 €** | −0,61 % |
+| **15.000 €** | **480 €** | **389 €** | **200 €** | **589 €** | **−0,93 %** |
+| 19.000 € | 608 € | 492 € | 200 € | **692 €** | −1,20 % |
+
+Comparación sobre 15.000 €, neto al año:
+
+| Destino | Neto/año | % neto |
+|---|---|---|
+| **Openbank con bono de recibos** | **589 €** | **3,93 %** |
+| Openbank sin bono | 389 € | 2,59 % |
+| MyInvestor (1,25 %) | 152 € | 1,01 % |
+| CaixaBank (0 %) | 0 € | 0,00 % |
+
+Dato notable: **con el bono de recibos, la rentabilidad neta (3,93 %) supera a la Letra a 12 meses recién
+adjudicada (2,49 % neto)**, con liquidez total y la misma garantía estatal de fondo. Es la primera vez en
+este proyecto que un producto sin riesgo bate al Tesoro. El matiz: el bono es un pago único de captación,
+no un tipo de interés; no se repite el segundo año.
+
+### ⚠ El punto que hay que comprobar ANTES de contratar: Bizum
+
+La condición del 3,25 % es **"traer Bizum"**. Bizum va asociado al número de teléfono y **solo puede estar
+activo en un banco a la vez**. Traerlo a Openbank significa **darlo de baja en CaixaBank**.
+
+El usuario es **autónomo**. Si recibe cobros de clientes por Bizum en CaixaBank, esos cobros pasarían a
+entrar en Openbank. No es necesariamente malo, pero **es un cambio operativo real**, no un trámite menor, y
+debe decidirlo con ese dato delante. Es el único punto de esta promoción que puede tener consecuencias
+prácticas no evidentes.
+
+### Lo que NO se ha podido verificar
+
+El PDF aportado es la página comercial. Las llamadas a pie de página (1, 2, 3, 5) remiten a condiciones que
+**no están en el documento**. Antes de firmar hay que leer las **bases legales** y confirmar:
+
+1. Qué cuenta exactamente como "traer Bizum" y desde cuándo corre el 3,25 %.
+2. Si el bono de 200 € es neto o bruto, y qué cuenta como "recibo domiciliado".
+3. Si hay saldo mínimo o permanencia.
+4. Qué pasa si se da de baja antes del año.
+
+### Recomendación
+
+**Contratar, si el asunto de Bizum no interfiere con los cobros de la actividad.** Quedan **10 días**
+(límite 16-11-2026). El importe sugerido es **≈ 15.000 €**, dejando en CaixaBank ≈ 4.000 € para la
+operativa y los modelos trimestrales. Mantener abierta la cuenta de MyInvestor (§11.2 quater).
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
