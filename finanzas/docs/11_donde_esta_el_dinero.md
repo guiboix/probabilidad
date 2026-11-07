@@ -1265,6 +1265,69 @@ el nombre interno de la plantilla.
 **Los cinco documentos son coherentes entre sí y con lo anunciado. No procede desistir.** El plazo del
 21-11-2026 queda como red de seguridad sin uso.
 
+## 11.2 vicies ✅ OPERACIÓN CERRADA (07-11-2026): 13.648,32 € trasladados
+
+Ejecutadas las tres transferencias de CaixaBank a Bankinter, todas **inmediatas y con coste 0,00 €**.
+
+| # | Desde | Importe | Resultado |
+|---|---|---|---|
+| 1 | Operativa | 10,00 € | Prueba. Llegó íntegra |
+| 2 | Segunda cuenta | 7.383,32 € | Cuenta vaciada |
+| 3 | Operativa | 6.255,00 € | — |
+| | **Total** | **13.648,32 €** | |
+
+**Dato relevante sobre CaixaBank:** la pantalla de confirmación mostró *"Precio aplicable del servicio:
+29,53 euros"* frente a *"Precio aplicado al servicio: 0,00 euros"*. Es decir, la tarifa de catálogo es del
+**0,40 % del importe** y el usuario está exento. **Su bonificación en CaixaBank le ahorró 29,53 € en una
+sola operación.** Refuerza por tercera vez la decisión de §11.2 undecies de no tocar esa relación sin
+saber de qué depende la exención.
+
+### Cartera resultante
+
+| Producto | Invertido | Bruto/año | Neto/año |
+|---|---|---|---|
+| Bankinter Cuenta Digital (3,00 % TAE) | 13.648 € | 404 € | **327 €** |
+| Letra A, Banco de España (vence nov-2027) | 10.671 € | 329 € | **266 €** |
+| Letra B, Banco de España (vence 04-06-2027) | 7.793 € | 207 € | **168 €** |
+| CaixaBank, cuenta operativa | 6.000 € | 0 € | 0 € |
+| **TOTAL** | **38.112 €** | **940 €** | **761 €** |
+
+- **Rentabilidad media neta de la cartera: 2,00 %**
+- **Porcentaje del capital que genera rendimiento: 84,3 %**
+- Riesgo de pérdida nominal: **cero** en los cuatro productos (deuda del Estado y depósitos con FGD, todos
+  muy por debajo del límite de 100.000 € por entidad)
+
+### Comparación con el punto de partida
+
+| | Septiembre 2026 | Noviembre 2026 |
+|---|---|---|
+| Capital sin remunerar | ≈ 16.000 € + PIAS opaco | 6.000 € (operativa necesaria) |
+| Rendimiento neto anual | ≈ 345 € | **761 €** |
+| Productos que el usuario entiende | — | Los cuatro |
+
+**Mejora: +417 € netos al año**, sin asumir ningún riesgo de pérdida y sin renunciar a liquidez (la cuenta
+de Bankinter es disponible en el día; solo las Letras tienen vencimiento).
+
+### El límite honesto de todo esto
+
+Con el IPC interanual al **4,9 %** (§11.2 sexies), la cartera sigue perdiendo **−2,77 % real al año
+(≈ −1.055 €)**. **Ningún producto sin riesgo lo evita hoy.** Lo que se ha hecho es reducir la pérdida, no
+eliminarla: en septiembre la pérdida real era mayor.
+
+Dejarlo escrito sin adornos es parte del encargo. Superar la inflación exigiría asumir riesgo, y el
+usuario ha decidido —de forma informada y legítima— no hacerlo de momento (documentos 02 y 09).
+
+### Pendientes tras esta operación
+
+| Cuándo | Qué |
+|---|---|
+| **21-11-2026** | Fin del plazo de desistimiento de Bankinter (red de seguridad, sin uso previsto) |
+| **≈ 07-12-2026** | Primer abono de intereses: ≈ 33,65 € brutos → **≈ 27,26 € netos** |
+| **01-04-2027** | Revisar el tipo antes de que caduque la garantía del 11-05-2027 |
+| **17-05-2027** | Pedir renovación de la Letra B |
+| **04-06-2027** | Amortiza la Letra B (8.000 €) |
+| Sin fecha | **Seguro de vida** (sin cobertura propia, dos hijos menores) y **testamento** (la pareja no hereda) |
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
