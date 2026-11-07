@@ -778,6 +778,75 @@ banco elegido y confirmar:
 **Confianza:** alta en la comparación relativa y en el orden de magnitud; **media en los tipos y fechas
 exactos**, que dependen de verificación en fuente oficial.
 
+## 11.2 terdecies Guía de alta en Bankinter Cuenta Digital (07-11-2026)
+
+Decisión del usuario: **abrir la Cuenta Digital de Bankinter**. Plazo: **11-11-2026**.
+
+### Antes de empezar: tener a mano
+
+| Qué | Comprobación |
+|---|---|
+| **DNI en vigor** | Mirar la fecha de caducidad. Si está caducado, el alta se cae |
+| **Móvil español (+34)** | Para los códigos SMS |
+| **Correo electrónico** | El que se use habitualmente |
+| **Dispositivo con cámara** | Móvil u ordenador: hay videoidentificación |
+| **IBAN de CaixaBank** | Para la transferencia posterior |
+| **Datos personales** | Dirección, estado civil (**soltero**), nacionalidad, profesión (**trabajador autónomo**) |
+
+Requisito de la promoción: **no haber sido cliente de Bankinter en los últimos 6 meses.**
+
+### Los cinco pasos
+
+1. Entrar en **bankinter.com**, buscar **"Cuenta Digital"** y pulsar *Abrir cuenta online*. También se puede
+   desde la app, en *"Quiero hacerme cliente"*.
+2. **Rellenar los datos personales.** Deben coincidir **exactamente** con el DNI.
+3. **Verificar la identidad:** foto del DNI por las dos caras y un vídeo breve.
+4. **Firmar el contrato** electrónicamente.
+5. La cuenta suele quedar operativa en minutos.
+
+Duración estimada: ~10 minutos.
+
+### ⚠ Los cuatro errores que hay que evitar
+
+Mismo tipo de trampa que el desplegable de "6 meses" en la renovación de Letras del 13-10-2026: el producto
+por defecto no siempre es el que se quiere.
+
+1. **Confirmar que es "Cuenta Digital" y no "Cuenta Nómina" ni "Cuenta Pensión".** Bankinter tiene varias
+   cuentas. Las otras **exigen domiciliar una nómina**, que el usuario no tiene por ser autónomo. Si el
+   formulario pide una nómina o un justificante de ingresos, **se ha entrado en el producto equivocado**.
+2. **No contratar nada más.** Durante el alta ofrecerán tarjeta de crédito, seguros, planes de pensiones o
+   fondos. **A todo que no.** La cuenta es un almacén (§11.2 undecies).
+3. **No domiciliar nada:** ni recibos, ni la cuota de autónomos, ni impuestos. Todo eso sigue en CaixaBank.
+4. **Verificar que el 3,00 % TAE aparece en el contrato antes de firmar**, junto con el saldo máximo y la
+   fecha hasta la que está garantizado. Si en pantalla aparece otra cifra, **manda la pantalla, no esta
+   guía**: parar y consultar.
+
+### Después del alta: mover el dinero
+
+1. **No transferir los 15.000 € de golpe el primer día.** Hacer primero una transferencia de prueba de
+   **10 €** desde CaixaBank y confirmar que llega. Cuesta 0 € y elimina el riesgo de un IBAN mal copiado.
+2. Confirmada la prueba, transferir el resto. **Comprobar el límite diario de transferencias de CaixaBank**:
+   si no admite 15.000 € en una sola operación, repartir en dos días.
+3. **Antes de transferir, verificar que ya está cargado el pago de los modelos trimestrales.**
+4. Dejar en CaixaBank ≈ 4.000 € para operativa e impuestos.
+
+### Qué se verá luego, para no asustarse
+
+| | |
+|---|---|
+| Interés sobre 15.000 € | **444 € brutos al año** |
+| Abono mensual | ≈ **37 € brutos → ≈ 30 € netos** |
+
+**Diferencia importante frente a las Letras:** los intereses de una cuenta bancaria **sí llevan retención
+del 19 % en origen**. Las Letras no. Por eso el abono mensual se verá ya descontado (≈ 30 €, no 37 €). No
+es un error del banco; el importe retenido se recupera o se ajusta en la declaración de la renta.
+
+### Después de abrirla
+
+- Anotar la **fecha exacta de apertura** y actualizar el evento del 01-04-2027 del calendario.
+- Comentar a la asesoría que hay una cuenta nueva con rendimientos (aparecerá en los datos fiscales).
+- **No cerrar CaixaBank ni MyInvestor.**
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
