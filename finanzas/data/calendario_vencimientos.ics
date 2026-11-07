@@ -103,7 +103,7 @@ UID:cuenta-remunerada-revision-2027@finanzas
 DTSTAMP:20261107T120000Z
 DTSTART;VALUE=DATE:20270401
 SUMMARY:Revisar la cuenta remunerada antes de que caduque el tipo
-DESCRIPTION:El tipo de Bankinter esta garantizado hasta ~30-04-2027. Comprobar que TAE se aplica ahora\, compararla con el mercado y con la Letra a 12 meses\, y mover el dinero si ha caido. Mover cuesta 0 EUR. Si no se revisa\, el saldo se queda al tipo residual. Vale igual si se eligio otra entidad.
+DESCRIPTION:CONFIRMADO EN CONTRATO: el tipo de Bankinter (3\,00% TAE / 2\,96% TIN\, saldo maximo 100.000 EUR) esta garantizado hasta el 11-05-2027 inclusive. A partir del 12-05-2027 puede cambiar con 2 meses de preaviso\, comunicado por CORREO WEB de la banca online (no por email): hay que entrar a leerlo. Comprobar que TAE se aplica ahora\, compararla con el mercado y con la Letra a 12 meses\, y mover el dinero si ha caido. Mover cuesta 0 EUR. Si no se revisa\, el saldo se queda al tipo residual. Vale igual si se eligio otra entidad.
 BEGIN:VALARM
 TRIGGER:-P7D
 ACTION:DISPLAY

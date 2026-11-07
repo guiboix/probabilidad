@@ -1046,6 +1046,90 @@ de firmar, pero **no sustituye a comprobarlo**.
 Las capturas incluyen nombre, NIF y la referencia de la tarjeta de débito en cada página. No se han copiado
 a este repositorio. **Conviene no reenviarlas a nadie más.**
 
+## 11.2 septendecies ✅ VERIFICADO: la ficha de remuneración confirma el 3,00 % (07-11-2026)
+
+El usuario aporta la **Ficha de Información Precontractual de Depósitos a la Vista y Ahorro**
+(ref. SUC0716-00716). Es el documento que faltaba. **Todo lo que había que comprobar queda confirmado.**
+
+### La remuneración, en los términos exactos del banco
+
+| Concepto | Lo que dice la ficha |
+|---|---|
+| **T.A.E.** | **3,00 %** ✔ |
+| **Tipo de interés nominal (TIN)** | **2,96 %** ✔ |
+| **Saldo máximo** | **100.000,00 euros** ✔ |
+| **Periodo de liquidación** | **Mensual** ✔ |
+| **Condiciones de remuneración garantizadas hasta** | **11/05/2027 (inclusive)** |
+| **Condición para que aplique** | *"siempre que la contratación de la Cuenta se lleve a cabo desde **29/10/2026 hasta el 11/11/2026** (ambas inclusive)"* |
+| A partir del 12/05/2027 | *"el tipo de interés podrá cambiar... previa comunicación al cliente con una antelación mínima de 2 meses, sin que exista garantía de mantenimiento del tipo indicado más allá de dicha fecha"* |
+| **Indicador de riesgo** | **1/6** (el más bajo) ✔ |
+| **Comisión de mantenimiento** | **0,00 €** anual ✔ |
+| **Comisión de gestión de apuntes** | **0,00 €** ✔ |
+| **Cancelación** | *"en cualquier momento y sin necesidad de causa alguna ni preaviso"*; *"la resolución del contrato marco será **gratuita** para el cliente"* ✔ |
+| **Traslado de cuentas** | Adherido a los Principios comunes: **Sí** ✔ |
+
+**No figura ninguna condición de vinculación.** Ni nómina, ni recibos, ni compras con tarjeta, ni saldo
+mínimo. La única condición es **haber contratado dentro de la ventana del 29-10 al 11-11-2026**.
+
+### Verificación aritmética
+
+La ficha da la fórmula: **Capital × Rédito × Tiempo / 36500**, con liquidación mensual.
+
+    TIN 2,96 % capitalizado mensualmente → (1 + 0,0296/12)^12 − 1 = 3,0005 %  ✔ coincide con el TAE declarado
+
+La nota al pie aclara que el TAE *"está calculado para un supuesto saldo diario mantenido durante un año de
+6.000,00 euros"*. **Eso no limita nada**: al no haber comisiones fijas, el 3,00 % es idéntico para 6.000 €
+que para 15.000 €. Es solo el ejemplo normalizado que exige el Banco de España.
+
+### Lo que cobrará, con fechas reales
+
+| | |
+|---|---|
+| Abono mensual sobre 15.000 € | **≈ 37,00 € brutos → ≈ 29,97 € netos** |
+| **Tramo garantizado (07-11-2026 → 11-05-2027, 185 días)** | **≈ 225,04 € brutos → ≈ 182,28 € netos** |
+| Equivalente anual si se mantuviera el tipo | 444 € brutos / 360 € netos |
+
+**Corrección a la estimación anterior (§11.2 duodecies):** se dijo que el tipo estaría garantizado "hasta
+≈ 30-04-2027" a partir de fuentes de prensa que discrepaban. **La fecha real del contrato es el
+11/05/2027.** Once días más de los estimados.
+
+### Datos de la cuenta
+
+- **IBAN: ES51 0128 8700 1001 0135 5722** (cuenta 0128-8700-10-0101355722)
+- Titular único: el usuario
+- Divisa: euros
+- Fecha del documento: 07-11-2026
+
+### Comisiones nuevas que aparecen aquí
+
+| Concepto | Importe | ¿Aplica? |
+|---|---|---|
+| **Descubierto tácito** | **8,12 % TAE** + comisión del **4,50 % sobre el mayor saldo deudor, mínimo 15,00 €** | Solo si el saldo se va a negativo |
+| Gastos de reclamación de descubierto | 0 € / 15 € / 40 € / **45 €** según importe | Idem |
+| **Atención manual de adeudos** | **3,00 € por cargo** cuando no se puede hacer automáticamente por falta de saldo | No habrá domiciliaciones |
+| Comisión de recuento de monedas | 10 € por cada 500 monedas, solo actividad empresarial o profesional | No: cuenta de uso doméstico |
+
+Confirma por tercera vez la misma regla: **nunca dejar el saldo en negativo.**
+
+### Cláusula de modificación: lo que hay que vigilar
+
+*"Dichas modificaciones podrán afectar tanto a las condiciones aplicadas a los servicios de pago **como a
+la remuneración asociada a la cuenta corriente**"*, con preaviso mínimo de **2 meses** y comunicación por
+**CORREO WEB**. Si el cliente no manifiesta su disconformidad antes de la entrada en vigor, **se entiende
+que acepta**; si no está conforme, puede resolver el contrato sin gastos.
+
+**Implicación operativa:** el aviso del cambio de tipo llegará al **Correo Web de la banca online**, no al
+email. Hay que entrar a leerlo. Es exactamente para esto el recordatorio del calendario.
+
+### Veredicto
+
+**Todas las comprobaciones exigidas en §11.2 duodecies y §11.2 terdecies quedan superadas.** La
+documentación es coherente consigo misma y con lo anunciado. **Puede firmar.**
+
+Red de seguridad adicional: **derecho de desistimiento de 14 días naturales** desde la entrada en vigor,
+sin motivos y sin coste, notificable por escrito (correo postal a Paseo de la Castellana 29, 28046 Madrid,
+o cualquier otro medio admitido en derecho), con devolución en 30 días naturales.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
