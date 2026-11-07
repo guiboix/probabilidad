@@ -968,6 +968,84 @@ por revisar. Siguen pendientes de verificar:
 Las capturas aportadas incluyen **nombre completo y NIF** en cada página. No se han copiado a este
 repositorio. Conviene no difundirlas más allá de lo necesario.
 
+## 11.2 sexdecies Resto de la documentación de Bankinter: revisada (07-11-2026)
+
+El usuario aporta dos documentos completos: la **Información Precontractual sobre Tarjeta Débito**
+(Prod. 2515, ref. SUC1104-01104, ref. tarjeta 8700-60-2035969) y la **ficha precontractual de la cuenta
+con el Impreso de Información a los Depositantes** (ref. SUC0716-00716). Ambos fechados en Madrid a
+07-11-2026.
+
+### Lo que queda confirmado y es bueno
+
+| Punto | Lo que dice |
+|---|---|
+| **Fondo de Garantía de Depósitos** | *"El producto se encuentra cubierto por el Fondo de Garantía de Depósitos de Entidades de Crédito creado por el Real Decreto Ley 16/2011... La cantidad máxima garantizada es de **100.000 € por la totalidad de depósitos constituidos en Bankinter por persona**"* ✔ **FGD español, confirmado en documento firmado** |
+| **Derecho de desistimiento** | **14 días naturales** desde la firma, **sin indicar motivos y sin costes**. Se notifica en oficina, por teléfono (91 657 88 00), por carta o por cualquier medio admitido en derecho ✔ |
+| **Entidad y supervisión** | Bankinter S.A., entidad de crédito inscrita en el Banco de España con el **nº 128**, NIF A-28157360, supervisada por el Banco de España ✔ |
+| **Tarjeta de débito** | Emisión **0,00 €** y mantenimiento **0,00 €** (principal y adicionales) ✔ |
+| **Cajeros en España** | **0,00 %, mínimo 0,00 €** ✔ |
+| **Reembolso del FGD** | 7 días hábiles |
+| **Traslado de cuentas** | Derecho legal de traslado (RDL 19/2017 y Orden ECE/228/2019) ✔ útil si algún día se cambia de banco |
+| **Operaciones no autorizadas** | Responsabilidad máxima del titular: **50 €**, con varias exenciones. Plazo para comunicar: 13 meses |
+
+### Siete avisos prácticos nuevos
+
+**1. COINC y Bankinter Roboadvisor son la misma entidad a efectos del FGD.** El impreso lo dice
+expresamente. Los 100.000 € se cuentan sumando todo lo que se tenga bajo esas tres marcas. Irrelevante hoy
+(15.000 €), pero conviene recordarlo si algún día se amplía.
+
+**2. La cuenta debe usarse solo para operativa doméstica.** Literal: *"se considerará cuenta de consumidor
+aquella cuyo titular sea persona física, y la operativa que se lleve a cabo con la misma sea
+**exclusivamente de carácter doméstico**"*, y *"determinadas condiciones de la cuenta dependen de... que a
+través de la misma se lleve a cabo operativa de carácter personal o doméstico, o de carácter profesional o
+empresarial"*. **Confirma que declarar "particular" fue correcto y que meter actividad profesional por esa
+cuenta podría cambiar las condiciones.** Refuerza la decisión de §11.2 undecies: la cuenta es un almacén.
+
+**3. Servicio VoP (verificación del beneficiario) — importante para la transferencia.** Literal: *"si el
+sistema ha avisado previamente al Cliente de que los datos del beneficiario no coinciden con los asociados
+a la cuenta de destino, y aun así el Cliente autoriza expresamente la transferencia, dicha operación se
+considerará válidamente autorizada. En ese caso, BANKINTER no asumirá ninguna responsabilidad"*.
+**Regla: si al transferir aparece un aviso de que el nombre del beneficiario no coincide, PARAR y
+revisar.** Si se continúa, el banco no responde de nada.
+
+**4. La tarjeta llega con los límites a cero.** La ficha fija **límite de compras 0,00 € diario y mensual**
+y **límite de cajeros 0,00 € diario y mensual**. La tarjeta no funcionará hasta que se fijen límites desde
+la app. Dado que el plan es no usarla, **conviene dejarlos en cero**: es una capa de seguridad gratuita.
+
+**5. Duplicado de tarjeta: 25 €. Reposición urgente: 20 €.** No afecta si la tarjeta se queda guardada.
+
+**6. Ambigüedad menor sobre la gratuidad de la tarjeta.** El importe figura como 0,00 €, pero el texto
+añade: *"Esta comisión no se cobrará si el Titular cumple con las condiciones de bonificación establecidas
+en el contrato de la Cuenta Asociada"*. La nota 1 del documento de comisiones (§11.2 quaterdecies) sí es
+tajante: *"La Cuenta Digital incluye una tarjeta de débito sin comisiones de emisión ni de mantenimiento
+para el primer titular"*. **Se interpreta que es gratuita sin condiciones**, pero si algún día apareciera
+un cargo, esa nota 1 es el argumento para reclamarlo.
+
+**7. Las comunicaciones van por "Correo Web", no por email.** Es el medio principal del contrato: hay que
+darse de alta en Banca Online y entrar a consultarlas. **El correo electrónico es solo un aviso
+complementario.** Implicación: si Bankinter notifica un cambio de tipo o de condiciones, estará ahí.
+Revisarlo en la revisión del 01-04-2027.
+
+### ⚠ Sigue sin aparecer el 3,00 % TAE
+
+Ninguno de los documentos aportados hasta ahora lo contiene. Se han revisado: documento de comisiones,
+información contractual del marco de pagos, precontractual de la tarjeta e impreso de depositantes.
+**Falta la ficha de "Depósitos a la vista y de ahorro"** con la remuneración. Pendiente de verificar:
+
+1. TAE 3,00 % / TIN ≈ 2,96 %.
+2. Saldo máximo remunerado.
+3. Fecha hasta la que el tipo está garantizado.
+4. Ausencia de condiciones.
+
+**Mitigación:** existe el **derecho de desistimiento de 14 días naturales**. Aunque se firme sin haber
+visto el tipo, hay dos semanas para deshacer la operación sin coste ni explicaciones. Eso reduce el riesgo
+de firmar, pero **no sustituye a comprobarlo**.
+
+### Aviso sobre datos personales
+
+Las capturas incluyen nombre, NIF y la referencia de la tarjeta de débito en cada página. No se han copiado
+a este repositorio. **Conviene no reenviarlas a nadie más.**
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
