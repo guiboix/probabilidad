@@ -705,6 +705,79 @@ Orden obligatorio, y **nunca con un vencimiento de Letra cerca**:
 media en los detalles de cajeros (cifras de fuentes secundarias); **baja en la cobertura actual de AEAT,
 que es justo el punto crítico y hay que verificar.**
 
+## 11.2 duodecies DECISIÓN: qué cuenta remunerada elegir (07-11-2026)
+
+Premisas fijadas por el usuario: **se queda con CaixaBank, mantiene Bizum allí**, y la cuenta nueva será
+**solo un almacén** (§11.2 undecies). Eso elimina de golpe todas las ofertas que exigen vinculación —
+Openbank con Bizum incluido— y deja un filtro limpio: **sin condiciones + FGD español**.
+
+### Las opciones reales
+
+| Opción | TIN | Neto/año (15.000 €) | FGD | Condiciones | Tipo garantizado hasta |
+|---|---|---|---|---|---|
+| **Bankinter Cuenta Digital** | **2,96 %** (3,00 % TAE) | **360 €** | **España** | **Ninguna** (solo ser cliente nuevo) | ≈ 30-04-2027 (~6 meses) |
+| **Sabadell Cuenta Online** | 2,75 % | 334 € | **España** | **Ninguna** | No consta |
+| B100 Cuenta Save | 2,75 % | 334 € | España | Ninguna | 31-12-2026 (~2 meses) |
+| Trade Republic | 3,04 % | 369 € | **Alemania** | Ninguna | Variable |
+| MyInvestor (ya abierta) | 1,25 % | 152 € | España | Ninguna | sep-2027 |
+| CaixaBank (hoy) | 0 % | **0 €** | España | — | — |
+
+Descartados: **Openbank** (exige Bizum para el 3,25 %), **Revolut** (FGD lituano, 4 meses),
+**Raisin** (3 meses), **Trade Republic** (FGD alemán; el usuario prefiere garantía española y la ventaja
+sobre Bankinter es de 9 €/año, que no paga el trámite transfronterizo en caso de problema).
+
+### El dato que ordena la decisión
+
+| Comparación | Diferencia |
+|---|---|
+| Bankinter vs. Sabadell | **+26 € al año** (2,1 €/mes) |
+| Cualquiera de las dos vs. **no hacer nada** | **+334 a +360 € al año** |
+
+**La elección de banco vale 26 €. Salir del 0 % vale 334 €.** Es trece veces más importante **hacerlo** que
+**acertar con cuál**. Conviene no seguir optimizando: cualquiera de las dos primeras es una buena decisión y
+la peor opción con diferencia es seguir esperando.
+
+### Recomendación
+
+**1ª opción: Bankinter Cuenta Digital.** 3,00 % TAE desde el primer euro y hasta 100.000 €, **sin nómina,
+sin recibos, sin permanencia**, banco español con FGD español. Es exactamente el perfil de "almacén".
+
+> **Pega: el plazo de alta acaba el 11-11-2026 — quedan 4 días** — y hay un cupo de 50.000 contrataciones
+> desde el 29-10-2026, que puede estar agotado. Además **el tipo solo está garantizado hasta ≈ 30-04-2027**
+> (las fuentes discrepan entre abril y mayo), es decir ~6 meses, no 12. Eso asegura ≈ 171 € netos en ese
+> tramo; después hay que revisar.
+
+**2ª opción: Sabadell Cuenta Online.** 2,75 %, sin condiciones, FGD español y **sin prisa**. Si el plazo de
+Bankinter se pasa, si el cupo está agotado, o si el usuario prefiere no decidir con 4 días de margen, esta
+es la opción tranquila. Cuesta 26 € al año frente a Bankinter: es un precio razonable por no correr.
+
+**Lo que NO hay que hacer:** dejar los ≈ 19.090 € en CaixaBank al 0 % mientras se busca la opción perfecta.
+Con el IPC al 4,9 % (§11.2 sexies) eso cuesta ≈ 891 € de poder adquisitivo al año.
+
+### Condición común a todas: la revisión
+
+Ninguna de estas cuentas mantiene el tipo para siempre; **todas son promociones de captación**. La
+condición para que esto funcione es **revisar antes de que caduque el tipo garantizado** y mover el dinero
+si hace falta. Mover cuesta 0 € (una transferencia) y 10 minutos.
+
+Se añade al calendario el evento **"Revisar la cuenta remunerada"** con fecha **01-04-2027**, un mes antes
+del límite de Bankinter, válido también si se elige Sabadell.
+
+### Qué verificar antes de contratar
+
+Las cifras provienen de comparadores, no de los bancos, y **se contradicen entre sí** (la fecha límite de
+Bankinter aparece como 28-10, 11-11; la garantía del tipo como abril o mayo de 2027). Abrir la web del
+banco elegido y confirmar:
+
+1. TAE vigente y **hasta cuándo está garantizada**.
+2. Saldo máximo remunerado.
+3. Que **no** exige nómina, recibos, tarjeta ni permanencia.
+4. Comisiones de mantenimiento y de cierre (deben ser 0 €).
+5. Que admite ser cliente nuevo (Bankinter exige no haberlo sido en 6 meses).
+
+**Confianza:** alta en la comparación relativa y en el orden de magnitud; **media en los tipos y fechas
+exactos**, que dependen de verificación en fuente oficial.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que

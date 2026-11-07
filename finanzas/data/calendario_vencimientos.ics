@@ -86,4 +86,28 @@ DTSTART;VALUE=DATE:20261027
 SUMMARY:Comprobar en Posición Integral que han llegado los 11.000 €
 DESCRIPTION:tesoro.es → Posición Integral → Operaciones en tramitación por Internet → pulsar sobre el nº de boletín 0028933397. Si no consta el ingreso\, aún hay margen hasta el 29-10.
 END:VEVENT
+BEGIN:VEVENT
+UID:cuenta-remunerada-alta-2026@finanzas
+DTSTAMP:20261107T120000Z
+DTSTART;VALUE=DATE:20261110
+SUMMARY:ULTIMO DIA MANANA: alta cuenta remunerada (Bankinter, limite 11-11-2026)
+DESCRIPTION:Si se elige Bankinter Cuenta Digital (3% TAE\, sin condiciones\, FGD espanol)\, el plazo de alta acaba el 11-11-2026 y hay cupo de 50.000 contrataciones. Alternativa sin prisa: Sabadell Cuenta Online 2\,75%. Importe: ~15.000 EUR\, dejando ~4.000 EUR en CaixaBank para operativa e impuestos. Verificar antes en la web del banco: TAE\, hasta cuando esta garantizada\, saldo maximo\, ausencia de condiciones y de comisiones. Ver docs/11_donde_esta_el_dinero.md 11.2 duodecies.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Alta cuenta remunerada: ultimo dia manana
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cuenta-remunerada-revision-2027@finanzas
+DTSTAMP:20261107T120000Z
+DTSTART;VALUE=DATE:20270401
+SUMMARY:Revisar la cuenta remunerada antes de que caduque el tipo
+DESCRIPTION:El tipo de Bankinter esta garantizado hasta ~30-04-2027. Comprobar que TAE se aplica ahora\, compararla con el mercado y con la Letra a 12 meses\, y mover el dinero si ha caido. Mover cuesta 0 EUR. Si no se revisa\, el saldo se queda al tipo residual. Vale igual si se eligio otra entidad.
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:Revisar cuenta remunerada la semana que viene
+END:VALARM
+END:VEVENT
 END:VCALENDAR
