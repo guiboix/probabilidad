@@ -847,6 +847,79 @@ es un error del banco; el importe retenido se recupera o se ajusta en la declara
 - Comentar a la asesoría que hay una cuenta nueva con rendimientos (aparecerá en los datos fiscales).
 - **No cerrar CaixaBank ni MyInvestor.**
 
+## 11.2 quaterdecies Documento de comisiones de Bankinter: verificado (07-11-2026)
+
+El usuario aporta el **Documento Informativo de Comisiones** que hay que aceptar en el alta (contrato
+01288700101355722, versión 15-09-2026, firmado en Madrid a 07-11-2026). Revisado punto por punto.
+
+### Lo esencial: es el producto correcto y es gratuito
+
+| Concepto | Lo que dice el documento |
+|---|---|
+| **Nombre de la cuenta** | **"CUENTA DIGITAL"** ✔ el producto correcto, no la Cuenta Nómina |
+| **Mantenimiento** | **0,00 € mensual — comisión anual total 0,00 €** ✔ |
+| **Tarjeta de débito** | **Emisión 0,00 € + mantenimiento anual 0,00 € = 0,00 €** ✔ |
+| Nota 1 al pie | *"La Cuenta Digital incluye una tarjeta de débito sin comisiones de emisión ni de mantenimiento para el primer titular"* ✔ sin condiciones |
+| **Transferencias SEPA por web** | **0,00 %, 0,00 €** — tanto estándar como **inmediata** ✔ |
+| Órdenes permanentes por web | 0,00 € |
+
+**Conclusión: el documento es correcto y puede aceptarse.** No hay comisión de mantenimiento, la tarjeta de
+débito es gratuita sin condiciones y las transferencias por web (entrada y salida del dinero) son gratis,
+que es justo lo que necesita una cuenta-almacén.
+
+### Lo que cuesta dinero (y no afecta a este uso)
+
+| Servicio | Coste | ¿Le afecta? |
+|---|---|---|
+| Tarjeta de **crédito** (Clásica / Dúo / Oro / Platinum) | **50 / 60 / 90 / 120 € al año** | **No: no contratar ninguna** |
+| Transferencias por **banca telefónica** | 0,05 %, mín. 2 € | No: operar siempre por web/app |
+| Transferencias por **oficina** | 0,25 %, mín. 4 € | No |
+| Transferencias **NO SEPA** | 0,60 %, mín. 20 € | No |
+| Devolución de cheques | 2 %, mín. 3,01 € | No |
+| **Alertas por SMS** | **0,10 € por mensaje** | **Sí: configurar avisos por correo (0,00 €), no por SMS** |
+
+### Retirada de efectivo con la tarjeta de débito
+
+| Dónde | Coste |
+|---|---|
+| Cajeros de Bankinter | **Exento** |
+| Red **EURO6000**, Grupo Cajas Rurales, Deutsche Bank | **Exento** |
+| Cajeros de otras entidades (incluido CaixaBank) | **100 % de lo que fije ese cajero** |
+| Internacional | 4 %, mín. 3 € |
+
+Irrelevante para el uso previsto (la cuenta no es operativa), pero conviene saber que **el cajero de
+CaixaBank no entra en la red exenta**.
+
+### ⚠ Descubiertos: el único punto con coste real
+
+| Concepto | Importe |
+|---|---|
+| Descubierto expreso | Servicio no disponible |
+| Descubierto tácito (números rojos) | **7,88 % de interés** |
+| Comisión por mayor saldo descubierto | **4,50 %, mínimo 15 €** |
+| Reclamación de posiciones deudoras | 0 € (hasta 15 €) / 15 € / 40 € / **45 €** según el importe |
+
+**Riesgo real: prácticamente nulo**, porque la cuenta no tendrá domiciliaciones ni recibos (§11.2
+undecies) y el saldo será de cinco cifras. Pero queda escrita la regla: **nunca dejar el saldo en
+negativo**, ni siquiera por unos céntimos, porque el mínimo de 15 € convierte un descubierto trivial en una
+comisión desproporcionada.
+
+### ⚠ Lo que este documento NO acredita
+
+**No menciona el 3,00 % TAE en ninguna parte.** Es el documento de **comisiones**, no el de remuneración.
+Aceptarlo es correcto, pero **sigue pendiente verificar el tipo de interés** en el contrato de la cuenta o
+en la información precontractual, junto con el saldo máximo remunerado y la fecha hasta la que el tipo
+está garantizado (§11.2 duodecies).
+
+### Acciones derivadas
+
+1. **Aceptar** el documento de comisiones.
+2. **No contratar ninguna tarjeta de crédito** (50–120 €/año).
+3. Al configurar la cuenta, **poner las alertas por correo electrónico, no por SMS** (0,10 €/mensaje).
+4. **Operar siempre por web o app**, nunca por teléfono ni oficina.
+5. **Nunca dejar el saldo en negativo.**
+6. **Pendiente:** ver y guardar el documento donde conste el 3,00 % TAE.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
