@@ -1186,6 +1186,85 @@ de mayor impacto del proyecto**, ambos relacionados con dos hijos menores a carg
 2. **El testamento.** Sin él, **la pareja no hereda nada** por no estar casados. Coste aproximado en
    notaría: 50–80 €.
 
+## 11.2 undevicies ✅ CONTRATO DE APERTURA VERIFICADO (07-11-2026)
+
+Revisado el **CONTRATO CUENTA DIGITAL** (ref. SUC0435-00435), 18 páginas, firmado en Madrid el 07-11-2026
+por el usuario y por Bankinter S.A. **Cierra la verificación: no queda nada pendiente.**
+
+### Condiciones Particulares: coinciden al 100 % con la ficha precontractual
+
+| Concepto | Contrato |
+|---|---|
+| Producto | **CONTRATO CUENTA DIGITAL** ✔ |
+| IBAN | ES51-0128-8700-1001-0135-5722 · SWIFT BKBKESMMXXX ✔ |
+| Titular | Único (F.I. 1 = Titular, F.A. 1 = Personal) ✔ |
+| **Tipo de interés nominal** | **2,96 %** ✔ |
+| **T.A.E.** | **3,00 %** ✔ |
+| **Saldo máximo** | **100.000,00 euros** ✔ |
+| **Garantizado hasta** | **11/05/2027 inclusive**, contratando entre el 29/10 y el 11/11/2026 ✔ |
+| Liquidación | Mensual ✔ |
+| Mantenimiento / gestión de apuntes | 0,00 € / 0,00 € ✔ |
+
+**No aparece ninguna condición de vinculación.** Confirmado contra el documento firmado.
+
+### La Cláusula Primera (Condición General 1, "Objeto y duración")
+
+Es la que la ficha señalaba como reguladora del tipo a partir del 12/05/2027. Dice:
+
+- **Modificaciones con preaviso mínimo de 2 meses** para clientes consumidores (15 días para no
+  consumidores). *"Dichas modificaciones podrán afectar tanto a las condiciones aplicadas a los servicios
+  de pago **como a la remuneración asociada a la cuenta corriente**"*.
+- **⚠ El silencio equivale a aceptación:** *"Se entiende que el Cliente acepta la modificación si éste no
+  notifica al Banco, antes de la fecha de entrada en vigor de la modificación propuesta, su
+  disconformidad con la misma"*.
+- Si no está conforme, **puede resolver el contrato sin gastos** antes de esa fecha, con devolución
+  proporcional de comisiones anticipadas.
+- La comunicación se remite por **CORREO WEB** (Condición General 1, "Comunicaciones legales").
+- Las modificaciones **claramente más beneficiosas** pueden aplicarse sin preaviso.
+- **Desistimiento: 14 días naturales**, notificable por **(i) cualquier oficina, (ii) Banca Telefónica
+  91 657 88 00, (iii) carta a Paseo de la Castellana 29, 28046 Madrid, o (iv) cualquier otro medio
+  admitido en derecho.** *(Corrección: se puede ejercer por teléfono, no hace falta carta.)*
+
+### Dos cláusulas con consecuencias prácticas
+
+**1. La condición de consumidor depende del uso que se dé a la cuenta.** Literal:
+
+> *"Si durante la vigencia del presente contrato Bankinter detectase que el uso que el titular hace de la
+> cuenta ha variado y que se utiliza para llevar a cabo operativa relacionada con su actividad empresarial
+> o profesional, pasará a tener la consideración de **no consumidor**. En ese caso no le será de
+> aplicación la normativa referida en el párrafo anterior, **pudiendo asimismo variar las condiciones
+> económicas de la cuenta**."*
+
+Perder la condición de consumidor supondría: preaviso de modificaciones reducido de 2 meses a 15 días,
+pérdida de la protección de la Ley 16/2011, la Orden EHA/2899/2011, la Ley 22/2007 y el RDL 19/2018, y la
+posibilidad de que **cambien las condiciones económicas**. **Es la confirmación contractual más fuerte de
+la estrategia de §11.2 undecies: por esta cuenta no puede pasar nada de la actividad de autónomo.**
+
+**2. Clasificación MiFID: cliente minorista** (máxima protección). El contrato advierte que, si el cliente
+solicitara reclasificarse como profesional, *"las obligaciones de información de BANKINTER serán muy
+reducidas"*. **Nunca solicitar ese cambio.**
+
+### Resuelto: el documento de la "hipoteca"
+
+La fila listada como *"Dossier alta omnicanal/solicitud hipoteca"* resulta ser el **"Dossier Alta de
+Cliente"** (ref. SUC0843-00843): la identificación del cliente, los términos de contratación por internet
+y el anexo de protección de datos. **No hay ninguna solicitud de hipoteca ni de financiación.** Era solo
+el nombre interno de la plantilla.
+
+### Estado de la verificación
+
+| Documento | Estado |
+|---|---|
+| Documento informativo de comisiones | ✔ revisado (§11.2 quaterdecies) |
+| Información contractual / marco de pagos | ✔ revisado (§11.2 quindecies) |
+| Precontractual de tarjeta débito + impreso de depositantes | ✔ revisado (§11.2 sexdecies) |
+| Ficha precontractual de depósitos (FIPRE) | ✔ revisado (§11.2 septendecies) |
+| **Contrato Cuenta Digital** | **✔ revisado (este apartado)** |
+| Dossier Alta de Cliente | ✔ revisado, sin incidencias |
+
+**Los cinco documentos son coherentes entre sí y con lo anunciado. No procede desistir.** El plazo del
+21-11-2026 queda como red de seguridad sin uso.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
