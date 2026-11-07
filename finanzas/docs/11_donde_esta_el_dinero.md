@@ -1130,6 +1130,62 @@ Red de seguridad adicional: **derecho de desistimiento de 14 días naturales** d
 sin motivos y sin coste, notificable por escrito (correo postal a Paseo de la Castellana 29, 28046 Madrid,
 o cualquier otro medio admitido en derecho), con devolución en 30 días naturales.
 
+## 11.2 duodevicies CUENTA ABIERTA (07-11-2026) y tareas pendientes
+
+**Cuenta Digital de Bankinter contratada el 07-11-2026**, dentro de la ventana exigida (29-10 a
+11-11-2026). Condiciones adquiridas: **3,00 % TAE / 2,96 % TIN, saldo máximo 100.000 €, liquidación
+mensual, garantizado hasta el 11-05-2027, sin condiciones de vinculación** (§11.2 septendecies).
+
+**IBAN: ES51 0128 8700 1001 0135 5722.** Titular único.
+
+### Mapa del capital previsto una vez hecha la transferencia
+
+| Dónde | Importe | Rendimiento |
+|---|---|---|
+| Letra A (Banco de España, vence ≈ nov-2027) | 11.000 € nominales | 3,079 % del periodo |
+| Letra B (Banco de España, vence 04-06-2027) | 8.000 € nominales | — |
+| **Bankinter Cuenta Digital** | **≈ 15.000 €** | **3,00 % TAE** |
+| CaixaBank (operativa, impuestos, Bizum, domiciliaciones) | ≈ 4.000 € | 0 % |
+| MyInvestor | 0 € | Abierta sin uso |
+
+Con esto, **todo el capital del usuario pasa a estar remunerado salvo el colchón operativo**, por primera
+vez desde que arrancó el proyecto.
+
+### Pendientes, en orden
+
+| # | Tarea | Cuándo |
+|---|---|---|
+| 1 | **Darse de alta en Banca Online** y localizar el **Correo Web** (es el canal oficial de avisos; el email es solo complementario) | Ya |
+| 2 | Desde el **ordenador**, descargar el contrato y revisar la **Cláusula Primera** | Próximos días |
+| 3 | Configurar **avisos por correo electrónico, no por SMS** (0,10 €/mensaje) | Al entrar |
+| 4 | **Dejar los límites de la tarjeta en 0,00 €** (vienen así de fábrica): seguridad gratuita si no se va a usar | Al entrar |
+| 5 | Comprobar que **ya está cargado el pago de los modelos trimestrales** en CaixaBank | Antes de transferir |
+| 6 | **Transferencia de prueba de 10 €** y confirmar que llega | Antes del grueso |
+| 7 | Transferir el resto hasta ≈ 15.000 €, comprobando el **límite diario** de CaixaBank | Tras la prueba |
+| 8 | Avisar a la asesoría de que hay una cuenta nueva con rendimientos | Antes del cierre del ejercicio |
+
+**Regla del punto 6-7:** mientras el dinero siga en CaixaBank, deshacer la operación es trivial. La
+transferencia no tiene fecha límite; el alta sí la tenía. Por eso se separan.
+
+### Fechas en el calendario
+
+| Fecha | Evento |
+|---|---|
+| **18-11-2026** | Aviso: último margen para desistir (**límite 21-11-2026**, 14 días naturales, sin motivos ni coste) |
+| **01-04-2027** | Revisar el tipo antes de que caduque la garantía del **11-05-2027** |
+| 17-05-2027 | Pedir renovación de la Letra B |
+| 04-06-2027 | Amortiza la Letra B |
+
+### Lo que sigue sin hacerse, y vale más que todo esto
+
+Recordatorio deliberado: la cuenta remunerada aporta ≈ 360 € al año. **Siguen pendientes los dos asuntos
+de mayor impacto del proyecto**, ambos relacionados con dos hijos menores a cargo:
+
+1. **El seguro de vida.** El usuario **no tiene cobertura propia** (la póliza MyBox Vida asegura a su
+   pareja). Necesidad estimada: 75.000–100.000 €.
+2. **El testamento.** Sin él, **la pareja no hereda nada** por no estar casados. Coste aproximado en
+   notaría: 50–80 €.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que

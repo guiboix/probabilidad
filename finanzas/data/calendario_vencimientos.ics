@@ -110,4 +110,16 @@ ACTION:DISPLAY
 DESCRIPTION:Revisar cuenta remunerada la semana que viene
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:bankinter-desistimiento-2026@finanzas
+DTSTAMP:20261107T120000Z
+DTSTART;VALUE=DATE:20261118
+SUMMARY:Ultimo margen para desistir de Bankinter (limite 21-11-2026)
+DESCRIPTION:Cuenta Digital firmada el 07-11-2026. El derecho de desistimiento es de 14 dias naturales\, sin motivos y sin coste\, y vence el 21-11-2026. Para ejercerlo: carta a Bankinter S.A.\, Paseo de la Castellana 29\, 28046 Madrid\, o telefono 91 657 88 00\, o cualquier medio admitido en derecho. Solo hay que usarlo si al revisar el contrato desde el ordenador apareciera algo que no cuadre con las fichas precontractuales (3\,00% TAE\, 2\,96% TIN\, 100.000 EUR\, hasta 11-05-2027\, sin condiciones).
+BEGIN:VALARM
+TRIGGER:-P2D
+ACTION:DISPLAY
+DESCRIPTION:Plazo de desistimiento de Bankinter: quedan pocos dias
+END:VALARM
+END:VEVENT
 END:VCALENDAR
