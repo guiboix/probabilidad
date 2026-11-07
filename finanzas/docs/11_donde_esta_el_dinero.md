@@ -920,6 +920,54 @@ está garantizado (§11.2 duodecies).
 5. **Nunca dejar el saldo en negativo.**
 6. **Pendiente:** ver y guardar el documento donde conste el 3,00 % TAE.
 
+## 11.2 quindecies Información contractual de Bankinter: revisada (07-11-2026)
+
+El usuario aporta capturas de la **información contractual** (Prod. 2515, ref. SUC1104-01104), páginas 19 a
+26. Corresponden al **contrato de la Tarjeta y al marco de servicios de pago**, no a la remuneración.
+
+### Lo que confirma, y es bueno
+
+| Cláusula | Lo que dice | Valoración |
+|---|---|---|
+| **Cancelación por el titular** | *"El Titular puede finalizar el Contrato en cualquier momento, **sin pagar ninguna penalización ni avisar con antelación**"*. Plazo máximo de 24 h desde la petición | ✔ **Sin permanencia.** Era uno de los puntos a verificar (§11.2 duodecies) |
+| **Derecho de desistimiento** | **"Sí"** | ✔ 14 días naturales para echarse atrás (Ley 22/2007, venta a distancia) |
+| **Ley y jurisdicción** | Legislación española; los tribunales competentes son **los del domicilio del Titular** | ✔ Favorable: litigaría en Valencia, no en Madrid |
+| **Reclamaciones** | Servicio de Atención al Cliente (respuesta en 15 días hábiles) → **Servicio de Reclamaciones del Banco de España** | ✔ Vía estándar y gratuita |
+| **Operaciones no autorizadas** | La Entidad devuelve el importe como máximo al final del día hábil siguiente; el titular no responde de lo ocurrido tras notificar pérdida o robo | ✔ Protección legal estándar |
+| **Cancelación por la Entidad** | Necesita preavisar **2 meses**, y antes de cancelar por incumplimiento da **1 mes** para subsanarlo | ✔ Razonable |
+
+### Tres detalles prácticos
+
+**1. La tarjeta se cancela sola si no se usa.** Cláusula D: la Entidad puede cancelarla *"si no se ha
+utilizado durante 12 meses seguidos, a fin de evitar más gastos al Titular"*. Dado que el plan es **no
+usarla** (§11.2 terdecies), lo previsible es que la cancelen al año. **No pasa nada: eso cancela la
+tarjeta, no la cuenta ni la remuneración.** Conviene saberlo para no asustarse con el aviso.
+
+**2. Refuerza la regla del saldo en negativo.** Entre las causas de cancelación sin preaviso figura *"no
+tener saldo suficiente en la Cuenta Asociada para cubrir los gastos de la Tarjeta"*. Suma a lo ya visto en
+el documento de comisiones (descubierto al 7,88 % + 4,50 % con mínimo de 15 €): **nunca dejar el saldo en
+negativo.**
+
+**3. Plazo de 13 meses para reclamar.** Una operación no autorizada o mal ejecutada debe notificarse
+**como máximo en 13 meses**; pasado ese plazo la Entidad puede rechazar la reclamación. Implicación
+práctica: **revisar los movimientos al menos una vez al año**, cosa que ya cubre el aviso del 01-04-2027.
+
+### ⚠ Lo que sigue sin aparecer
+
+**Estas páginas tampoco contienen el 3,00 % TAE.** Son el contrato de la tarjeta y el marco de pagos. El
+tipo de interés debe estar en el documento de **"Depósitos a la vista y de ahorro"**, que es el que falta
+por revisar. Siguen pendientes de verificar:
+
+1. TAE 3,00 % / TIN ≈ 2,96 %.
+2. Saldo máximo remunerado (se espera 100.000 €).
+3. Fecha hasta la que el tipo está garantizado.
+4. Que no haya condiciones (nómina, recibos, uso de tarjeta, saldo mínimo).
+
+### Aviso sobre datos personales
+
+Las capturas aportadas incluyen **nombre completo y NIF** en cada página. No se han copiado a este
+repositorio. Conviene no difundirlas más allá de lo necesario.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
