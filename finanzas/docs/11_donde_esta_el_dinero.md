@@ -471,7 +471,7 @@ CaixaBank**. El dinero no se pierde ni se retrasa, pero:
 
 - Los cobros de la actividad quedarían repartidos en dos bancos.
 - La asesoría tendría que trabajar con extractos de dos entidades. **Puede suponer un coste adicional:
-  preguntárselo a Loli, es el dato que falta.**
+  preguntárselo a la gestoría fiscal, es el dato que falta.**
 - Fuentes secundarias discrepan sobre si basta con **activar** Bizum o hay que **mantenerlo como entidad
   principal**. No está confirmado.
 
@@ -542,7 +542,8 @@ entidades**.
 7. Si **no** traigo Bizum, ¿qué TAE me queda? (es el escenario 2, el gran desconocido)
 8. ¿Los 200 € del bono son netos o brutos?
 
-**A la asesoría (Loli):**
+**A la gestoría fiscal** (la que lleva los modelos trimestrales — **no** a Loli, que es la asesora de
+CaixaBank, ver §11.2 unetvicies):
 9. ¿Supone algún coste o complicación que parte de los cobros entren en un segundo banco?
 
 ### Recomendación provisional
@@ -1327,6 +1328,43 @@ usuario ha decidido —de forma informada y legítima— no hacerlo de momento (
 | **17-05-2027** | Pedir renovación de la Letra B |
 | **04-06-2027** | Amortiza la Letra B (8.000 €) |
 | Sin fecha | **Seguro de vida** (sin cobertura propia, dos hijos menores) y **testamento** (la pareja no hereda) |
+
+## 11.2 unetvicies Quién es quién, y la consulta a CaixaBank (07-11-2026)
+
+**Corrección de una confusión del propio análisis.** El usuario tiene dos profesionales distintos y en
+§11.2 nonies se asignó una pregunta a quien no correspondía:
+
+| Quién | Qué es | Qué le corresponde |
+|---|---|---|
+| **Loli** | **Asesora de CaixaBank** (gestora online). Resolvió la consulta del PIAS el 11-09-2026 (documento 10 §10.6) | Comisiones, exenciones, productos y cuentas de CaixaBank |
+| **La gestoría fiscal** | Quien presenta los modelos 130 y 303 (≈ 500 €/trimestre con impuestos) | Si tener cobros en dos bancos complica o encarece la contabilidad |
+
+### Consulta pendiente a Loli: de qué depende la exención
+
+Justificación reforzada el 07-11-2026: en la transferencia de 7.383,32 € CaixaBank mostró *"precio
+aplicable 29,53 €"* y *"precio aplicado 0,00 €"*. La exención vale **0,40 % por transferencia más los
+240 €/año de mantenimiento**, y **sigue sin saberse de qué depende** (§11.2 nonies). Sin ese dato no se
+puede decidir con fundamento sobre cerrar la segunda cuenta, mover recibos o tocar Bizum.
+
+**Mensaje propuesto** (el buzón de CaixaBank limita a 500 caracteres):
+
+> Buenos días, Loli. Quería consultar una cosa. Ahora mismo estoy exento de la comisión de mantenimiento
+> de las cuentas y también de las comisiones por transferencia. ¿Me puedes indicar por qué condiciones
+> concretas tengo esa exención y qué tendría que dejar de cumplir para perderla? Lo pregunto porque tengo
+> una segunda cuenta que se ha quedado a cero y quiero saber si cerrarla, o dejar de domiciliar algo, me
+> afectaría. Gracias.
+
+Asunto sugerido: **Comisiones cuentas**
+
+### Decisión provisional mientras no haya respuesta
+
+**No cerrar nada en CaixaBank.** Ni la segunda cuenta (saldo 0 €, coste 0 €, útil para aparcar la
+amortización de la Letra B en junio de 2027) ni modificar domiciliaciones. La asimetría es clara: mantener
+no cuesta nada; equivocarse cuesta hasta 240 €/año más el 0,40 % de cada transferencia.
+
+**MyInvestor: tampoco cerrarla**, aunque aquí la recomendación es débil. No tiene coste ni saldo mínimo, y
+cancelarla quema de forma permanente el derecho al tipo del primer año (§11.2 quater). No se usa, pero
+cerrarla no aporta nada.
 
 ## 11.3 El dinero que está parado
 
