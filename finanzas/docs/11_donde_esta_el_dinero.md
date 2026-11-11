@@ -1366,6 +1366,72 @@ no cuesta nada; equivocarse cuesta hasta 240 €/año más el 0,40 % de cada tra
 cancelarla quema de forma permanente el derecho al tipo del primer año (§11.2 quater). No se usa, pero
 cerrarla no aporta nada.
 
+## 11.2 duoetvicies RESPUESTA DE CAIXABANK: de qué depende la exención (09-11-2026)
+
+Loli (asesora de CaixaBank) responde a la consulta de §11.2 unetvicies:
+
+> *"Las condiciones son: 1.- tener ingresos de la actividad de al menos 750 €/mes. 2.- Tener 3 recibos
+> domiciliados al trimestre o realizar 3 compras con tarjeta al trimestre."*
+
+**Las dos condiciones son acumulativas** (1 **y** 2); la alternativa ("o") está solo dentro de la segunda.
+
+### Lo que esto resuelve
+
+**La pregunta del usuario —si afecta a las dos cuentas o solo a la operativa— tiene una respuesta
+tranquilizadora por el lado que importa: ninguna de las dos condiciones depende del saldo ni del número de
+cuentas.** Dependen de **actividad**: ingresos que entran y recibos o compras que salen. La segunda cuenta,
+a 0 €, no aporta nada al cumplimiento pero tampoco lo rompe.
+
+**Conclusión: vaciar la segunda cuenta no puso en riesgo la exención, y cerrarla tampoco la pondría.**
+Lo que queda sin responder es si la exención, una vez ganada, cubre ambas cuentas o solo una (ver consulta
+de seguimiento abajo).
+
+### El hallazgo relevante, que no es lo que se preguntaba
+
+**La condición 1 es un riesgo real para este usuario en concreto.** Exige **750 € de ingresos de la
+actividad cada mes**, y el usuario es autónomo con **facturación variable** (así lo declaró al fijar el
+colchón de 12 meses, documento 01). Un mes flojo podría costarle la exención.
+
+Qué está en juego:
+
+| Concepto | Coste sin exención |
+|---|---|
+| Mantenimiento | **60 €/trimestre = 240 €/año** |
+| Transferencias | **0,40 % del importe** |
+| → la transferencia del 07-11 (7.383 €) | habría costado **29,53 €** |
+| → la del Tesoro de octubre (11.000 €) | habría costado **44,00 €** |
+
+Contexto que matiza el riesgo: el umbral de 750 €/mes (9.000 €/año) está **por debajo de sus gastos fijos
+conocidos** (≈ 1.000 €/mes entre cuota de autónomos, gastos personales y asesoría). En un mes normal lo
+cumple de sobra. **El riesgo es puntual, no estructural.**
+
+### ⚠ Validación retrospectiva de dos decisiones
+
+Esta respuesta confirma, con datos que no teníamos entonces, dos decisiones tomadas por intuición:
+
+1. **No llevar Bizum a Openbank** (§11.2 decies). Si los cobros de clientes por Bizum hubieran pasado a
+   entrar en Openbank, los **ingresos registrados en CaixaBank podrían haber caído por debajo de los
+   750 €/mes** y la exención se habría perdido. El cálculo de aquel momento valoró el trastorno operativo,
+   pero **no contemplaba este riesgo**, que es mayor.
+2. **No domiciliar nada en Bankinter** (§11.2 undecies). Mover recibos fuera de CaixaBank erosiona la
+   condición 2.
+
+**Regla permanente que se deriva: los ingresos de la actividad y las domiciliaciones se quedan en
+CaixaBank. No es una preferencia, es una condición económica con un valor cuantificado.**
+
+### Consulta de seguimiento (374 caracteres, dentro del límite de 500)
+
+> Gracias Loli. Dos dudas más. 1) Esa exención, ¿cubre todas mis cuentas o solo aquella por la que entran
+> los ingresos? Tengo una segunda cuenta a cero. 2) Los 750 € ¿tienen que entrar todos los meses sin
+> falta, o se mira la media del trimestre? Lo pregunto porque soy autónomo y mi facturación es variable, y
+> quiero saber si un mes flojo me haría perder la exención. Gracias.
+
+### Acción propia, sin esperar respuesta
+
+**Revisar los extractos de los últimos 12 meses** y comprobar si algún mes los ingresos de la actividad
+quedaron por debajo de 750 €. Si ocurre con cierta frecuencia, hay margen de maniobra: concentrar cobros,
+o asegurarse de cumplir siempre la condición 2 (3 compras con tarjeta al trimestre es trivial).
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
