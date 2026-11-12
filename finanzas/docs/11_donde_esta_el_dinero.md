@@ -1432,6 +1432,54 @@ CaixaBank. No es una preferencia, es una condición económica con un valor cuan
 quedaron por debajo de 750 €. Si ocurre con cierta frecuencia, hay margen de maniobra: concentrar cobros,
 o asegurarse de cumplir siempre la condición 2 (3 compras con tarjeta al trimestre es trivial).
 
+## 11.2 tresetvicies CERRADO: la exención se calcula sobre la media anual (12-11-2026)
+
+Segunda respuesta de CaixaBank, que cierra las dos dudas abiertas en §11.2 duoetvicies:
+
+1. **La segunda cuenta a 0 € no afecta.** Lo que cuenta es la relación global del cliente, no cada cuenta
+   por separado. **La exención cubre todas sus cuentas.**
+2. **El umbral de 750 €/mes es una media anual, no una exigencia mes a mes.** El usuario aporta además
+   una **comprobación empírica**: en **octubre de 2026 sus ingresos quedaron por debajo de 750 € y no se
+   le penalizó**.
+
+### Qué significa en la práctica
+
+El umbral real es de **≈ 9.000 € de ingresos de la actividad al año**, frente a unos gastos fijos
+conocidos de ≈ 12.000 €/año (cuota de autónomos, gastos personales y asesoría). **El margen es holgado y
+el riesgo identificado en §11.2 duoetvicies queda prácticamente descartado.**
+
+Rectificación: allí se calificó la condición de *"riesgo real para un autónomo con facturación variable"*.
+Con el criterio de media anual confirmado, **esa preocupación era excesiva**. La condición que parecía la
+más delicada resultó ser la más fácil de cumplir.
+
+### Lo que sigue siendo válido
+
+La regla operativa **no cambia**, aunque el riesgo sea menor de lo estimado:
+
+**Los ingresos de la actividad y las domiciliaciones se quedan en CaixaBank.** El razonamiento sigue en
+pie: si los cobros se desviaran a otra entidad de forma permanente, la media anual sí caería. Lo que se
+descarta es que **un mes flojo aislado** rompa nada.
+
+### Decisión final sobre las dos cuentas
+
+| Cuenta | Decisión | Motivo |
+|---|---|---|
+| **Segunda de CaixaBank (0 €)** | **Dejarla abierta**, aunque ya no haya riesgo en cerrarla | Coste 0 €, y sirve para aparcar por separado los 8.000 € de la amortización de la Letra B en junio de 2027 sin mezclarlos con la operativa |
+| **MyInvestor (0 €)** | **Dejarla abierta** (recomendación débil) | Coste 0 €; cancelarla quema de forma permanente el derecho al tipo del primer año (§11.2 quater) |
+
+Ninguna de las dos cuesta nada ni exige atención. **Cerrarlas es ahora una opción libre del usuario sin
+consecuencias**, pero no aporta nada.
+
+### Cautela que conviene dejar escrita
+
+Esta confirmación llega por el **chat con la asesora**, no por un documento contractual. El folleto de
+tarifas podría estar redactado de forma más estricta. **Dos mitigaciones:** (a) el usuario tiene la
+**evidencia empírica** de octubre de 2026, que vale más que una promesa; (b) conviene **guardar una
+captura de la conversación** por si alguna vez se aplicara una comisión y hubiera que reclamarla.
+
+**Con esto queda cerrado el bloque de la cuenta remunerada.** No hay más decisiones pendientes sobre dónde
+está el dinero.
+
 ## 11.3 El dinero que está parado
 
 CaixaBank no remunera la cuenta corriente (0 % TAE) salvo promociones para clientes nuevos. Todo euro que
